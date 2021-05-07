@@ -7,6 +7,17 @@ import NavDesktop from "../components/navDesktop"
 import NavTablet from "../components/navTablet"
 import NavMobile from "../components/navMobile"
 
+//IMAGES
+import line762x from "../import/img/line-7-6@2x.png"
+import line862x from "../import/img/line-8-6@2x.png" 
+import line962x from "../import/img/line-9-6@2x.png" 
+import line1062x from "../import/img/line-10-6@2x.png"
+import line1162x from "../import/img/line-11-6@2x.png"
+import line1262x from "../import/img/line-12-6@2x.png"
+import line1362x from "../import/img/line-13-6@2x.png"
+import line7162x from "../import/img/path-71-6@2x.png"
+import line1562x from "../import/img/line-15-6@2x.png"
+
 const SecondPage = () => (
   <Layout>
     <Seo title="Page two" />
@@ -23,15 +34,15 @@ const SecondPage = () => (
         <div className="featuregroup-zxGWQX">
           <div className="texturelinesred-ADw2RY">
             <div className="texturelinesred-Hs6QyQ">
-              <img className="line7-RuWFcn" src="./import/img/line-7-6@2x.png" />
-              <img className="line8-RuWFcn" src="./import/img/line-8-6@2x.png" />
-              <img className="line9-RuWFcn" src="./import/img/line-9-6@2x.png" />
-              <img className="line10-RuWFcn" src="./import/img/line-10-6@2x.png" />
-              <img className="line11-RuWFcn" src="./import/img/line-11-6@2x.png" />
-              <img className="line12-RuWFcn" src="./import/img/line-12-6@2x.png" />
-              <img className="line13-RuWFcn" src="./import/img/line-13-6@2x.png" />
-              <img className="path71-RuWFcn" src="./import/img/path-71-6@2x.png" />
-              <img className="line15-RuWFcn" src="./import/img/line-15-6@2x.png" />
+              <img className="line7-RuWFcn" src={line762x} />
+              <img className="line8-RuWFcn" src={line862x} />
+              <img className="line9-RuWFcn" src={line962x} />
+              <img className="line10-RuWFcn" src={line1062x} />
+              <img className="line11-RuWFcn" src={line1162x} />
+              <img className="line12-RuWFcn" src={line1262x} />
+              <img className="line13-RuWFcn" src={line1362x} />
+              <img className="path71-RuWFcn" src={line7162x} />
+              <img className="line15-RuWFcn" src={line1562x} />
             </div>
           </div>
           <div className="card1-ADw2RY">

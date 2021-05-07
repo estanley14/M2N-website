@@ -1,0 +1,24 @@
+
+/* CUSTOM */
+body [class*="navitem-default-"] {
+    width: 0 !important;
+    z-index: 999;
+  }
+
+  body [class*="navitem-default-"] [class*="textframe-"] {
+    left: 0 !important;
+  }
+
+  body [class*="navitem-hover-"] [class*="textframe-"] {
+    left: 0 !important;
+  }
+  body [class*="navitem-hover-"] [class*="indicator"] {
+    display: none !important;
+  }
+  body [class*="navbar-"] {
+    z-index: 99999999 !important;
+  }
+
+  body [class*="mobile-nav-"] {
+    z-index: 9999999999 !important;
+  }

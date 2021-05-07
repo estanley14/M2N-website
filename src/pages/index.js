@@ -8,6 +8,9 @@ import NavDesktop from "../components/navDesktop"
 import NavTablet from "../components/navTablet"
 import NavMobile from "../components/navMobile"
 
+// IMAGES
+
+
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />

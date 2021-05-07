@@ -25,6 +25,8 @@ import "../import/css/mpower-landing-mobile-320px.css"
 import "../import/css/mpower-mobile-320px.css"
 import "../import/css/partnerships-desktop-1440px.css"
 import "../import/css/styleguide.css"
+import "../import/css/mobile-nav-320px.css"
+import "./custom.css"
 
 
 const Layout = ({ children }) => {

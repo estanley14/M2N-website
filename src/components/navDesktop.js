@@ -2,6 +2,10 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
+//IMAGES
+import vector1382x from "../import/img/vector-138@2x.png"
+import vector882x from "../import/img/vector-88@2x.png"
+
 const NavDesktop = ({ theme }) => {
   return (
     <div>
@@ -15,7 +19,7 @@ const NavDesktop = ({ theme }) => {
               </div>
             </div>
           </Link>
-          <div className="frame-HPBo1Y"><img className="vector-azHmrH" src="./import/img/vector-138@2x.png" /></div>
+          <div className="frame-HPBo1Y"><img className="vector-azHmrH" src={vector1382x} /></div>
           <div className="frame-15-HPBo1Y">
             <div className="navitem-default-S6Kvjz smart-layers-pointers">
               <div className="textframe-FdqQMQ">
@@ -61,7 +65,7 @@ const NavDesktop = ({ theme }) => {
             </div>
           </div>
         </Link>
-        <div className="frame-HPBo1Y"><img className="vector-azHmrH" src="./import/img/vector-88@2x.png" /></div>
+        <div className="frame-HPBo1Y"><img className="vector-azHmrH" src={vector882x} /></div>
         <div className="frame-15-HPBo1Y">
           <div className="navitem-hover-S6Kvjz">
             <div className="textframe-VBTaE4">

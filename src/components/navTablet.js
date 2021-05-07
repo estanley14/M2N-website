@@ -2,6 +2,11 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
+// IMAGES
+import vector4462x from "../import/img/vector-446@2x.png"
+import vector3542x from "../import/img/vector-354@2x.png"
+
+
 const NavTablet = ({ theme }) => {
     return (
         <div>
@@ -15,7 +20,7 @@ const NavTablet = ({ theme }) => {
                     </div>
                     </div>
                 </Link>
-                <div className="logo-Xq4ViJ"><img className="vector-paUNwS" src="./import/img/vector-446@2x.png" /></div>
+                <div className="logo-Xq4ViJ"><img className="vector-paUNwS" src={vector4462x} /></div>
                 <div className="navlinks-Xq4ViJ">
                   <div className="navitem-default-VcMpYN">
                     <div className="textframe-XIn0T6">
@@ -61,7 +66,7 @@ const NavTablet = ({ theme }) => {
                             </div>
                         </div>
                     </Link>
-                    <div className="logo-Xq4ViJ"><img className="vector-paUNwS" src="./import/img/vector-354@2x.png" /></div>
+                    <div className="logo-Xq4ViJ"><img className="vector-paUNwS" src={vector3542x} /></div>
                     <div className="navlinks-Xq4ViJ">
                     <div className="navitem-hover-VcMpYN">
                         <Link to="/">
