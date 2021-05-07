@@ -8,6 +8,8 @@ import NavDesktop from "../components/navDesktop"
 import NavTablet from "../components/navTablet"
 import NavMobile from "../components/navMobile"
 
+import Footer from "../components/footer"
+
 // IMAGES
 
 
@@ -83,117 +85,122 @@ const IndexPage = () => (
         <img className="img-6IZ0TO" src="./import/img/img@1x.png" />
         <img className="gradientframe-6IZ0TO" src="./import/img/gradient-frame@1x.png" />
       </div>
-      <div className="logo-C61RwL">
-        <img className="vector-exFKkL" src="./import/img/vector-1@2x.png" />
-        <div className="group-exFKkL">
-          <div className="group-LRM1jR">
-            <img className="vector-GPRzar" src="./import/img/vector-2@2x.png" />
-            <img className="vector-Fm5KxR" src="./import/img/vector-3@2x.png" />
-          </div>
-          <div className="group-A0xVEW">
-            <img className="vector-6cFLVc" src="./import/img/vector-4@2x.png" />
-            <img className="vector-4xYBy1" src="./import/img/vector-5@2x.png" />
-          </div>
-          <div className="group-CPfWUV">
-            <img className="vector-3w6F7B" src="./import/img/vector-6@2x.png" />
-            <img className="vector-dsVJnW" src="./import/img/vector-7@2x.png" />
-          </div>
-          <div className="group-7UYHLR">
-            <img className="vector-2wosw3" src="./import/img/vector-8@2x.png" />
-            <img className="vector-PlhBYg" src="./import/img/vector-9@2x.png" />
-          </div>
-          <div className="group-KWLEK4">
-            <img className="vector-kIS7Kh" src="./import/img/vector-10@2x.png" />
-            <img className="vector-h7k85P" src="./import/img/vector-11@2x.png" />
-          </div>
-          <div className="group-xqPohA">
-            <img className="vector-FUQsKJ" src="./import/img/vector-12@2x.png" />
-            <img className="vector-IY7QiT" src="./import/img/vector-13@2x.png" />
-          </div>
-          <div className="group-dRhspZ">
-            <img className="vector-nRj0GX" src="./import/img/vector-14@2x.png" />
-            <img className="vector-p37Jy4" src="./import/img/vector-15@2x.png" />
-          </div>
-          <div className="group-ugQDQI">
-            <img className="vector-KrzmJ1" src="./import/img/vector-16@2x.png" />
-            <img className="vector-kfRX5B" src="./import/img/vector-17@2x.png" />
-          </div>
-          <div className="group-xQpv6Q">
-            <img className="vector-Qa9M6Z" src="./import/img/vector-18@2x.png" />
-            <img className="vector-KE5Zqg" src="./import/img/vector-19@2x.png" />
-          </div>
-          <div className="group-so4T52">
-            <img className="vector-yHHOxO" src="./import/img/vector-20@2x.png" />
-            <img className="vector-Wwb8xe" src="./import/img/vector-21@2x.png" />
-          </div>
-          <div className="group-9ZLGp2">
-            <img className="vector-6NWwXZ" src="./import/img/vector-22@2x.png" />
-            <img className="vector-2tlgkt" src="./import/img/vector-23@2x.png" />
-          </div>
-          <div className="group-dKxZiv">
-            <img className="vector-xHxiNB" src="./import/img/vector-24@2x.png" />
-            <img className="vector-kwhTkr" src="./import/img/vector-25@2x.png" />
-          </div>
-          <div className="group-f2B1ws">
-            <img className="vector-RQwDYH" src="./import/img/vector-26@2x.png" />
-            <img className="vector-AATI6m" src="./import/img/vector-27@2x.png" />
-          </div>
-          <div className="group-smegft">
-            <img className="vector-9RPHKK" src="./import/img/vector-28@2x.png" />
-            <img className="vector-b3pZmF" src="./import/img/vector-29@2x.png" />
-          </div>
-          <div className="group-zM0Sp9">
-            <img className="vector-K3QFIs" src="./import/img/vector-30@2x.png" />
-            <img className="vector-r2gP27" src="./import/img/vector-31@2x.png" />
-          </div>
-          <div className="group-hg01G8">
-            <img className="vector-9ddndr" src="./import/img/vector-32@2x.png" />
-            <img className="vector-rmD89g" src="./import/img/vector-33@2x.png" />
-          </div>
-          <div className="group-IHX4Tm">
-            <img className="vector-2OMZXT" src="./import/img/vector-34@2x.png" />
-            <img className="vector-KkMz4P" src="./import/img/vector-35@2x.png" />
-          </div>
-          <div className="group-x5UxhD">
-            <img className="vector-DWowff" src="./import/img/vector-36@2x.png" />
-            <img className="vector-veBUfZ" src="./import/img/vector-37@2x.png" />
-          </div>
-          <div className="group-OtUbot">
-            <img className="vector-7MolAu" src="./import/img/vector-38@2x.png" />
-            <img className="vector-K63rpb" src="./import/img/vector-39@2x.png" />
-          </div>
-          <div className="group-dk9LSl">
-            <img className="vector-5flfBP" src="./import/img/vector-40@2x.png" />
-            <img className="vector-lVkTT0" src="./import/img/vector-41@2x.png" />
+      <div className="side-right">
+
+        <div className="logo-C61RwL">
+          <img className="vector-exFKkL" src="./import/img/vector-1@2x.png" />
+          <div className="group-exFKkL">
+            <div className="group-LRM1jR">
+              <img className="vector-GPRzar" src="./import/img/vector-2@2x.png" />
+              <img className="vector-Fm5KxR" src="./import/img/vector-3@2x.png" />
+            </div>
+            <div className="group-A0xVEW">
+              <img className="vector-6cFLVc" src="./import/img/vector-4@2x.png" />
+              <img className="vector-4xYBy1" src="./import/img/vector-5@2x.png" />
+            </div>
+            <div className="group-CPfWUV">
+              <img className="vector-3w6F7B" src="./import/img/vector-6@2x.png" />
+              <img className="vector-dsVJnW" src="./import/img/vector-7@2x.png" />
+            </div>
+            <div className="group-7UYHLR">
+              <img className="vector-2wosw3" src="./import/img/vector-8@2x.png" />
+              <img className="vector-PlhBYg" src="./import/img/vector-9@2x.png" />
+            </div>
+            <div className="group-KWLEK4">
+              <img className="vector-kIS7Kh" src="./import/img/vector-10@2x.png" />
+              <img className="vector-h7k85P" src="./import/img/vector-11@2x.png" />
+            </div>
+            <div className="group-xqPohA">
+              <img className="vector-FUQsKJ" src="./import/img/vector-12@2x.png" />
+              <img className="vector-IY7QiT" src="./import/img/vector-13@2x.png" />
+            </div>
+            <div className="group-dRhspZ">
+              <img className="vector-nRj0GX" src="./import/img/vector-14@2x.png" />
+              <img className="vector-p37Jy4" src="./import/img/vector-15@2x.png" />
+            </div>
+            <div className="group-ugQDQI">
+              <img className="vector-KrzmJ1" src="./import/img/vector-16@2x.png" />
+              <img className="vector-kfRX5B" src="./import/img/vector-17@2x.png" />
+            </div>
+            <div className="group-xQpv6Q">
+              <img className="vector-Qa9M6Z" src="./import/img/vector-18@2x.png" />
+              <img className="vector-KE5Zqg" src="./import/img/vector-19@2x.png" />
+            </div>
+            <div className="group-so4T52">
+              <img className="vector-yHHOxO" src="./import/img/vector-20@2x.png" />
+              <img className="vector-Wwb8xe" src="./import/img/vector-21@2x.png" />
+            </div>
+            <div className="group-9ZLGp2">
+              <img className="vector-6NWwXZ" src="./import/img/vector-22@2x.png" />
+              <img className="vector-2tlgkt" src="./import/img/vector-23@2x.png" />
+            </div>
+            <div className="group-dKxZiv">
+              <img className="vector-xHxiNB" src="./import/img/vector-24@2x.png" />
+              <img className="vector-kwhTkr" src="./import/img/vector-25@2x.png" />
+            </div>
+            <div className="group-f2B1ws">
+              <img className="vector-RQwDYH" src="./import/img/vector-26@2x.png" />
+              <img className="vector-AATI6m" src="./import/img/vector-27@2x.png" />
+            </div>
+            <div className="group-smegft">
+              <img className="vector-9RPHKK" src="./import/img/vector-28@2x.png" />
+              <img className="vector-b3pZmF" src="./import/img/vector-29@2x.png" />
+            </div>
+            <div className="group-zM0Sp9">
+              <img className="vector-K3QFIs" src="./import/img/vector-30@2x.png" />
+              <img className="vector-r2gP27" src="./import/img/vector-31@2x.png" />
+            </div>
+            <div className="group-hg01G8">
+              <img className="vector-9ddndr" src="./import/img/vector-32@2x.png" />
+              <img className="vector-rmD89g" src="./import/img/vector-33@2x.png" />
+            </div>
+            <div className="group-IHX4Tm">
+              <img className="vector-2OMZXT" src="./import/img/vector-34@2x.png" />
+              <img className="vector-KkMz4P" src="./import/img/vector-35@2x.png" />
+            </div>
+            <div className="group-x5UxhD">
+              <img className="vector-DWowff" src="./import/img/vector-36@2x.png" />
+              <img className="vector-veBUfZ" src="./import/img/vector-37@2x.png" />
+            </div>
+            <div className="group-OtUbot">
+              <img className="vector-7MolAu" src="./import/img/vector-38@2x.png" />
+              <img className="vector-K63rpb" src="./import/img/vector-39@2x.png" />
+            </div>
+            <div className="group-dk9LSl">
+              <img className="vector-5flfBP" src="./import/img/vector-40@2x.png" />
+              <img className="vector-lVkTT0" src="./import/img/vector-41@2x.png" />
+            </div>
           </div>
         </div>
-      </div>
-      <div className="h1-VMr6Om dmsans-bold-big-stone-62px">Minority Moves Network</div>
-      <p className="p-C61RwL dmsans-normal-abbey-16px">
-        Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N)
-        empowers, trains, connects and supports diverse professionals to find employment within companies committed to
-        an inclusive workplace.
-      </p>
-      <div className="bullet01-C61RwL">
-        <p className="p-2W14L6 dmsans-normal-abbey-16px">
-          Builds an active membership of diverse professionals seeking personal &amp; professional development
-          to cultivate a collective network of support for long term success.
+        <div className="h1-VMr6Om dmsans-bold-big-stone-62px">Minority Moves Network</div>
+        <p className="p-C61RwL dmsans-normal-abbey-16px">
+          Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N)
+          empowers, trains, connects and supports diverse professionals to find employment within companies committed to
+          an inclusive workplace.
         </p>
-        <div className="bullet-2W14L6">
-          <div className="ellipse-23-ORaySA"></div>
-          <div className="ellipse-25-ORaySA border-1px-royal-blue"></div>
+        <div className="bullet01-C61RwL">
+          <p className="p-2W14L6 dmsans-normal-abbey-16px">
+            Builds an active membership of diverse professionals seeking personal &amp; professional development
+            to cultivate a collective network of support for long term success.
+          </p>
+          <div className="bullet-2W14L6">
+            <div className="ellipse-23-ORaySA"></div>
+            <div className="ellipse-25-ORaySA border-1px-royal-blue"></div>
+          </div>
         </div>
-      </div>
-      <div className="bullet02-C61RwL">
-        <p className="p-mQUbpi dmsans-normal-abbey-16px">
-          Engages a network of companies committed to recruiting, onboarding, and mentoring to create an inclusionary
-          employment culture through consulting and bridge services.
-        </p>
-        <div className="bullet-mQUbpi">
-          <div className="ellipse-23-4gmmV9"></div>
-          <div className="ellipse-25-4gmmV9 border-1px-persimmon"></div>
+        <div className="bullet02-C61RwL">
+          <p className="p-mQUbpi dmsans-normal-abbey-16px">
+            Engages a network of companies committed to recruiting, onboarding, and mentoring to create an inclusionary
+            employment culture through consulting and bridge services.
+          </p>
+          <div className="bullet-mQUbpi">
+            <div className="ellipse-23-4gmmV9"></div>
+            <div className="ellipse-25-4gmmV9 border-1px-persimmon"></div>
+          </div>
         </div>
+
       </div>
+
       <div className="frame-4-C61RwL">
         <div className="rectangle-61Z7WH"></div>
         <div className="group-1-61Z7WH">
@@ -338,7 +345,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div className="footer-desktop-C61RwL">
+      {/* <div className="footer-desktop-C61RwL">
         <div className="icongroup-VNfvnu">
           <div className="instagram-5R3sf4"><img className="combined-shape-TnWo79" src="./import/img/combined-shape@2x.png" /></div>
           <div className="twitter-5R3sf4"><img className="path-4KRaeG" src="./import/img/path@2x.png" /></div>
@@ -477,7 +484,8 @@ const IndexPage = () => (
             Eros, mauris, at nibh facilisi augue volutpat nec dictum id. Risus turpis morbi tincidunt dignissim amet.
           </p>
         </div>
-      </div>
+      </div> */}
+      <Footer breakpoint="desktop" />
       <NavDesktop />
     </div>
     <div className="home-desktop-1024px screen">
@@ -767,7 +775,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <div className="footer-C61RwL">
+      {/* <div className="footer-C61RwL">
         <div className="background-iPe1yZ"></div>
         <div className="frame-iPe1yZ">
           <img className="vector-gq7idq" src="./import/img/vector-312@2x.png" />
@@ -905,7 +913,8 @@ const IndexPage = () => (
           <div className="partnerships-S164Qk dmsans-normal-white-16px">Partnerships</div>
           <div className="company-S164Qk dmsans-normal-white-16px">Company</div>
         </div>
-      </div>
+      </div> */}
+      <Footer breakpoint="tablet" />
       <NavTablet />
       <div className="group-581-C61RwL">
         <div className="a-new-way-to-enjoy-q-UDbxrZ dmsans-bold-baltic-sea-62px">Professional  Development</div>
@@ -1226,7 +1235,7 @@ const IndexPage = () => (
           <div className="icarrow-2WX1ZD"><img className="vector-ouSVJV" src="./import/img/vector-399@2x.png" /></div>
         </div>
       </div>
-      <div className="footer-C61RwL">
+      {/* <div className="footer-C61RwL">
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
         <div className="inputs-default-iPe1yZ">
           <div className="input-4j1ImY">
@@ -1363,7 +1372,8 @@ const IndexPage = () => (
           <div className="android-X4QSxG dmsans-normal-white-16px">Android</div>
           <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
         </div>
-      </div>
+      </div> */}
+      <Footer breakpoint="mobile" />
       <NavMobile />
     </div>
     <div className="home-tablet-720px screen">
@@ -1659,7 +1669,7 @@ const IndexPage = () => (
         <div className="font-yi3KLE valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
         <div className="icarrow-yi3KLE"><img className="vector-2khw5A" src="./import/img/vector-399@2x.png" /></div>
       </div>
-      <div className="footer-C61RwL">
+      {/* <div className="footer-C61RwL">
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
         <div className="inputs-default-iPe1yZ">
           <div className="input-4j1ImY">
@@ -1796,7 +1806,8 @@ const IndexPage = () => (
           <div className="android-X4QSxG dmsans-normal-white-16px">Android</div>
           <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
         </div>
-      </div>
+      </div> */}
+      <Footer breakpoint="mobile" />
       <NavMobile />
     </div>
    
