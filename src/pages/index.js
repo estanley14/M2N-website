@@ -4,6 +4,9 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import NavDesktop from "../components/navDesktop"
+import NavTablet from "../components/navTablet"
+import NavMobile from "../components/navMobile"
 
 const IndexPage = () => (
   <Layout>
@@ -472,33 +475,7 @@ const IndexPage = () => (
           </p>
         </div>
       </div>
-      <div className="navbar-desktop-C61RwL">
-        <div className="buttonrow-HPBo1Y">
-          <div className="b5-Wfh8x7 smart-layers-pointers dmsans-bold-gunsmoke-14px-2">LOG IN</div>
-          <div className="button-primary-desktop-Wfh8x7">
-            <div className="font-eo3nRY valign-text-middle dmsans-bold-white-14px">SIGN UP</div>
-          </div>
-        </div>
-        <div className="frame-HPBo1Y"><img className="vector-azHmrH" src="./import/img/vector-88@2x.png" /></div>
-        <div className="frame-15-HPBo1Y">
-          <div className="navitem-hover-S6Kvjz">
-            <div className="textframe-VBTaE4"><div className="b1-jxM0bb dmsans-bold-baltic-sea-14px">HOME</div></div>
-            <div className="indicator-VBTaE4 smart-layers-pointers"></div>
-          </div>
-          <div className="navitem-default-S6Kvjz">
-            <div className="textframe-FdqQMQ"><div className="b1-EnImxV dmsans-bold-gunsmoke-14px">MPOWER</div></div>
-            <div className="indicator-FdqQMQ"></div>
-          </div>
-          <div className="navitem-default-df9eD3">
-            <div className="textframe-Eg20wO"><div className="b3-kHiIGi dmsans-bold-gunsmoke-14px">COMPANY</div></div>
-            <div className="indicator-Eg20wO"></div>
-          </div>
-          <div className="navitem-default-OUMgDx">
-            <div className="textframe-udu9xB"><div className="b4-vpgDzt dmsans-bold-gunsmoke-14px">PARTNERS</div></div>
-            <div className="indicator-udu9xB"></div>
-          </div>
-        </div>
-      </div>
+      <NavDesktop />
     </div>
     <div className="home-desktop-1024px screen">
       <img className="oval-copy-C61RwL" src="./import/img/oval-copy-5@1x.png" />
@@ -926,33 +903,7 @@ const IndexPage = () => (
           <div className="company-S164Qk dmsans-normal-white-16px">Company</div>
         </div>
       </div>
-      <div className="navbar-tablet-C61RwL">
-        <div className="buttonrow-Xq4ViJ">
-          <div className="b5-DkfaGf dmsans-bold-gunsmoke-14px-2">LOG IN</div>
-          <div className="button-primary-desktop-DkfaGf">
-            <div className="font-GrCJVF valign-text-middle dmsans-bold-white-14px">SIGN UP</div>
-          </div>
-        </div>
-        <div className="logo-Xq4ViJ"><img className="vector-paUNwS" src="./import/img/vector-354@2x.png" /></div>
-        <div className="navlinks-Xq4ViJ">
-          <div className="navitem-hover-VcMpYN">
-            <div className="textframe-x0oTG4"><div className="b1-qVUPyA dmsans-bold-baltic-sea-14px">HOME</div></div>
-            <div className="indicator-x0oTG4 smart-layers-pointers"></div>
-          </div>
-          <div className="navitem-default-VcMpYN">
-            <div className="textframe-XIn0T6"><div className="b1-pTXg1E dmsans-bold-gunsmoke-14px">MPOWER</div></div>
-            <div className="indicator-XIn0T6"></div>
-          </div>
-          <div className="navitem-default-h3NML7">
-            <div className="textframe-HffetE"><div className="b3-poT6nI dmsans-bold-gunsmoke-14px">COMPANY</div></div>
-            <div className="indicator-HffetE"></div>
-          </div>
-          <div className="navitem-default-jBtke6">
-            <div className="textframe-sUuHDU"><div className="b4-xtuTw9 dmsans-bold-gunsmoke-14px">PARTNERS</div></div>
-            <div className="indicator-sUuHDU"></div>
-          </div>
-        </div>
-      </div>
+      <NavTablet />
       <div className="group-581-C61RwL">
         <div className="a-new-way-to-enjoy-q-UDbxrZ dmsans-bold-baltic-sea-62px">Professional  Development</div>
         <p className="cras-semper-auctor-a-UDbxrZ dmsans-normal-trout-16px">
@@ -1410,12 +1361,7 @@ const IndexPage = () => (
           <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
         </div>
       </div>
-      <div className="navbar-mobile-C61RwL">
-        <div className="logo-gTO9GM"><img className="vector-xvusrZ" src="./import/img/vector-443@2x.png" /></div>
-        <div className="menu24px-gTO9GM">
-          <img className="iconnavigationmenu24px-xsYvp9" src="./import/img/icon-navigation-menu-24px@2x.png" />
-        </div>
-      </div>
+      <NavMobile />
     </div>
     <div className="home-tablet-720px screen">
       <div className="heroimgbackground-C61RwL"></div>
@@ -1848,12 +1794,7 @@ const IndexPage = () => (
           <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
         </div>
       </div>
-      <div className="navbar-mobile-C61RwL">
-        <div className="logo-gTO9GM"><img className="vector-xvusrZ" src="./import/img/vector-443@2x.png" /></div>
-        <div className="menu24px-gTO9GM">
-          <img className="iconnavigationmenu24px-xsYvp9" src="./import/img/icon-navigation-menu-24px@2x.png" />
-        </div>
-      </div>
+      <NavMobile />
     </div>
    
   </Layout>
