@@ -7,7 +7,7 @@ import vector4942x from "../import/img/vector-494@2x.png"
 
 const SideNav = ({ setNavState }) => {
     return (
-        <div>
+        <div className="side-nav">
             <input type="hidden" id="anPageName" name="page" value="mobile-nav-320px" />
             <div className="mobile-nav-320px screen">
             <div className="rectangle-778-C61RwL"></div>

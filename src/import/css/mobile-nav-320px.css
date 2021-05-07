@@ -1,42 +1,42 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:700");
-* {
+.side-nav * {
   box-sizing: border-box;
 }
-.hidden,
-.hidden * {
+.side-nav .hidden,
+.side-nav .hidden * {
   visibility: hidden;
   pointer-events: none;
 }
-.screen * {
+.side-nav .screen * {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
-.screen a {
+.side-nav .screen a {
   text-decoration: none;
   display: contents;
 }
-.screen div {
+.side-nav .screen div {
   -webkit-text-size-adjust: none;
 }
-.screen textarea:focus,
-.screen input:focus {
+.side-nav .screen textarea:focus,
+.side-nav .screen input:focus {
   outline: none;
 }
-.smart-layers-pointers,
-.smart-layers-pointers * {
+.side-nav .smart-layers-pointers,
+.side-nav .smart-layers-pointers * {
   pointer-events: auto;
   visibility: visible;
 }
 
-:root {
+.side-nav:root {
   --gunsmoke: #82888e;
 
   --font-size-m: 24px;
 
   --font-family-dm_sans: "DM Sans", Helvetica;
 }
-.dmsans-bold-gunsmoke-24px {
+.side-nav .dmsans-bold-gunsmoke-24px {
   color: var(--gunsmoke);
   font-family: var(--font-family-dm_sans);
   font-size: var(--font-size-m);
