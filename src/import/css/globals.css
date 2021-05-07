@@ -1,0 +1,47 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,300,600,100|DM+Sans:400,700,500,400italic|Source+Sans+Pro:700|Inter:600");
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/59dfb1260b1fed000d431d8f/Radomir Tinkov - Gilroy-Bold.otf")
+    format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+.hidden,
+.hidden * {
+  visibility: hidden;
+  pointer-events: none;
+}
+.screen * {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input:focus {
+  outline: none;
+}

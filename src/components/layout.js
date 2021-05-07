@@ -10,7 +10,22 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import "./layout.css"
+// import "./layout.css"
+// CUSTOM
+import "../import/css/company-mobile-320px.css"
+import "../import/css/contact-mobile-320px.css"
+import "../import/css/globals.css"
+import "../import/css/home-tablet-720px.css"
+import "../import/css/mpower-email-submission-end-desktop-1440px.css"
+import "../import/css/mpower-email-submission-end-mobile-320px.css"
+import "../import/css/mpower-email-submission-end-desktop-1440px.css"
+import "../import/css/mpower-email-submission-start-desktop-1440px.css"
+import "../import/css/mpower-email-submission-start-mobile-320px.css"
+import "../import/css/mpower-landing-mobile-320px.css"
+import "../import/css/mpower-mobile-320px.css"
+import "../import/css/partnerships-desktop-1440px.css"
+import "../import/css/styleguide.css"
+
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,24 +40,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
+      <div>
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
       </div>
     </>
   )
