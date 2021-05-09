@@ -182,12 +182,23 @@ body [class*="home-desktop-"] .bullet02-C61RwL {
     left: 10%;
 }
 
-.mpower-home-dekstop-1440px .contentsection-zxGWQX {
-    left: 25%;
+body [class*="mpower-dekstop-"] .contentsection-zxGWQX {
+    left: 50%;
+    right: 50%;
+    margin-left: -580px;
 }
 
-.mpower-home-dekstop-1440px .featuregroup-zxGWQX {
-    left: 25%;
+body [class*="mpower-dekstop-"] .featuregroup-zxGWQX {
+    left: 50%;
+    right: 50%;
+    margin-left: -580px;
+}
+
+.mpower-desktop-1024px .contentsection-jCBd0u,
+.mpower-desktop-1024px .featuregroup-jCBd0u {
+    left: 50%;
+    right: 50%;
+    margin-left: -448px;
 }
 
 /* COMPANY */

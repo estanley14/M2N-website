@@ -9,7 +9,7 @@ import NavMobile from "../components/navMobile"
 
 const OurCompany = () => (
   <Layout>
-    <Seo title="Page two" />
+    <Seo title="Company" />
     <input type="hidden" id="anPageName" name="page" value="company-mobile-320px" />
     <div className="company-desktop-1440px screen">
       <div className="footer-desktop-C61RwL">

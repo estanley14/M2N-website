@@ -9,7 +9,7 @@ import NavMobile from "../components/navMobile"
 
 const Partners = () => (
   <Layout>
-    <Seo title="Page two" />
+    <Seo title="Partners" />
     <input type="hidden" id="anPageName" name="page" value="partnerships-desktop-1440px" />
     <div className="partnerships-desktop-1440px screen">
       <div className="frame-59-C61RwL">

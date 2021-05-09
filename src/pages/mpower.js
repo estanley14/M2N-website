@@ -20,7 +20,7 @@ import line1562x from "../import/img/line-15-6@2x.png"
 
 const SecondPage = () => (
   <Layout>
-    <Seo title="Page two" />
+    <Seo title="Mpower" />
     <input type="hidden" id="anPageName" name="page" value="mpower-mobile-320px" />
     <div className="mpower-home-dekstop-1440px screen">
       <div className="content-features-desktop-C61RwL">
