@@ -43,10 +43,12 @@ const Partners = () => (
             Organizations and individuals dedicated to the work of empowering minority professionals to build
             content for MPower members.
           </p>
-          <div className="frame-2-Kc7rZV border-1px-royal-blue">
-            <Link to="/contact-us"><div className="font-HnucbF valign-text-middle dmsans-bold-royal-blue-16px">CONTACT US</div></Link>
-            <div className="icarrow-HnucbF"><img className="vector-Xz0fy5" src="./import/img/vector-90@2x.png" /></div>
-          </div>
+          <Link to="/contact-us">
+            <div className="frame-2-Kc7rZV border-1px-royal-blue">
+                <div className="font-HnucbF valign-text-middle dmsans-bold-royal-blue-16px">CONTACT US</div>
+                <div className="icarrow-HnucbF"><img className="vector-Xz0fy5" src="./import/img/vector-90@2x.png" /></div>
+            </div>
+          </Link>
           <div className="a-new-way-to-enjoy-q-Kc7rZV dmsans-bold-baltic-sea-32px">Content Provider Partners</div>
         </div>
         <div className="group-2-zMcl5Z">
@@ -65,10 +67,12 @@ const Partners = () => (
             Organizations seeking to establish transformational inclusive cultures to implement our innovative DEI
             programs &amp; hire MPower members.
           </p>
-          <div className="frame-2-MhUqEY border-1px-persimmon">
-            <Link to="/contact-us"><div className="font-vFmZQx valign-text-middle dmsans-bold-persimmon-16px">CONTACT US</div></Link>
-            <div className="icarrow-vFmZQx"><img className="vector-IxiB1K" src="./import/img/vector-91@2x.png" /></div>
-          </div>
+          <Link to="/contact-us">
+            <div className="frame-2-MhUqEY border-1px-persimmon">
+                <div className="font-vFmZQx valign-text-middle dmsans-bold-persimmon-16px">CONTACT US</div>
+                <div className="icarrow-vFmZQx"><img className="vector-IxiB1K" src="./import/img/vector-91@2x.png" /></div>
+            </div>
+          </Link>
           <div className="a-new-way-to-enjoy-q-MhUqEY dmsans-bold-baltic-sea-32px">Corporate Partners</div>
         </div>
       </div>
@@ -303,10 +307,12 @@ const Partners = () => (
             Organizations and individuals dedicated to the work of empowering minority professionals to build
             content for MPower members.
           </p>
-          <div className="frame-2-Kc7rZV border-1px-royal-blue">
-            <Link to="/contact-us"><div className="font-HnucbF valign-text-middle dmsans-bold-royal-blue-16px">CONTACT US</div></Link>
-            <div className="icarrow-HnucbF"><img className="vector-Xz0fy5" src="./import/img/vector-90@2x.png" /></div>
-          </div>
+          <Link to="/contact-us">
+            <div className="frame-2-Kc7rZV border-1px-royal-blue">
+                <div className="font-HnucbF valign-text-middle dmsans-bold-royal-blue-16px">CONTACT US</div>
+                <div className="icarrow-HnucbF"><img className="vector-Xz0fy5" src="./import/img/vector-90@2x.png" /></div>
+            </div>
+          </Link>
           <div className="a-new-way-to-enjoy-q-Kc7rZV dmsans-bold-baltic-sea-32px">Content Provider Partners</div>
         </div>
         <div className="group-2-zMcl5Z">
@@ -325,10 +331,12 @@ const Partners = () => (
             Organizations seeking to establish transformational inclusive cultures to implement our innovative DEI
             programs &amp; hire MPower members.
           </p>
-          <div className="frame-2-MhUqEY border-1px-persimmon">
-            <Link to="/contact-us"><div className="font-vFmZQx valign-text-middle dmsans-bold-persimmon-16px">CONTACT US</div></Link>
-            <div className="icarrow-vFmZQx"><img className="vector-IxiB1K" src="./import/img/vector-91@2x.png" /></div>
-          </div>
+          <Link to="/contact-us">
+            <div className="frame-2-MhUqEY border-1px-persimmon">
+                <div className="font-vFmZQx valign-text-middle dmsans-bold-persimmon-16px">CONTACT US</div>
+                <div className="icarrow-vFmZQx"><img className="vector-IxiB1K" src="./import/img/vector-91@2x.png" /></div>
+            </div>
+          </Link>
           <div className="a-new-way-to-enjoy-q-MhUqEY dmsans-bold-baltic-sea-32px">Corporate Partners</div>
         </div>
       </div>
@@ -655,10 +663,12 @@ const Partners = () => (
             Organizations and individuals dedicated to the work of empowering minority professionals to build
             content for MPower members.
           </p>
-          <div className="frame-2-Kc7rZV border-1px-royal-blue">
-            <Link to="/contact-us"><div className="font-HnucbF valign-text-middle dmsans-bold-royal-blue-16px">CONTACT US</div></Link>
-            <div className="icarrow-HnucbF"><img className="vector-Xz0fy5" src="./import/img/vector-90@2x.png" /></div>
-          </div>
+          <Link to="/contact-us">
+            <div className="frame-2-Kc7rZV border-1px-royal-blue">
+                <div className="font-HnucbF valign-text-middle dmsans-bold-royal-blue-16px">CONTACT US</div>
+                <div className="icarrow-HnucbF"><img className="vector-Xz0fy5" src="./import/img/vector-90@2x.png" /></div>
+            </div>
+          </Link>
           <div className="a-new-way-to-enjoy-q-Kc7rZV dmsans-bold-baltic-sea-32px">Content Provider Partners</div>
         </div>
         <div className="group-2-zMcl5Z">
@@ -677,10 +687,12 @@ const Partners = () => (
             Organizations seeking to establish transformational inclusive cultures to implement our innovative DEI
             programs &amp; hire MPower members.
           </p>
-          <div className="frame-2-MhUqEY border-1px-persimmon">
-            <Link to="/contact-us"><div className="font-vFmZQx valign-text-middle dmsans-bold-persimmon-16px">CONTACT US</div></Link>
-            <div className="icarrow-vFmZQx"><img className="vector-IxiB1K" src="./import/img/vector-91@2x.png" /></div>
-          </div>
+          <Link to="/contact-us">
+            <div className="frame-2-MhUqEY border-1px-persimmon">
+                <div className="font-vFmZQx valign-text-middle dmsans-bold-persimmon-16px">CONTACT US</div>
+                <div className="icarrow-vFmZQx"><img className="vector-IxiB1K" src="./import/img/vector-91@2x.png" /></div>
+            </div>
+          </Link>
           <div className="a-new-way-to-enjoy-q-MhUqEY dmsans-bold-baltic-sea-32px">Corporate Partners</div>
         </div>
       </div>
@@ -869,10 +881,12 @@ const Partners = () => (
             Organizations and individuals dedicated to the work of empowering minority professionals to build
             content for MPower members.
           </p>
-          <div className="frame-2-Kc7rZV border-1px-royal-blue">
-            <Link to="/contact-us"><div className="font-HnucbF valign-text-middle dmsans-bold-royal-blue-16px">CONTACT US</div></Link>
-            <div className="icarrow-HnucbF"><img className="vector-Xz0fy5" src="./import/img/vector-399@2x.png" /></div>
-          </div>
+          <Link to="/contact-us">
+            <div className="frame-2-Kc7rZV border-1px-royal-blue">
+                <div className="font-HnucbF valign-text-middle dmsans-bold-royal-blue-16px">CONTACT US</div>
+                <div className="icarrow-HnucbF"><img className="vector-Xz0fy5" src="./import/img/vector-399@2x.png" /></div>
+            </div>
+          </Link>
           <div className="a-new-way-to-enjoy-q-Kc7rZV">Content Provider Partners</div>
         </div>
         <div className="group-2-zMcl5Z">
@@ -891,10 +905,12 @@ const Partners = () => (
             Organizations seeking to establish transformational inclusive cultures to implement our innovative DEI
             programs &amp; hire MPower members.
           </p>
-          <div className="frame-2-MhUqEY border-1px-persimmon">
-            <Link to="/contact-us"><div className="font-vFmZQx valign-text-middle dmsans-bold-persimmon-16px">CONTACT US</div></Link>
-            <div className="icarrow-vFmZQx"><img className="vector-IxiB1K" src="./import/img/vector-958@2x.png" /></div>
-          </div>
+          <Link to="/contact-us">
+            <div className="frame-2-MhUqEY border-1px-persimmon">
+                <div className="font-vFmZQx valign-text-middle dmsans-bold-persimmon-16px">CONTACT US</div>
+                <div className="icarrow-vFmZQx"><img className="vector-IxiB1K" src="./import/img/vector-958@2x.png" /></div>
+            </div>
+          </Link>
           <div className="a-new-way-to-enjoy-q-MhUqEY">Corporate Partners</div>
         </div>
       </div>

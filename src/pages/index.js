@@ -42,9 +42,11 @@ const IndexPage = () => (
       <h1 className="h1-C61RwL dmsans-bold-baltic-sea-62px">
         We advance diversity, equity and inclusion in today’s workplace.
       </h1>
-      <div className="button-primary-default-C61RwL">
-        <div className="font-GsrA0Q valign-text-middle dmsans-bold-white-16px">JOIN THE MOVEMENT</div>
-      </div>
+      <Link to="mpower-app">
+        <div className="button-primary-default-C61RwL">
+          <div className="font-GsrA0Q valign-text-middle dmsans-bold-white-16px">JOIN THE MOVEMENT</div>
+        </div>
+      </Link>
       <div className="imagegrid-C61RwL">
         <img className="column1-j0ck3A" src="./import/img/column-1@2x.png" />
         <div className="column2-j0ck3A">
@@ -255,34 +257,38 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-          <div className="button-secondary-desktop-kTMlYy border-1px-white-2">
-            <div className="font-aQSSHr valign-text-middle dmsans-bold-white-16px">CHECK OUT MPOWER</div>
-            <div className="icarrow-aQSSHr"><img className="vector-lBlCDT" src="./import/img/vector-43@2x.png" /></div>
-          </div>
-          <div className="appstore-buttons-kTMlYy">
-            <div className="app-store-yAGHHd">
-              <img className="path-3-zxz4BT" src="./import/img/path-3@2x.png" />
-              <img className="path-4-zxz4BT" src="./import/img/path-4@2x.png" />
-              <img className="path-5-zxz4BT" src="./import/img/path-5@2x.png" />
-              <div className="group-2-zxz4BT"><img className="path-6-zIB4zk" src="./import/img/path-6@2x.png" /></div>
-              <div className="group-3-zxz4BT"><img className="path-7-MZ5nVW" src="./import/img/path-7@2x.png" /></div>
+          <Link to="mpower-app">
+            <div className="button-secondary-desktop-kTMlYy border-1px-white-2">
+              <div className="font-aQSSHr valign-text-middle dmsans-bold-white-16px">CHECK OUT MPOWER</div>
+              <div className="icarrow-aQSSHr"><img className="vector-lBlCDT" src="./import/img/vector-43@2x.png" /></div>
             </div>
-            <div className="play-store-yAGHHd">
-              <img className="path-8-NwkMxW" src="./import/img/path-8@2x.png" />
-              <img className="path-9-NwkMxW" src="./import/img/path-5@2x.png" />
-              <img className="path-10-NwkMxW" src="./import/img/path-10@2x.png" />
-              <img className="path-11-NwkMxW" src="./import/img/path-11@2x.png" />
-              <div className="group-4-NwkMxW">
-                <img className="path-12-kx3BUh" src="./import/img/path-12@2x.png" />
-                <img className="path-13-kx3BUh" src="./import/img/path-13@2x.png" />
-                <img className="path-14-kx3BUh" src="./import/img/path-14@2x.png" />
-                <img className="path-15-kx3BUh" src="./import/img/path-15@2x.png" />
-                <img className="path-16-kx3BUh" src="./import/img/path-16@2x.png" />
-                <img className="path-17-kx3BUh" src="./import/img/path-17@2x.png" />
-                <img className="path-18-kx3BUh" src="./import/img/path-18@2x.png" />
+          </Link>
+          <Link to="mpower-app">
+            <div className="appstore-buttons-kTMlYy">
+              <div className="app-store-yAGHHd">
+                <img className="path-3-zxz4BT" src="./import/img/path-3@2x.png" />
+                <img className="path-4-zxz4BT" src="./import/img/path-4@2x.png" />
+                <img className="path-5-zxz4BT" src="./import/img/path-5@2x.png" />
+                <div className="group-2-zxz4BT"><img className="path-6-zIB4zk" src="./import/img/path-6@2x.png" /></div>
+                <div className="group-3-zxz4BT"><img className="path-7-MZ5nVW" src="./import/img/path-7@2x.png" /></div>
+              </div>
+              <div className="play-store-yAGHHd">
+                <img className="path-8-NwkMxW" src="./import/img/path-8@2x.png" />
+                <img className="path-9-NwkMxW" src="./import/img/path-5@2x.png" />
+                <img className="path-10-NwkMxW" src="./import/img/path-10@2x.png" />
+                <img className="path-11-NwkMxW" src="./import/img/path-11@2x.png" />
+                <div className="group-4-NwkMxW">
+                  <img className="path-12-kx3BUh" src="./import/img/path-12@2x.png" />
+                  <img className="path-13-kx3BUh" src="./import/img/path-13@2x.png" />
+                  <img className="path-14-kx3BUh" src="./import/img/path-14@2x.png" />
+                  <img className="path-15-kx3BUh" src="./import/img/path-15@2x.png" />
+                  <img className="path-16-kx3BUh" src="./import/img/path-16@2x.png" />
+                  <img className="path-17-kx3BUh" src="./import/img/path-17@2x.png" />
+                  <img className="path-18-kx3BUh" src="./import/img/path-18@2x.png" />
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
       <div className="frame-56-C61RwL">
@@ -292,12 +298,14 @@ const IndexPage = () => (
             Members only coursework, discussion groups and guest lectures by globally recognized thought leaders
             provides our MPower members…
           </p>
-          <div className="frame-48-ScxlrF">
-            <div className="frame-2-I2dOqS border-1px-royal-blue">
-              <div className="font-0811yY valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
-              <div className="icarrow-0811yY"><img className="vector-JYs62W" src="./import/img/vector-44@2x.png" /></div>
+          <Link to="mpower">
+            <div className="frame-48-ScxlrF">
+              <div className="frame-2-I2dOqS border-1px-royal-blue">
+                <div className="font-0811yY valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
+                <div className="icarrow-0811yY"><img className="vector-JYs62W" src="./import/img/vector-44@2x.png" /></div>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
         <div className="image1-0unqEg">
           <img className="rectangle-5Uz3ex" src="./import/img/rectangle@1x.png" />
@@ -337,12 +345,14 @@ const IndexPage = () => (
             Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
             hiring organizations will have…
           </p>
-          <div className="frame-49-pKuxU5">
-            <div className="frame-2-pwkYo1 border-1px-royal-blue">
-              <div className="font-9tDSHD valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
-              <div className="icarrow-9tDSHD"><img className="vector-jfxdGc" src="./import/img/vector-45@2x.png" /></div>
+          <Link to="company">
+            <div className="frame-49-pKuxU5">
+              <div className="frame-2-pwkYo1 border-1px-royal-blue">
+                <div className="font-9tDSHD valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
+                <div className="icarrow-9tDSHD"><img className="vector-jfxdGc" src="./import/img/vector-45@2x.png" /></div>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
       {/* <div className="footer-desktop-C61RwL">
@@ -513,9 +523,11 @@ const IndexPage = () => (
       <div className="h1-C61RwL dmsans-bold-baltic-sea-62px">
         We advance diversity, equity and inclusion in today’s workplace.
       </div>
-      <div className="button-primary-default-C61RwL">
-        <div className="font-GsrA0Q valign-text-middle dmsans-bold-white-16px">JOIN THE MOVEMENT</div>
-      </div>
+      <Link to="mpower-app">
+        <div className="button-primary-default-C61RwL">
+          <div className="font-GsrA0Q valign-text-middle dmsans-bold-white-16px">JOIN THE MOVEMENT</div>
+        </div>
+      </Link>
       <div className="imagegrid-C61RwL">
         <img className="column1-j0ck3A" src="./import/img/column-1-1@2x.png" />
         <div className="column2-j0ck3A">
@@ -702,34 +714,38 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-          <div className="button-secondary-desktop-kTMlYy border-1px-white-2">
-            <div className="font-aQSSHr valign-text-middle dmsans-bold-white-16px">CHECK OUT MPOWER</div>
-            <div className="icarrow-aQSSHr"><img className="vector-lBlCDT" src="./import/img/vector-43@2x.png" /></div>
-          </div>
-          <div className="appstore-buttons-kTMlYy">
-            <div className="app-store-yAGHHd">
-              <img className="path-3-zxz4BT" src="./import/img/path-3@2x.png" />
-              <img className="path-4-zxz4BT" src="./import/img/path-4@2x.png" />
-              <img className="path-5-zxz4BT" src="./import/img/path-5@2x.png" />
-              <div className="group-2-zxz4BT"><img className="path-6-zIB4zk" src="./import/img/path-6-2@2x.png" /></div>
-              <div className="group-3-zxz4BT"><img className="path-7-MZ5nVW" src="./import/img/path-7-2@2x.png" /></div>
+          <Link to="mpower-app">
+            <div className="button-secondary-desktop-kTMlYy border-1px-white-2">
+              <div className="font-aQSSHr valign-text-middle dmsans-bold-white-16px">CHECK OUT MPOWER</div>
+              <div className="icarrow-aQSSHr"><img className="vector-lBlCDT" src="./import/img/vector-43@2x.png" /></div>
             </div>
-            <div className="play-store-yAGHHd">
-              <img className="path-8-NwkMxW" src="./import/img/path-8-1@2x.png" />
-              <img className="path-9-NwkMxW" src="./import/img/path-5@2x.png" />
-              <img className="path-10-NwkMxW" src="./import/img/path-10@2x.png" />
-              <img className="path-11-NwkMxW" src="./import/img/path-11-1@2x.png" />
-              <div className="group-4-NwkMxW">
-                <img className="path-12-kx3BUh" src="./import/img/path-12@2x.png" />
-                <img className="path-13-kx3BUh" src="./import/img/path-13-1@2x.png" />
-                <img className="path-14-kx3BUh" src="./import/img/path-14@2x.png" />
-                <img className="path-15-kx3BUh" src="./import/img/path-15@2x.png" />
-                <img className="path-16-kx3BUh" src="./import/img/path-16@2x.png" />
-                <img className="path-17-kx3BUh" src="./import/img/path-17@2x.png" />
-                <img className="path-18-kx3BUh" src="./import/img/path-18-1@2x.png" />
+          </Link>
+          <Link to="mpower-app">
+            <div className="appstore-buttons-kTMlYy">
+              <div className="app-store-yAGHHd">
+                <img className="path-3-zxz4BT" src="./import/img/path-3@2x.png" />
+                <img className="path-4-zxz4BT" src="./import/img/path-4@2x.png" />
+                <img className="path-5-zxz4BT" src="./import/img/path-5@2x.png" />
+                <div className="group-2-zxz4BT"><img className="path-6-zIB4zk" src="./import/img/path-6-2@2x.png" /></div>
+                <div className="group-3-zxz4BT"><img className="path-7-MZ5nVW" src="./import/img/path-7-2@2x.png" /></div>
+              </div>
+              <div className="play-store-yAGHHd">
+                <img className="path-8-NwkMxW" src="./import/img/path-8-1@2x.png" />
+                <img className="path-9-NwkMxW" src="./import/img/path-5@2x.png" />
+                <img className="path-10-NwkMxW" src="./import/img/path-10@2x.png" />
+                <img className="path-11-NwkMxW" src="./import/img/path-11-1@2x.png" />
+                <div className="group-4-NwkMxW">
+                  <img className="path-12-kx3BUh" src="./import/img/path-12@2x.png" />
+                  <img className="path-13-kx3BUh" src="./import/img/path-13-1@2x.png" />
+                  <img className="path-14-kx3BUh" src="./import/img/path-14@2x.png" />
+                  <img className="path-15-kx3BUh" src="./import/img/path-15@2x.png" />
+                  <img className="path-16-kx3BUh" src="./import/img/path-16@2x.png" />
+                  <img className="path-17-kx3BUh" src="./import/img/path-17@2x.png" />
+                  <img className="path-18-kx3BUh" src="./import/img/path-18-1@2x.png" />
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
       <div className="image1-C61RwL">
@@ -768,12 +784,14 @@ const IndexPage = () => (
           Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
           hiring organizations will have…
         </p>
-        <div className="frame-51-3Hxg6n">
-          <div className="frame-2-vCMbxe border-1px-royal-blue">
-            <div className="font-nUChOI valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
-            <div className="icarrow-nUChOI"><img className="vector-xFu5n4" src="./import/img/vector-44@2x.png" /></div>
+        <Link to="company">
+          <div className="frame-51-3Hxg6n">
+            <div className="frame-2-vCMbxe border-1px-royal-blue">
+              <div className="font-nUChOI valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
+              <div className="icarrow-nUChOI"><img className="vector-xFu5n4" src="./import/img/vector-44@2x.png" /></div>
+            </div>
           </div>
-        </div>
+        </Link>
       </div>
       {/* <div className="footer-C61RwL">
         <div className="background-iPe1yZ"></div>
@@ -922,12 +940,14 @@ const IndexPage = () => (
           Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides
           our MPower members…
         </p>
-        <div className="frame-48-UDbxrZ">
-          <div className="frame-2-1N6ZEx border-1px-royal-blue">
-            <div className="font-k385xv valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
-            <div className="icarrow-k385xv"><img className="vector-a7E9W9" src="./import/img/vector-44@2x.png" /></div>
+        <Link to="mpower">
+          <div className="frame-48-UDbxrZ">
+            <div className="frame-2-1N6ZEx border-1px-royal-blue">
+              <div className="font-k385xv valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
+              <div className="icarrow-k385xv"><img className="vector-a7E9W9" src="./import/img/vector-44@2x.png" /></div>
+            </div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
     <div className="home-mobile-320px screen">
@@ -956,9 +976,11 @@ const IndexPage = () => (
       <div className="h1mobile-C61RwL dmsans-bold-baltic-sea-40px">
         We advance diversity, equity and inclusion in today’s workplace.
       </div>
-      <div className="button-primary-default-C61RwL">
-        <div className="font-GsrA0Q valign-text-middle dmsans-bold-white-16px">JOIN THE MOVEMENT</div>
-      </div>
+      <Link to="mpower-app">
+        <div className="button-primary-default-C61RwL">
+          <div className="font-GsrA0Q valign-text-middle dmsans-bold-white-16px">JOIN THE MOVEMENT</div>
+        </div>
+      </Link>
       <div className="imagegrid-C61RwL">
         <img className="column1-j0ck3A" src="./import/img/column-1-2@2x.png" />
         <div className="column2-j0ck3A">
@@ -1144,34 +1166,38 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-          <div className="button-secondary-desktop-kTMlYy border-1px-white-2">
-            <div className="font-aQSSHr valign-text-middle dmsans-bold-white-16px">CHECK OUT MPOWER</div>
-            <div className="icarrow-aQSSHr"><img className="vector-lBlCDT" src="./import/img/vector-398@2x.png" /></div>
-          </div>
-          <div className="appstore-buttons-kTMlYy">
-            <div className="app-store-yAGHHd">
-              <img className="path-3-zxz4BT" src="./import/img/path-3-4@2x.png" />
-              <img className="path-4-zxz4BT" src="./import/img/path-4-3@2x.png" />
-              <img className="path-5-zxz4BT" src="./import/img/path-5@2x.png" />
-              <div className="group-2-zxz4BT"><img className="path-6-zIB4zk" src="./import/img/path-6-3@2x.png" /></div>
-              <div className="group-3-zxz4BT"><img className="path-7-MZ5nVW" src="./import/img/path-7-3@2x.png" /></div>
+          <Link to="mpower-app">
+            <div className="button-secondary-desktop-kTMlYy border-1px-white-2">
+              <div className="font-aQSSHr valign-text-middle dmsans-bold-white-16px">CHECK OUT MPOWER</div>
+              <div className="icarrow-aQSSHr"><img className="vector-lBlCDT" src="./import/img/vector-398@2x.png" /></div>
             </div>
-            <div className="play-store-yAGHHd">
-              <img className="path-8-NwkMxW" src="./import/img/path-8-2@2x.png" />
-              <img className="path-9-NwkMxW" src="./import/img/path-5@2x.png" />
-              <img className="path-10-NwkMxW" src="./import/img/path-10-2@2x.png" />
-              <img className="path-11-NwkMxW" src="./import/img/path-11-2@2x.png" />
-              <div className="group-4-NwkMxW">
-                <img className="path-12-kx3BUh" src="./import/img/path-12-2@2x.png" />
-                <img className="path-13-kx3BUh" src="./import/img/path-13-2@2x.png" />
-                <img className="path-14-kx3BUh" src="./import/img/path-14-2@2x.png" />
-                <img className="path-15-kx3BUh" src="./import/img/path-15-2@2x.png" />
-                <img className="path-16-kx3BUh" src="./import/img/path-16-2@2x.png" />
-                <img className="path-17-kx3BUh" src="./import/img/path-17-2@2x.png" />
-                <img className="path-18-kx3BUh" src="./import/img/path-18-2@2x.png" />
+          </Link>
+          <Link to="mpower-app">
+            <div className="appstore-buttons-kTMlYy">
+              <div className="app-store-yAGHHd">
+                <img className="path-3-zxz4BT" src="./import/img/path-3-4@2x.png" />
+                <img className="path-4-zxz4BT" src="./import/img/path-4-3@2x.png" />
+                <img className="path-5-zxz4BT" src="./import/img/path-5@2x.png" />
+                <div className="group-2-zxz4BT"><img className="path-6-zIB4zk" src="./import/img/path-6-3@2x.png" /></div>
+                <div className="group-3-zxz4BT"><img className="path-7-MZ5nVW" src="./import/img/path-7-3@2x.png" /></div>
+              </div>
+              <div className="play-store-yAGHHd">
+                <img className="path-8-NwkMxW" src="./import/img/path-8-2@2x.png" />
+                <img className="path-9-NwkMxW" src="./import/img/path-5@2x.png" />
+                <img className="path-10-NwkMxW" src="./import/img/path-10-2@2x.png" />
+                <img className="path-11-NwkMxW" src="./import/img/path-11-2@2x.png" />
+                <div className="group-4-NwkMxW">
+                  <img className="path-12-kx3BUh" src="./import/img/path-12-2@2x.png" />
+                  <img className="path-13-kx3BUh" src="./import/img/path-13-2@2x.png" />
+                  <img className="path-14-kx3BUh" src="./import/img/path-14-2@2x.png" />
+                  <img className="path-15-kx3BUh" src="./import/img/path-15-2@2x.png" />
+                  <img className="path-16-kx3BUh" src="./import/img/path-16-2@2x.png" />
+                  <img className="path-17-kx3BUh" src="./import/img/path-17-2@2x.png" />
+                  <img className="path-18-kx3BUh" src="./import/img/path-18-2@2x.png" />
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
         <div className="abstract-shapes-9-3-61Z7WH border-33px-bittersweet"></div>
       </div>
@@ -1200,10 +1226,12 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-        <div className="frame-2-DmqrA3 border-1px-royal-blue">
-          <div className="font-y2e3aF valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
-          <div className="icarrow-y2e3aF"><img className="vector-2qf4Uv" src="./import/img/vector-399@2x.png" /></div>
-        </div>
+        <Link to="mpower">
+          <div className="frame-2-DmqrA3 border-1px-royal-blue">
+            <div className="font-y2e3aF valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
+            <div className="icarrow-y2e3aF"><img className="vector-2qf4Uv" src="./import/img/vector-399@2x.png" /></div>
+          </div>
+        </Link>
       </div>
       <div className="frame-36-C61RwL">
         <img className="rectangle-vwAkId" src="./import/img/rectangle-12@2x.png" />
@@ -1230,10 +1258,12 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-        <div className="frame-2-TRJnNi border-1px-royal-blue">
-          <div className="font-2WX1ZD valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
-          <div className="icarrow-2WX1ZD"><img className="vector-ouSVJV" src="./import/img/vector-399@2x.png" /></div>
-        </div>
+        <Link to="company">
+          <div className="frame-2-TRJnNi border-1px-royal-blue">
+            <div className="font-2WX1ZD valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
+            <div className="icarrow-2WX1ZD"><img className="vector-ouSVJV" src="./import/img/vector-399@2x.png" /></div>
+          </div>
+        </Link>
       </div>
       {/* <div className="footer-C61RwL">
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
@@ -1402,9 +1432,11 @@ const IndexPage = () => (
       <div className="h1mobile-C61RwL dmsans-bold-baltic-sea-40px">
         We advance diversity, equity and inclusion in today’s workplace.
       </div>
-      <div className="button-primary-default-C61RwL">
-        <div className="font-GsrA0Q valign-text-middle dmsans-bold-white-16px">JOIN THE MOVEMENT</div>
-      </div>
+      <Link to="mpower-app">
+        <div className="button-primary-default-C61RwL">
+          <div className="font-GsrA0Q valign-text-middle dmsans-bold-white-16px">JOIN THE MOVEMENT</div>
+        </div>
+      </Link>
       <div className="imagegrid-C61RwL">
         <img className="column1-j0ck3A" src="./import/img/column-1-3@2x.png" />
         <div className="column2-j0ck3A">
@@ -1590,34 +1622,38 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-          <div className="button-secondary-desktop-kTMlYy border-1px-white-2">
-            <div className="font-aQSSHr valign-text-middle dmsans-bold-white-16px">CHECK OUT MPOWER</div>
-            <div className="icarrow-aQSSHr"><img className="vector-lBlCDT" src="./import/img/vector-398@2x.png" /></div>
-          </div>
-          <div className="appstore-buttons-kTMlYy">
-            <div className="app-store-yAGHHd">
-              <img className="path-3-zxz4BT" src="./import/img/path-3-10@2x.png" />
-              <img className="path-4-zxz4BT" src="./import/img/path-4-7@2x.png" />
-              <img className="path-5-zxz4BT" src="./import/img/path-5@2x.png" />
-              <div className="group-2-zxz4BT"><img className="path-6-zIB4zk" src="./import/img/path-6-7@2x.png" /></div>
-              <div className="group-3-zxz4BT"><img className="path-7-MZ5nVW" src="./import/img/path-7-7@2x.png" /></div>
+          <Link to="mpower-app">
+            <div className="button-secondary-desktop-kTMlYy border-1px-white-2">
+              <div className="font-aQSSHr valign-text-middle dmsans-bold-white-16px">CHECK OUT MPOWER</div>
+              <div className="icarrow-aQSSHr"><img className="vector-lBlCDT" src="./import/img/vector-398@2x.png" /></div>
             </div>
-            <div className="play-store-yAGHHd">
-              <img className="path-8-NwkMxW" src="./import/img/path-8-4@2x.png" />
-              <img className="path-9-NwkMxW" src="./import/img/path-5@2x.png" />
-              <img className="path-10-NwkMxW" src="./import/img/path-10-2@2x.png" />
-              <img className="path-11-NwkMxW" src="./import/img/path-11-4@2x.png" />
-              <div className="group-4-NwkMxW">
-                <img className="path-12-kx3BUh" src="./import/img/path-12-2@2x.png" />
-                <img className="path-13-kx3BUh" src="./import/img/path-13-4@2x.png" />
-                <img className="path-14-kx3BUh" src="./import/img/path-14-2@2x.png" />
-                <img className="path-15-kx3BUh" src="./import/img/path-15-2@2x.png" />
-                <img className="path-16-kx3BUh" src="./import/img/path-16-2@2x.png" />
-                <img className="path-17-kx3BUh" src="./import/img/path-17-2@2x.png" />
-                <img className="path-18-kx3BUh" src="./import/img/path-18-2@2x.png" />
+          </Link>
+          <Link to="mpower-app">
+            <div className="appstore-buttons-kTMlYy">
+              <div className="app-store-yAGHHd">
+                <img className="path-3-zxz4BT" src="./import/img/path-3-10@2x.png" />
+                <img className="path-4-zxz4BT" src="./import/img/path-4-7@2x.png" />
+                <img className="path-5-zxz4BT" src="./import/img/path-5@2x.png" />
+                <div className="group-2-zxz4BT"><img className="path-6-zIB4zk" src="./import/img/path-6-7@2x.png" /></div>
+                <div className="group-3-zxz4BT"><img className="path-7-MZ5nVW" src="./import/img/path-7-7@2x.png" /></div>
+              </div>
+              <div className="play-store-yAGHHd">
+                <img className="path-8-NwkMxW" src="./import/img/path-8-4@2x.png" />
+                <img className="path-9-NwkMxW" src="./import/img/path-5@2x.png" />
+                <img className="path-10-NwkMxW" src="./import/img/path-10-2@2x.png" />
+                <img className="path-11-NwkMxW" src="./import/img/path-11-4@2x.png" />
+                <div className="group-4-NwkMxW">
+                  <img className="path-12-kx3BUh" src="./import/img/path-12-2@2x.png" />
+                  <img className="path-13-kx3BUh" src="./import/img/path-13-4@2x.png" />
+                  <img className="path-14-kx3BUh" src="./import/img/path-14-2@2x.png" />
+                  <img className="path-15-kx3BUh" src="./import/img/path-15-2@2x.png" />
+                  <img className="path-16-kx3BUh" src="./import/img/path-16-2@2x.png" />
+                  <img className="path-17-kx3BUh" src="./import/img/path-17-2@2x.png" />
+                  <img className="path-18-kx3BUh" src="./import/img/path-18-2@2x.png" />
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
         <div className="abstract-shapes-9-3-61Z7WH border-33px-bittersweet"></div>
       </div>
@@ -1641,10 +1677,12 @@ const IndexPage = () => (
         Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides
         our MPower members…
       </p>
-      <div className="frame-2-C61RwL border-1px-royal-blue">
-        <div className="font-gUEd1c valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
-        <div className="icarrow-gUEd1c"><img className="vector-k3EWGx" src="./import/img/vector-399@2x.png" /></div>
-      </div>
+      <Link to="mpower">
+        <div className="frame-2-C61RwL border-1px-royal-blue">
+          <div className="font-gUEd1c valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
+          <div className="icarrow-gUEd1c"><img className="vector-k3EWGx" src="./import/img/vector-399@2x.png" /></div>
+        </div>
+      </Link>
       <div className="frame-36-C61RwL">
         <img className="rectangle-vwAkId" src="./import/img/rectangle-16@1x.png" />
         <div className="group-2-vwAkId">
@@ -1665,10 +1703,12 @@ const IndexPage = () => (
         Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
         hiring organizations will have…
       </p>
-      <div className="frame-2-VMr6Om border-1px-royal-blue">
-        <div className="font-yi3KLE valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
-        <div className="icarrow-yi3KLE"><img className="vector-2khw5A" src="./import/img/vector-399@2x.png" /></div>
-      </div>
+      <Link to="company">
+        <div className="frame-2-VMr6Om border-1px-royal-blue">
+          <div className="font-yi3KLE valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
+          <div className="icarrow-yi3KLE"><img className="vector-2khw5A" src="./import/img/vector-399@2x.png" /></div>
+        </div>
+      </Link>
       {/* <div className="footer-C61RwL">
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
         <div className="inputs-default-iPe1yZ">
