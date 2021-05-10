@@ -182,13 +182,15 @@ body [class*="home-desktop-"] .bullet02-C61RwL {
     left: 10%;
 }
 
-body [class*="mpower-dekstop-"] .contentsection-zxGWQX {
+body [class*="mpower-dekstop-"] .contentsection-zxGWQX,
+.mpower-home-dekstop-1440px .contentsection-zxGWQX {
     left: 50%;
     right: 50%;
     margin-left: -580px;
 }
 
-body [class*="mpower-dekstop-"] .featuregroup-zxGWQX {
+body [class*="mpower-dekstop-"] .featuregroup-zxGWQX
+.mpower-home-dekstop-1440px .featuregroup-zxGWQX {
     left: 50%;
     right: 50%;
     margin-left: -580px;
