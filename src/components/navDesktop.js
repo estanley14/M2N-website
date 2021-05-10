@@ -11,7 +11,7 @@ const NavDesktop = ({ theme }) => {
     <div>
       {theme === "dark" ? (
         <div className="navbar-desktop-C61RwL">
-          <Link to="">
+          <Link to="/mpower-app">
             <div className="buttonrow-HPBo1Y">
               <div className="button-text-des-op-i63817129573-Wfh8x7 dmsans-bold-gunsmoke-14px-2">LOG IN</div>
               <div className="button-primary-desktop-Wfh8x7">
@@ -57,7 +57,7 @@ const NavDesktop = ({ theme }) => {
         </div>
       ) : (
         <div className="navbar-desktop-C61RwL">
-        <Link to="">
+        <Link to="/mpower-app">
           <div className="buttonrow-HPBo1Y">
             <div className="b5-Wfh8x7 smart-layers-pointers dmsans-bold-gunsmoke-14px-2">LOG IN</div>
             <div className="button-primary-desktop-Wfh8x7">

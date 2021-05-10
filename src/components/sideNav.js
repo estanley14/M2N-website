@@ -43,7 +43,7 @@ const SideNav = ({ setNavState }) => {
                     <img className="line-973-Qtr366" src="./import/img/line-973@2x.png" />
                 </div>
             </Link>
-            <Link to="/">
+            <Link to="/mpower-app">
                 <div className="frame-72-C61RwL">
                     <div className="textframe-DMZGJ0"></div>
                     <div className="login-sign-up-DMZGJ0 dmsans-bold-gunsmoke-24px">LOGIN / SIGN UP</div>
@@ -90,7 +90,7 @@ const SideNav = ({ setNavState }) => {
                     <img className="line-973-Qtr366" src="./import/img/line-973-5@1x.png" />
                 </div>
             </Link>
-            <Link to="/">
+            <Link to="/mpower-app">
                 <div className="frame-72-C61RwL">
                     <div className="textframe-DMZGJ0"></div>
                     <div className="login-sign-up-DMZGJ0 dmsans-bold-gunsmoke-24px">LOGIN / SIGN UP</div>
