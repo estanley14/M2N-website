@@ -176,9 +176,8 @@ const IndexPage = () => (
         </div>
         <div className="h1-VMr6Om dmsans-bold-big-stone-62px">Minority Moves Network</div>
         <p className="p-C61RwL dmsans-normal-abbey-16px">
-          Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N)
-          empowers, trains, connects and supports diverse professionals to find employment within companies committed to
-          an inclusive workplace.
+        Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N) serves as a central hub to empower, 
+        train, connect and support diverse professionals to find employment within companies committed to an inclusive workplace.
         </p>
         <div className="bullet01-C61RwL">
           <p className="p-2W14L6 dmsans-normal-abbey-16px">
@@ -636,9 +635,8 @@ const IndexPage = () => (
       </div>
       <div className="h1-VMr6Om dmsans-bold-big-stone-62px">Minority Moves Network</div>
       <p className="p-C61RwL dmsans-normal-abbey-16px">
-        Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N)
-        empowers, trains, connects and supports diverse professionals to find employment within companies committed to
-        an inclusive workplace.
+        Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N) serves as a central hub to empower, 
+        train, connect and support diverse professionals to find employment within companies committed to an inclusive workplace.
       </p>
       <div className="bullet01-C61RwL">
         <p className="p-2W14L6 dmsans-normal-abbey-16px">
@@ -1089,9 +1087,8 @@ const IndexPage = () => (
       </div>
       <div className="h1-C61RwL dmsans-bold-big-stone-40px">Minority Moves Network</div>
       <p className="p-C61RwL dmsans-normal-abbey-16px">
-        Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N)
-        empowers, trains, connects and supports diverse professionals to find employment within companies committed to
-        an inclusive workplace.
+        Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N) serves as a central hub to empower, 
+        train, connect and support diverse professionals to find employment within companies committed to an inclusive workplace.
       </p>
       <div className="bullet01-C61RwL">
         <p className="p-2W14L6 dmsans-normal-abbey-16px">
@@ -1545,9 +1542,8 @@ const IndexPage = () => (
       </div>
       <div className="h1-C61RwL dmsans-bold-big-stone-40px">Minority Moves Network</div>
       <p className="p-C61RwL dmsans-normal-abbey-16px">
-        Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N)
-        empowers, trains, connects and supports diverse professionals to find employment within companies committed to
-        an inclusive workplace.
+        Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N) serves as a central hub to empower, 
+        train, connect and support diverse professionals to find employment within companies committed to an inclusive workplace.
       </p>
       <div className="bullet01-C61RwL">
         <p className="p-2W14L6 dmsans-normal-abbey-16px">
