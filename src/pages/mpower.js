@@ -50,10 +50,9 @@ const SecondPage = () => (
               <div className="circle-h7iPQl"></div>
               <img className="iconbriefcase-h7iPQl" src="./import/img/icon-briefcase@2x.png" />
             </div>
-            <div className="h2-jztRZd dmsans-bold-mine-shaft-28px">Empower</div>
+            <div className="h2-jztRZd dmsans-bold-mine-shaft-28px">Empowering...</div>
             <p className="p-jztRZd dmsans-medium-raven-16px">
-              Members find empowerment by understanding the value their lived experience provides to employing
-              organizations.
+              Membership to use their lived experience in ways that provide great value to their employing organizations.
             </p>
           </div>
           <div className="texturelinesblue-ADw2RY">
@@ -74,10 +73,9 @@ const SecondPage = () => (
               <div className="circle-GwGDZ0"></div>
               <div className="iconpeople-GwGDZ0"><img className="vector-JjXJil" src="./import/img/vector-135@2x.png" /></div>
             </div>
-            <div className="h2-2V2nig dmsans-bold-mine-shaft-28px">Engage</div>
+            <div className="h2-2V2nig dmsans-bold-mine-shaft-28px">Engaging...</div>
             <p className="p-2V2nig dmsans-medium-raven-16px">
-              Members engage in expanding their skills to better manage daily work, collaborate with peers, and
-              successfully interact with executive management.
+              With inspirational stories of individual, organizational and community success in the areas of diversity, equity, and inclusion.
             </p>
           </div>
           <div className="texturelinesgreen-ADw2RY">
@@ -88,10 +86,9 @@ const SecondPage = () => (
               <div className="circle-WiztLf"></div>
               <div className="iconbook-WiztLf"><img className="vector-ekKiNB" src="./import/img/vector-136@2x.png" /></div>
             </div>
-            <div className="h2-Wu3DRp dmsans-bold-mine-shaft-28px">Educate</div>
+            <div className="h2-Wu3DRp dmsans-bold-mine-shaft-28px">Educating...</div>
             <p className="p-Wu3DRp dmsans-medium-raven-16px">
-              Members continue their education by participating in high level programing to address individual gaps in
-              education or job experience.
+              With learning that improves job performance, increases business acumen, and broadens industry expertise for career advancement.
             </p>
           </div>
         </div>
@@ -234,7 +231,7 @@ const SecondPage = () => (
             <div className="highlight-desktop-j3mg2J">
               <div className="prepare-i18261824-SgfJ49 dmsans-bold-shamrock-18px">Connect</div>
               <p className="deliver-transfo-hires-i18261823-SgfJ49 dmsans-normal-gray-14px">
-                Facilitate genuine connections between Mpower members and professional leaders and influencers.
+                Membership to organizations who promote a comprehensive approach to DEI.
               </p>
             </div>
             <div className="highlight-desktop-8oUlvX">
@@ -598,10 +595,9 @@ const SecondPage = () => (
               <div className="circle-ajWpfC"></div>
               <img className="iconbriefcase-ajWpfC" src="./import/img/icon-briefcase-1@2x.png" />
             </div>
-            <div className="h2-51wFGL dmsans-bold-mine-shaft-28px">Empower</div>
+            <div className="h2-51wFGL dmsans-bold-mine-shaft-28px">Empowering...</div>
             <p className="p-51wFGL dmsans-medium-raven-16px">
-              Members find empowerment by understanding the value their lived experience provides to employing
-              organizations.
+            Membership to use their lived experience in ways that provide great value to their employing organizations.
             </p>
           </div>
           <div className="texturelinesblue-zTdpyh">
@@ -622,10 +618,9 @@ const SecondPage = () => (
               <div className="circle-zNkhCW"></div>
               <div className="iconpeople-zNkhCW"><img className="vector-gjdSx4" src="./import/img/vector-447@2x.png" /></div>
             </div>
-            <div className="h2-g99tbA dmsans-bold-mine-shaft-28px">Engage</div>
+            <div className="h2-g99tbA dmsans-bold-mine-shaft-28px">Engaging...</div>
             <p className="p-g99tbA dmsans-medium-raven-16px">
-              Members engage in expanding their skills to better manage daily work, collaborate with peers, and
-              successfully interact with executive management.
+              With inspirational stories of individual, organizational and community success in the areas of diversity, equity, and inclusion.
             </p>
           </div>
           <div className="texturelinesgreen-zTdpyh">
@@ -636,10 +631,9 @@ const SecondPage = () => (
               <div className="circle-twj70c"></div>
               <div className="iconbook-twj70c"><img className="vector-8UNPvx" src="./import/img/vector-448@2x.png" /></div>
             </div>
-            <div className="h2-bIkiH5 dmsans-bold-mine-shaft-28px">Educate</div>
+            <div className="h2-bIkiH5 dmsans-bold-mine-shaft-28px">Educating...</div>
             <p className="p-bIkiH5 dmsans-medium-raven-16px">
-              Members continue their education by participating in high level programing to address individual gaps in
-              education or job experience.
+              With learning that improves job performance, increases business acumen, and broadens industry expertise for career advancement.
             </p>
           </div>
         </div>
@@ -708,7 +702,7 @@ const SecondPage = () => (
             <div className="highlight-desktop-j3mg2J">
               <div className="prepare-i730001824-SgfJ49 dmsans-bold-shamrock-18px">Connect</div>
               <p className="deliver-transfo-ires-i730001823-SgfJ49 dmsans-normal-gray-14px">
-                Facilitate genuine connections between Mpower members and professional leaders and influencers.
+                Membership to organizations who promote a comprehensive approach to DEI.
               </p>
             </div>
             <div className="highlight-desktop-8oUlvX">
@@ -924,10 +918,9 @@ const SecondPage = () => (
             <div className="circle-OuA16q"></div>
             <img className="iconbriefcase-OuA16q" src="./import/img/icon-briefcase-1@2x.png" />
           </div>
-          <div className="h2-sdW0RJ dmsans-bold-mine-shaft-28px">Empower</div>
+          <div className="h2-sdW0RJ dmsans-bold-mine-shaft-28px">Empowering...</div>
           <p className="p-sdW0RJ dmsans-medium-raven-16px">
-            Members find empowerment by understanding the value their lived experience provides to employing
-            organizations.
+            Membership to use their lived experience in ways that provide great value to their employing organizations.
           </p>
         </div>
         <div className="texturelinesblue-LatYOS">
@@ -948,10 +941,9 @@ const SecondPage = () => (
             <div className="circle-79rsCO"></div>
             <div className="iconpeople-79rsCO"><img className="vector-kuFVAN" src="./import/img/vector-491@2x.png" /></div>
           </div>
-          <div className="h2-fBDd5j dmsans-bold-mine-shaft-28px">Engage</div>
+          <div className="h2-fBDd5j dmsans-bold-mine-shaft-28px">Engaging...</div>
           <p className="p-fBDd5j dmsans-medium-raven-16px">
-            Members engage in expanding their skills to better manage daily work, collaborate with peers, and
-            successfully interact with executive management.
+          With inspirational stories of individual, organizational and community success in the areas of diversity, equity, and inclusion.
           </p>
         </div>
         <div className="texturelinesgreen-LatYOS">
@@ -962,10 +954,9 @@ const SecondPage = () => (
             <div className="circle-HR8j1J"></div>
             <div className="iconbook-HR8j1J"><img className="vector-vPMyAU" src="./import/img/vector-492@2x.png" /></div>
           </div>
-          <div className="h2-tsqy5t dmsans-bold-mine-shaft-28px">Educate</div>
+          <div className="h2-tsqy5t dmsans-bold-mine-shaft-28px">Educating</div>
           <p className="p-tsqy5t dmsans-medium-raven-16px">
-            Members continue their education by participating in high level programing to address individual gaps in
-            education or job experience.
+            With learning that improves job performance, increases business acumen, and broadens industry expertise for career advancement.
           </p>
         </div>
       </div>
@@ -1109,7 +1100,7 @@ const SecondPage = () => (
           <div className="highlight-desktop-BxywGG">
             <div className="prepare-i740121824-joMBxZ dmsans-bold-shamrock-18px">Connect</div>
             <p className="deliver-transfo-ires-i740121823-joMBxZ dmsans-normal-gray-14px">
-              Facilitate genuine connections between Mpower members and professional leaders and influencers.
+              Membership to organizations who promote a comprehensive approach to DEI.
             </p>
           </div>
           <div className="highlight-desktop-7EvXMj">
@@ -1325,10 +1316,9 @@ const SecondPage = () => (
               <div className="circle-26ac6Z"></div>
               <img className="iconbriefcase-26ac6Z" src="./import/img/icon-briefcase-1@2x.png" />
             </div>
-            <div className="h2-urDbbu dmsans-bold-mine-shaft-28px">Empower</div>
+            <div className="h2-urDbbu dmsans-bold-mine-shaft-28px">Empowering...</div>
             <p className="p-urDbbu dmsans-medium-raven-16px">
-              Members find empowerment by understanding the value their lived experience provides to employing
-              organizations.
+              Membership to use their lived experience in ways that provide great value to their employing organizations.
             </p>
           </div>
           <div className="texturelinesblue-w8NxyH">
@@ -1349,10 +1339,9 @@ const SecondPage = () => (
               <div className="circle-DpAzmb"></div>
               <div className="iconpeople-DpAzmb"><img className="vector-los0zz" src="./import/img/vector-491@2x.png" /></div>
             </div>
-            <div className="h2-Sq5wIx dmsans-bold-mine-shaft-28px">Engage</div>
+            <div className="h2-Sq5wIx dmsans-bold-mine-shaft-28px">Engaging...</div>
             <p className="p-Sq5wIx dmsans-medium-raven-16px">
-              Members engage in expanding their skills to better manage daily work, collaborate with peers, and
-              successfully interact with executive management.
+            With inspirational stories of individual, organizational and community success in the areas of diversity, equity, and inclusion.
             </p>
           </div>
           <div className="texturelinesgreen-w8NxyH">
@@ -1363,10 +1352,9 @@ const SecondPage = () => (
               <div className="circle-ojGKEi"></div>
               <div className="iconbook-ojGKEi"><img className="vector-NETljL" src="./import/img/vector-492@2x.png" /></div>
             </div>
-            <div className="h2-P3x1YM dmsans-bold-mine-shaft-28px">Educate</div>
+            <div className="h2-P3x1YM dmsans-bold-mine-shaft-28px">Educating</div>
             <p className="p-P3x1YM dmsans-medium-raven-16px">
-              Members continue their education by participating in high level programing to address individual gaps in
-              education or job experience.
+              With learning that improves job performance, increases business acumen, and broadens industry expertise for career advancement.
             </p>
           </div>
         </div>
@@ -1512,7 +1500,7 @@ const SecondPage = () => (
             <div className="highlight-desktop-Tzxk9F">
               <div className="prepare-i311961824-JxfEN3 dmsans-bold-shamrock-18px">Connect</div>
               <p className="deliver-transfo-ires-i311961823-JxfEN3 dmsans-normal-gray-14px">
-                Facilitate genuine connections between Mpower members and professional leaders and influencers.
+                Membership to organizations who promote a comprehensive approach to DEI. 
               </p>
             </div>
             <div className="highlight-desktop-wCbI1w">

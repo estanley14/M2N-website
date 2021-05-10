@@ -161,13 +161,13 @@ const OurCompany = () => (
             <span className="span0-Ez0jXp dmsans-normal-big-stone-16px">Our </span
             ><span className="span1-Ez0jXp dmsans-bold-big-stone-16px">mission</span
             ><span className="span2-Ez0jXp dmsans-normal-big-stone-16px">
-              is to create a true and equal opportunity employment culture. <br />Our </span
+              &nbsp;is to create a true and equal opportunity employment culture.<br /><br />Our </span
             ><span className="span3-Ez0jXp dmsans-bold-big-stone-16px">goal</span
             ><span className="span4-Ez0jXp dmsans-normal-big-stone-16px">
-              is to promote an inclusive workplace of professional diversity within all organizations.<br /><br />Our </span
+              &nbsp;is to promote an inclusive workplace of professional diversity within all organizations.<br /><br />Our </span
             ><span className="span5-Ez0jXp dmsans-bold-big-stone-16px">MPower</span
             ><span className="span6-Ez0jXp dmsans-normal-big-stone-16px">
-              platform provides an affordable, comprehensive, member-centric approach to transform employment
+              &nbsp;platform provides an affordable, comprehensive, member-centric approach to transform employment
               opportunities for individuals.
             </span>
           </p>
@@ -274,13 +274,13 @@ const OurCompany = () => (
             <span className="span0-Ez0jXp dmsans-normal-big-stone-16px">Our </span
             ><span className="span1-Ez0jXp dmsans-bold-big-stone-16px">mission</span
             ><span className="span2-Ez0jXp dmsans-normal-big-stone-16px">
-              is to create a true and equal opportunity employment culture. <br />Our </span
+              &nbsp;is to create a true and equal opportunity employment culture.<br /><br />Our </span
             ><span className="span3-Ez0jXp dmsans-bold-big-stone-16px">goal</span
             ><span className="span4-Ez0jXp dmsans-normal-big-stone-16px">
-              is to promote an inclusive workplace of professional diversity within all organizations.<br /><br />Our </span
+              &nbsp;is to promote an inclusive workplace of professional diversity within all organizations.<br /><br />Our </span
             ><span className="span5-Ez0jXp dmsans-bold-big-stone-16px">MPower</span
             ><span className="span6-Ez0jXp dmsans-normal-big-stone-16px">
-              platform provides an affordable, comprehensive, member-centric approach to transform employment
+              &nbsp;platform provides an affordable, comprehensive, member-centric approach to transform employment
               opportunities for individuals.
             </span>
           </p>
@@ -678,13 +678,13 @@ const OurCompany = () => (
             <span className="span0-Ez0jXp dmsans-normal-big-stone-16px">Our </span
             ><span className="span1-Ez0jXp dmsans-bold-big-stone-16px">mission</span
             ><span className="span2-Ez0jXp dmsans-normal-big-stone-16px">
-              is to create a true and equal opportunity employment culture. <br />Our </span
+              &nbsp;is to create a true and equal opportunity employment culture.<br /><br />Our </span
             ><span className="span3-Ez0jXp dmsans-bold-big-stone-16px">goal</span
             ><span className="span4-Ez0jXp dmsans-normal-big-stone-16px">
-              is to promote an inclusive workplace of professional diversity within all organizations.<br /><br />Our </span
+              &nbsp;is to promote an inclusive workplace of professional diversity within all organizations.<br /><br />Our </span
             ><span className="span5-Ez0jXp dmsans-bold-big-stone-16px">MPower</span
             ><span className="span6-Ez0jXp dmsans-normal-big-stone-16px">
-              platform provides an affordable, comprehensive, member-centric approach to transform employment
+              &nbsp;platform provides an affordable, comprehensive, member-centric approach to transform employment
               opportunities for individuals.
             </span>
           </p>
@@ -929,13 +929,13 @@ const OurCompany = () => (
             <span className="span0-Ez0jXp dmsans-normal-big-stone-16px">Our </span
             ><span className="span1-Ez0jXp dmsans-bold-big-stone-16px">mission</span
             ><span className="span2-Ez0jXp dmsans-normal-big-stone-16px">
-              is to create a true and equal opportunity employment culture. <br />Our </span
+                &nbsp;is to create a true and equal opportunity employment culture.<br /><br />Our </span
             ><span className="span3-Ez0jXp dmsans-bold-big-stone-16px">goal</span
             ><span className="span4-Ez0jXp dmsans-normal-big-stone-16px">
-              is to promote an inclusive workplace of professional diversity within all organizations.<br /><br />Our </span
+              &nbsp;is to promote an inclusive workplace of professional diversity within all organizations.<br /><br />Our </span
             ><span className="span5-Ez0jXp dmsans-bold-big-stone-16px">MPower</span
             ><span className="span6-Ez0jXp dmsans-normal-big-stone-16px">
-              platform provides an affordable, comprehensive, member-centric approach to transform employment
+              &nbsp;platform provides an affordable, comprehensive, member-centric approach to transform employment
               opportunities for individuals.
             </span>
           </p>

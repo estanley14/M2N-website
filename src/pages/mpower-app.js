@@ -448,11 +448,11 @@ const MPowerPage = () => {
             <div className="links-FnCxlc"></div>
           </div>
           <div className="filled-button-xjb0Rz">
-            <div className="sign-in-3VjsKE montserrat-bold-white-14px">Take the Survey</div>
+            <div className="sign-in-3VjsKE montserrat-bold-white-14px">Survey</div>
           </div>
           <div className="line-button-xjb0Rz" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
-            <div className="log-in-7UoSe2 montserrat-bold-white-14px">Sign up for Beta</div>
+            <div className="log-in-7UoSe2 montserrat-bold-white-14px">Beta</div>
           </div>
           <div className="m-powerwhite-colored-xjb0Rz">
             <div className="group-lNir8u"><img className="vector-npilsQ" src="./import/img/vector-960@2x.png" /></div>

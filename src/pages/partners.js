@@ -64,8 +64,7 @@ const Partners = () => (
         </div>
         <div className="frame-6-zMcl5Z">
           <p className="cras-semper-auctor-a-MhUqEY dmsans-normal-trout-16px">
-            Organizations seeking to establish transformational inclusive cultures to implement our innovative DEI
-            programs &amp; hire MPower members.
+            Organizations committed to a comprehensive approach to Diversity, Equity, and Inclusion &amp; hiring MPower members.
           </p>
           <Link to="/contact-us">
             <div className="frame-2-MhUqEY border-1px-persimmon">
@@ -328,8 +327,7 @@ const Partners = () => (
         </div>
         <div className="frame-6-zMcl5Z">
           <p className="cras-semper-auctor-a-MhUqEY dmsans-normal-trout-16px">
-            Organizations seeking to establish transformational inclusive cultures to implement our innovative DEI
-            programs &amp; hire MPower members.
+            Organizations committed to a comprehensive approach to Diversity, Equity, and Inclusion &amp; hiring MPower members.
           </p>
           <Link to="/contact-us">
             <div className="frame-2-MhUqEY border-1px-persimmon">
@@ -684,8 +682,7 @@ const Partners = () => (
         </div>
         <div className="frame-6-zMcl5Z">
           <p className="cras-semper-auctor-a-MhUqEY dmsans-normal-trout-16px">
-            Organizations seeking to establish transformational inclusive cultures to implement our innovative DEI
-            programs &amp; hire MPower members.
+            Organizations committed to a comprehensive approach to Diversity, Equity, and Inclusion &amp; hiring MPower members.
           </p>
           <Link to="/contact-us">
             <div className="frame-2-MhUqEY border-1px-persimmon">
@@ -902,8 +899,7 @@ const Partners = () => (
         </div>
         <div className="frame-6-zMcl5Z">
           <p className="cras-semper-auctor-a-MhUqEY dmsans-normal-trout-16px">
-            Organizations seeking to establish transformational inclusive cultures to implement our innovative DEI
-            programs &amp; hire MPower members.
+            Organizations committed to a comprehensive approach to Diversity, Equity, and Inclusion &amp; hiring MPower members.
           </p>
           <Link to="/contact-us">
             <div className="frame-2-MhUqEY border-1px-persimmon">

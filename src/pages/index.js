@@ -250,9 +250,9 @@ const IndexPage = () => (
                 A dynamic and interactive online platform to empower minority professionals.
               </p>
               <p className="through-m-power-r-relationships-fgzFPV dmsans-normal-white-16px-2">
-                Through MPower members can:<br />Learn how to use their lived experience as an asset <br />Grow business
-                and leadership skills with dynamic content<br />Find inspiration in minority success stories and
-                teachings<br />Accelerate their career through reciprocal mentor relationships
+                Through MPower members can:<br />- Learn how to use their lived experience as an asset <br />- Grow business
+                and leadership skills with dynamic content<br />- Find inspiration in minority success stories and
+                teachings<br />- Accelerate their career through reciprocal mentor relationships
               </p>
             </div>
           </div>
@@ -292,10 +292,9 @@ const IndexPage = () => (
       </div>
       <div className="frame-56-C61RwL">
         <div className="group-581-0unqEg">
-          <div className="a-new-way-to-enjoy-q-ScxlrF dmsans-bold-baltic-sea-62px">Professional  Development</div>
+          <div className="a-new-way-to-enjoy-q-ScxlrF dmsans-bold-baltic-sea-62px">Member Development</div>
           <p className="cras-semper-auctor-a-ScxlrF dmsans-normal-trout-16px">
-            Members only coursework, discussion groups and guest lectures by globally recognized thought leaders
-            provides our MPower members…
+            Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…
           </p>
           <Link to="mpower">
             <div className="frame-48-ScxlrF">
@@ -706,9 +705,9 @@ const IndexPage = () => (
                 A dynamic and interactive online platform to empower minority professionals.
               </p>
               <p className="through-m-power-r-relationships-fgzFPV dmsans-normal-white-16px-2">
-                Through MPower members can:<br />Learn how to use their lived experience as an asset <br />Grow business
-                and leadership skills with dynamic content<br />Find inspiration in minority success stories and
-                teachings<br />Accelerate their career through reciprocal mentor relationships
+                Through MPower members can:<br />- Learn how to use their lived experience as an asset <br />- Grow business
+                and leadership skills with dynamic content<br />- Find inspiration in minority success stories and
+                teachings<br />- Accelerate their career through reciprocal mentor relationships
               </p>
             </div>
           </div>
@@ -933,10 +932,9 @@ const IndexPage = () => (
       <Footer breakpoint="tablet" />
       <NavTablet />
       <div className="group-581-C61RwL">
-        <div className="a-new-way-to-enjoy-q-UDbxrZ dmsans-bold-baltic-sea-62px">Professional  Development</div>
+        <div className="a-new-way-to-enjoy-q-UDbxrZ dmsans-bold-baltic-sea-62px">Member Development</div>
         <p className="cras-semper-auctor-a-UDbxrZ dmsans-normal-trout-16px">
-          Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides
-          our MPower members…
+         Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…
         </p>
         <Link to="mpower">
           <div className="frame-48-UDbxrZ">
@@ -1157,9 +1155,9 @@ const IndexPage = () => (
                 A dynamic and interactive online platform to empower minority professionals.
               </p>
               <p className="through-m-power-r-relationships-fgzFPV dmsans-normal-white-16px-2">
-                Through MPower members can:<br />Learn how to use their lived experience as an asset <br />Grow business
-                and leadership skills with dynamic content<br />Find inspiration in minority success stories and
-                teachings<br />Accelerate their career through reciprocal mentor relationships
+                Through MPower members can:<br />- Learn how to use their lived experience as an asset <br />- Grow business
+                and leadership skills with dynamic content<br />- Find inspiration in minority success stories and
+                teachings<br />- Accelerate their career through reciprocal mentor relationships
               </p>
             </div>
           </div>
@@ -1215,11 +1213,10 @@ const IndexPage = () => (
       </div>
       <div className="frame-34-C61RwL">
         <div className="frame-33-DmqrA3">
-          <div className="a-new-way-to-enjoy-q-aT0WHq dmsans-bold-baltic-sea-40px">Professional  Development</div>
+          <div className="a-new-way-to-enjoy-q-aT0WHq dmsans-bold-baltic-sea-40px">Member Development</div>
           <div className="frame-41-aT0WHq">
             <p className="cras-semper-auctor-a-gfIGM0 dmsans-normal-trout-16px">
-              Members only coursework, discussion groups and guest lectures by globally recognized thought leaders
-              provides our MPower members…
+              Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…
             </p>
           </div>
         </div>
@@ -1612,9 +1609,9 @@ const IndexPage = () => (
                 A dynamic and interactive online platform to empower minority professionals.
               </p>
               <p className="through-m-power-r-relationships-fgzFPV dmsans-normal-white-16px-2">
-                Through MPower members can:<br />Learn how to use their lived experience as an asset <br />Grow business
-                and leadership skills with dynamic content<br />Find inspiration in minority success stories and
-                teachings<br />Accelerate their career through reciprocal mentor relationships
+                Through MPower members can:<br />- Learn how to use their lived experience as an asset <br />- Grow business
+                and leadership skills with dynamic content<br />- Find inspiration in minority success stories and
+                teachings<br />- Accelerate their career through reciprocal mentor relationships
               </p>
             </div>
           </div>
@@ -1668,10 +1665,9 @@ const IndexPage = () => (
         </div>
         <img className="rectangle-gDss6T" src="./import/img/rectangle-15@1x.png" />
       </div>
-      <div className="a-new-way-to-enjoy-q-C61RwL dmsans-bold-baltic-sea-40px">Professional  Development</div>
+      <div className="a-new-way-to-enjoy-q-C61RwL dmsans-bold-baltic-sea-40px">Member Development</div>
       <p className="cras-semper-auctor-a-C61RwL dmsans-normal-trout-16px">
-        Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides
-        our MPower members…
+        Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…
       </p>
       <Link to="mpower">
         <div className="frame-2-C61RwL border-1px-royal-blue">
