@@ -221,7 +221,7 @@ body [class*="mpower-dekstop-"] .contentsection-zxGWQX,
     margin-left: -580px;
 }
 
-body [class*="mpower-dekstop-"] .featuregroup-zxGWQX
+body [class*="mpower-dekstop-"] .featuregroup-zxGWQX,
 .mpower-home-dekstop-1440px .featuregroup-zxGWQX {
     left: 50%;
     right: 50%;
@@ -505,4 +505,14 @@ body [class*="mpower-landing-desktop"] .block-1-VMr6Om  > div {
     top: 50px;
     right: 10px;
     width: auto;
+}
+
+
+/* Nav custom */
+.mpower-home-dekstop-1440px .home-i63817129691129683-jxM0bb,
+.home-desktop-1440px .b1-jxM0bb,
+.company-desktop-1440px .b1-jxM0bb,
+.partnerships-desktop-1440px .b1-jxM0bb,
+.contact-desktop-1440px .b1-jxM0bb {
+    color: #82888e;
 }

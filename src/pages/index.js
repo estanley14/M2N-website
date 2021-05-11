@@ -11,7 +11,31 @@ import NavMobile from "../components/navMobile"
 import Footer from "../components/footer"
 
 // IMAGES
-
+import path702x from "../import/img/path-70@2x.png"
+import ovalCopy1x from "../import/img/oval-copy@1x.png"
+import column12x from "../import/img/column-1@2x.png"
+import image32x from "../import/img/image-3@2x.png"
+import image22x from "../import/img/image-2@2x.png"
+import column32x from "../import/img/column-3@2x.png"
+import image42x from "../import/img/image-4@2x.png"
+import image52x from "../import/img/image-5@2x.png"
+import column52x from "../import/img/column-5@2x.png"
+import ovalCopy12x from "../import/img/oval-copy-1@2x.png"
+import oval2x from "../import/img/oval@2x.png"
+import line72x from "../import/img/line-7@2x.png"
+import line82x from "../import/img/line-8@2x.png"
+import line92x from "../import/img/line-9@2x.png"
+import line102x from "../import/img/line-10@2x.png"
+import line112x from "../import/img/line-11@2x.png"
+import line122x from "../import/img/line-12@2x.png"
+import line132x from "../import/img/line-13@2x.png"
+import path712x from "../import/img/path-71@2x.png"
+import line152x from "../import/img/line-15@2x.png"
+import dotGridImg2x from "../import/img/dot-grid-img@2x.png"
+import img1x from "../import/img/img@1x.png"
+import gradientFrame1x from "../import/img/gradient-frame@1x.png"
+import vector12x from "../import/img/vector-1@2x.png"
+import vector22x from "../import/img/vector-2@2x.png"
 
 const IndexPage = () => (
   <Layout>
@@ -35,9 +59,9 @@ const IndexPage = () => (
     <div className="home-desktop-1440px screen">
       <div className="heroimagebackground-C61RwL"></div>
       <div className="backgroundshapesright-C61RwL">
-        <img className="path70-2bZYeb" src="./import/img/path-70@2x.png" />
+        <img className="path70-2bZYeb" src={path702x} />
         <div className="frame-2bZYeb"></div>
-        <img className="oval-copy-2bZYeb" src="./import/img/oval-copy@1x.png" />
+        <img className="oval-copy-2bZYeb" src={ovalCopy1x} />
       </div>
       <h1 className="h1-C61RwL dmsans-bold-baltic-sea-62px">
         We advance diversity, equity and inclusion in today’s workplace.
@@ -48,17 +72,17 @@ const IndexPage = () => (
         </div>
       </Link>
       <div className="imagegrid-C61RwL">
-        <img className="column1-j0ck3A" src="./import/img/column-1@2x.png" />
+        <img className="column1-j0ck3A" src={column12x} />
         <div className="column2-j0ck3A">
-          <img className="image3-uWZBJr" src="./import/img/image-3@2x.png" />
-          <img className="image2-uWZBJr" src="./import/img/image-2@2x.png" />
+          <img className="image3-uWZBJr" src={image32x} />
+          <img className="image2-uWZBJr" src={image22x} />
         </div>
-        <img className="column3-j0ck3A" src="./import/img/column-3@2x.png" />
+        <img className="column3-j0ck3A" src={column32x} />
         <div className="column4-j0ck3A">
-          <img className="image-4-rbzK3B" src="./import/img/image-4@2x.png" />
-          <img className="image5-rbzK3B" src="./import/img/image-5@2x.png" />
+          <img className="image-4-rbzK3B" src={image42x} />
+          <img className="image5-rbzK3B" src={image52x} />
         </div>
-        <img className="column5-j0ck3A" src="./import/img/column-5@2x.png" />
+        <img className="column5-j0ck3A" src={column52x} />
       </div>
       <div className="highlights-C61RwL">
         <div className="highlightdiversity-rJ1nim"></div>
@@ -67,33 +91,33 @@ const IndexPage = () => (
       </div>
       <div className="backgroundshapesleft-C61RwL">
         <div className="frame-7-0xC2zx">
-          <img className="oval-copy-Wnc2j5" src="./import/img/oval-copy-1@2x.png" />
-          <img className="oval-Wnc2j5" src="./import/img/oval@2x.png" />
+          <img className="oval-copy-Wnc2j5" src={ovalCopy12x} />
+          <img className="oval-Wnc2j5" src={oval2x} />
         </div>
         <div className="group-1-0xC2zx">
-          <img className="line7-i53Fv3" src="./import/img/line-7@2x.png" />
-          <img className="line8-i53Fv3" src="./import/img/line-8@2x.png" />
-          <img className="line9-i53Fv3" src="./import/img/line-9@2x.png" />
-          <img className="line10-i53Fv3" src="./import/img/line-10@2x.png" />
-          <img className="line11-i53Fv3" src="./import/img/line-11@2x.png" />
-          <img className="line12-i53Fv3" src="./import/img/line-12@2x.png" />
-          <img className="line13-i53Fv3" src="./import/img/line-13@2x.png" />
-          <img className="path71-i53Fv3" src="./import/img/path-71@2x.png" />
-          <img className="line15-i53Fv3" src="./import/img/line-15@2x.png" />
+          <img className="line7-i53Fv3" src={line72x} />
+          <img className="line8-i53Fv3" src={line82x} />
+          <img className="line9-i53Fv3" src={line92x} />
+          <img className="line10-i53Fv3" src={line102x} />
+          <img className="line11-i53Fv3" src={line112x} />
+          <img className="line12-i53Fv3" src={line122x} />
+          <img className="line13-i53Fv3" src={line132x} />
+          <img className="path71-i53Fv3" src={path712x} />
+          <img className="line15-i53Fv3" src={line152x} />
         </div>
       </div>
       <div className="imgframe-C61RwL">
-        <img className="dotgridimg-6IZ0TO" src="./import/img/dot-grid-img@2x.png" />
-        <img className="img-6IZ0TO" src="./import/img/img@1x.png" />
-        <img className="gradientframe-6IZ0TO" src="./import/img/gradient-frame@1x.png" />
+        <img className="dotgridimg-6IZ0TO" src={dotGridImg2x} />
+        <img className="img-6IZ0TO" src={img1x} />
+        <img className="gradientframe-6IZ0TO" src={gradientFrame1x} />
       </div>
       <div className="side-right">
 
         <div className="logo-C61RwL">
-          <img className="vector-exFKkL" src="./import/img/vector-1@2x.png" />
+          <img className="vector-exFKkL" src={vector12x} />
           <div className="group-exFKkL">
             <div className="group-LRM1jR">
-              <img className="vector-GPRzar" src="./import/img/vector-2@2x.png" />
+              <img className="vector-GPRzar" src={vector22x} />
               <img className="vector-Fm5KxR" src="./import/img/vector-3@2x.png" />
             </div>
             <div className="group-A0xVEW">
@@ -220,7 +244,7 @@ const IndexPage = () => (
           <img className="mockups-1-6NfgDB" src="./import/img/mockups-1@1x.png" />
         </div>
         <div className="abstract-shapes-9-3-61Z7WH border-33px-bittersweet"></div>
-        <img className="components-6-61Z7WH" src="./import/img/dot-grid-img@2x.png" />
+        <img className="components-6-61Z7WH" src={dotGridImg2x} />
         <div className="contentlist-61Z7WH">
           <div className="frame-30-kTMlYy">
             <div className="frame-28-j5MDHY">
@@ -508,7 +532,7 @@ const IndexPage = () => (
         <div className="group-1-0xC2zx">
           <img className="line7-i53Fv3" src="./import/img/line-7-14@2x.png" />
           <img className="line8-i53Fv3" src="./import/img/line-8-14@2x.png" />
-          <img className="line9-i53Fv3" src="./import/img/line-9@2x.png" />
+          <img className="line9-i53Fv3" src={line92x} />
           <img className="line10-i53Fv3" src="./import/img/line-10-14@2x.png" />
           <img className="line11-i53Fv3" src="./import/img/line-11-14@2x.png" />
           <img className="line12-i53Fv3" src="./import/img/line-12-14@2x.png" />
@@ -517,7 +541,7 @@ const IndexPage = () => (
           <img className="line15-i53Fv3" src="./import/img/line-15-14@2x.png" />
         </div>
       </div>
-      <div className="backgroundshapesright-C61RwL"><img className="path70-2bZYeb" src="./import/img/path-70@2x.png" /></div>
+      <div className="backgroundshapesright-C61RwL"><img className="path70-2bZYeb" src={path702x} /></div>
       <div className="h1-C61RwL dmsans-bold-baltic-sea-62px">
         We advance diversity, equity and inclusion in today’s workplace.
       </div>
@@ -1448,7 +1472,7 @@ const IndexPage = () => (
       <div className="highlightequity-C61RwL"></div>
       <div className="highlightinclusion-C61RwL"></div>
       <div className="imgframe-C61RwL">
-        <img className="dotgridimage-6IZ0TO" src="./import/img/dot-grid-img@2x.png" />
+        <img className="dotgridimage-6IZ0TO" src={dotGridImg2x} />
         <img className="img-6IZ0TO" src="./import/img/img-3@1x.png" />
         <img className="gradientframe-6IZ0TO" src="./import/img/gradient-frame-3@1x.png" />
       </div>
@@ -1579,7 +1603,7 @@ const IndexPage = () => (
           <img className="oval-copy-6NfgDB" src="./import/img/oval-copy-13@2x.png" />
           <img className="mockups-1-6NfgDB" src="./import/img/mockups-1-4@2x.png" />
         </div>
-        <img className="components-6-61Z7WH" src="./import/img/dot-grid-img@2x.png" />
+        <img className="components-6-61Z7WH" src={dotGridImg2x} />
         <div className="contentlist-61Z7WH">
           <div className="frame-30-kTMlYy">
             <div className="frame-28-j5MDHY">
