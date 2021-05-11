@@ -582,3 +582,12 @@ body [class*="mpower-landing-desktop"] .ellipse-8-WZnges {
     left: 6.1%;
     top: -1px;
 }
+
+body [class*="mpower-home-dekstop-"] .b1-i63817129695129678-kHiIGi:hover,
+body [class*="mpower-home-dekstop-"] .b1-i63817129699129678-vpgDzt:hover {
+    color: #82888e;
+}
+
+body [class*="mpower-home-dekstop-"] .navitem-default-S6Kvjz:hover {
+    transform: translate(0, 0);
+}
