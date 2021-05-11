@@ -89,7 +89,7 @@ const MPowerPage = () => {
               <img className="shadow-4t11Cc" src="./import/img/shadow@1x.png" />
               <img className="screen-4t11Cc" src="./import/img/screen-12@1x.png" />
             </div>
-            <img className="mockup-q7uyGf" src="./import/img/mockup-6@1x.png" />
+            <img className="mockup-q7uyGf" src="./import/img/mockup-6@2x.png" />
             <img className="border-q7uyGf" src="./import/img/border-6@1x.png" />
           </div>
           <div className="phone-QfgQzB">
@@ -137,7 +137,7 @@ const MPowerPage = () => {
               <img className="shadow-GYQzfx" src="./import/img/shadow@1x.png" />
               <img className="screen-GYQzfx" src="./import/img/screen-12@1x.png" />
             </div>
-            <img className="mockup-9qhfTY" src="./import/img/mockup-8@1x.png" />
+            <img className="mockup-9qhfTY" src="./import/img/mockup-8@2x.png" />
             <img className="border-9qhfTY" src="./import/img/border-6@1x.png" />
           </div>
           <div className="phone-6XZz6l">
@@ -856,7 +856,7 @@ const MPowerPage = () => {
               <img className="shadow-4t11Cc" src="./import/img/shadow-16@1x.png" />
               <img className="screen-4t11Cc" src="./import/img/screen-28@1x.png" />
             </div>
-            <img className="mockup-q7uyGf" src="./import/img/mockup-16@1x.png" />
+            <img className="mockup-q7uyGf" src="./import/img/mockup-16@2x.png" />
             <img className="border-q7uyGf" src="./import/img/border-16@1x.png" />
           </div>
           <div className="phone-QfgQzB">
@@ -884,7 +884,7 @@ const MPowerPage = () => {
               <img className="shadow-GYQzfx" src="./import/img/shadow-16@1x.png" />
               <img className="screen-GYQzfx" src="./import/img/screen-28@1x.png" />
             </div>
-            <img className="mockup-9qhfTY" src="./import/img/mockup-18@1x.png" />
+            <img className="mockup-9qhfTY" src="./import/img/mockup-18@2x.png" />
             <img className="border-9qhfTY" src="./import/img/border-16@1x.png" />
           </div>
           <div className="phone-6XZz6l">
@@ -1236,7 +1236,7 @@ const MPowerPage = () => {
               <img className="shadow-4t11Cc" src="./import/img/shadow-16@1x.png" />
               <img className="screen-4t11Cc" src="./import/img/screen-28@1x.png" />
             </div>
-            <img className="mockup-q7uyGf" src="./import/img/mockup-20@1x.png" />
+            <img className="mockup-q7uyGf" src="./import/img/mockup-20@2x.png" />
             <img className="border-q7uyGf" src="./import/img/border-16@1x.png" />
           </div>
           <div className="phone-QfgQzB">
@@ -1284,7 +1284,7 @@ const MPowerPage = () => {
               <img className="shadow-GYQzfx" src="./import/img/shadow-16@1x.png" />
               <img className="screen-GYQzfx" src="./import/img/screen-36@1x.png" />
             </div>
-            <img className="mockup-9qhfTY" src="./import/img/mockup-22@1x.png" />
+            <img className="mockup-9qhfTY" src="./import/img/mockup-22@2x.png" />
             <img className="border-9qhfTY" src="./import/img/border-16@1x.png" />
           </div>
           <div className="phone-6XZz6l">

@@ -32,7 +32,7 @@ import line132x from "../import/img/line-13@2x.png"
 import path712x from "../import/img/path-71@2x.png"
 import line152x from "../import/img/line-15@2x.png"
 import dotGridImg2x from "../import/img/dot-grid-img@2x.png"
-import img1x from "../import/img/img@1x.png"
+import img1x from "../import/img/img@2x.png"
 import gradientFrame1x from "../import/img/gradient-frame@1x.png"
 import vector12x from "../import/img/vector-1@2x.png"
 import vector22x from "../import/img/vector-2@2x.png"
@@ -241,7 +241,7 @@ const IndexPage = () => (
         </div>
         <div className="background-shapes-right-61Z7WH">
           <img className="oval-copy-6NfgDB" src="./import/img/oval-copy-2@1x.png" />
-          <img className="mockups-1-6NfgDB" src="./import/img/mockups-1@1x.png" />
+          <img className="mockups-1-6NfgDB" src="./import/img/mockups-1@2x.png" />
         </div>
         <div className="abstract-shapes-9-3-61Z7WH border-33px-bittersweet"></div>
         <img className="components-6-61Z7WH" src={dotGridImg2x} />
@@ -568,7 +568,7 @@ const IndexPage = () => (
       <div className="highlightinclusion-C61RwL"></div>
       <div className="imgframe-C61RwL">
         <img className="dotgridimg-6IZ0TO" src="./import/img/dot-grid-img-1@2x.png" />
-        <img className="img-6IZ0TO" src="./import/img/img-1@1x.png" />
+        <img className="img-6IZ0TO" src="./import/img/img-1@2x.png" />
         <img className="gradientframe-6IZ0TO" src="./import/img/gradient-frame-1@1x.png" />
       </div>
       <div className="logo-C61RwL">
@@ -696,7 +696,7 @@ const IndexPage = () => (
         </div>
         <div className="background-shapes-right-61Z7WH">
           <img className="oval-copy-6NfgDB" src="./import/img/oval-copy-7@1x.png" />
-          <img className="mockups-1-6NfgDB" src="./import/img/mockups-1-1@1x.png" />
+          <img className="mockups-1-6NfgDB" src="./import/img/mockups-1-1@2x.png" />
         </div>
         <div className="abstract-shapes-9-3-61Z7WH border-33px-bittersweet"></div>
         <img className="components-6-61Z7WH" src="./import/img/dot-grid-img-1@2x.png" />
@@ -1473,7 +1473,7 @@ const IndexPage = () => (
       <div className="highlightinclusion-C61RwL"></div>
       <div className="imgframe-C61RwL">
         <img className="dotgridimage-6IZ0TO" src={dotGridImg2x} />
-        <img className="img-6IZ0TO" src="./import/img/img-3@1x.png" />
+        <img className="img-6IZ0TO" src="./import/img/img-3@2x.png" />
         <img className="gradientframe-6IZ0TO" src="./import/img/gradient-frame-3@1x.png" />
       </div>
       <div className="logo-C61RwL">

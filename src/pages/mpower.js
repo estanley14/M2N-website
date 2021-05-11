@@ -190,7 +190,7 @@ const SecondPage = () => (
                 <img className="shadow-3kNrtw" src="./import/img/shadow@1x.png" />
                 <img className="screen-3kNrtw" src="./import/img/screen-2@1x.png" />
               </div>
-              <img className="mockup-aJB3k2" src="./import/img/mockup@1x.png" />
+              <img className="mockup-aJB3k2" src="./import/img/mockup@2x.png" />
               <img className="border-aJB3k2" src="./import/img/border@1x.png" />
             </div>
             <div className="phone-0gwOuy">
@@ -661,7 +661,7 @@ const SecondPage = () => (
                 <img className="shadow-3kNrtw" src="./import/img/shadow@1x.png" />
                 <img className="screen-3kNrtw" src="./import/img/screen-2@1x.png" />
               </div>
-              <img className="mockup-aJB3k2" src="./import/img/mockup-2@1x.png" />
+              <img className="mockup-aJB3k2" src="./import/img/mockup-2@2x.png" />
               <img className="border-aJB3k2" src="./import/img/border@1x.png" />
             </div>
             <div className="phone-0gwOuy">
