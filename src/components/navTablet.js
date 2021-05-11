@@ -12,7 +12,7 @@ const NavTablet = ({ theme }) => {
         <div>
             {theme === "dark" ? (
               <div className="navbar-tablet-C61RwL">
-                <Link to="">
+                <Link to="/mpower-app">
                     <div className="buttonrow-Xq4ViJ">
                     <div className="b1-i6384462736-DkfaGf dmsans-bold-gunsmoke-14px-2">LOG IN</div>
                     <div className="button-primary-desktop-DkfaGf">
@@ -58,7 +58,7 @@ const NavTablet = ({ theme }) => {
               </div>
             ) : (
                 <div className="navbar-tablet-C61RwL">
-                    <Link to="">
+                    <Link to="/mpower-app">
                         <div className="buttonrow-Xq4ViJ">
                             <div className="b5-DkfaGf dmsans-bold-gunsmoke-14px-2">LOG IN</div>
                             <div className="button-primary-desktop-DkfaGf">
