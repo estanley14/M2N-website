@@ -19,7 +19,9 @@ const NavDesktop = ({ theme }) => {
               </div>
             </div>
           </Link>
-          <div className="frame-HPBo1Y"><img className="vector-azHmrH" src={vector1382x} /></div>
+          <Link to="/">
+            <div className="frame-HPBo1Y"><img className="vector-azHmrH" src={vector1382x} /></div>
+          </Link>
           <div className="frame-15-HPBo1Y">
             <div className="navitem-default-S6Kvjz smart-layers-pointers">
               <div className="textframe-FdqQMQ">
@@ -65,7 +67,9 @@ const NavDesktop = ({ theme }) => {
             </div>
           </div>
         </Link>
-        <div className="frame-HPBo1Y"><img className="vector-azHmrH" src={vector882x} /></div>
+        <Link to="/">
+          <div className="frame-HPBo1Y"><img className="vector-azHmrH" src={vector882x} /></div>
+        </Link>
         <div className="frame-15-HPBo1Y">
           <div className="navitem-hover-S6Kvjz">
             <div className="textframe-VBTaE4">

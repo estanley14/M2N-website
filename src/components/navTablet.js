@@ -20,7 +20,9 @@ const NavTablet = ({ theme }) => {
                     </div>
                     </div>
                 </Link>
-                <div className="logo-Xq4ViJ"><img className="vector-paUNwS" src={vector4462x} /></div>
+                <Link to="/">
+                    <div className="logo-Xq4ViJ"><img className="vector-paUNwS" src={vector4462x} /></div>
+                </Link>
                 <div className="navlinks-Xq4ViJ">
                   <div className="navitem-default-VcMpYN">
                     <div className="textframe-XIn0T6">
@@ -66,7 +68,9 @@ const NavTablet = ({ theme }) => {
                             </div>
                         </div>
                     </Link>
-                    <div className="logo-Xq4ViJ"><img className="vector-paUNwS" src={vector3542x} /></div>
+                    <Link to="/">
+                        <div className="logo-Xq4ViJ"><img className="vector-paUNwS" src={vector3542x} /></div>
+                    </Link>
                     <div className="navlinks-Xq4ViJ">
                     <div className="navitem-hover-VcMpYN">
                         <Link to="/">

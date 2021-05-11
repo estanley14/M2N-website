@@ -19,14 +19,18 @@ const NavMobile = ({ theme }) => {
         <div>
             {theme === "dark" ? (
                 <div className="navbar-mobile-C61RwL">
-                    <div className="logo-gTO9GM"><img className="vector-xvusrZ" src={vector4942x} /></div>
+                    <Link to="/">
+                        <div className="logo-gTO9GM"><img className="vector-xvusrZ" src={vector4942x} /></div>
+                    </Link>
                     <div style={{cursor: "pointer"}} className="menu24px-gTO9GM" onClick={()=> setNavState(!navState)}>
                     <img className="iconnavigationmenu24px-xsYvp9" src={navImg1} />
                     </div>
                 </div>
             ) : (
                 <div className="navbar-mobile-C61RwL">
-                    <div className="logo-gTO9GM"><img className="vector-xvusrZ" src={vector4432x} /></div>
+                    <Link to="/">
+                        <div className="logo-gTO9GM"><img className="vector-xvusrZ" src={vector4432x} /></div>
+                    </Link>
                     <div style={{cursor: "pointer"}} className="menu24px-gTO9GM" onClick={()=> setNavState(!navState)}>
                     <img className="iconnavigationmenu24px-xsYvp9" src={navImg2} />
                     </div>
