@@ -148,7 +148,7 @@ const SecondPage = () => (
             </div>
           </div>
           <p className="aboutblurb-i19541487-dewRqW dmsans-normal-white-14px">
-            Eros, mauris, at nibh facilisi augue volutpat nec dictum id. Risus turpis morbi tincidunt dignissim amet.
+            A new approach to diversity, equity &amp; inclusion. Meeting people &amp; organizations where they are through proprietary technology.
           </p>
         </div>
       </div>
@@ -156,11 +156,10 @@ const SecondPage = () => (
         <img className="oval-copy-isdgOW" src="./import/img/oval-copy-3@1x.png" />
         <img className="oval-isdgOW" src="./import/img/oval-1@1x.png" />
         <p className="contactusify-thinafewdays-isdgOW dmsans-normal-big-stone-16px">
-          Gravida sed risus, quis cras habitant. Lectus placerat pellentesque aliquet bibendum. Et arcu blandit
-          penatibus sit quis varius aliquam at.
+          We are excited to speak with you about our new approach to diversity, equity &amp; inclusion. Please share a message here or contact us via email or phone for a prompt response from our team.
         </p>
         <div className="phone-isdgOW">
-          <div className="contactusify-thinafewdays-Q5MDTp dmsans-medium-big-stone-20px">1-800-123-4567</div>
+          <div className="contactusify-thinafewdays-Q5MDTp dmsans-medium-big-stone-20px">866-599-8922</div>
           <div className="icon-2-Q5MDTp">
             <div className="ellipse-2-IvlqQS"></div>
             <div className="active-call-IvlqQS">
@@ -170,7 +169,7 @@ const SecondPage = () => (
           </div>
         </div>
         <div className="email-isdgOW">
-          <div className="contactusify-thinafewdays-20M4hb dmsans-medium-big-stone-20px">loremipsum@gmail.com</div>
+          <div className="contactusify-thinafewdays-20M4hb dmsans-medium-big-stone-20px">info@m2n.us</div>
           <div className="icon-20M4hb">
             <div className="ellipse-Px0UVe"></div>
             <div className="mail-Px0UVe"><img className="path213-1bhoUT" src="./import/img/path-213@2x.png" /></div>
@@ -355,7 +354,7 @@ const SecondPage = () => (
           </div>
         </div>
         <p className="info-iPe1yZ dmsans-normal-white-14px">
-          Eros, mauris, at nibh facilisi augue volutpat nec dictum id. Risus turpis morbi tincidunt dignissim amet.
+          A new approach to diversity, equity &amp; inclusion. Meeting people &amp; organizations where they are through proprietary technology.
         </p>
         <div className="rectangle-iPe1yZ"></div>
         <p className="copyright-2018-al-iPe1yZ dmsans-normal-white-16px-2">
@@ -409,11 +408,10 @@ const SecondPage = () => (
       <div className="frame-60-C61RwL">
         <img className="oval-copy-isdgOW" src="./import/img/oval-copy-17@1x.png" />
         <p className="contactusify-thinafewdays-isdgOW dmsans-normal-big-stone-16px">
-          Gravida sed risus, quis cras habitant. Lectus placerat pellentesque aliquet bibendum. Et arcu blandit
-          penatibus sit quis varius aliquam at.
+          We are excited to speak with you about our new approach to diversity, equity &amp; inclusion. Please share a message here or contact us via email or phone for a prompt response from our team.
         </p>
         <div className="phone-isdgOW">
-          <div className="contactusify-thinafewdays-Q5MDTp dmsans-medium-big-stone-20px">1-800-123-4567</div>
+          <div className="contactusify-thinafewdays-Q5MDTp dmsans-medium-big-stone-20px">866-599-8922</div>
           <div className="icon-2-Q5MDTp">
             <div className="ellipse-2-IvlqQS"></div>
             <div className="active-call-IvlqQS">
@@ -423,7 +421,7 @@ const SecondPage = () => (
           </div>
         </div>
         <div className="email-isdgOW">
-          <div className="contactusify-thinafewdays-20M4hb dmsans-medium-big-stone-20px">loremipsum@gmail.com</div>
+          <div className="contactusify-thinafewdays-20M4hb dmsans-medium-big-stone-20px">info@m2n.us</div>
           <div className="icon-20M4hb">
             <div className="ellipse-Px0UVe"></div>
             <div className="mail-Px0UVe"><img className="path213-1bhoUT" src="./import/img/path-213@2x.png" /></div>
@@ -639,7 +637,7 @@ const SecondPage = () => (
           </div>
         </div>
         <p className="info-iPe1yZ dmsans-normal-white-14px">
-          Eros, mauris, at nibh facilisi augue volutpat nec dictum id. Risus turpis morbi tincidunt dignissim amet.
+          A new approach to diversity, equity &amp; inclusion. Meeting people &amp; organizations where they are through proprietary technology.
         </p>
         <div className="rectangle-iPe1yZ"></div>
         <p className="copyright-2018-al-iPe1yZ dmsans-normal-white-16px-2">
@@ -674,11 +672,10 @@ const SecondPage = () => (
       <div className="frame-60-C61RwL">
         <img className="oval-copy-isdgOW" src="./import/img/oval-copy-17@1x.png" />
         <p className="contactusify-thinafewdays-isdgOW dmsans-normal-big-stone-16px">
-          Gravida sed risus, quis cras habitant. Lectus placerat pellentesque aliquet bibendum. Et arcu blandit
-          penatibus sit quis varius aliquam at.
+          We are excited to speak with you about our new approach to diversity, equity &amp; inclusion. Please share a message here or contact us via email or phone for a prompt response from our team.
         </p>
         <div className="phone-isdgOW">
-          <div className="contactusify-thinafewdays-Q5MDTp dmsans-medium-big-stone-20px">1-800-123-4567</div>
+          <div className="contactusify-thinafewdays-Q5MDTp dmsans-medium-big-stone-20px">866-599-8922</div>
           <div className="icon-2-Q5MDTp">
             <div className="ellipse-2-IvlqQS"></div>
             <div className="active-call-IvlqQS">
@@ -688,7 +685,7 @@ const SecondPage = () => (
           </div>
         </div>
         <div className="email-isdgOW">
-          <div className="contactusify-thinafewdays-20M4hb dmsans-medium-big-stone-20px">loremipsum@gmail.com</div>
+          <div className="contactusify-thinafewdays-20M4hb dmsans-medium-big-stone-20px">info@m2n.us</div>
           <div className="icon-20M4hb">
             <div className="ellipse-Px0UVe"></div>
             <div className="mail-Px0UVe"><img className="path213-1bhoUT" src="./import/img/path-213@2x.png" /></div>
@@ -870,7 +867,7 @@ const SecondPage = () => (
           </div>
         </div>
         <p className="info-iPe1yZ dmsans-normal-white-14px">
-          Eros, mauris, at nibh facilisi augue volutpat nec dictum id. Risus turpis morbi tincidunt dignissim amet.
+          A new approach to diversity, equity &amp; inclusion. Meeting people &amp; organizations where they are through proprietary technology.
         </p>
         <div className="rectangle-iPe1yZ"></div>
         <p className="copyright-2018-al-iPe1yZ dmsans-normal-white-16px-2">
@@ -912,11 +909,10 @@ const SecondPage = () => (
       <div className="frame-60-C61RwL">
         <img className="oval-copy-isdgOW" src="./import/img/oval-copy-17@1x.png" />
         <p className="contactusify-thinafewdays-isdgOW dmsans-normal-big-stone-16px">
-          Gravida sed risus, quis cras habitant. Lectus placerat pellentesque aliquet bibendum. Et arcu blandit
-          penatibus sit quis varius aliquam at.
+          We are excited to speak with you about our new approach to diversity, equity &amp; inclusion. Please share a message here or contact us via email or phone for a prompt response from our team.
         </p>
         <div className="phone-isdgOW">
-          <div className="contactusify-thinafewdays-Q5MDTp">1-800-123-4567</div>
+          <div className="contactusify-thinafewdays-Q5MDTp">866-599-8922</div>
           <div className="icon-2-Q5MDTp">
             <div className="ellipse-2-IvlqQS"></div>
             <div className="active-call-IvlqQS">
@@ -926,7 +922,7 @@ const SecondPage = () => (
           </div>
         </div>
         <div className="email-isdgOW">
-          <div className="contactusify-thinafewdays-20M4hb">loremipsum@gmail.com</div>
+          <div className="contactusify-thinafewdays-20M4hb">info@m2n.us</div>
           <div className="icon-20M4hb">
             <div className="ellipse-Px0UVe"></div>
             <div className="mail-Px0UVe"><img className="path213-1bhoUT" src="./import/img/path-213@2x.png" /></div>

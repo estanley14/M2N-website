@@ -347,7 +347,7 @@ const MPowerPage = () => {
           <img className="subtract-exFKkL" src="./import/img/subtract-12@2x.png" />
         </div>
         <p className="copyright-2020-laa-C61RwL montserrat-normal-white-16px-2">
-          Copyright © 2020 Lorem Ipsum. All Rights Reserved.
+          Copyright © 2020 M2N. All Rights Reserved.
         </p>
         <div className="linksright-C61RwL">
           <div className="privacy-policy-ocPzvE montserrat-normal-white-16px">Privacy Policy</div>
@@ -704,7 +704,7 @@ const MPowerPage = () => {
           </div>
         </div>
         <p className="copyright-2020-laa-C61RwL montserrat-normal-white-16px-2">
-          Copyright © 2020 Lorem Ipsum. All Rights Reserved.
+          Copyright © 2020 M2N. All Rights Reserved.
         </p>
         <div className="group-593-C61RwL">
           <div className="privacy-policy-kx0xZX montserrat-normal-white-16px">Privacy Policy</div>
@@ -1078,7 +1078,7 @@ const MPowerPage = () => {
           </div>
         </div>
         <p className="copyright-2020-laa-C61RwL montserrat-normal-white-16px-2">
-          Copyright © 2020 Lorem Ipsum. All Rights Reserved.
+          Copyright © 2020 M2N. All Rights Reserved.
         </p>
         <div className="linksright-C61RwL">
           <div className="privacy-policy-ocPzvE montserrat-normal-white-16px">Privacy Policy</div>
@@ -1500,7 +1500,7 @@ const MPowerPage = () => {
           </div>
         </div>
         <p className="copyright-2020-laa-C61RwL montserrat-normal-white-16px-2">
-          Copyright © 2020 Lorem Ipsum. All Rights Reserved.
+          Copyright © 2020 M2N. All Rights Reserved.
         </p>
         <div className="linksright-C61RwL">
           <div className="privacy-policy-ocPzvE montserrat-normal-white-16px">Privacy Policy</div>

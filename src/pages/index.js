@@ -489,7 +489,7 @@ const IndexPage = () => (
             </div>
           </div>
           <p className="aboutblurb-dewRqW dmsans-normal-white-14px">
-            Eros, mauris, at nibh facilisi augue volutpat nec dictum id. Risus turpis morbi tincidunt dignissim amet.
+             A new approach to diversity, equity &amp; inclusion. Meeting people &amp; organizations where they are through proprietary technology.
           </p>
         </div>
       </div> */}
@@ -878,7 +878,7 @@ const IndexPage = () => (
           </div>
         </div>
         <p className="info-iPe1yZ dmsans-normal-white-14px">
-          Eros, mauris, at nibh facilisi augue volutpat nec dictum id. Risus turpis morbi tincidunt dignissim amet.
+          A new approach to diversity, equity &amp; inclusion. Meeting people &amp; organizations where they are through proprietary technology.
         </p>
         <div className="rectangle-iPe1yZ"></div>
         <p className="copyright-2018-al-iPe1yZ dmsans-normal-white-16px-2">
@@ -1365,7 +1365,7 @@ const IndexPage = () => (
           </div>
         </div>
         <p className="info-iPe1yZ dmsans-normal-white-14px">
-          Eros, mauris, at nibh facilisi augue volutpat nec dictum id. Risus turpis morbi tincidunt dignissim amet.
+          A new approach to diversity, equity &amp; inclusion. Meeting people &amp; organizations where they are through proprietary technology.
         </p>
         <div className="rectangle-iPe1yZ"></div>
         <p className="copyright-2018-al-iPe1yZ dmsans-normal-white-16px-2">
@@ -1807,7 +1807,7 @@ const IndexPage = () => (
           </div>
         </div>
         <p className="info-iPe1yZ dmsans-normal-white-14px">
-          Eros, mauris, at nibh facilisi augue volutpat nec dictum id. Risus turpis morbi tincidunt dignissim amet.
+          A new approach to diversity, equity &amp; inclusion. Meeting people &amp; organizations where they are through proprietary technology.
         </p>
         <div className="rectangle-iPe1yZ"></div>
         <p className="copyright-2018-al-iPe1yZ dmsans-normal-white-16px-2">
