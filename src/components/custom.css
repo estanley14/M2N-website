@@ -558,3 +558,12 @@ body [class*="mpower-landing-desktop"] .block-1-VMr6Om  > div {
 .mpower-landing-desktop-1024px .more-mmqPLj {
     top: -5px;
 }
+
+.mpower-landing-desktop-1440px .block-1-VMr6Om {
+    top: 3345px;
+}
+
+.mpower-landing-desktop-1440px .group-589-5cD2NF {
+    top: 3325px;
+    left: calc(50.00% - -230px);
+}
