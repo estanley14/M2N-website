@@ -287,10 +287,10 @@ const MPowerPage = () => {
             and contributing in their new role.​
           </p>
           <div className="amazing-speed-5cD2NF montserrat-bold-white-24px">Systems &amp; Services</div>
-          <div className="group-589-5cD2NF">
-            <div className="rectangle-759-mmqPLj"></div>
-            <div className="more-mmqPLj"><img className="vector-gxIfC7" src="./import/img/vector-555@2x.png" /></div>
-          </div>
+        </div>
+        <div className="group-589-5cD2NF">
+          <div className="rectangle-759-mmqPLj"></div>
+          <div className="more-mmqPLj"><img className="vector-gxIfC7" src="./import/img/vector-555@2x.png" /></div>
         </div>
         <div className="mockups-C61RwL">
           <div className="x2-jtfs6Y">
