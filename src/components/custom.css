@@ -567,3 +567,18 @@ body [class*="mpower-landing-desktop"] .block-1-VMr6Om  > div {
     top: 3325px;
     left: calc(50.00% - -230px);
 }
+
+body [class*="mpower-landing-desktop"] .ellipse-8-WZnges {
+    left: 8%;
+    top: -.5px;
+}
+
+.mpower-landing-tablet-720px .ellipse-8-WZnges {
+    left: 6.1%;
+    top: -1px;
+}
+
+.mpower-landing-mobile-320px .ellipse-8-WZnges {
+    left: 6.1%;
+    top: -1px;
+}
