@@ -1096,12 +1096,12 @@
 .mpower-desktop-1024px .highlightfree-OO6Xxp {
   background-color: var(--white);
   height: 18px;
-  left: 200px;
+  left: 187px;
   mix-blend-mode: normal;
   opacity: 0.2;
   position: absolute;
   top: 82px;
-  width: 109px;
+  width: 99px;
 }
 .mpower-desktop-1024px .highlightlist-tFi7aH {
   background-color: transparent;
@@ -3892,12 +3892,12 @@ transform: translate(0, -5px);
 .mpower-home-dekstop-1440px .highlightfree-GrkGeB {
   background-color: var(--white);
   height: 18px;
-  left: 200px;
+  left: 205px;
   mix-blend-mode: normal;
   opacity: 0.2;
   position: absolute;
   top: 82px;
-  width: 109px;
+  width: 98px;
 }
 .mpower-home-dekstop-1440px .highlightlist-tFi7aH {
   background-color: transparent;
@@ -5679,8 +5679,8 @@ transform: translate(0, -5px);
   height: 64px;
   mix-blend-mode: normal;
   position: absolute;
-  right: 16px;
-  top: 360px;
+  left: 40px;
+  top: 288px;
   width: 234px;
 }
 .mpower-mobile-320px .card1-w8NxyH {
@@ -5894,7 +5894,7 @@ transform: translate(0, -5px);
 .mpower-mobile-320px .contentrow-xVseMs {
   background-color: var(--royal-blue);
   border-radius: 20px;
-  height: 472px;
+  height: 392px;
   left: 28px;
   mix-blend-mode: normal;
   position: absolute;
@@ -6198,12 +6198,12 @@ transform: translate(0, -5px);
 }
 .mpower-mobile-320px .gradientdropstroke-xVseMs {
   background-color: transparent;
-  height: calc(100.00% - 63px);
+  height: 264px;
   left: 8px;
   mix-blend-mode: normal;
   position: absolute;
   top: 66px;
-  width: calc(100.00% - 17px);
+  width: 97%;
 }
 .mpower-mobile-320px .group-0m9eLo {
   background-color: transparent;
@@ -6513,14 +6513,14 @@ transform: translate(0, -5px);
 .mpower-mobile-320px .h3-x5Sopb {
   background-color: transparent;
   height: auto;
-  left: calc(50.00% - 117px);
+  left: 40px;
   letter-spacing: 0.00px;
   line-height: 40px;
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
   top: 48px;
-  width: 236px;
+  width: 306px;
 }
 .mpower-mobile-320px .hero-tablet-C61RwL {
   background-color: var(--mirage);
@@ -6574,7 +6574,7 @@ transform: translate(0, -5px);
 .mpower-mobile-320px .highlightfree-pwquuQ {
   background-color: var(--white);
   height: 18px;
-  left: 131px;
+  left: 155px;
   mix-blend-mode: normal;
   opacity: 0.2;
   position: absolute;
@@ -8231,9 +8231,9 @@ transform: translate(0, -5px);
   height: 64px;
   mix-blend-mode: normal;
   position: absolute;
-  right: 16px;
+  left: 40px;
   top: 200px;
-  width: 514px;
+  width: 458px;
 }
 .mpower-tablet-720px .card1-LatYOS {
   background-color: var(--white);
@@ -9049,7 +9049,7 @@ transform: translate(0, -5px);
 .mpower-tablet-720px .h3-x5Sopb {
   background-color: transparent;
   height: auto;
-  left: calc(50.00% - 257px);
+  left: 40px;
   letter-spacing: 0.00px;
   line-height: 40px;
   mix-blend-mode: normal;
@@ -9110,12 +9110,12 @@ transform: translate(0, -5px);
 .mpower-tablet-720px .highlightfree-pwquuQ {
   background-color: var(--white);
   height: 18px;
-  left: 131px;
+  left: 157px;
   mix-blend-mode: normal;
   opacity: 0.2;
   position: absolute;
   top: 68px;
-  width: 85px;
+  width: 82px;
 }
 .mpower-tablet-720px .highlightlist-7ACtXI {
   background-color: transparent;

@@ -757,7 +757,6 @@
   mix-blend-mode: normal;
   position: absolute;
   top: 85px;
-  width: calc(100.00% - 55px);
 }
 .home-desktop-1024px .group-0m9eLo {
   background-color: transparent;
@@ -790,7 +789,7 @@
   height: 176px;
   opacity: 0.2;
   position: absolute;
-  right: 1px;
+  right: 159px;
   top: 0px;
   width: 178px;
 }
@@ -798,7 +797,7 @@
   background-color: transparent;
   bottom: 1px;
   height: 176px;
-  left: 1px;
+  left: 149px;
   opacity: 0.2;
   position: absolute;
   width: 178px;
@@ -1367,7 +1366,7 @@
   height: 684px;
   left: -22px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 49px;
   width: calc(100.00% + 52px);
@@ -2243,7 +2242,7 @@ background: #416FF4;
   height: 604px;
   left: -17px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 25px;
   width: calc(100.00% + 71px);
@@ -2253,7 +2252,7 @@ background: #416FF4;
   height: 604px;
   left: -54px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 23px;
   width: calc(100.00% + 64px);
@@ -2261,20 +2260,18 @@ background: #416FF4;
 .home-desktop-1024px .rectangle-XOzwRk {
   background-color: transparent;
   height: 482px;
-  left: 52px;
+  left: 110px;
   mix-blend-mode: normal;
   position: absolute;
   top: 70px;
-  width: calc(100.00% - 49px);
 }
 .home-desktop-1024px .rectangle-gCOVZ5 {
   background-color: transparent;
   height: 482px;
-  left: -2px;
+  left: 148px;
   mix-blend-mode: normal;
   position: absolute;
   top: -4px;
-  width: calc(100.00% - 42px);
 }
 .home-desktop-1024px .rectangle-iPe1yZ {
   background-color: var(--cape-cod);
@@ -3999,7 +3996,6 @@ transform: translate(0, -5px);
   mix-blend-mode: normal;
   position: absolute;
   top: calc(50.00% - 244px);
-  width: calc(100.00% - 71px);
 }
 .home-desktop-1440px .group-1-0xC2zx {
   background-color: transparent;
@@ -4625,7 +4621,7 @@ transform: translate(0, -5px);
   height: 684px;
   left: -22px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: calc(50.00% - 280px);
   width: calc(100.00% + 36px);
@@ -7110,7 +7106,6 @@ background: #416FF4;
   mix-blend-mode: normal;
   position: absolute;
   top: 85px;
-  width: calc(100.00% - 47px);
 }
 .home-mobile-320px .group-0m9eLo {
   background-color: transparent;
@@ -7140,7 +7135,7 @@ background: #416FF4;
 }
 .home-mobile-320px .group-1-Fnypb5 {
   background-color: transparent;
-  height: 176px;
+  left: 11px;
   opacity: 0.2;
   position: absolute;
   right: 1px;
@@ -7695,7 +7690,7 @@ background: #416FF4;
   height: calc(100.00% + 57px);
   left: -30px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 27px;
   width: calc(100.00% + 60px);
@@ -8474,14 +8469,13 @@ background: #416FF4;
   mix-blend-mode: normal;
   position: absolute;
   top: 70px;
-  width: calc(100.00% - 49px);
 }
 .home-mobile-320px .rectangle-Xtrsix {
   background-color: transparent;
   height: calc(100.00% + 60px);
-  left: -17px;
+  left: -54px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 25px;
   width: calc(100.00% + 71px);
@@ -8491,7 +8485,7 @@ background: #416FF4;
   height: calc(100.00% + 55px);
   left: -54px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 23px;
   width: calc(100.00% + 64px);
@@ -8508,11 +8502,10 @@ background: #416FF4;
 .home-mobile-320px .rectangle-vwAkId {
   background-color: transparent;
   height: calc(100.00% - 37px);
-  left: -2px;
+  left: 48px;
   mix-blend-mode: normal;
   position: absolute;
   top: -4px;
-  width: calc(100.00% - 42px);
 }
 .home-mobile-320px .sodales-ut-etiam-sit-fgzFPV {
   background-color: transparent;
@@ -10031,7 +10024,6 @@ background: #416FF4;
   mix-blend-mode: normal;
   position: absolute;
   top: 85px;
-  width: calc(100.00% - 71px);
 }
 .home-tablet-720px .group-0m9eLo {
   background-color: transparent;
@@ -10064,7 +10056,7 @@ background: #416FF4;
   height: 176px;
   opacity: 0.2;
   position: absolute;
-  right: 1px;
+  right: 131px;
   top: 0px;
   width: 178px;
 }
@@ -10072,7 +10064,7 @@ background: #416FF4;
   background-color: transparent;
   bottom: -4px;
   height: 176px;
-  left: 1px;
+  left: 121px;
   opacity: 0.2;
   position: absolute;
   width: 178px;
@@ -10617,7 +10609,7 @@ background: #416FF4;
   height: calc(100.00% + 41px);
   left: -22px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 35px;
   width: calc(100.00% + 36px);
@@ -11393,18 +11385,17 @@ background: #416FF4;
 .home-tablet-720px .rectangle-Fnypb5 {
   background-color: transparent;
   height: calc(100.00% - 66px);
-  left: 52px;
+  left: 84px;
   mix-blend-mode: normal;
   position: absolute;
   top: 70px;
-  width: calc(100.00% - 48px);
 }
 .home-tablet-720px .rectangle-Xtrsix {
   background-color: transparent;
   height: calc(100.00% + 60px);
   left: -17px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 25px;
   width: calc(100.00% + 71px);
@@ -11414,7 +11405,7 @@ background: #416FF4;
   height: calc(100.00% + 55px);
   left: -54px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 23px;
   width: calc(100.00% + 64px);
@@ -11431,11 +11422,10 @@ background: #416FF4;
 .home-tablet-720px .rectangle-vwAkId {
   background-color: transparent;
   height: calc(100.00% - 36px);
-  left: -3px;
+  left: 119px;
   mix-blend-mode: normal;
   position: absolute;
   top: -4px;
-  width: calc(100.00% - 41px);
 }
 .home-tablet-720px .sodales-ut-etiam-sit-fgzFPV {
   background-color: transparent;

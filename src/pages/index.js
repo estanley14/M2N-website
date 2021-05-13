@@ -274,9 +274,9 @@ const IndexPage = () => (
                 A dynamic and interactive online platform to empower minority professionals.
               </p>
               <p className="through-m-power-r-relationships-fgzFPV dmsans-normal-white-16px-2">
-                Through MPower members can:<br />- Learn how to use their lived experience as an asset <br />- Grow business
-                and leadership skills with dynamic content<br />- Find inspiration in minority success stories and
-                teachings<br />- Accelerate their career through reciprocal mentor relationships
+                Through MPower members can:<br />● Learn how to use their lived experience as an asset <br />● Grow business
+                and leadership skills with dynamic content<br />● Find inspiration in minority success stories and
+                teachings<br />● Accelerate their career through reciprocal mentor relationships
               </p>
             </div>
           </div>
@@ -367,7 +367,7 @@ const IndexPage = () => (
             Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
             hiring organizations will have…
           </p>
-          <Link to="company">
+          <Link to="mpower">
             <div className="frame-49-pKuxU5">
               <div className="frame-2-pwkYo1 border-1px-royal-blue">
                 <div className="font-9tDSHD valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
@@ -729,9 +729,9 @@ const IndexPage = () => (
                 A dynamic and interactive online platform to empower minority professionals.
               </p>
               <p className="through-m-power-r-relationships-fgzFPV dmsans-normal-white-16px-2">
-                Through MPower members can:<br />- Learn how to use their lived experience as an asset <br />- Grow business
-                and leadership skills with dynamic content<br />- Find inspiration in minority success stories and
-                teachings<br />- Accelerate their career through reciprocal mentor relationships
+                Through MPower members can:<br />● Learn how to use their lived experience as an asset <br />● Grow business
+                and leadership skills with dynamic content<br />● Find inspiration in minority success stories and
+                teachings<br />● Accelerate their career through reciprocal mentor relationships
               </p>
             </div>
           </div>
@@ -805,7 +805,7 @@ const IndexPage = () => (
           Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
           hiring organizations will have…
         </p>
-        <Link to="company">
+        <Link to="mpower">
           <div className="frame-51-3Hxg6n">
             <div className="frame-2-vCMbxe border-1px-royal-blue">
               <div className="font-nUChOI valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
@@ -1179,9 +1179,9 @@ const IndexPage = () => (
                 A dynamic and interactive online platform to empower minority professionals.
               </p>
               <p className="through-m-power-r-relationships-fgzFPV dmsans-normal-white-16px-2">
-                Through MPower members can:<br />- Learn how to use their lived experience as an asset <br />- Grow business
-                and leadership skills with dynamic content<br />- Find inspiration in minority success stories and
-                teachings<br />- Accelerate their career through reciprocal mentor relationships
+                Through MPower members can:<br />● Learn how to use their lived experience as an asset <br />● Grow business
+                and leadership skills with dynamic content<br />● Find inspiration in minority success stories and
+                teachings<br />● Accelerate their career through reciprocal mentor relationships
               </p>
             </div>
           </div>
@@ -1276,7 +1276,7 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-        <Link to="company">
+        <Link to="mpower">
           <div className="frame-2-TRJnNi border-1px-royal-blue">
             <div className="font-2WX1ZD valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
             <div className="icarrow-2WX1ZD"><img className="vector-ouSVJV" src="./import/img/vector-399@2x.png" /></div>
@@ -1633,9 +1633,9 @@ const IndexPage = () => (
                 A dynamic and interactive online platform to empower minority professionals.
               </p>
               <p className="through-m-power-r-relationships-fgzFPV dmsans-normal-white-16px-2">
-                Through MPower members can:<br />- Learn how to use their lived experience as an asset <br />- Grow business
-                and leadership skills with dynamic content<br />- Find inspiration in minority success stories and
-                teachings<br />- Accelerate their career through reciprocal mentor relationships
+                Through MPower members can:<br />● Learn how to use their lived experience as an asset <br />● Grow business
+                and leadership skills with dynamic content<br />● Find inspiration in minority success stories and
+                teachings<br />● Accelerate their career through reciprocal mentor relationships
               </p>
             </div>
           </div>
@@ -1719,7 +1719,7 @@ const IndexPage = () => (
         Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
         hiring organizations will have…
       </p>
-      <Link to="company">
+      <Link to="mpower">
         <div className="frame-2-VMr6Om border-1px-royal-blue">
           <div className="font-yi3KLE valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
           <div className="icarrow-yi3KLE"><img className="vector-2khw5A" src="./import/img/vector-399@2x.png" /></div>

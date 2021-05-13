@@ -263,7 +263,7 @@ const SecondPage = () => (
               <span className="span0-BZYHNE dmsans-medium-white-40px">Join for </span
               ><span className="span1-BZYHNE dmsans-bold-white-40px">FREE</span
               ><span className="span2-BZYHNE dmsans-medium-white-40px">
-                and explore the best tools to accelerate your professional development</span
+              &nbsp;and explore the best tools to accelerate your professional development</span
               >
             </div>
             <Link to="/mpower-app">
@@ -734,7 +734,7 @@ const SecondPage = () => (
               <span className="span0-aQcV4x dmsans-medium-white-40px">Join for </span
               ><span className="span1-aQcV4x dmsans-bold-white-40px">FREE</span
               ><span className="span2-aQcV4x dmsans-medium-white-40px">
-                and explore the best tools to accelerate your professional development</span
+                &nbsp;and explore the best tools to accelerate your professional development</span
               >
             </div>
             <Link to="/mpower-app">
@@ -893,7 +893,7 @@ const SecondPage = () => (
     </div>
     <div className="mpower-tablet-720px screen">
       <div className="contentsection-C61RwL">
-        <div className="h1-OvIgOz dmsans-bold-big-stone-40px">Member Development</div>
+        <div className="h1-OvIgOz dmsans-bold-big-stone-40px">Member Development</div>
         <p className="p-OvIgOz dmsans-normal-abbey-16px">
           Members only coursework, discussion groups and guest lectures by globally recognized thought leaders that
           empower, educate, and engage minority professionals.
@@ -1058,7 +1058,7 @@ const SecondPage = () => (
           <div className="h3-x5Sopb dmsans-medium-white-32px">
             <span className="span0-RT9OP6 dmsans-medium-white-32px">Join for </span><span className="span1-RT9OP6">FREE</span
             ><span className="span2-RT9OP6 dmsans-medium-white-32px">
-              and explore the best tools to accelerate your professional development</span
+              &nbsp;and explore the best tools to accelerate your professional development</span
             >
           </div>
           <Link to="/mpower-app">
@@ -1457,7 +1457,7 @@ const SecondPage = () => (
           <div className="h3-x5Sopb dmsans-medium-white-32px">
             <span className="span0-RT9OP6 dmsans-medium-white-32px">Join for </span><span className="span1-RT9OP6">FREE</span
             ><span className="span2-RT9OP6 dmsans-medium-white-32px">
-              and explore the best tools to accelerate your professional development</span
+              &nbsp;and explore the best tools to accelerate your professional development</span
             >
           </div>
           <Link to="/mpower-app">
