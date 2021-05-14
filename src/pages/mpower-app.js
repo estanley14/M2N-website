@@ -324,10 +324,12 @@ const MPowerPage = () => {
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
             <div className="log-in-7UoSe2 montserrat-bold-white-14px">Sign up for Beta</div>
           </div>
-          <div className="m-powerwhite-colored-xjb0Rz">
-            <div className="group-lNir8u"><img className="vector-npilsQ" src={vctr5382x} /></div>
-            <img className="subtract-lNir8u" src={sbtrct112x} />
-          </div>
+          <Link to="/">
+            <div className="m-powerwhite-colored-xjb0Rz">
+              <div className="group-lNir8u"><img className="vector-npilsQ" src={vctr5382x} /></div>
+              <img className="subtract-lNir8u" src={sbtrct112x} />
+            </div>
+          </Link>
         </div>
         <div className="image-C61RwL">
           <div className="notebook-QfgQzB">
@@ -702,10 +704,12 @@ const MPowerPage = () => {
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
             <div className="log-in-7UoSe2 montserrat-bold-white-14px">Beta</div>
           </div>
-          <div className="m-powerwhite-colored-xjb0Rz">
-            <div className="group-lNir8u"><img className="vector-npilsQ" src={vctr9602x} /></div>
-            <img className="subtract-lNir8u" src={sbtrct162x} />
-          </div>
+          <Link to="/">
+            <div className="m-powerwhite-colored-xjb0Rz">
+              <div className="group-lNir8u"><img className="vector-npilsQ" src={vctr9602x} /></div>
+              <img className="subtract-lNir8u" src={sbtrct162x} />
+            </div>
+          </Link>
         </div>
         <div className="shapesleft-C61RwL">
           <img className="ellipse-73-UKBqXM" src={elpse802x} />
@@ -1091,10 +1095,12 @@ const MPowerPage = () => {
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
             <div className="log-in-7UoSe2 montserrat-bold-white-14px">Sign up for Beta</div>
           </div>
-          <div className="m-powerwhite-colored-xjb0Rz">
-            <div className="group-lNir8u"><img className="vector-npilsQ" src={vctr11112x} /></div>
-            <img className="subtract-lNir8u" src={sbtrct192x} />
-          </div>
+          <Link to="/">
+            <div className="m-powerwhite-colored-xjb0Rz">
+              <div className="group-lNir8u"><img className="vector-npilsQ" src={vctr11112x} /></div>
+              <img className="subtract-lNir8u" src={sbtrct192x} />
+            </div>
+          </Link>
         </div>
         <div className="image-C61RwL">
           <div className="notebook-QfgQzB">
@@ -1471,10 +1477,12 @@ const MPowerPage = () => {
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
             <div className="log-in-7UoSe2 montserrat-bold-white-14px">Sign up for Beta</div>
           </div>
-          <div className="m-powerwhite-colored-xjb0Rz">
-            <div className="group-lNir8u"><img className="vector-npilsQ" src={vctr11312x} /></div>
-            <img className="subtract-lNir8u" src={sbtrct222x} />
-          </div>
+          <Link to="/">
+            <div className="m-powerwhite-colored-xjb0Rz">
+              <div className="group-lNir8u"><img className="vector-npilsQ" src={vctr11312x} /></div>
+              <img className="subtract-lNir8u" src={sbtrct222x} />
+            </div>
+          </Link>
         </div>
         <div className="image-C61RwL">
           <div className="notebook-QfgQzB">

@@ -351,7 +351,7 @@ const IndexPage = () => (
           <p className="cras-semper-auctor-a-ScxlrF dmsans-normal-trout-16px">
             Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…
           </p>
-          <Link to="mpower">
+          <Link to="/mpower#member-development">
             <div className="frame-48-ScxlrF">
               <div className="frame-2-I2dOqS border-1px-royal-blue">
                 <div className="font-0811yY valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
@@ -398,7 +398,7 @@ const IndexPage = () => (
             Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
             hiring organizations will have…
           </p>
-          <Link to="mpower">
+          <Link to="/mpower#career-opportunities">
             <div className="frame-49-pKuxU5">
               <div className="frame-2-pwkYo1 border-1px-royal-blue">
                 <div className="font-9tDSHD valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
@@ -836,7 +836,7 @@ const IndexPage = () => (
           Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
           hiring organizations will have…
         </p>
-        <Link to="mpower">
+        <Link to="/mpower#career-opportunities">
           <div className="frame-51-3Hxg6n">
             <div className="frame-2-vCMbxe border-1px-royal-blue">
               <div className="font-nUChOI valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
@@ -991,7 +991,7 @@ const IndexPage = () => (
         <p className="cras-semper-auctor-a-UDbxrZ dmsans-normal-trout-16px">
          Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…
         </p>
-        <Link to="mpower">
+        <Link to="/mpower#member-development">
           <div className="frame-48-UDbxrZ">
             <div className="frame-2-1N6ZEx border-1px-royal-blue">
               <div className="font-k385xv valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
@@ -1275,7 +1275,7 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-        <Link to="mpower">
+        <Link to="/mpower#member-development">
           <div className="frame-2-DmqrA3 border-1px-royal-blue">
             <div className="font-y2e3aF valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
             <div className="icarrow-y2e3aF"><img className="vector-2qf4Uv" src="./import/img/vector-399@2x.png" /></div>
@@ -1307,7 +1307,7 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-        <Link to="mpower">
+        <Link to="/mpower#career-opportunities">
           <div className="frame-2-TRJnNi border-1px-royal-blue">
             <div className="font-2WX1ZD valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
             <div className="icarrow-2WX1ZD"><img className="vector-ouSVJV" src="./import/img/vector-399@2x.png" /></div>
@@ -1724,7 +1724,7 @@ const IndexPage = () => (
       <p className="cras-semper-auctor-a-C61RwL dmsans-normal-trout-16px">
         Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…
       </p>
-      <Link to="mpower">
+      <Link to="/mpower#member-development">
         <div className="frame-2-C61RwL border-1px-royal-blue">
           <div className="font-gUEd1c valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
           <div className="icarrow-gUEd1c"><img className="vector-k3EWGx" src="./import/img/vector-399@2x.png" /></div>
@@ -1750,7 +1750,7 @@ const IndexPage = () => (
         Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
         hiring organizations will have…
       </p>
-      <Link to="mpower">
+      <Link to="/mpower#career-opportunities">
         <div className="frame-2-VMr6Om border-1px-royal-blue">
           <div className="font-yi3KLE valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
           <div className="icarrow-yi3KLE"><img className="vector-2khw5A" src="./import/img/vector-399@2x.png" /></div>
