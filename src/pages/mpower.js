@@ -936,7 +936,7 @@ const SecondPage = () => (
       <NavTablet theme="dark" />
       <div className="content-features-tablet-C61RwL">
         <div className="contentsection-jCBd0u">
-          <div className="h1-U50gxg dmsans-bold-big-stone-62px">Member Development</div>
+          <div className="h1-U50gxg dmsans-bold-big-stone-62px">Member Development</div>
           <p className="p-U50gxg dmsans-normal-abbey-16px">
             Members only coursework, discussion groups and guest lectures by globally recognized thought leaders that
             empower, educate, and engage minority professionals.
