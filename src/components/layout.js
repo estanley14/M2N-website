@@ -6,6 +6,7 @@
  */
 
 import * as React from "react"
+import { Helmet } from "react-helmet";
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -42,6 +43,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Helmet>
+        {/* <!-- Start of HubSpot Embed Code --> */}
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20008151.js"></script>
+        {/* <!-- End of HubSpot Embed Code --> */}
+      </Helmet>
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <div>
         <main>{children}</main>

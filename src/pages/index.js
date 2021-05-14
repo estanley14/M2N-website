@@ -31,11 +31,42 @@ import line122x from "../import/img/line-12@2x.png"
 import line132x from "../import/img/line-13@2x.png"
 import path712x from "../import/img/path-71@2x.png"
 import line152x from "../import/img/line-15@2x.png"
-import dotGridImg2x from "../import/img/dot-grid-img@2x.png"
+import dotGridImg2x from "../import/img/dot-grid-img@2x.png" 
 import img1x from "../import/img/img@2x.png"
 import gradientFrame1x from "../import/img/gradient-frame@1x.png"
 import vector12x from "../import/img/vector-1@2x.png"
 import vector22x from "../import/img/vector-2@2x.png"
+import vector32x from "../import/img/vector-3@2x.png"
+import vector42x from "../import/img/vector-4@2x.png"
+import vector52x from "../import/img/vector-5@2x.png"
+import vector62x from "../import/img/vector-6@2x.png"
+import vector72x from "../import/img/vector-7@2x.png"
+import vector82x from "../import/img/vector-8@2x.png"
+import vector92x from "../import/img/vector-9@2x.png"
+import vector102x from "../import/img/vector-10@2x.png"
+import vector112x from "../import/img/vector-11@2x.png"
+import vector122x from "../import/img/vector-12@2x.png"
+import vector132x from "../import/img/vector-13@2x.png"
+import vector142x from "../import/img/vector-14@2x.png"
+import vector152x from "../import/img/vector-15@2x.png"
+import vector162x from "../import/img/vector-16@2x.png"
+import vector172x from "../import/img/vector-17@2x.png"
+import vector182x from "../import/img/vector-18@2x.png"
+import vector192x from "../import/img/vector-19@2x.png"
+import vector202x from "../import/img/vector-20@2x.png"
+import vector212x from "../import/img/vector-21@2x.png"
+import vector222x from "../import/img/vector-22@2x.png"
+import vector232x from "../import/img/vector-23@2x.png"
+import vector242x from "../import/img/vector-23@2x.png"
+import vector252x from "../import/img/vector-23@2x.png"
+import vector262x from "../import/img/vector-23@2x.png"
+import vector272x from "../import/img/vector-23@2x.png"
+import vector282x from "../import/img/vector-23@2x.png"
+import vector292x from "../import/img/vector-23@2x.png"
+import vector302x from "../import/img/vector-23@2x.png"
+import vector312x from "../import/img/vector-23@2x.png"
+import vector322x from "../import/img/vector-23@2x.png"
+import vector332x from "../import/img/vector-23@2x.png"
 
 const IndexPage = () => (
   <Layout>
@@ -118,67 +149,67 @@ const IndexPage = () => (
           <div className="group-exFKkL">
             <div className="group-LRM1jR">
               <img className="vector-GPRzar" src={vector22x} />
-              <img className="vector-Fm5KxR" src="./import/img/vector-3@2x.png" />
+              <img className="vector-Fm5KxR" src={vector32x} />
             </div>
             <div className="group-A0xVEW">
-              <img className="vector-6cFLVc" src="./import/img/vector-4@2x.png" />
-              <img className="vector-4xYBy1" src="./import/img/vector-5@2x.png" />
+              <img className="vector-6cFLVc" src={vector42x} />
+              <img className="vector-4xYBy1" src={vector52x} />
             </div>
             <div className="group-CPfWUV">
-              <img className="vector-3w6F7B" src="./import/img/vector-6@2x.png" />
-              <img className="vector-dsVJnW" src="./import/img/vector-7@2x.png" />
+              <img className="vector-3w6F7B" src={vector62x} />
+              <img className="vector-dsVJnW" src={vector72x} />
             </div>
             <div className="group-7UYHLR">
-              <img className="vector-2wosw3" src="./import/img/vector-8@2x.png" />
-              <img className="vector-PlhBYg" src="./import/img/vector-9@2x.png" />
+              <img className="vector-2wosw3" src={vector82x} />
+              <img className="vector-PlhBYg" src={vector92x} />
             </div>
             <div className="group-KWLEK4">
-              <img className="vector-kIS7Kh" src="./import/img/vector-10@2x.png" />
-              <img className="vector-h7k85P" src="./import/img/vector-11@2x.png" />
+              <img className="vector-kIS7Kh" src={vector102x} />
+              <img className="vector-h7k85P" src={vector112x} />
             </div>
             <div className="group-xqPohA">
-              <img className="vector-FUQsKJ" src="./import/img/vector-12@2x.png" />
-              <img className="vector-IY7QiT" src="./import/img/vector-13@2x.png" />
+              <img className="vector-FUQsKJ" src={vector122x} />
+              <img className="vector-IY7QiT" src={vector132x} />
             </div>
             <div className="group-dRhspZ">
-              <img className="vector-nRj0GX" src="./import/img/vector-14@2x.png" />
-              <img className="vector-p37Jy4" src="./import/img/vector-15@2x.png" />
+              <img className="vector-nRj0GX" src={vector142x} />
+              <img className="vector-p37Jy4" src={vector152x} />
             </div>
             <div className="group-ugQDQI">
-              <img className="vector-KrzmJ1" src="./import/img/vector-16@2x.png" />
-              <img className="vector-kfRX5B" src="./import/img/vector-17@2x.png" />
+              <img className="vector-KrzmJ1" src={vector162x} />
+              <img className="vector-kfRX5B" src={vector172x} />
             </div>
             <div className="group-xQpv6Q">
-              <img className="vector-Qa9M6Z" src="./import/img/vector-18@2x.png" />
-              <img className="vector-KE5Zqg" src="./import/img/vector-19@2x.png" />
+              <img className="vector-Qa9M6Z" src={vector182x} />
+              <img className="vector-KE5Zqg" src={vector192x} />
             </div>
             <div className="group-so4T52">
-              <img className="vector-yHHOxO" src="./import/img/vector-20@2x.png" />
-              <img className="vector-Wwb8xe" src="./import/img/vector-21@2x.png" />
+              <img className="vector-yHHOxO" src={vector202x} />
+              <img className="vector-Wwb8xe" src={vector212x} />
             </div>
             <div className="group-9ZLGp2">
-              <img className="vector-6NWwXZ" src="./import/img/vector-22@2x.png" />
-              <img className="vector-2tlgkt" src="./import/img/vector-23@2x.png" />
+              <img className="vector-6NWwXZ" src={vector222x} />
+              <img className="vector-2tlgkt" src={vector232x} />
             </div>
             <div className="group-dKxZiv">
-              <img className="vector-xHxiNB" src="./import/img/vector-24@2x.png" />
-              <img className="vector-kwhTkr" src="./import/img/vector-25@2x.png" />
+              <img className="vector-xHxiNB" src={vector242x} />
+              <img className="vector-kwhTkr" src={vector252x} />
             </div>
             <div className="group-f2B1ws">
-              <img className="vector-RQwDYH" src="./import/img/vector-26@2x.png" />
-              <img className="vector-AATI6m" src="./import/img/vector-27@2x.png" />
+              <img className="vector-RQwDYH" src={vector262x} />
+              <img className="vector-AATI6m" src={vector272x} />
             </div>
             <div className="group-smegft">
-              <img className="vector-9RPHKK" src="./import/img/vector-28@2x.png" />
-              <img className="vector-b3pZmF" src="./import/img/vector-29@2x.png" />
+              <img className="vector-9RPHKK" src={vector282x} />
+              <img className="vector-b3pZmF" src={vector292x} />
             </div>
             <div className="group-zM0Sp9">
-              <img className="vector-K3QFIs" src="./import/img/vector-30@2x.png" />
-              <img className="vector-r2gP27" src="./import/img/vector-31@2x.png" />
+              <img className="vector-K3QFIs" src={vector302x} />
+              <img className="vector-r2gP27" src={vector312x} />
             </div>
             <div className="group-hg01G8">
-              <img className="vector-9ddndr" src="./import/img/vector-32@2x.png" />
-              <img className="vector-rmD89g" src="./import/img/vector-33@2x.png" />
+              <img className="vector-9ddndr" src={vector322x} />
+              <img className="vector-rmD89g" src={vector332x} />
             </div>
             <div className="group-IHX4Tm">
               <img className="vector-2OMZXT" src="./import/img/vector-34@2x.png" />
