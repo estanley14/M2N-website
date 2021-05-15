@@ -28,6 +28,7 @@ import "../import/css/partnerships-desktop-1440px.css"
 import "../import/css/styleguide.css"
 import "../import/css/mobile-nav-320px.css"
 import "./custom.css"
+import icon from "../import/img/favicon.ico"
 
 
 const Layout = ({ children }) => {
@@ -44,6 +45,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Helmet>
+        <link rel="shortcut icon" type="image/jpg" href={icon}/>
         {/* <!-- Start of HubSpot Embed Code --> */}
         <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20008151.js"></script>
         {/* <!-- End of HubSpot Embed Code --> */}
