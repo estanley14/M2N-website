@@ -295,52 +295,54 @@ const SecondPage = () => (
           </div>
         </div>
         <div className="leaveamessage-isdgOW dmsans-bold-baltic-sea-62px">Contact Us</div>
-        <div className="form-isdgOW">
-          <div className="field-lixMB9">
-            <input
-              className="your-name-2-tKadVF dmsans-medium-manatee-12px"
-              name="your_name-2"
-              placeholder="Your Name"
+        <form action="">
+          <div className="form-isdgOW">
+            <div className="field-lixMB9">
+              <input
+                className="your-name-2-tKadVF dmsans-medium-manatee-12px"
+                name="name"
+                placeholder="Your Name"
+                type="text"
+                required
+              />
+            </div>
+            <textarea
+              className="field-WrgBsB"
+              name="message"
+              placeholder="Leave your message here"
               type="text"
               required
-            />
+            ></textarea>
+            <div className="field-9afi68">
+              <input
+                className="your-name-2-pXbN93 dmsans-medium-manatee-12px"
+                name="company"
+                placeholder="Company Name"
+                type="text"
+                required
+              />
+            </div>
+            <div className="field-YswxU4">
+              <input
+                className="your-name-2-iADx3W dmsans-medium-manatee-12px"
+                name="email"
+                placeholder="Email Address"
+                type="email"
+                required
+              />
+            </div>
+            <div className="field-lbdXRk">
+              <input
+                className="your-name-2-850k4i dmsans-medium-manatee-12px"
+                name="phone"
+                placeholder="Phone Number"
+                type="text"
+                required
+              />
+            </div>
+            <input type="submit" className="frame-2-lixMB9 font-Tvszxn dmsans-bold-white-16px" value="SEND MESSAGE"/>
           </div>
-          <textarea
-            className="field-WrgBsB"
-            name="11477"
-            placeholder="Leave your message here"
-            type="text"
-            required
-          ></textarea>
-          <div className="field-9afi68">
-            <input
-              className="your-name-2-pXbN93 dmsans-medium-manatee-12px"
-              name="your_name-2"
-              placeholder="Company Name"
-              type="text"
-              required
-            />
-          </div>
-          <div className="field-YswxU4">
-            <input
-              className="your-name-2-iADx3W dmsans-medium-manatee-12px"
-              name="your_name-2"
-              placeholder="Email Address"
-              type="email"
-              required
-            />
-          </div>
-          <div className="field-lbdXRk">
-            <input
-              className="your-name-2-850k4i dmsans-medium-manatee-12px"
-              name="your_name-2"
-              placeholder="Phone Number"
-              type="text"
-              required
-            />
-          </div>
-          <div className="frame-2-lixMB9"><div className="font-Tvszxn dmsans-bold-white-16px">SEND MESSAGE</div></div>
-        </div>
+        </form>
         <div className="frame-62-isdgOW">
           <div className="group-1-lBakbW">
             <img className="line7-3hCxVM" src={ln7112x} />
@@ -547,52 +549,53 @@ const SecondPage = () => (
           </div>
         </div>
         <div className="leaveamessage-isdgOW dmsans-bold-baltic-sea-62px">Contact Us</div>
-        <div className="form-isdgOW">
-          <div className="field-lixMB9">
-            <input
-              className="your-name-2-tKadVF dmsans-medium-manatee-12px"
-              name="your_name-2"
-              placeholder="Your Name"
+        <form action="">
+          <div className="form-isdgOW">
+            <div className="field-lixMB9">
+              <input
+                className="your-name-2-tKadVF dmsans-medium-manatee-12px"
+                name="name"
+                placeholder="Your Name"
+                type="text"
+                required
+              />
+            </div>
+            <textarea
+              className="field-WrgBsB"
+              name="message"
+              placeholder="Leave your message here"
               type="text"
               required
-            />
-          </div>
-          <textarea
-            className="field-WrgBsB"
-            name="38225"
-            placeholder="Leave your message here"
-            type="text"
-            required
-          ></textarea>
-          <div className="field-9afi68">
-            <input
-              className="your-name-2-pXbN93 dmsans-medium-manatee-12px"
-              name="your_name-2"
-              placeholder="Company Name"
-              type="text"
-              required
-            />
-          </div>
-          <div className="field-YswxU4">
-            <input
-              className="your-name-2-iADx3W dmsans-medium-manatee-12px"
-              name="your_name-2"
-              placeholder="Email Address"
-              type="email"
-              required
-            />
-          </div>
-          <div className="field-lbdXRk">
-            <input
-              className="your-name-2-850k4i dmsans-medium-manatee-12px"
-              name="your_name-2"
-              placeholder="Phone Number"
-              type="text"
-              required
-            />
-          </div>
-          <div className="frame-2-lixMB9"><div className="font-Tvszxn dmsans-bold-white-16px">SEND MESSAGE</div></div>
-        </div>
+            ></textarea>
+            <div className="field-9afi68">
+              <input
+                className="your-name-2-pXbN93 dmsans-medium-manatee-12px"
+                name="company"
+                placeholder="Company Name"
+                type="text"
+                required
+              />
+            </div>
+            <div className="field-YswxU4">
+              <input
+                className="your-name-2-iADx3W dmsans-medium-manatee-12px"
+                name="email"
+                placeholder="Email Address"
+                type="email"
+                required
+              />
+            </div>
+            <div className="field-lbdXRk">
+              <input
+                className="your-name-2-850k4i dmsans-medium-manatee-12px"
+                name="phone"
+                placeholder="Phone Number"
+                type="text"
+                required
+              />
+            </div>
+            <input type="submit" className="frame-2-lixMB9 font-Tvszxn dmsans-bold-white-16px" value="SEND MESSAGE"/>          </div>
+        </form>
         <div className="frame-61-isdgOW">
           <div className="group-1-H4hSpH">
             <img className="line7-x5Qw0n" src={ln7532x} />
@@ -824,11 +827,12 @@ const SecondPage = () => (
             <img className="line15-x5Qw0n" src={ln15542x} />
           </div>
         </div>
+        <form action="">
         <div className="form-isdgOW">
           <div className="field-lixMB9">
             <input
               className="your-name-2-tKadVF dmsans-medium-manatee-12px"
-              name="your_name-2"
+              name="name"
               placeholder="Your Name"
               type="text"
               required
@@ -836,7 +840,7 @@ const SecondPage = () => (
           </div>
           <textarea
             className="field-WrgBsB"
-            name="38432"
+            name="message"
             placeholder="Leave your message here"
             type="text"
             required
@@ -844,7 +848,7 @@ const SecondPage = () => (
           <div className="field-9afi68">
             <input
               className="your-name-2-pXbN93 dmsans-medium-manatee-12px"
-              name="your_name-2"
+              name="company"
               placeholder="Company Name"
               type="text"
               required
@@ -853,7 +857,7 @@ const SecondPage = () => (
           <div className="field-YswxU4">
             <input
               className="your-name-2-iADx3W dmsans-medium-manatee-12px"
-              name="your_name-2"
+              name="email"
               placeholder="Email Address"
               type="email"
               required
@@ -862,14 +866,14 @@ const SecondPage = () => (
           <div className="field-lbdXRk">
             <input
               className="your-name-2-850k4i dmsans-medium-manatee-12px"
-              name="your_name-2"
+              name="phone"
               placeholder="Phone Number"
               type="text"
               required
             />
           </div>
-          <div className="frame-2-lixMB9"><div className="font-Tvszxn dmsans-bold-white-16px">SEND MESSAGE</div></div>
-        </div>
+          <input type="submit" className="frame-2-lixMB9 font-Tvszxn dmsans-bold-white-16px" value="SEND MESSAGE"/>        </div>
+        </form>
       </div>
     </div>
     <div className="contact-mobile-320px screen">
@@ -1061,52 +1065,53 @@ const SecondPage = () => (
             <img className="line15-x5Qw0n" src={ln15542x} />
           </div>
         </div>
-        <div className="form-isdgOW">
-          <div className="field-lixMB9">
-            <input
-              className="your-name-2-tKadVF dmsans-medium-manatee-12px"
-              name="your_name-2"
-              placeholder="Your Name"
+        <form action="">
+          <div className="form-isdgOW">
+            <div className="field-lixMB9">
+              <input
+                className="your-name-2-tKadVF dmsans-medium-manatee-12px"
+                name="name"
+                placeholder="Your Name"
+                type="text"
+                required
+              />
+            </div>
+            <textarea
+              className="field-WrgBsB"
+              name="message"
+              placeholder="Leave your message here"
               type="text"
               required
-            />
-          </div>
-          <textarea
-            className="field-WrgBsB"
-            name="38649"
-            placeholder="Leave your message here"
-            type="text"
-            required
-          ></textarea>
-          <div className="field-9afi68">
-            <input
-              className="your-name-2-pXbN93 dmsans-medium-manatee-12px"
-              name="your_name-2"
-              placeholder="Company Name"
-              type="text"
-              required
-            />
-          </div>
-          <div className="field-YswxU4">
-            <input
-              className="your-name-2-iADx3W dmsans-medium-manatee-12px"
-              name="your_name-2"
-              placeholder="Email Address"
-              type="email"
-              required
-            />
-          </div>
-          <div className="field-lbdXRk">
-            <input
-              className="your-name-2-850k4i dmsans-medium-manatee-12px"
-              name="your_name-2"
-              placeholder="Phone Number"
-              type="text"
-              required
-            />
-          </div>
-          <div className="frame-2-lixMB9"><div className="font-Tvszxn dmsans-bold-white-16px">SEND MESSAGE</div></div>
-        </div>
+            ></textarea>
+            <div className="field-9afi68">
+              <input
+                className="your-name-2-pXbN93 dmsans-medium-manatee-12px"
+                name="company"
+                placeholder="Company Name"
+                type="text"
+                required
+              />
+            </div>
+            <div className="field-YswxU4">
+              <input
+                className="your-name-2-iADx3W dmsans-medium-manatee-12px"
+                name="email"
+                placeholder="Email Address"
+                type="email"
+                required
+              />
+            </div>
+            <div className="field-lbdXRk">
+              <input
+                className="your-name-2-850k4i dmsans-medium-manatee-12px"
+                name="phone"
+                placeholder="Phone Number"
+                type="text"
+                required
+              />
+            </div>
+            <input type="submit" className="frame-2-lixMB9 font-Tvszxn dmsans-bold-white-16px" value="SEND MESSAGE"/>          </div>
+        </form>
       </div>
     </div>
   </Layout>

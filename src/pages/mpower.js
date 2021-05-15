@@ -1259,7 +1259,7 @@ const SecondPage = () => (
     </div>
     <div className="mpower-tablet-720px screen">
       <div className="contentsection-C61RwL">
-        <div id="member-development" className="h1-OvIgOz dmsans-bold-big-stone-40px">Member Development</div>
+        <div id="member-development-tablet" className="h1-OvIgOz dmsans-bold-big-stone-40px">Member Development</div>
         <p className="p-OvIgOz dmsans-normal-abbey-16px">
           Members only coursework, discussion groups and guest lectures by globally recognized thought leaders that
           empower, educate, and engage minority professionals.
@@ -1442,7 +1442,7 @@ const SecondPage = () => (
       </div>
       <div className="contentlist-C61RwL">
         <div className="contentlist-7ACtXI">
-          <div id="career-opportunities" className="h1-hUzHx1 dmsans-bold-big-stone-40px">Career Opportunities</div>
+          <div id="career-opportunities-tablet" className="h1-hUzHx1 dmsans-bold-big-stone-40px">Career Opportunities</div>
           <p className="p-hUzHx1 dmsans-normal-abbey-16px">
             Through the MPower platform and innovative services to support diverse and inclusive workforces, M2N
             provides members with career advancement opportunities.
@@ -1657,7 +1657,7 @@ const SecondPage = () => (
     <div className="mpower-mobile-320px screen">
       <div className="content-features-mobile-C61RwL">
         <div className="contentsection-ZOxzMY">
-          <div id="member-development" className="h1-Wxxu0R dmsans-bold-big-stone-40px">Member Development</div>
+          <div id="member-development-mobile" className="h1-Wxxu0R dmsans-bold-big-stone-40px">Member Development</div>
           <p className="p-Wxxu0R dmsans-normal-abbey-16px">
             Members only coursework, discussion groups and guest lectures by globally recognized thought leaders that
             empower, educate, and engage minority professionals.
@@ -1842,7 +1842,7 @@ const SecondPage = () => (
       <div className="frame-46-C61RwL">
         <div className="contentlist-xxuxFA">
           <div className="contentlist-rVTxm0">
-            <div id="career-opportunities" className="h1-IIMWNk dmsans-bold-big-stone-40px">Career Opportunities</div>
+            <div id="career-opportunities-mobile" className="h1-IIMWNk dmsans-bold-big-stone-40px">Career Opportunities</div>
             <p className="p-IIMWNk dmsans-normal-abbey-16px">
               Through the MPower platform and innovative services to support diverse and inclusive workforces, M2N
               provides members with career advancement opportunities.

@@ -8,17 +8,19 @@ import arrowBack from "../images/Arrow-Back.svg"
 const NavMobile = ({ setModalState }) => {
 
     return (
-        <div className="email-modal">
-            <img src={mpowerLogo} alt=""/>
-            <h2>Beta Access</h2>
-            <p className="label">Sign up to receive Beta Access</p>
-            <input placeholder="Enter your Email Address" type="text"/>
-            <button>Subscribe</button>
-            <div className="link-back" onClick={()=> setModalState(false)}>
-                <img src={arrowBack} alt="Back Arrow"/>
-                <span>Back to MPower</span>
+        <form action="">
+            <div className="email-modal">
+                <img src={mpowerLogo} alt="" />
+                <h2>Beta Access</h2>
+                <p className="label">Sign up to receive Beta Access</p>
+                <input name="email" placeholder="Enter your Email Address" type="email" />
+                <input type="submit" value="Subscribe" />
+                <div className="link-back" onClick={() => setModalState(false)}>
+                    <img src={arrowBack} alt="Back Arrow" />
+                    <span>Back to MPower</span>
+                </div>
             </div>
-        </div>
+        </form>
     )
 }
 

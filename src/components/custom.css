@@ -73,7 +73,7 @@ body [class*="mobile-nav-"] {
     align-items: center;
 }
 
-.email-modal button {
+.email-modal input[type="submit"] {
     width: 500px;
     height: 45px;
     background: #2b3990;
@@ -594,4 +594,27 @@ body [class*="mpower-home-dekstop-"] .navitem-default-S6Kvjz:hover {
 
 .mpower-desktop-1024px .home-i6384462743129683-qVUPyA {
     color: #82888e;
+}
+
+.contact-desktop-1440px .frame-2-lixMB9,
+.contact-desktop-1024px .frame-2-lixMB,
+.contact-tablet-720px .frame-2-lixMB9,
+.contact-mobile-320px .frame-2-lixMB9 {
+    border: none;
+    cursor: pointer;
+}
+
+.form-isdgOW input[type=text], 
+.form-isdgOW input[type=email] {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+}
+
+.footer-submit {
+    background-color: var(--royal-blue) !important;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
