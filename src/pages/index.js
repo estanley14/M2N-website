@@ -836,7 +836,7 @@ const IndexPage = () => (
           Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
           hiring organizations will have…
         </p>
-        <Link to="/mpower#career-opportunities">
+        <Link to="/mpower#career-opportunities-mid">
           <div className="frame-51-3Hxg6n">
             <div className="frame-2-vCMbxe border-1px-royal-blue">
               <div className="font-nUChOI valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
@@ -991,7 +991,7 @@ const IndexPage = () => (
         <p className="cras-semper-auctor-a-UDbxrZ dmsans-normal-trout-16px">
          Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…
         </p>
-        <Link to="/mpower#member-development">
+        <Link to="/mpower#member-development-mid">
           <div className="frame-48-UDbxrZ">
             <div className="frame-2-1N6ZEx border-1px-royal-blue">
               <div className="font-k385xv valign-text-middle dmsans-bold-royal-blue-16px">LEARN MORE</div>
