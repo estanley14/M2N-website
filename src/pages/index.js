@@ -1176,7 +1176,7 @@ const IndexPage = () => (
           <img className="path71-CiRr5x" src="./import/img/path-71-19@2x.png" />
           <img className="line15-CiRr5x" src="./import/img/line-15-19@2x.png" />
         </div>
-        <div className="abstract-shapes-9-3-61Z7WH border-33px-bittersweet"></div>
+          <div className="abstract-shapes-9-3-61Z7WH border-33px-bittersweet"></div>
         <div className="background-shapes-right-61Z7WH">
           <img className="oval-copy-6NfgDB" src="./import/img/oval-copy-10@2x.png" />
           <img className="mockups-1-6NfgDB" src="./import/img/mockups-1-2@2x.png" />
