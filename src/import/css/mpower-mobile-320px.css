@@ -388,7 +388,7 @@
 .mpower-desktop-1024px .contentlist-tFi7aH {
   background-color: transparent;
   height: 223px;
-  left: calc(50.00% - 218px);
+  left: 0px;
   position: absolute;
   top: 0px;
   width: 436px;
@@ -1096,12 +1096,12 @@
 .mpower-desktop-1024px .highlightfree-OO6Xxp {
   background-color: var(--white);
   height: 18px;
-  left: 187px;
+  left: 34px;
   mix-blend-mode: normal;
   opacity: 0.2;
   position: absolute;
   top: 82px;
-  width: 99px;
+  width: 154px;
 }
 .mpower-desktop-1024px .highlightlist-tFi7aH {
   background-color: transparent;
@@ -3191,7 +3191,7 @@ color: #ffffff
 .mpower-home-dekstop-1440px .contentlist-tFi7aH {
   background-color: transparent;
   height: 223px;
-  left: calc(50.00% - 284px);
+  left: 0px;
   position: absolute;
   top: 0px;
   width: 567px;
@@ -3892,12 +3892,12 @@ transform: translate(0, -5px);
 .mpower-home-dekstop-1440px .highlightfree-GrkGeB {
   background-color: var(--white);
   height: 18px;
-  left: 205px;
+  left: 52px;
   mix-blend-mode: normal;
   opacity: 0.2;
   position: absolute;
   top: 82px;
-  width: 98px;
+  width: 150px;
 }
 .mpower-home-dekstop-1440px .highlightlist-tFi7aH {
   background-color: transparent;
@@ -5679,7 +5679,7 @@ transform: translate(0, -5px);
   height: 64px;
   mix-blend-mode: normal;
   position: absolute;
-  left: 40px;
+  left: 24px;
   top: 288px;
   width: 234px;
 }
@@ -6513,14 +6513,14 @@ transform: translate(0, -5px);
 .mpower-mobile-320px .h3-x5Sopb {
   background-color: transparent;
   height: auto;
-  left: 40px;
+  left: 24px;
   letter-spacing: 0.00px;
   line-height: 40px;
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
   top: 48px;
-  width: 306px;
+  width: 246px;
 }
 .mpower-mobile-320px .hero-tablet-C61RwL {
   background-color: var(--mirage);
@@ -6574,12 +6574,12 @@ transform: translate(0, -5px);
 .mpower-mobile-320px .highlightfree-pwquuQ {
   background-color: var(--white);
   height: 18px;
-  left: 155px;
+  left: 18px;
   mix-blend-mode: normal;
   opacity: 0.2;
   position: absolute;
   top: 68px;
-  width: 85px;
+  width: 124px;
 }
 .mpower-mobile-320px .highlightlist-rVTxm0 {
   background-color: transparent;
@@ -9110,12 +9110,12 @@ transform: translate(0, -5px);
 .mpower-tablet-720px .highlightfree-pwquuQ {
   background-color: var(--white);
   height: 18px;
-  left: 157px;
+  left: 34px;
   mix-blend-mode: normal;
   opacity: 0.2;
   position: absolute;
   top: 68px;
-  width: 82px;
+  width: 124px;
 }
 .mpower-tablet-720px .highlightlist-7ACtXI {
   background-color: transparent;

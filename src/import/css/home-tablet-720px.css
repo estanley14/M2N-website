@@ -3615,7 +3615,7 @@ color: #2A2C30
   right: 2px;
   text-align: right;
   top: 165px;
-  width: 570px;
+  width: 480px;
 }
 .home-desktop-1440px .cras-semper-auctor-a-pKuxU5 {
   background-color: transparent;
@@ -3639,10 +3639,6 @@ color: #2A2C30
   top: 102px;
   transition: all 0.3s ease;
   width: 275px;
-}
-.home-desktop-1440px .default-text-vxY8x4:hover {
-
-transform: translate(0, -5px);
 }
 .home-desktop-1440px .divider-VNfvnu {
   background-color: var(--cape-cod);

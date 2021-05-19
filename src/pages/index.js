@@ -232,7 +232,7 @@ const IndexPage = () => (
         <div className="h1-VMr6Om dmsans-bold-big-stone-62px">Minority Moves Network</div>
         <p className="p-C61RwL dmsans-normal-abbey-16px">
         Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N) serves as a central hub to empower, 
-        train, connect and support diverse professionals to find employment within companies committed to an inclusive workplace.
+        train, connect and support diverse professionals.
         </p>
         <div className="bullet01-C61RwL">
           <p className="p-2W14L6 dmsans-normal-abbey-16px">
@@ -349,7 +349,7 @@ const IndexPage = () => (
         <div className="group-581-0unqEg">
           <div className="a-new-way-to-enjoy-q-ScxlrF dmsans-bold-baltic-sea-62px">Member Development</div>
           <p className="cras-semper-auctor-a-ScxlrF dmsans-normal-trout-16px">
-            Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…
+            Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provide...
           </p>
           <Link to="/mpower#member-development">
             <div className="frame-48-ScxlrF">
@@ -396,7 +396,7 @@ const IndexPage = () => (
           <div className="a-new-way-to-enjoy-q-pKuxU5 dmsans-bold-baltic-sea-62px">Career Opportunities</div>
           <p className="cras-semper-auctor-a-pKuxU5 dmsans-normal-trout-16px">
             Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
-            hiring organizations will have…
+            members will have…
           </p>
           <Link to="/mpower#career-opportunities">
             <div className="frame-49-pKuxU5">
@@ -690,7 +690,7 @@ const IndexPage = () => (
       <div className="h1-VMr6Om dmsans-bold-big-stone-62px">Minority Moves Network</div>
       <p className="p-C61RwL dmsans-normal-abbey-16px">
         Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N) serves as a central hub to empower, 
-        train, connect and support diverse professionals to find employment within companies committed to an inclusive workplace.
+        train, connect and support diverse professionals.
       </p>
       <div className="bullet01-C61RwL">
         <p className="p-2W14L6 dmsans-normal-abbey-16px">
@@ -834,7 +834,7 @@ const IndexPage = () => (
         <div className="a-new-way-to-enjoy-q-3Hxg6n dmsans-bold-baltic-sea-62px">Career Opportunities</div>
         <p className="cras-semper-auctor-a-3Hxg6n dmsans-normal-trout-16px">
           Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
-          hiring organizations will have…
+          members will have…
         </p>
         <Link to="/mpower#career-opportunities-mid">
           <div className="frame-51-3Hxg6n">
@@ -989,7 +989,7 @@ const IndexPage = () => (
       <div className="group-581-C61RwL">
         <div className="a-new-way-to-enjoy-q-UDbxrZ dmsans-bold-baltic-sea-62px">Member Development</div>
         <p className="cras-semper-auctor-a-UDbxrZ dmsans-normal-trout-16px">
-         Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…
+         Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provide...
         </p>
         <Link to="/mpower#member-development-mid">
           <div className="frame-48-UDbxrZ">
@@ -1141,7 +1141,7 @@ const IndexPage = () => (
       <div className="h1-C61RwL dmsans-bold-big-stone-40px">Minority Moves Network</div>
       <p className="p-C61RwL dmsans-normal-abbey-16px">
         Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N) serves as a central hub to empower, 
-        train, connect and support diverse professionals to find employment within companies committed to an inclusive workplace.
+        train, connect and support diverse professionals.
       </p>
       <div className="bullet01-C61RwL">
         <p className="p-2W14L6 dmsans-normal-abbey-16px">
@@ -1271,7 +1271,7 @@ const IndexPage = () => (
           <div className="a-new-way-to-enjoy-q-aT0WHq dmsans-bold-baltic-sea-40px">Member Development</div>
           <div className="frame-41-aT0WHq">
             <p className="cras-semper-auctor-a-gfIGM0 dmsans-normal-trout-16px">
-              Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…
+              Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provide...
             </p>
           </div>
         </div>
@@ -1303,7 +1303,7 @@ const IndexPage = () => (
           <div className="frame-40-5wbvv5">
             <p className="cras-semper-auctor-a-6S18xr dmsans-normal-trout-16px">
               Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
-              hiring organizations will have…
+              members will have…
             </p>
           </div>
         </div>
@@ -1595,7 +1595,7 @@ const IndexPage = () => (
       <div className="h1-C61RwL dmsans-bold-big-stone-40px">Minority Moves Network</div>
       <p className="p-C61RwL dmsans-normal-abbey-16px">
         Meeting people and organizations where they are through proprietary technology, Minority Moves Network (M2N) serves as a central hub to empower, 
-        train, connect and support diverse professionals to find employment within companies committed to an inclusive workplace.
+        train, connect and support diverse professionals.
       </p>
       <div className="bullet01-C61RwL">
         <p className="p-2W14L6 dmsans-normal-abbey-16px">
@@ -1722,7 +1722,7 @@ const IndexPage = () => (
       </div>
       <div className="a-new-way-to-enjoy-q-C61RwL dmsans-bold-baltic-sea-40px">Member Development</div>
       <p className="cras-semper-auctor-a-C61RwL dmsans-normal-trout-16px">
-        Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…
+        Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provide...
       </p>
       <Link to="/mpower#member-development-tablet">
         <div className="frame-2-C61RwL border-1px-royal-blue">
@@ -1748,7 +1748,7 @@ const IndexPage = () => (
       <div className="a-new-way-to-enjoy-q-VMr6Om dmsans-bold-baltic-sea-40px">Career Opportunities</div>
       <p className="cras-semper-auctor-a-VMr6Om dmsans-normal-trout-16px">
         Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces,
-        hiring organizations will have…
+        members will have…
       </p>
       <Link to="/mpower#career-opportunities-tablet">
         <div className="frame-2-VMr6Om border-1px-royal-blue">

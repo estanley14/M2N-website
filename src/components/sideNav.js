@@ -53,7 +53,7 @@ const SideNav = ({ setNavState }) => {
             <Link to="/mpower-app">
                 <div className="frame-72-C61RwL">
                     <div className="textframe-DMZGJ0"></div>
-                    <div className="login-sign-up-DMZGJ0 dmsans-bold-gunsmoke-24px">LOGIN / SIGN UP</div>
+                    <div className="login-sign-up-DMZGJ0 dmsans-bold-gunsmoke-24px">SIGN UP</div>
                     {/* <div className="indicator-DMZGJ0 smart-layers-pointers"></div> */}
                     <img className="line-973-DMZGJ0" src={ln9732x} />
                 </div>
@@ -100,7 +100,7 @@ const SideNav = ({ setNavState }) => {
             <Link to="/mpower-app">
                 <div className="frame-72-C61RwL">
                     <div className="textframe-DMZGJ0"></div>
-                    <div className="login-sign-up-DMZGJ0 dmsans-bold-gunsmoke-24px">LOGIN / SIGN UP</div>
+                    <div className="login-sign-up-DMZGJ0 dmsans-bold-gunsmoke-24px">SIGN UP</div>
                     {/* <div className="indicator-DMZGJ0 smart-layers-pointers"></div> */}
                     <img className="line-973-DMZGJ0" src={ln97351x} />
                 </div>

@@ -13,7 +13,7 @@ const NavDesktop = ({ theme }) => {
         <div className="navbar-desktop-C61RwL">
           <Link to="/mpower-app">
             <div className="buttonrow-HPBo1Y">
-              <div className="button-text-des-op-i63817129573-Wfh8x7 dmsans-bold-gunsmoke-14px-2">LOG IN</div>
+              {/* <div className="button-text-des-op-i63817129573-Wfh8x7 dmsans-bold-gunsmoke-14px-2">LOG IN</div> */}
               <div className="button-primary-desktop-Wfh8x7">
                 <div className="font-i63817129575-eo3nRY valign-text-middle dmsans-bold-white-14px">SIGN UP</div>
               </div>
@@ -61,7 +61,7 @@ const NavDesktop = ({ theme }) => {
         <div className="navbar-desktop-C61RwL">
         <Link to="/mpower-app">
           <div className="buttonrow-HPBo1Y">
-            <div className="b5-Wfh8x7 smart-layers-pointers dmsans-bold-gunsmoke-14px-2">LOG IN</div>
+            {/* <div className="b5-Wfh8x7 smart-layers-pointers dmsans-bold-gunsmoke-14px-2">LOG IN</div> */}
             <div className="button-primary-desktop-Wfh8x7">
               <div className="font-eo3nRY valign-text-middle dmsans-bold-white-14px">SIGN UP</div>
             </div>

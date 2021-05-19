@@ -14,7 +14,7 @@ const NavTablet = ({ theme }) => {
               <div className="navbar-tablet-C61RwL">
                 <Link to="/mpower-app">
                     <div className="buttonrow-Xq4ViJ">
-                    <div className="b1-i6384462736-DkfaGf dmsans-bold-gunsmoke-14px-2">LOG IN</div>
+                    {/* <div className="b1-i6384462736-DkfaGf dmsans-bold-gunsmoke-14px-2">LOG IN</div> */}
                     <div className="button-primary-desktop-DkfaGf">
                         <div className="font-i6384462738-GrCJVF valign-text-middle dmsans-bold-white-14px">SIGN UP</div>
                     </div>
@@ -62,7 +62,7 @@ const NavTablet = ({ theme }) => {
                 <div className="navbar-tablet-C61RwL">
                     <Link to="/mpower-app">
                         <div className="buttonrow-Xq4ViJ">
-                            <div className="b5-DkfaGf dmsans-bold-gunsmoke-14px-2">LOG IN</div>
+                            {/* <div className="b5-DkfaGf dmsans-bold-gunsmoke-14px-2">LOG IN</div> */}
                             <div className="button-primary-desktop-DkfaGf">
                                 <div className="font-GrCJVF valign-text-middle dmsans-bold-white-14px">SIGN UP</div>
                             </div>
