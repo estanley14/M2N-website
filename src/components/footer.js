@@ -202,31 +202,31 @@ const Footer = ({ breakpoint }) => {
                     </div> */}
                     </div>
                     <div className="column3-VNfvnu">
-                    <div className="platform-r3WsSG dmsans-bold-white-16px">Platform</div>
-                    <Link to="/mpower-app">
-                        <div className="ios-r3WsSG dmsans-normal-white-16px">iOS</div>
-                    </Link>
-                    <Link to="/mpower-app">
-                        <div className="android-r3WsSG dmsans-normal-white-16px">Android</div>
-                    </Link>
-                    <Link to="/mpower-app">
-                        <div className="browser-r3WsSG dmsans-normal-white-16px">Browser</div>
-                    </Link>
+                      <div className="platform-r3WsSG dmsans-bold-white-16px">Platform</div>
+                      <Link to="/mpower-app">
+                          <div className="ios-r3WsSG dmsans-normal-white-16px">iOS</div>
+                      </Link>
+                      <Link to="/mpower-app">
+                          <div className="android-r3WsSG dmsans-normal-white-16px">Android</div>
+                      </Link>
+                      <Link to="/mpower-app">
+                          <div className="browser-r3WsSG dmsans-normal-white-16px">Browser</div>
+                      </Link>
                     </div>
                     <div className="column2-VNfvnu">
-                    <div className="about-aRtUZh dmsans-bold-white-16px">
-                        <span className="span0-WJpm5A dmsans-bold-white-16px">About</span
-                        ><span className="span1-WJpm5A dmsans-normal-white-16px-2"><br /></span>
-                    </div>
-                    <Link to="/mpower">
-                        <div className="mpower-aRtUZh dmsans-normal-white-16px">MPower</div>
-                    </Link>
-                    <Link to="/partners">
-                        <div className="partnerships-aRtUZh dmsans-normal-white-16px">Partnerships</div>
-                    </Link>
-                    <Link to="/company">
-                        <div className="company-aRtUZh dmsans-normal-white-16px">Company</div>
-                    </Link>
+                      <div className="about-aRtUZh dmsans-bold-white-16px">
+                          <span className="span0-WJpm5A dmsans-bold-white-16px">About</span
+                          ><span className="span1-WJpm5A dmsans-normal-white-16px-2"><br /></span>
+                      </div>
+                      <Link to="/mpower">
+                          <div className="mpower-aRtUZh dmsans-normal-white-16px">MPower</div>
+                      </Link>
+                      <Link to="/partners">
+                          <div className="partnerships-aRtUZh dmsans-normal-white-16px">Partnerships</div>
+                      </Link>
+                      <Link to="/company">
+                          <div className="company-aRtUZh dmsans-normal-white-16px">Company</div>
+                      </Link>
                     </div>
                     <div className="column1-VNfvnu">
                     <div className="logo-dewRqW">

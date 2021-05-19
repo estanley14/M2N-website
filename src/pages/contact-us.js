@@ -168,18 +168,30 @@ const SecondPage = () => (
         </div>
         <div className="column3-VNfvnu">
           <div className="platform-i195455561-r3WsSG dmsans-bold-white-16px">Platform</div>
-          <div className="ios-i195455562-r3WsSG dmsans-normal-white-16px">iOS</div>
-          <div className="android-i195455563-r3WsSG dmsans-normal-white-16px">Android</div>
-          <div className="browser-i195455564-r3WsSG dmsans-normal-white-16px">Browser</div>
+          <Link to="/mpower-app">
+            <div className="ios-i195455562-r3WsSG dmsans-normal-white-16px">iOS</div>
+          </Link>
+          <Link to="/mpower-app">
+            <div className="android-i195455563-r3WsSG dmsans-normal-white-16px">Android</div>
+          </Link>
+          <Link to="/mpower-app">
+            <div className="browser-i195455564-r3WsSG dmsans-normal-white-16px">Browser</div>
+          </Link>
         </div>
         <div className="column2-VNfvnu">
           <div className="about-i19541488-aRtUZh dmsans-bold-white-16px">
             <span className="span0-oHVwvk dmsans-bold-white-16px">About</span
             ><span className="span1-oHVwvk dmsans-normal-white-16px-2"><br /></span>
           </div>
-          <div className="mpower-i195452914-aRtUZh dmsans-normal-white-16px">MPower</div>
-          <div className="partnerships-i195453345-aRtUZh dmsans-normal-white-16px">Partnerships</div>
-          <div className="company-i195453781-aRtUZh dmsans-normal-white-16px">Company</div>
+            <Link to="/mpower">
+              <div className="mpower-i195452914-aRtUZh dmsans-normal-white-16px">MPower</div>
+            </Link>
+            <Link to="/partners">
+              <div className="partnerships-i195453345-aRtUZh dmsans-normal-white-16px">Partnerships</div>
+            </Link>
+            <Link to="/company">
+              <div className="company-i195453781-aRtUZh dmsans-normal-white-16px">Company</div>
+            </Link>
         </div>
         <div className="column1-VNfvnu">
           <div className="logo-dewRqW">
@@ -516,19 +528,31 @@ const SecondPage = () => (
         </div>
         <div className="column3-iPe1yZ">
           <div className="platform-X4QSxG dmsans-bold-white-16px">Platform</div>
-          <div className="ios-X4QSxG dmsans-normal-white-16px">iOS</div>
-          <div className="android-X4QSxG dmsans-normal-white-16px">Android</div>
-          <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
-        </div>
-        <div className="column2-iPe1yZ">
-          <div className="about-S164Qk dmsans-bold-white-16px">
-            <span className="span0-HtUoHN dmsans-bold-white-16px">About</span
-            ><span className="span1-HtUoHN dmsans-normal-white-16px-2"><br /></span>
+            <Link to="/mpower-app">
+              <div className="ios-X4QSxG dmsans-normal-white-16px">iOS</div>
+            </Link>
+            <Link to="/mpower-app">
+              <div className="android-X4QSxG dmsans-normal-white-16px">Android</div>
+            </Link>
+            <Link to="/mpower-app">
+              <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
+            </Link>
           </div>
-          <div className="mpower-S164Qk dmsans-normal-white-16px">MPower</div>
-          <div className="partnerships-S164Qk dmsans-normal-white-16px">Partnerships</div>
-          <div className="company-S164Qk dmsans-normal-white-16px">Company</div>
-        </div>
+          <div className="column2-iPe1yZ">
+            <div className="about-S164Qk dmsans-bold-white-16px">
+                <span className="span0-HtUoHN dmsans-bold-white-16px">About</span
+                ><span className="span1-HtUoHN dmsans-normal-white-16px-2"><br /></span>
+              </div>
+              <Link to="/mpower">
+                  <div className="mpower-S164Qk dmsans-normal-white-16px">MPower</div>
+              </Link>
+              <Link to="/partners">
+                <div className="partnerships-S164Qk dmsans-normal-white-16px">Partnerships</div>
+              </Link>
+              <Link to="/company">
+                <div className="company-S164Qk dmsans-normal-white-16px">Company</div>
+              </Link>
+            </div>
       </div>
       <div className="frame-60-C61RwL">
         <img className="oval-copy-isdgOW" src={ovlCpy171x} />
@@ -788,15 +812,27 @@ const SecondPage = () => (
             <span className="span0-HtUoHN dmsans-bold-white-16px">About</span
             ><span className="span1-HtUoHN dmsans-normal-white-16px-2"><br /></span>
           </div>
-          <div className="mpower-S164Qk dmsans-normal-white-16px">MPower</div>
-          <div className="partnerships-S164Qk dmsans-normal-white-16px">Partnerships</div>
-          <div className="company-S164Qk dmsans-normal-white-16px">Company</div>
+          <Link to="/mpower">
+              <div className="mpower-S164Qk dmsans-normal-white-16px">MPower</div>
+          </Link>
+          <Link to="/partners">
+              <div className="partnerships-S164Qk dmsans-normal-white-16px">Partnerships</div>
+          </Link>
+          <Link to="/company">
+              <div className="company-S164Qk dmsans-normal-white-16px">Company</div>
+          </Link>
         </div>
         <div className="column3-iPe1yZ">
           <div className="platform-X4QSxG dmsans-bold-white-16px">Platform</div>
-          <div className="ios-X4QSxG dmsans-normal-white-16px">iOS</div>
-          <div className="android-X4QSxG dmsans-normal-white-16px">Android</div>
-          <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
+            <Link to="/mpower-app">
+                <div className="ios-X4QSxG dmsans-normal-white-16px">iOS</div>
+            </Link>
+            <Link to="/mpower-app">
+                <div className="android-X4QSxG dmsans-normal-white-16px">Android</div>
+            </Link>
+            <Link to="/mpower-app">
+                <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
+            </Link>
         </div>
       </div>
       <div className="frame-60-C61RwL">
@@ -1023,15 +1059,27 @@ const SecondPage = () => (
             <span className="span0-HtUoHN dmsans-bold-white-16px">About</span
             ><span className="span1-HtUoHN dmsans-normal-white-16px-2"><br /></span>
           </div>
-          <div className="mpower-S164Qk dmsans-normal-white-16px">MPower</div>
-          <div className="partnerships-S164Qk dmsans-normal-white-16px">Partnerships</div>
-          <div className="company-S164Qk dmsans-normal-white-16px">Company</div>
+          <Link to="/mpower">
+              <div className="mpower-S164Qk dmsans-normal-white-16px">MPower</div>
+          </Link>
+          <Link to="/partners">
+              <div className="partnerships-S164Qk dmsans-normal-white-16px">Partnerships</div>
+          </Link>
+          <Link to="/company">
+              <div className="company-S164Qk dmsans-normal-white-16px">Company</div>
+          </Link>
         </div>
         <div className="column3-iPe1yZ">
           <div className="platform-X4QSxG dmsans-bold-white-16px">Platform</div>
-          <div className="ios-X4QSxG dmsans-normal-white-16px">iOS</div>
-          <div className="android-X4QSxG dmsans-normal-white-16px">Android</div>
-          <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
+          <Link to="/mpower-app">
+              <div className="ios-X4QSxG dmsans-normal-white-16px">iOS</div>
+          </Link>
+          <Link to="/mpower-app">
+              <div className="android-X4QSxG dmsans-normal-white-16px">Android</div>
+          </Link>
+          <Link to="/mpower-app">
+              <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
+          </Link>
         </div>
       </div>
       <NavMobile />

@@ -585,7 +585,7 @@ const MPowerPage = () => {
         </div>
         <div className="content-C61RwL">
           <div className="express-your-thought-xUsx1L">Help our vision come to life with your feedback</div>
-          <div className="button-xUsx1L">
+          <div className="button-xUsx1L" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
             <div className="rectangle-89-eF6efs"></div>
             <div className="try-14-days-free-tri-eF6efs montserrat-bold-white-16px">Apply to be a Beta User</div>
           </div>
@@ -942,7 +942,7 @@ const MPowerPage = () => {
           <div className="express-your-thought-xUsx1L montserrat-bold-white-24px">
             Help our vision come to life with your feedback
           </div>
-          <div className="button-xUsx1L">
+          <div className="button-xUsx1L" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
             <div className="rectangle-89-eF6efs"></div>
             <div className="try-14-days-free-tri-eF6efs montserrat-bold-white-16px">Apply to be a Beta User</div>
           </div>
@@ -1318,7 +1318,7 @@ const MPowerPage = () => {
         </div>
         <div className="content-C61RwL">
           <div className="express-your-thought-xUsx1L">Help our vision come to life with your feedback</div>
-          <div className="button-xUsx1L">
+          <div className="button-xUsx1L" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
             <div className="rectangle-89-eF6efs"></div>
             <div className="try-14-days-free-tri-eF6efs montserrat-bold-white-16px">Apply to be a Beta User</div>
           </div>
@@ -1742,7 +1742,7 @@ const MPowerPage = () => {
           <div className="express-your-thought-xUsx1L montserrat-bold-white-32px">
             Help our vision come to life with your feedback
           </div>
-          <div className="button-xUsx1L">
+          <div className="button-xUsx1L" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
             <div className="rectangle-89-eF6efs"></div>
             <div className="try-14-days-free-tri-eF6efs montserrat-bold-white-16px">Apply to be a Beta User</div>
           </div>
