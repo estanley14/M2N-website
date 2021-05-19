@@ -277,23 +277,27 @@ const SecondPage = () => (
         <p className="contactusify-thinafewdays-isdgOW dmsans-normal-big-stone-16px">
           We are excited to speak with you about our new approach to diversity, equity &amp; inclusion. Please share a message here or contact us via email or phone for a prompt response from our team.
         </p>
-        <div className="phone-isdgOW">
-          <div className="contactusify-thinafewdays-Q5MDTp dmsans-medium-big-stone-20px">866-599-8922</div>
-          <div className="icon-2-Q5MDTp">
-            <div className="ellipse-2-IvlqQS"></div>
-            <div className="active-call-IvlqQS">
-              <img className="path215-7T0mBT" src={pth2152x} />
-              <img className="path216-7T0mBT" src={pth2162x} />
+        <a href="tel:866-599-8922">
+          <div className="phone-isdgOW">
+            <div className="contactusify-thinafewdays-Q5MDTp dmsans-medium-big-stone-20px">866-599-8922</div>
+            <div className="icon-2-Q5MDTp">
+              <div className="ellipse-2-IvlqQS"></div>
+              <div className="active-call-IvlqQS">
+                <img className="path215-7T0mBT" src={pth2152x} />
+                <img className="path216-7T0mBT" src={pth2162x} />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="email-isdgOW">
-          <div className="contactusify-thinafewdays-20M4hb dmsans-medium-big-stone-20px">info@m2n.us</div>
-          <div className="icon-20M4hb">
-            <div className="ellipse-Px0UVe"></div>
-            <div className="mail-Px0UVe"><img className="path213-1bhoUT" src={pth2132x} /></div>
+        </a>
+        <a href="mailto:info@m2n.us">
+          <div className="email-isdgOW">
+            <div className="contactusify-thinafewdays-20M4hb dmsans-medium-big-stone-20px">info@m2n.us</div>
+            <div className="icon-20M4hb">
+              <div className="ellipse-Px0UVe"></div>
+              <div className="mail-Px0UVe"><img className="path213-1bhoUT" src={pth2132x} /></div>
+            </div>
           </div>
-        </div>
+        </a>
         <div className="leaveamessage-isdgOW dmsans-bold-baltic-sea-62px">Contact Us</div>
         <form action="">
           <div className="form-isdgOW">
@@ -531,23 +535,27 @@ const SecondPage = () => (
         <p className="contactusify-thinafewdays-isdgOW dmsans-normal-big-stone-16px">
           We are excited to speak with you about our new approach to diversity, equity &amp; inclusion. Please share a message here or contact us via email or phone for a prompt response from our team.
         </p>
-        <div className="phone-isdgOW">
-          <div className="contactusify-thinafewdays-Q5MDTp dmsans-medium-big-stone-20px">866-599-8922</div>
-          <div className="icon-2-Q5MDTp">
-            <div className="ellipse-2-IvlqQS"></div>
-            <div className="active-call-IvlqQS">
-              <img className="path215-7T0mBT" src={pth21512x} />
-              <img className="path216-7T0mBT" src={pth2162x} />
+        <a href="tel:866-599-8922">
+          <div className="phone-isdgOW">
+            <div className="contactusify-thinafewdays-Q5MDTp dmsans-medium-big-stone-20px">866-599-8922</div>
+            <div className="icon-2-Q5MDTp">
+              <div className="ellipse-2-IvlqQS"></div>
+              <div className="active-call-IvlqQS">
+                <img className="path215-7T0mBT" src={pth21512x} />
+                <img className="path216-7T0mBT" src={pth2162x} />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="email-isdgOW">
-          <div className="contactusify-thinafewdays-20M4hb dmsans-medium-big-stone-20px">info@m2n.us</div>
-          <div className="icon-20M4hb">
-            <div className="ellipse-Px0UVe"></div>
-            <div className="mail-Px0UVe"><img className="path213-1bhoUT" src={pth2132x} /></div>
+        </a>
+        <a href="mailto:info@m2n.us">
+          <div className="email-isdgOW">
+            <div className="contactusify-thinafewdays-20M4hb dmsans-medium-big-stone-20px">info@m2n.us</div>
+            <div className="icon-20M4hb">
+              <div className="ellipse-Px0UVe"></div>
+              <div className="mail-Px0UVe"><img className="path213-1bhoUT" src={pth2132x} /></div>
+            </div>
           </div>
-        </div>
+        </a>
         <div className="leaveamessage-isdgOW dmsans-bold-baltic-sea-62px">Contact Us</div>
         <form action="">
           <div className="form-isdgOW">
@@ -796,23 +804,27 @@ const SecondPage = () => (
         <p className="contactusify-thinafewdays-isdgOW dmsans-normal-big-stone-16px">
           We are excited to speak with you about our new approach to diversity, equity &amp; inclusion. Please share a message here or contact us via email or phone for a prompt response from our team.
         </p>
-        <div className="phone-isdgOW">
-          <div className="contactusify-thinafewdays-Q5MDTp dmsans-medium-big-stone-20px">866-599-8922</div>
-          <div className="icon-2-Q5MDTp">
-            <div className="ellipse-2-IvlqQS"></div>
-            <div className="active-call-IvlqQS">
-              <img className="path215-7T0mBT" src={pth21512x} />
-              <img className="path216-7T0mBT" src={pth2162x} />
+        <a href="tel:866-599-8922">
+          <div className="phone-isdgOW">
+            <div className="contactusify-thinafewdays-Q5MDTp dmsans-medium-big-stone-20px">866-599-8922</div>
+            <div className="icon-2-Q5MDTp">
+              <div className="ellipse-2-IvlqQS"></div>
+              <div className="active-call-IvlqQS">
+                <img className="path215-7T0mBT" src={pth21512x} />
+                <img className="path216-7T0mBT" src={pth2162x} />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="email-isdgOW">
-          <div className="contactusify-thinafewdays-20M4hb dmsans-medium-big-stone-20px">info@m2n.us</div>
-          <div className="icon-20M4hb">
-            <div className="ellipse-Px0UVe"></div>
-            <div className="mail-Px0UVe"><img className="path213-1bhoUT" src={pth2132x} /></div>
+        </a>
+        <a href="mailto:info@m2n.us">
+          <div className="email-isdgOW">
+            <div className="contactusify-thinafewdays-20M4hb dmsans-medium-big-stone-20px">info@m2n.us</div>
+            <div className="icon-20M4hb">
+              <div className="ellipse-Px0UVe"></div>
+              <div className="mail-Px0UVe"><img className="path213-1bhoUT" src={pth2132x} /></div>
+            </div>
           </div>
-        </div>
+        </a>
         <div className="leaveamessage-isdgOW dmsans-bold-baltic-sea-40px">Contact Us</div>
         <div className="frame-61-isdgOW">
           <div className="group-1-H4hSpH">
@@ -1034,23 +1046,27 @@ const SecondPage = () => (
         <p className="contactusify-thinafewdays-isdgOW dmsans-normal-big-stone-16px">
           We are excited to speak with you about our new approach to diversity, equity &amp; inclusion. Please share a message here or contact us via email or phone for a prompt response from our team.
         </p>
-        <div className="phone-isdgOW">
-          <div className="contactusify-thinafewdays-Q5MDTp">866-599-8922</div>
-          <div className="icon-2-Q5MDTp">
-            <div className="ellipse-2-IvlqQS"></div>
-            <div className="active-call-IvlqQS">
-              <img className="path215-7T0mBT" src={pth21512x} />
-              <img className="path216-7T0mBT" src={pth2162x} />
+        <a href="tel:866-599-8922">
+          <div className="phone-isdgOW">
+            <div className="contactusify-thinafewdays-Q5MDTp">866-599-8922</div>
+            <div className="icon-2-Q5MDTp">
+              <div className="ellipse-2-IvlqQS"></div>
+              <div className="active-call-IvlqQS">
+                <img className="path215-7T0mBT" src={pth21512x} />
+                <img className="path216-7T0mBT" src={pth2162x} />
+              </div>
             </div>
           </div>
-        </div>
-        <div className="email-isdgOW">
-          <div className="contactusify-thinafewdays-20M4hb">info@m2n.us</div>
-          <div className="icon-20M4hb">
-            <div className="ellipse-Px0UVe"></div>
-            <div className="mail-Px0UVe"><img className="path213-1bhoUT" src={pth2132x} /></div>
+        </a>
+        <a href="mailto:info@m2n.us">
+          <div className="email-isdgOW">
+            <div className="contactusify-thinafewdays-20M4hb">info@m2n.us</div>
+            <div className="icon-20M4hb">
+              <div className="ellipse-Px0UVe"></div>
+              <div className="mail-Px0UVe"><img className="path213-1bhoUT" src={pth2132x} /></div>
+            </div>
           </div>
-        </div>
+        </a>
         <div className="leaveamessage-isdgOW dmsans-bold-baltic-sea-40px">Contact Us</div>
         <div className="frame-61-isdgOW">
           <div className="group-1-H4hSpH">
