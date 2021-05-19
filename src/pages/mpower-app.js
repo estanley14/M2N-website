@@ -632,20 +632,21 @@ const MPowerPage = () => {
         </div>
         <div className="subscribe-C61RwL">
           <p className="subscribe-to-our-newsletter-09RRMv montserrat-bold-white-16px">Sign up to receive Beta Access</p>
-          <div className="e-mail-feild-09RRMv">
-            <div className="rectangle-645-9Ntqw8 border-1px-black-2"></div>
-            <input
-              className="enter-your-email-add-9Ntqw8 montserrat-light-white-16px"
-              name="enter-your-email-add"
-              placeholder="Enter your email address"
-              type="email"
-              required
-            />
-            <div className="subscribe-button-9Ntqw8">
-              <div className="rectangle-646-cTqFxG"></div>
-              <div className="subscribe-cTqFxG montserrat-bold-white-16px">Subscribe</div>
+          <form action="">
+            <div className="e-mail-feild-09RRMv">
+              <div className="rectangle-645-9Ntqw8 border-1px-black-2"></div>
+              <input
+                className="enter-your-email-add-9Ntqw8 montserrat-light-white-16px"
+                name="email"
+                placeholder="Enter your email address"
+                type="email"
+                required
+              />
+              <div className="subscribe-button-9Ntqw8">
+                <input type="submit" className="rectangle-646-cTqFxG montserrat-bold-white-16px" value="Subscribe" />
+              </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
       <div className="mpower-landing-mobile-320px screen">
@@ -991,20 +992,21 @@ const MPowerPage = () => {
         </div>
         <div className="subscribe-C61RwL">
           <p className="subscribe-to-our-newsletter-09RRMv montserrat-bold-white-16px">Sign up to receive Beta Access</p>
-          <div className="e-mail-feild-09RRMv">
-            <div className="rectangle-645-9Ntqw8 border-1px-black-2"></div>
-            <input
-              className="enter-your-email-add-9Ntqw8 montserrat-light-white-12px"
-              name="enter-your-email-add"
-              placeholder="Enter your email address"
-              type="email"
-              required
-            />
-            <div className="subscribe-button-9Ntqw8">
-              <div className="rectangle-646-cTqFxG"></div>
-              <div className="subscribe-cTqFxG montserrat-bold-white-16px">Subscribe</div>
+          <form action="">
+            <div className="e-mail-feild-09RRMv">
+              <div className="rectangle-645-9Ntqw8 border-1px-black-2"></div>
+              <input
+                className="enter-your-email-add-9Ntqw8 montserrat-light-white-12px"
+                name="email"
+                placeholder="Enter your email address"
+                type="email"
+                required
+              />
+              <div className="subscribe-button-9Ntqw8">
+                <input type="submit" className="rectangle-646-cTqFxG montserrat-bold-white-16px" value="Subscribe" />
+              </div>
             </div>
-          </div>
+          </form>
         </div>
         <div className="image-VMr6Om">
           <div className="notebook-6XZz6l">
@@ -1367,20 +1369,21 @@ const MPowerPage = () => {
         </div>
         <div className="subscribe-C61RwL">
           <p className="subscribe-to-our-newsletter-09RRMv montserrat-bold-white-16px">Sign up to receive Beta Access</p>
-          <div className="e-mail-feild-09RRMv">
-            <div className="rectangle-645-9Ntqw8 border-1px-black-2"></div>
-            <input
-              className="enter-your-email-add-9Ntqw8 montserrat-light-white-16px"
-              name="enter-your-email-add"
-              placeholder="Enter your email address"
-              type="email"
-              required
-            />
-            <div className="subscribe-button-9Ntqw8">
-              <div className="rectangle-646-cTqFxG"></div>
-              <div className="subscribe-cTqFxG montserrat-bold-white-16px">Subscribe</div>
+          <form action="">
+            <div className="e-mail-feild-09RRMv">
+              <div className="rectangle-645-9Ntqw8 border-1px-black-2"></div>
+              <input
+                className="enter-your-email-add-9Ntqw8 montserrat-light-white-16px"
+                name="email"
+                placeholder="Enter your email address"
+                type="email"
+                required
+              />
+              <div className="subscribe-button-9Ntqw8">
+                <input type="submit" className="rectangle-646-cTqFxG montserrat-bold-white-16px" value="Subscribe" />
+              </div>
             </div>
-          </div>
+          </form>
         </div>
         <div className="land-your-dream-job-C61RwL montserrat-semi-bold-white-38px">Education</div>
         <div className="list-C61RwL">
@@ -1791,20 +1794,21 @@ const MPowerPage = () => {
         </div>
         <div className="subscribe-C61RwL">
           <p className="subscribe-to-our-newsletter-09RRMv montserrat-bold-white-16px">Sign up to receive Beta Access</p>
-          <div className="e-mail-feild-09RRMv">
-            <div className="rectangle-645-9Ntqw8 border-1px-black-2"></div>
-            <input
-              className="enter-your-email-add-9Ntqw8 montserrat-light-white-12px"
-              name="enter-your-email-add"
-              placeholder="Enter your email address"
-              type="email"
-              required
-            />
-            <div className="subscribe-button-9Ntqw8">
-              <div className="rectangle-646-cTqFxG"></div>
-              <div className="subscribe-cTqFxG montserrat-bold-white-16px">Subscribe</div>
+          <form action="">
+            <div className="e-mail-feild-09RRMv">
+              <div className="rectangle-645-9Ntqw8 border-1px-black-2"></div>
+              <input
+                className="enter-your-email-add-9Ntqw8 montserrat-light-white-12px"
+                name="email"
+                placeholder="Enter your email address"
+                type="email"
+                required
+              />
+              <div className="subscribe-button-9Ntqw8">
+                <input type="submit" className="rectangle-646-cTqFxG montserrat-bold-white-16px" value="Subscribe" />
+              </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </Layout>

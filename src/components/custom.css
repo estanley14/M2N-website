@@ -622,3 +622,15 @@ body [class*="mpower-home-dekstop-"] .navitem-default-S6Kvjz:hover {
 .contact-desktop-1024px .frame-2-lixMB9 {
     border: none;
 }
+
+body [class*="mpower-landing-"] .rectangle-646-cTqFxG {
+    border: none;
+    cursor: pointer;
+}
+
+body [class*="mpower-landing-"] input[type=text], 
+body [class*="mpower-landing-"] input[type=email] {
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+}
