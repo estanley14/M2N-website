@@ -8,13 +8,15 @@ import headerLogo from '../../assets/icons/logo.svg'
 import hamburgerMenu from '../../assets/icons/menu_24px.svg'
 
 const HeaderContainer = styled.div`
-    position: relative;
+    position: absolute;
+    top: 0px;
+    width: 100%;
     box-sizing: border-box;
     padding: 20px 24px 20px 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    // border: 1px solid black;
+    border: 1px solid black;
 
     @media (min-width: 1024px) {
         padding-left: 64px;
