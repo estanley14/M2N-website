@@ -702,7 +702,7 @@ const SecondPage = () => (
               <div className="input-GVqwCV border-1px-celeste"></div>
               <input
                 className="placeholder-GVqwCV dmsans-normal-gunsmoke-16px"
-                name="placeholder"
+                name="email"
                 placeholder="Your email"
                 type="email"
                 required
@@ -1078,7 +1078,7 @@ const SecondPage = () => (
             </div>
             <input
               className="placeholder-4j1ImY dmsans-normal-gunsmoke-16px"
-              name="placeholder"
+              name="email"
               placeholder="Your email"
               type="email"
               required
@@ -1387,7 +1387,7 @@ const SecondPage = () => (
             </div>
             <input
               className="placeholder-4j1ImY dmsans-normal-gunsmoke-16px"
-              name="placeholder"
+              name="email"
               placeholder="Your email"
               type="email"
               required
@@ -1720,7 +1720,7 @@ const SecondPage = () => (
             </div>
             <input
               className="placeholder-4j1ImY dmsans-normal-gunsmoke-16px"
-              name="placeholder"
+              name="email"
               placeholder="Your email"
               type="email"
               required

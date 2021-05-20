@@ -191,7 +191,7 @@ const OurCompany = () => (
               <div className="input-GVqwCV border-1px-celeste"></div>
               <input
                 className="placeholder-i19681503-GVqwCV dmsans-normal-gunsmoke-16px"
-                name="placeholder"
+                name="email"
                 placeholder="Your email"
                 type="email"
                 required
@@ -409,7 +409,7 @@ const OurCompany = () => (
             </div>
             <input
               className="placeholder-4j1ImY dmsans-normal-gunsmoke-16px"
-              name="placeholder"
+              name="email"
               placeholder="Your email"
               type="email"
               required
@@ -585,7 +585,7 @@ const OurCompany = () => (
             </div>
             <input
               className="placeholder-4j1ImY dmsans-normal-gunsmoke-16px"
-              name="placeholder"
+              name="email"
               placeholder="Your email"
               type="email"
               required
@@ -742,7 +742,7 @@ const OurCompany = () => (
             </div>
             <input
               className="placeholder-4j1ImY dmsans-normal-gunsmoke-16px"
-              name="placeholder"
+              name="email"
               placeholder="Your email"
               type="email"
               required
