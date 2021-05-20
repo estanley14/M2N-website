@@ -279,7 +279,7 @@ const SecondPage = () => (
                 required
               />
             </div>
-            <input type="submit" className="frame-2-lixMB9 font-Tvszxn dmsans-bold-white-16px" value="SEND MESSAGE"/>
+            <input type="submit" style={{cursor: "pointer"}} className="frame-2-lixMB9 font-Tvszxn dmsans-bold-white-16px" value="SEND MESSAGE"/>
           </div>
         </form>
         <div className="frame-62-isdgOW">
@@ -470,7 +470,7 @@ const SecondPage = () => (
                 required
               />
             </div>
-            <input type="submit" className="frame-2-lixMB9 font-Tvszxn dmsans-bold-white-16px" value="SEND MESSAGE"/>          </div>
+            <input type="submit" style={{cursor: "pointer"}} className="frame-2-lixMB9 font-Tvszxn dmsans-bold-white-16px" value="SEND MESSAGE"/>          </div>
         </form>
         <div className="frame-61-isdgOW">
           <div className="group-1-H4hSpH">
@@ -685,7 +685,7 @@ const SecondPage = () => (
               required
             />
           </div>
-          <input type="submit" className="frame-2-lixMB9 font-Tvszxn dmsans-bold-white-16px" value="SEND MESSAGE"/>        </div>
+          <input type="submit" style={{cursor: "pointer"}} className="frame-2-lixMB9 font-Tvszxn dmsans-bold-white-16px" value="SEND MESSAGE"/>        </div>
         </form>
       </div>
     </div>
@@ -860,7 +860,7 @@ const SecondPage = () => (
                 required
               />
             </div>
-            <input type="submit" className="frame-2-lixMB9 font-Tvszxn dmsans-bold-white-16px" value="SEND MESSAGE"/>          </div>
+            <input type="submit" style={{cursor: "pointer"}} className="frame-2-lixMB9 font-Tvszxn dmsans-bold-white-16px" value="SEND MESSAGE"/>          </div>
         </form>
       </div>
     </div>
