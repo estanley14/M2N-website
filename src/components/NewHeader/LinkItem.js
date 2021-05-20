@@ -2,18 +2,26 @@ import React from 'react'
 import styled from 'styled-components'
 
 const LinkContainer = styled.div`
-    width: 128px;
+    // width: 128px;
     height: 28px;
     display: flex;
     flex-direction: column;
     align-items: center;
     // background: lightcoral;
 
+    @media (min-width: 1024px) {
+        width: 108px;
+    }
+
+    @media (min-width: 1440px) {
+        width: 128px;
+    }
+
     & > .active-indicator {
         // visibility: hidden;
         width: 12px;
         height: 4px;
-        background: blue;
+        background: none;
     }
 
     & > .header-link {
