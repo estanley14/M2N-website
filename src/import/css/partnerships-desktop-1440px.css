@@ -1909,10 +1909,6 @@ background: #416FF4;
   transition: all 0.3s ease;
   width: 275px;
 }
-.partnerships-desktop-1440px .default-text-vxY8x4:hover {
-
-transform: translate(0, -5px);
-}
 .partnerships-desktop-1440px .divider-VNfvnu {
   background-color: var(--cape-cod);
   height: 1px;
@@ -2654,7 +2650,7 @@ background: #416FF4;
 .partnerships-desktop-1440px .newslettersignup-VNfvnu {
   background-color: transparent;
   height: 150px;
-  left: 1028px;
+  right: 135px;
   position: absolute;
   top: 64px;
   width: 277px;
