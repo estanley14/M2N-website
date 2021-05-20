@@ -421,10 +421,9 @@
 }
 .partnerships-desktop-1024px .frame-iPe1yZ {
   background-color: transparent;
-  height: 42px;
+  height: 64px;
   left: 67px;
   mix-blend-mode: normal;
-  overflow: hidden;
   position: absolute;
   top: 43px;
   width: 120px;
@@ -719,7 +718,7 @@ background: #416FF4;
   opacity: 0.5;
   position: absolute;
   text-align: left;
-  top: 102px;
+  top: 122px;
   width: 181px;
 }
 .partnerships-desktop-1024px .input-4j1ImY {
@@ -1416,11 +1415,9 @@ background: #416FF4;
 .partnerships-desktop-1024px .vector-gq7idq {
   background-color: transparent;
   height: 100%;
-  left: 63.00%;
   mix-blend-mode: normal;
   position: absolute;
   top: 0px;
-  width: 37.08%;
 }
 .partnerships-desktop-1024px .vector-iHEkte {
   background-color: transparent;
@@ -3141,11 +3138,9 @@ background: #416FF4;
 .partnerships-desktop-1440px .vector-ouSEQ4 {
   background-color: transparent;
   height: 100%;
-  left: 63.00%;
   mix-blend-mode: normal;
   position: absolute;
   top: 0px;
-  width: 37.08%;
 }
 .partnerships-desktop-1440px .vector-pXCSGN {
   background-color: transparent;
@@ -3576,8 +3571,8 @@ background: #416FF4;
 }
 .partnerships-mobile-320px .frame-iPe1yZ {
   background-color: transparent;
-  height: 42px;
-  left: calc(50.00% - 240px);
+  height: 64px;
+  left: calc(50.00% - 280px);
   mix-blend-mode: normal;
   overflow: hidden;
   position: absolute;
@@ -3830,7 +3825,7 @@ background: #416FF4;
   opacity: 0.5;
   position: absolute;
   text-align: center;
-  top: 123px;
+  top: 163px;
   width: calc(100.00% - 34px);
 }
 .partnerships-mobile-320px .input-4j1ImY {
@@ -4494,11 +4489,10 @@ background: #416FF4;
 .partnerships-mobile-320px .vector-gq7idq {
   background-color: transparent;
   height: 100%;
-  left: 53.25%;
+  left: 39%;
   mix-blend-mode: normal;
   position: absolute;
   top: 0px;
-  width: 9.27%;
 }
 .partnerships-mobile-320px .vector-iHEkte {
   background-color: transparent;
@@ -5020,8 +5014,8 @@ background: #416FF4;
 }
 .partnerships-tablet-720px .frame-iPe1yZ {
   background-color: transparent;
-  height: 42px;
-  left: calc(50.00% - 240px);
+  height: 64px;
+  left: calc(50.00% - 280px);
   mix-blend-mode: normal;
   overflow: hidden;
   position: absolute;
@@ -5274,7 +5268,7 @@ background: #416FF4;
   opacity: 0.5;
   position: absolute;
   text-align: center;
-  top: 123px;
+  top: 163px;
   width: calc(100.00% - 336px);
 }
 .partnerships-tablet-720px .input-4j1ImY {
@@ -5938,11 +5932,10 @@ background: #416FF4;
 .partnerships-tablet-720px .vector-gq7idq {
   background-color: transparent;
   height: 100%;
-  left: 53.25%;
+  left: 39%;
   mix-blend-mode: normal;
   position: absolute;
   top: 0px;
-  width: 9.27%;
 }
 .partnerships-tablet-720px .vector-iHEkte {
   background-color: transparent;
