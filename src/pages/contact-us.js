@@ -194,91 +194,93 @@ const SecondPage = () => (
             </Link>
         </div>
         <div className="column1-VNfvnu">
-          <div className="logo-dewRqW">
-            <img className="vector-ouSEQ4" src={vctr472x} />
-            <div className="group-ouSEQ4">
-              <div className="group-Sezeuf">
-                <img className="vector-SmNlIz" src={vctr942x} />
-                <img className="vector-IxizXk" src={vctr952x} />
-              </div>
-              <div className="group-OtwAtI">
-                <img className="vector-RvF0sZ" src={vctr502x} />
-                <img className="vector-XlMT9R" src={vctr512x} />
-              </div>
-              <div className="group-17YJk6">
-                <img className="vector-PxOO7g" src={vctr982x} />
-                <img className="vector-EhExRY" src={vctr992x} />
-              </div>
-              <div className="group-fkcxyX">
-                <img className="vector-y3MNOG" src={vctr542x} />
-                <img className="vector-xzs8rm" src={vctr1012x} />
-              </div>
-              <div className="group-jxb5jG">
-                <img className="vector-DJxK9x" src={vctr1022x} />
-                <img className="vector-IXIjeo" src={vctr1032x} />
-              </div>
-              <div className="group-p31HZL">
-                <img className="vector-vxOOCN" src={vctr502x} />
-                <img className="vector-xL5hnm" src={vctr592x} />
-              </div>
-              <div className="group-TR2xpZ">
-                <img className="vector-GktXrV" src={vctr602x} />
-                <img className="vector-C8Xmdu" src={vctr612x} />
-              </div>
-              <div className="group-65htGN">
-                <img className="vector-13Qfcl" src={vctr1082x} />
-                <img className="vector-bEbIBs" src={vctr1092x} />
-              </div>
-              <div className="group-mutyXY">
-                <img className="vector-Pe32ot" src={vctr642x} />
-                <img className="vector-bY4qhX" src={vctr1112x} />
-              </div>
-              <div className="group-yX6lkB">
-                <img className="vector-0odILz" src={vctr662x} />
-                <img className="vector-xRtuec" src={vctr1132x} />
-              </div>
-              <div className="group-j0QIVD">
-                <img className="vector-b5Pumq" src={vctr1142x} />
-                <img className="vector-EsDfKx" src={vctr1152x} />
-              </div>
-              <div className="group-jvEyLq">
-                <img className="vector-Hw9g7p" src={vctr702x} />
-                <img className="vector-aqdfwA" src={vctr712x} />
-              </div>
-              <div className="group-zllQ9f">
-                <img className="vector-F0GPgG" src={vctr722x} />
-                <img className="vector-h86hb6" src={vctr1192x} />
-              </div>
-              <div className="group-8IRfFX">
-                <img className="vector-OgxTK4" src={vctr1202x} />
-                <img className="vector-ZkxQYk" src={vctr1212x} />
-              </div>
-              <div className="group-xVtIr9">
-                <img className="vector-Ethps7" src={vctr762x} />
-                <img className="vector-5yEPZX" src={vctr772x} />
-              </div>
-              <div className="group-aLM7IN">
-                <img className="vector-x1JDIS" src={vctr782x} />
-                <img className="vector-tMldhx" src={vctr792x} />
-              </div>
-              <div className="group-5xRmdC">
-                <img className="vector-9f8vxY" src={vctr1262x} />
-                <img className="vector-Dc3Z8c" src={vctr1272x} />
-              </div>
-              <div className="group-gMXqQb">
-                <img className="vector-exWAgk" src={vctr822x} />
-                <img className="vector-DV4Tp3" src={vctr1292x} />
-              </div>
-              <div className="group-IbRZoW">
-                <img className="vector-Q6HAte" src={vctr1302x} />
-                <img className="vector-waHQ7h" src={vctr1312x} />
-              </div>
-              <div className="group-klr7L6">
-                <img className="vector-s1n5NW" src={vctr1322x} />
-                <img className="vector-Uk78ft" src={vctr1332x} />
+          <Link to="/">
+            <div className="logo-dewRqW">
+              <img className="vector-ouSEQ4" src={vctr472x} />
+              <div className="group-ouSEQ4">
+                <div className="group-Sezeuf">
+                  <img className="vector-SmNlIz" src={vctr942x} />
+                  <img className="vector-IxizXk" src={vctr952x} />
+                </div>
+                <div className="group-OtwAtI">
+                  <img className="vector-RvF0sZ" src={vctr502x} />
+                  <img className="vector-XlMT9R" src={vctr512x} />
+                </div>
+                <div className="group-17YJk6">
+                  <img className="vector-PxOO7g" src={vctr982x} />
+                  <img className="vector-EhExRY" src={vctr992x} />
+                </div>
+                <div className="group-fkcxyX">
+                  <img className="vector-y3MNOG" src={vctr542x} />
+                  <img className="vector-xzs8rm" src={vctr1012x} />
+                </div>
+                <div className="group-jxb5jG">
+                  <img className="vector-DJxK9x" src={vctr1022x} />
+                  <img className="vector-IXIjeo" src={vctr1032x} />
+                </div>
+                <div className="group-p31HZL">
+                  <img className="vector-vxOOCN" src={vctr502x} />
+                  <img className="vector-xL5hnm" src={vctr592x} />
+                </div>
+                <div className="group-TR2xpZ">
+                  <img className="vector-GktXrV" src={vctr602x} />
+                  <img className="vector-C8Xmdu" src={vctr612x} />
+                </div>
+                <div className="group-65htGN">
+                  <img className="vector-13Qfcl" src={vctr1082x} />
+                  <img className="vector-bEbIBs" src={vctr1092x} />
+                </div>
+                <div className="group-mutyXY">
+                  <img className="vector-Pe32ot" src={vctr642x} />
+                  <img className="vector-bY4qhX" src={vctr1112x} />
+                </div>
+                <div className="group-yX6lkB">
+                  <img className="vector-0odILz" src={vctr662x} />
+                  <img className="vector-xRtuec" src={vctr1132x} />
+                </div>
+                <div className="group-j0QIVD">
+                  <img className="vector-b5Pumq" src={vctr1142x} />
+                  <img className="vector-EsDfKx" src={vctr1152x} />
+                </div>
+                <div className="group-jvEyLq">
+                  <img className="vector-Hw9g7p" src={vctr702x} />
+                  <img className="vector-aqdfwA" src={vctr712x} />
+                </div>
+                <div className="group-zllQ9f">
+                  <img className="vector-F0GPgG" src={vctr722x} />
+                  <img className="vector-h86hb6" src={vctr1192x} />
+                </div>
+                <div className="group-8IRfFX">
+                  <img className="vector-OgxTK4" src={vctr1202x} />
+                  <img className="vector-ZkxQYk" src={vctr1212x} />
+                </div>
+                <div className="group-xVtIr9">
+                  <img className="vector-Ethps7" src={vctr762x} />
+                  <img className="vector-5yEPZX" src={vctr772x} />
+                </div>
+                <div className="group-aLM7IN">
+                  <img className="vector-x1JDIS" src={vctr782x} />
+                  <img className="vector-tMldhx" src={vctr792x} />
+                </div>
+                <div className="group-5xRmdC">
+                  <img className="vector-9f8vxY" src={vctr1262x} />
+                  <img className="vector-Dc3Z8c" src={vctr1272x} />
+                </div>
+                <div className="group-gMXqQb">
+                  <img className="vector-exWAgk" src={vctr822x} />
+                  <img className="vector-DV4Tp3" src={vctr1292x} />
+                </div>
+                <div className="group-IbRZoW">
+                  <img className="vector-Q6HAte" src={vctr1302x} />
+                  <img className="vector-waHQ7h" src={vctr1312x} />
+                </div>
+                <div className="group-klr7L6">
+                  <img className="vector-s1n5NW" src={vctr1322x} />
+                  <img className="vector-Uk78ft" src={vctr1332x} />
+                </div>
               </div>
             </div>
-          </div>
+          </Link>
           <p className="aboutblurb-i19541487-dewRqW dmsans-normal-white-14px">
             A new approach to diversity, equity &amp; inclusion. Meeting people &amp; organizations where they are through proprietary technology.
           </p>
