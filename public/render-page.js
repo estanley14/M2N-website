@@ -94,17 +94,19 @@ module.exports.default = module.exports, module.exports.__esModule = true;
 
 var _typeof = __webpack_require__(/*! @babel/runtime/helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js").default;
 
-function _getRequireWildcardCache(nodeInterop) {
+function _getRequireWildcardCache() {
   if (typeof WeakMap !== "function") return null;
-  var cacheBabelInterop = new WeakMap();
-  var cacheNodeInterop = new WeakMap();
-  return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) {
-    return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
-  })(nodeInterop);
+  var cache = new WeakMap();
+
+  _getRequireWildcardCache = function _getRequireWildcardCache() {
+    return cache;
+  };
+
+  return cache;
 }
 
-function _interopRequireWildcard(obj, nodeInterop) {
-  if (!nodeInterop && obj && obj.__esModule) {
+function _interopRequireWildcard(obj) {
+  if (obj && obj.__esModule) {
     return obj;
   }
 
@@ -114,7 +116,7 @@ function _interopRequireWildcard(obj, nodeInterop) {
     };
   }
 
-  var cache = _getRequireWildcardCache(nodeInterop);
+  var cache = _getRequireWildcardCache();
 
   if (cache && cache.has(obj)) {
     return cache.get(obj);
@@ -124,7 +126,7 @@ function _interopRequireWildcard(obj, nodeInterop) {
   var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
 
   for (var key in obj) {
-    if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) {
       var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
 
       if (desc && (desc.get || desc.set)) {
@@ -11394,24 +11396,24 @@ module.exports = withSideEffect;
 /***/ }),
 
 /***/ "react-dom/server":
-/*!*****************************************************************************************************!*\
-  !*** external "/Users/jtporter/Documents/my-projects/M2N-website/node_modules/react-dom/server.js" ***!
-  \*****************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** external "/Users/impactdesigns/Development/ImpactDesigns/M2N-website/node_modules/react-dom/server.js" ***!
+  \**************************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/jtporter/Documents/my-projects/M2N-website/node_modules/react-dom/server.js");;
+module.exports = require("/Users/impactdesigns/Development/ImpactDesigns/M2N-website/node_modules/react-dom/server.js");;
 
 /***/ }),
 
 /***/ "react":
-/*!************************************************************************************************!*\
-  !*** external "/Users/jtporter/Documents/my-projects/M2N-website/node_modules/react/index.js" ***!
-  \************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** external "/Users/impactdesigns/Development/ImpactDesigns/M2N-website/node_modules/react/index.js" ***!
+  \*********************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/jtporter/Documents/my-projects/M2N-website/node_modules/react/index.js");;
+module.exports = require("/Users/impactdesigns/Development/ImpactDesigns/M2N-website/node_modules/react/index.js");;
 
 /***/ }),
 

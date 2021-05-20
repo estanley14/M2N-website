@@ -9,8 +9,8 @@ import * as React from "react"
 import { Helmet } from "react-helmet";
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
+import { NewHeader } from './NewHeader'
+// import Header from "./header"
 // import "./layout.css"
 // CUSTOM
 import "../import/css/company-mobile-320px.css"
@@ -50,6 +50,7 @@ const Layout = ({ children }) => {
         <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20008151.js"></script>
         {/* <!-- End of HubSpot Embed Code --> */}
       </Helmet>
+      <NewHeader />
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <div>
         <main>{children}</main>

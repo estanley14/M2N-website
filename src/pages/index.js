@@ -4,9 +4,9 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import NavDesktop from "../components/navDesktop"
-import NavTablet from "../components/navTablet"
-import NavMobile from "../components/navMobile"
+// import NavDesktop from "../components/navDesktop"
+// import NavTablet from "../components/navTablet"
+// import NavMobile from "../components/navMobile"
 
 import Footer from "../components/footer"
 
@@ -99,7 +99,7 @@ const IndexPage = () => (
       </h1>
       <Link to="mpower-app">
         <div className="button-primary-default-C61RwL">
-          <div className="font-GsrA0Q valign-text-middle dmsans-bold-white-16px">JOIN THE MOVEMENT</div>
+          <div className="font-GsrA0Q valign-text-middle dmsans-bold-white-16px">join THE MOVEMENT</div>
         </div>
       </Link>
       <div className="imagegrid-C61RwL">
@@ -549,7 +549,7 @@ const IndexPage = () => (
         </div>
       </div> */}
       <Footer breakpoint="desktop" />
-      <NavDesktop />
+      {/* <NavDesktop /> */}
     </div>
     <div className="home-desktop-1024px screen">
       <img className="oval-copy-C61RwL" src="./import/img/oval-copy-5@1x.png" />
@@ -985,7 +985,7 @@ const IndexPage = () => (
         </div>
       </div> */}
       <Footer breakpoint="tablet" />
-      <NavTablet />
+      {/* <NavTablet /> */}
       <div className="group-581-C61RwL">
         <div className="a-new-way-to-enjoy-q-UDbxrZ dmsans-bold-baltic-sea-62px">Member Development</div>
         <p className="cras-semper-auctor-a-UDbxrZ dmsans-normal-trout-16px">
@@ -1453,7 +1453,7 @@ const IndexPage = () => (
         </div>
       </div> */}
       <Footer breakpoint="mobile" />
-      <NavMobile />
+      {/* <NavMobile /> */}
     </div>
     <div className="home-tablet-720px screen">
       <div className="heroimgbackground-C61RwL"></div>
@@ -1895,7 +1895,7 @@ const IndexPage = () => (
         </div>
       </div> */}
       <Footer breakpoint="mobile" />
-      <NavMobile />
+      {/* <NavMobile /> */}
     </div>
    
   </Layout>
