@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import NavDesktop from "../components/navDesktop"
-import NavTablet from "../components/navTablet"
-import NavMobile from "../components/navMobile"
+// import NavDesktop from "../components/navDesktop"
+// import NavTablet from "../components/navTablet"
+// import NavMobile from "../components/navMobile"
 
 //IMAGES
 import line762x from "../import/img/line-7-6@2x.png"
@@ -679,7 +679,7 @@ const SecondPage = () => (
           </div>
         </div>
       </div> */}
-        <NavDesktop theme="dark"  />
+        {/* <NavDesktop theme="dark"  /> */}
       <div className="footer-desktop-C61RwL">
         <div className="icongroup-VNfvnu">
           <div className="instagram-5R3sf4"><img className="combined-shape-TnWo79" src={cmbndShp2x} /></div>
@@ -943,7 +943,7 @@ const SecondPage = () => (
           </div>
         </div>
       </div> */}
-      <NavTablet theme="dark" />
+      {/* <NavTablet theme="dark" /> */}
       <div className="content-features-tablet-C61RwL">
         <div className="contentsection-jCBd0u">
           <div id="member-development-mid" className="h1-U50gxg dmsans-bold-big-stone-62px">Member Development</div>
@@ -1426,7 +1426,7 @@ const SecondPage = () => (
           <img className="iconnavigationmenu24px-xsYvp9" src="./import/img/icon-navigation-menu-24px-1@2x.png" />
         </div>
       </div> */}
-      <NavMobile theme="dark" />
+      {/* <NavMobile theme="dark" /> */}
       <div className="cta-mobile-C61RwL">
         <img className="gradientdropstroke-xVseMs" src={grdntDrpStrk21x} />
         <div className="texturelines-xVseMs">
@@ -1836,7 +1836,7 @@ const SecondPage = () => (
           <img className="iconnavigationmenu24px-xsYvp9" src="./import/img/icon-navigation-menu-24px-1@2x.png" />
         </div>
       </div> */}
-      <NavMobile theme="dark" />
+      {/* <NavMobile theme="dark" /> */}
       <div className="cta-mobile-C61RwL">
         <img className="gradientdropstroke-xVseMs" src={grdntDrpStrk32x} />
         <div className="texturelines-xVseMs">

@@ -16,7 +16,8 @@ const HeaderContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    // border: 1px solid black;
+    z-index: 4;
 
     @media (min-width: 1024px) {
         padding-left: 64px;
@@ -68,34 +69,44 @@ const HeaderContainer = styled.div`
         }
     }
 
-    & > .header-button {
-        height: 40px;
-        display: none;
+    & > .link-class {
+        text-decoration: none;
+        
 
-        @media (min-width: 1024px) {
-            position: absolute;
-            top: calc(50% - 40px/2);
-            right: 64px;
-            display: flex;
-        }
-
-        @media (min-width: 1440px) {
-            position: absolute;
-            top: calc(50% - 40px/2);
-            right: 140px;
-            display: flex;
+        & > .header-button {
+            height: 40px;
+            display: none;
+            cursor: pointer;
+    
+            @media (min-width: 1024px) {
+                position: absolute;
+                top: calc(50% - 40px/2);
+                right: 64px;
+                display: flex;
+            }
+    
+            @media (min-width: 1440px) {
+                position: absolute;
+                top: calc(50% - 40px/2);
+                right: 140px;
+                display: flex;
+            }
         }
     }
 `
 
 export default function NewHeader() {
+
     return (
         <HeaderContainer>
-            <img 
-                src={headerLogo} 
-                alt={'M2N'} 
-                className={'header-logo'}
-            />
+            <Link to={'/'}>
+                <img 
+                    src={headerLogo} 
+                    alt={'M2N'} 
+                    className={'header-logo'}
+                />
+            </Link>
+
             <div className={'links-container'}>
                 <Link to={'/'}>
                     <LinkItem label={'Home'} />
@@ -105,7 +116,9 @@ export default function NewHeader() {
                     <LinkItem label={'Membership'} />
                 </Link>
 
-                <LinkItem label={'Organization'} />
+                <Link to={'/organization'}>
+                    <LinkItem label={'Organization'} />
+                </Link>
 
                 <Link to={'/company'}>
                     <LinkItem label={'Company'} />
@@ -115,11 +128,15 @@ export default function NewHeader() {
                     <LinkItem label={'Partnerships'} />
                 </Link>
             </div>
-            <Button 
-                label={'Sign up'}
-                type={'primary'}
-                className={'header-button'}
-            />
+
+            <Link to={'/mpower-app'} className={'link-class'}>
+                <Button 
+                    label={'Sign up'}
+                    type={'primary'}
+                    className={'header-button'}
+                />
+            </Link>
+
             <img 
                 src={hamburgerMenu} 
                 alt={'menu'} 

@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import NavDesktop from "../components/navDesktop"
-import NavTablet from "../components/navTablet"
-import NavMobile from "../components/navMobile"
+// import NavDesktop from "../components/navDesktop"
+// import NavTablet from "../components/navTablet"
+// import NavMobile from "../components/navMobile"
 
 //IMAGES
 import bckrndShpsLft1x from "../import/img/backround-shapes-left@1x.png"
@@ -403,7 +403,7 @@ const Partners = () => (
           </div>
         </div>
       </div> */}
-      <NavDesktop />
+      {/* <NavDesktop /> */}
     </div>
     <div className="partnerships-desktop-1024px screen">
       {/* <div className="navbar-tablet-C61RwL">
@@ -433,7 +433,7 @@ const Partners = () => (
           </div>
         </div>
       </div> */}
-      <NavTablet />
+      {/* <NavTablet /> */}
       <div className="frame-59-C61RwL">
         <img className="backroundshapesleft-lF35ZC" src={bckrndShpsLft1x} />
         <div className="group-586-lF35ZC">
@@ -652,7 +652,7 @@ const Partners = () => (
       </div>
     </div>
     <div className="partnerships-tablet-720px screen">
-        <NavMobile />
+        {/* <NavMobile /> */}
       {/* <div className="navbar-mobile-C61RwL">
         <div className="logo-gTO9GM"><img className="vector-xvusrZ" src="./import/img/vector-494@2x.png" /></div>
         <div className="menu24px-gTO9GM">
@@ -880,7 +880,7 @@ const Partners = () => (
       </div>
     </div>
     <div className="partnerships-mobile-320px screen">
-        <NavMobile />
+        {/* <NavMobile /> */}
       {/* <div className="navbar-mobile-C61RwL">
         <div className="logo-gTO9GM"><img className="vector-xvusrZ" src="./import/img/vector-494@2x.png" /></div>
         <div className="menu24px-gTO9GM">
@@ -1037,7 +1037,7 @@ const Partners = () => (
           </Link>
         </div>
       </div>
-      <NavMobile />
+      {/* <NavMobile /> */}
       {/* <div className="navbar-mobile-VMr6Om">
         <div className="logo-8x5SRt"><img className="vector-Ztm0bx" src="./import/img/vector-443@2x.png" /></div>
         <div className="menu24px-8x5SRt">
