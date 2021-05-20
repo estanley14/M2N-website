@@ -139,15 +139,16 @@ const Footer = ({ breakpoint }) => {
                       <Link to="/mpower">
                           <div className="mpower-aRtUZh dmsans-normal-white-16px">MPower</div>
                       </Link>
-                      <Link to="/company">
-                          <div className="company-aRtUZh dmsans-normal-white-16px">Company</div>
-                      </Link>
                       <Link to="/partners">
                           <div className="partnerships-aRtUZh dmsans-normal-white-16px">Partnerships</div>
+                      </Link>
+                      <Link to="/company">
+                          <div className="company-aRtUZh dmsans-normal-white-16px">Company</div>
                       </Link>
                     </div>
                     <div className="column1-VNfvnu">
                     <div className="logo-dewRqW">
+                      
                         <img className="vector-ouSEQ4" src="./import/img/footer-logo-desktop.png" />
                     </div>
                     <p className="aboutblurb-dewRqW dmsans-normal-white-14px">
