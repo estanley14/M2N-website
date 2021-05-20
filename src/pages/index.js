@@ -34,7 +34,7 @@ import line152x from "../import/img/line-15@2x.png"
 import dotGridImg2x from "../import/img/dot-grid-img@2x.png" 
 import img1x from "../import/img/img@2x.png"
 import gradientFrame1x from "../import/img/gradient-frame@1x.png"
-import vector12x from "../import/img/vector-1@2x.png"
+import vector12x from "../import/img/logo-dark.png"
 import vector22x from "../import/img/vector-2@2x.png"
 import vector32x from "../import/img/vector-3@2x.png"
 import vector42x from "../import/img/vector-4@2x.png"
@@ -146,88 +146,6 @@ const IndexPage = () => (
 
         <div className="logo-C61RwL">
           <img className="vector-exFKkL" src={vector12x} />
-          <div className="group-exFKkL">
-            <div className="group-LRM1jR">
-              <img className="vector-GPRzar" src={vector22x} />
-              <img className="vector-Fm5KxR" src={vector32x} />
-            </div>
-            <div className="group-A0xVEW">
-              <img className="vector-6cFLVc" src={vector42x} />
-              <img className="vector-4xYBy1" src={vector52x} />
-            </div>
-            <div className="group-CPfWUV">
-              <img className="vector-3w6F7B" src={vector62x} />
-              <img className="vector-dsVJnW" src={vector72x} />
-            </div>
-            <div className="group-7UYHLR">
-              <img className="vector-2wosw3" src={vector82x} />
-              <img className="vector-PlhBYg" src={vector92x} />
-            </div>
-            <div className="group-KWLEK4">
-              <img className="vector-kIS7Kh" src={vector102x} />
-              <img className="vector-h7k85P" src={vector112x} />
-            </div>
-            <div className="group-xqPohA">
-              <img className="vector-FUQsKJ" src={vector122x} />
-              <img className="vector-IY7QiT" src={vector132x} />
-            </div>
-            <div className="group-dRhspZ">
-              <img className="vector-nRj0GX" src={vector142x} />
-              <img className="vector-p37Jy4" src={vector152x} />
-            </div>
-            <div className="group-ugQDQI">
-              <img className="vector-KrzmJ1" src={vector162x} />
-              <img className="vector-kfRX5B" src={vector172x} />
-            </div>
-            <div className="group-xQpv6Q">
-              <img className="vector-Qa9M6Z" src={vector182x} />
-              <img className="vector-KE5Zqg" src={vector192x} />
-            </div>
-            <div className="group-so4T52">
-              <img className="vector-yHHOxO" src={vector202x} />
-              <img className="vector-Wwb8xe" src={vector212x} />
-            </div>
-            <div className="group-9ZLGp2">
-              <img className="vector-6NWwXZ" src={vector222x} />
-              <img className="vector-2tlgkt" src={vector232x} />
-            </div>
-            <div className="group-dKxZiv">
-              <img className="vector-xHxiNB" src={vector242x} />
-              <img className="vector-kwhTkr" src={vector252x} />
-            </div>
-            <div className="group-f2B1ws">
-              <img className="vector-RQwDYH" src={vector262x} />
-              <img className="vector-AATI6m" src={vector272x} />
-            </div>
-            <div className="group-smegft">
-              <img className="vector-9RPHKK" src={vector282x} />
-              <img className="vector-b3pZmF" src={vector292x} />
-            </div>
-            <div className="group-zM0Sp9">
-              <img className="vector-K3QFIs" src={vector302x} />
-              <img className="vector-r2gP27" src={vector312x} />
-            </div>
-            <div className="group-hg01G8">
-              <img className="vector-9ddndr" src={vector322x} />
-              <img className="vector-rmD89g" src={vector332x} />
-            </div>
-            <div className="group-IHX4Tm">
-              <img className="vector-2OMZXT" src="./import/img/vector-34@2x.png" />
-              <img className="vector-KkMz4P" src="./import/img/vector-35@2x.png" />
-            </div>
-            <div className="group-x5UxhD">
-              <img className="vector-DWowff" src="./import/img/vector-36@2x.png" />
-              <img className="vector-veBUfZ" src="./import/img/vector-37@2x.png" />
-            </div>
-            <div className="group-OtUbot">
-              <img className="vector-7MolAu" src="./import/img/vector-38@2x.png" />
-              <img className="vector-K63rpb" src="./import/img/vector-39@2x.png" />
-            </div>
-            <div className="group-dk9LSl">
-              <img className="vector-5flfBP" src="./import/img/vector-40@2x.png" />
-              <img className="vector-lVkTT0" src="./import/img/vector-41@2x.png" />
-            </div>
-          </div>
         </div>
         <div className="h1-VMr6Om dmsans-bold-big-stone-62px">Minority Moves Network</div>
         <p className="p-C61RwL dmsans-normal-abbey-16px">
@@ -603,89 +521,7 @@ const IndexPage = () => (
         <img className="gradientframe-6IZ0TO" src="./import/img/gradient-frame-1@1x.png" />
       </div>
       <div className="logo-C61RwL">
-        <img className="vector-exFKkL" src="./import/img/vector-268@2x.png" />
-        <div className="group-exFKkL">
-          <div className="group-LRM1jR">
-            <img className="vector-GPRzar" src="./import/img/vector-269@2x.png" />
-            <img className="vector-Fm5KxR" src="./import/img/vector-270@2x.png" />
-          </div>
-          <div className="group-A0xVEW">
-            <img className="vector-6cFLVc" src="./import/img/vector-271@2x.png" />
-            <img className="vector-4xYBy1" src="./import/img/vector-272@2x.png" />
-          </div>
-          <div className="group-CPfWUV">
-            <img className="vector-3w6F7B" src="./import/img/vector-273@2x.png" />
-            <img className="vector-dsVJnW" src="./import/img/vector-274@2x.png" />
-          </div>
-          <div className="group-7UYHLR">
-            <img className="vector-2wosw3" src="./import/img/vector-275@2x.png" />
-            <img className="vector-PlhBYg" src="./import/img/vector-276@2x.png" />
-          </div>
-          <div className="group-KWLEK4">
-            <img className="vector-kIS7Kh" src="./import/img/vector-277@2x.png" />
-            <img className="vector-h7k85P" src="./import/img/vector-278@2x.png" />
-          </div>
-          <div className="group-xqPohA">
-            <img className="vector-FUQsKJ" src="./import/img/vector-279@2x.png" />
-            <img className="vector-IY7QiT" src="./import/img/vector-280@2x.png" />
-          </div>
-          <div className="group-dRhspZ">
-            <img className="vector-nRj0GX" src="./import/img/vector-281@2x.png" />
-            <img className="vector-p37Jy4" src="./import/img/vector-282@2x.png" />
-          </div>
-          <div className="group-ugQDQI">
-            <img className="vector-KrzmJ1" src="./import/img/vector-283@2x.png" />
-            <img className="vector-kfRX5B" src="./import/img/vector-284@2x.png" />
-          </div>
-          <div className="group-xQpv6Q">
-            <img className="vector-Qa9M6Z" src="./import/img/vector-285@2x.png" />
-            <img className="vector-KE5Zqg" src="./import/img/vector-286@2x.png" />
-          </div>
-          <div className="group-so4T52">
-            <img className="vector-yHHOxO" src="./import/img/vector-287@2x.png" />
-            <img className="vector-Wwb8xe" src="./import/img/vector-288@2x.png" />
-          </div>
-          <div className="group-9ZLGp2">
-            <img className="vector-6NWwXZ" src="./import/img/vector-289@2x.png" />
-            <img className="vector-2tlgkt" src="./import/img/vector-290@2x.png" />
-          </div>
-          <div className="group-dKxZiv">
-            <img className="vector-xHxiNB" src="./import/img/vector-291@2x.png" />
-            <img className="vector-kwhTkr" src="./import/img/vector-292@2x.png" />
-          </div>
-          <div className="group-f2B1ws">
-            <img className="vector-RQwDYH" src="./import/img/vector-293@2x.png" />
-            <img className="vector-AATI6m" src="./import/img/vector-294@2x.png" />
-          </div>
-          <div className="group-smegft">
-            <img className="vector-9RPHKK" src="./import/img/vector-295@2x.png" />
-            <img className="vector-b3pZmF" src="./import/img/vector-296@2x.png" />
-          </div>
-          <div className="group-zM0Sp9">
-            <img className="vector-K3QFIs" src="./import/img/vector-297@2x.png" />
-            <img className="vector-r2gP27" src="./import/img/vector-298@2x.png" />
-          </div>
-          <div className="group-hg01G8">
-            <img className="vector-9ddndr" src="./import/img/vector-299@2x.png" />
-            <img className="vector-rmD89g" src="./import/img/vector-300@2x.png" />
-          </div>
-          <div className="group-IHX4Tm">
-            <img className="vector-2OMZXT" src="./import/img/vector-301@2x.png" />
-            <img className="vector-KkMz4P" src="./import/img/vector-302@2x.png" />
-          </div>
-          <div className="group-x5UxhD">
-            <img className="vector-DWowff" src="./import/img/vector-303@2x.png" />
-            <img className="vector-veBUfZ" src="./import/img/vector-304@2x.png" />
-          </div>
-          <div className="group-OtUbot">
-            <img className="vector-7MolAu" src="./import/img/vector-305@2x.png" />
-            <img className="vector-K63rpb" src="./import/img/vector-306@2x.png" />
-          </div>
-          <div className="group-dk9LSl">
-            <img className="vector-5flfBP" src="./import/img/vector-307@2x.png" />
-            <img className="vector-lVkTT0" src="./import/img/vector-308@2x.png" />
-          </div>
-        </div>
+        <img className="vector-exFKkL" src={vector12x} />
       </div>
       <div className="h1-VMr6Om dmsans-bold-big-stone-62px">Minority Moves Network</div>
       <p className="p-C61RwL dmsans-normal-abbey-16px">
@@ -1054,89 +890,7 @@ const IndexPage = () => (
         <img className="gradientframe-6IZ0TO" src="./import/img/gradient-frame-2@2x.png" />
       </div>
       <div className="logo-C61RwL">
-        <img className="vector-exFKkL" src="./import/img/vector-356@2x.png" />
-        <div className="group-exFKkL">
-          <div className="group-LRM1jR">
-            <img className="vector-GPRzar" src="./import/img/vector-357@2x.png" />
-            <img className="vector-Fm5KxR" src="./import/img/vector-358@2x.png" />
-          </div>
-          <div className="group-A0xVEW">
-            <img className="vector-6cFLVc" src="./import/img/vector-359@2x.png" />
-            <img className="vector-4xYBy1" src="./import/img/vector-360@2x.png" />
-          </div>
-          <div className="group-CPfWUV">
-            <img className="vector-3w6F7B" src="./import/img/vector-361@2x.png" />
-            <img className="vector-dsVJnW" src="./import/img/vector-362@2x.png" />
-          </div>
-          <div className="group-7UYHLR">
-            <img className="vector-2wosw3" src="./import/img/vector-363@2x.png" />
-            <img className="vector-PlhBYg" src="./import/img/vector-364@2x.png" />
-          </div>
-          <div className="group-KWLEK4">
-            <img className="vector-kIS7Kh" src="./import/img/vector-365@2x.png" />
-            <img className="vector-h7k85P" src="./import/img/vector-366@2x.png" />
-          </div>
-          <div className="group-xqPohA">
-            <img className="vector-FUQsKJ" src="./import/img/vector-367@2x.png" />
-            <img className="vector-IY7QiT" src="./import/img/vector-368@2x.png" />
-          </div>
-          <div className="group-dRhspZ">
-            <img className="vector-nRj0GX" src="./import/img/vector-369@2x.png" />
-            <img className="vector-p37Jy4" src="./import/img/vector-370@2x.png" />
-          </div>
-          <div className="group-ugQDQI">
-            <img className="vector-KrzmJ1" src="./import/img/vector-371@2x.png" />
-            <img className="vector-kfRX5B" src="./import/img/vector-372@2x.png" />
-          </div>
-          <div className="group-xQpv6Q">
-            <img className="vector-Qa9M6Z" src="./import/img/vector-373@2x.png" />
-            <img className="vector-KE5Zqg" src="./import/img/vector-374@2x.png" />
-          </div>
-          <div className="group-so4T52">
-            <img className="vector-yHHOxO" src="./import/img/vector-375@2x.png" />
-            <img className="vector-Wwb8xe" src="./import/img/vector-376@2x.png" />
-          </div>
-          <div className="group-9ZLGp2">
-            <img className="vector-6NWwXZ" src="./import/img/vector-377@2x.png" />
-            <img className="vector-2tlgkt" src="./import/img/vector-378@2x.png" />
-          </div>
-          <div className="group-dKxZiv">
-            <img className="vector-xHxiNB" src="./import/img/vector-379@2x.png" />
-            <img className="vector-kwhTkr" src="./import/img/vector-380@2x.png" />
-          </div>
-          <div className="group-f2B1ws">
-            <img className="vector-RQwDYH" src="./import/img/vector-381@2x.png" />
-            <img className="vector-AATI6m" src="./import/img/vector-382@2x.png" />
-          </div>
-          <div className="group-smegft">
-            <img className="vector-9RPHKK" src="./import/img/vector-383@2x.png" />
-            <img className="vector-b3pZmF" src="./import/img/vector-384@2x.png" />
-          </div>
-          <div className="group-zM0Sp9">
-            <img className="vector-K3QFIs" src="./import/img/vector-385@2x.png" />
-            <img className="vector-r2gP27" src="./import/img/vector-386@2x.png" />
-          </div>
-          <div className="group-hg01G8">
-            <img className="vector-9ddndr" src="./import/img/vector-387@2x.png" />
-            <img className="vector-rmD89g" src="./import/img/vector-388@2x.png" />
-          </div>
-          <div className="group-IHX4Tm">
-            <img className="vector-2OMZXT" src="./import/img/vector-389@2x.png" />
-            <img className="vector-KkMz4P" src="./import/img/vector-390@2x.png" />
-          </div>
-          <div className="group-x5UxhD">
-            <img className="vector-DWowff" src="./import/img/vector-391@2x.png" />
-            <img className="vector-veBUfZ" src="./import/img/vector-392@2x.png" />
-          </div>
-          <div className="group-OtUbot">
-            <img className="vector-7MolAu" src="./import/img/vector-393@2x.png" />
-            <img className="vector-K63rpb" src="./import/img/vector-394@2x.png" />
-          </div>
-          <div className="group-dk9LSl">
-            <img className="vector-5flfBP" src="./import/img/vector-395@2x.png" />
-            <img className="vector-lVkTT0" src="./import/img/vector-396@2x.png" />
-          </div>
-        </div>
+        <img className="vector-exFKkL" src={vector12x} />
       </div>
       <div className="h1-C61RwL dmsans-bold-big-stone-40px">Minority Moves Network</div>
       <p className="p-C61RwL dmsans-normal-abbey-16px">
@@ -1508,89 +1262,7 @@ const IndexPage = () => (
         <img className="gradientframe-6IZ0TO" src="./import/img/gradient-frame-3@1x.png" />
       </div>
       <div className="logo-C61RwL">
-        <img className="vector-exFKkL" src="./import/img/vector-356@2x.png" />
-        <div className="group-exFKkL">
-          <div className="group-LRM1jR">
-            <img className="vector-GPRzar" src="./import/img/vector-357@2x.png" />
-            <img className="vector-Fm5KxR" src="./import/img/vector-358@2x.png" />
-          </div>
-          <div className="group-A0xVEW">
-            <img className="vector-6cFLVc" src="./import/img/vector-359@2x.png" />
-            <img className="vector-4xYBy1" src="./import/img/vector-360@2x.png" />
-          </div>
-          <div className="group-CPfWUV">
-            <img className="vector-3w6F7B" src="./import/img/vector-361@2x.png" />
-            <img className="vector-dsVJnW" src="./import/img/vector-362@2x.png" />
-          </div>
-          <div className="group-7UYHLR">
-            <img className="vector-2wosw3" src="./import/img/vector-363@2x.png" />
-            <img className="vector-PlhBYg" src="./import/img/vector-364@2x.png" />
-          </div>
-          <div className="group-KWLEK4">
-            <img className="vector-kIS7Kh" src="./import/img/vector-365@2x.png" />
-            <img className="vector-h7k85P" src="./import/img/vector-366@2x.png" />
-          </div>
-          <div className="group-xqPohA">
-            <img className="vector-FUQsKJ" src="./import/img/vector-367@2x.png" />
-            <img className="vector-IY7QiT" src="./import/img/vector-368@2x.png" />
-          </div>
-          <div className="group-dRhspZ">
-            <img className="vector-nRj0GX" src="./import/img/vector-369@2x.png" />
-            <img className="vector-p37Jy4" src="./import/img/vector-370@2x.png" />
-          </div>
-          <div className="group-ugQDQI">
-            <img className="vector-KrzmJ1" src="./import/img/vector-371@2x.png" />
-            <img className="vector-kfRX5B" src="./import/img/vector-372@2x.png" />
-          </div>
-          <div className="group-xQpv6Q">
-            <img className="vector-Qa9M6Z" src="./import/img/vector-373@2x.png" />
-            <img className="vector-KE5Zqg" src="./import/img/vector-374@2x.png" />
-          </div>
-          <div className="group-so4T52">
-            <img className="vector-yHHOxO" src="./import/img/vector-375@2x.png" />
-            <img className="vector-Wwb8xe" src="./import/img/vector-376@2x.png" />
-          </div>
-          <div className="group-9ZLGp2">
-            <img className="vector-6NWwXZ" src="./import/img/vector-377@2x.png" />
-            <img className="vector-2tlgkt" src="./import/img/vector-579@2x.png" />
-          </div>
-          <div className="group-dKxZiv">
-            <img className="vector-xHxiNB" src="./import/img/vector-580@2x.png" />
-            <img className="vector-kwhTkr" src="./import/img/vector-380@2x.png" />
-          </div>
-          <div className="group-f2B1ws">
-            <img className="vector-RQwDYH" src="./import/img/vector-582@2x.png" />
-            <img className="vector-AATI6m" src="./import/img/vector-583@2x.png" />
-          </div>
-          <div className="group-smegft">
-            <img className="vector-9RPHKK" src="./import/img/vector-383@2x.png" />
-            <img className="vector-b3pZmF" src="./import/img/vector-384@2x.png" />
-          </div>
-          <div className="group-zM0Sp9">
-            <img className="vector-K3QFIs" src="./import/img/vector-586@2x.png" />
-            <img className="vector-r2gP27" src="./import/img/vector-386@2x.png" />
-          </div>
-          <div className="group-hg01G8">
-            <img className="vector-9ddndr" src="./import/img/vector-387@2x.png" />
-            <img className="vector-rmD89g" src="./import/img/vector-388@2x.png" />
-          </div>
-          <div className="group-IHX4Tm">
-            <img className="vector-2OMZXT" src="./import/img/vector-389@2x.png" />
-            <img className="vector-KkMz4P" src="./import/img/vector-390@2x.png" />
-          </div>
-          <div className="group-x5UxhD">
-            <img className="vector-DWowff" src="./import/img/vector-391@2x.png" />
-            <img className="vector-veBUfZ" src="./import/img/vector-392@2x.png" />
-          </div>
-          <div className="group-OtUbot">
-            <img className="vector-7MolAu" src="./import/img/vector-393@2x.png" />
-            <img className="vector-K63rpb" src="./import/img/vector-595@2x.png" />
-          </div>
-          <div className="group-dk9LSl">
-            <img className="vector-5flfBP" src="./import/img/vector-596@2x.png" />
-            <img className="vector-lVkTT0" src="./import/img/vector-597@2x.png" />
-          </div>
-        </div>
+        <img className="vector-exFKkL" src={vector12x} />
       </div>
       <div className="h1-C61RwL dmsans-bold-big-stone-40px">Minority Moves Network</div>
       <p className="p-C61RwL dmsans-normal-abbey-16px">
