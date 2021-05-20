@@ -10,6 +10,7 @@ import { Helmet } from "react-helmet";
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { NewHeader } from './NewHeader'
+import NewSideNav from './NewSideNav'
 // import Header from "./header"
 // import "./layout.css"
 // CUSTOM
@@ -51,6 +52,7 @@ const Layout = ({ children }) => {
         {/* <!-- End of HubSpot Embed Code --> */}
       </Helmet>
       <NewHeader />
+      <NewSideNav />
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <div>
         <main>{children}</main>

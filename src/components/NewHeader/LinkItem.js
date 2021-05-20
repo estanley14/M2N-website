@@ -44,10 +44,10 @@ const LinkContainer = styled.div`
 `
 
 export default function LinkItem(props) {
-    const { label } = props
+    const { label, className } = props
     
     return (
-        <LinkContainer>
+        <LinkContainer className={className}>
             <p className={'header-link'}>{label}</p>
             <div className={'active-indicator'}></div>
         </LinkContainer>

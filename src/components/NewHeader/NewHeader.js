@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 import LinkItem from './LinkItem'
 import { Button } from '../../components/reusable-components'
 // import headerLogo from '../../assets/images/logo.png'
@@ -41,6 +42,10 @@ const HeaderContainer = styled.div`
 
         @media (min-width: 1440px) {
             margin-left: 80px;
+        }
+
+        & > a {
+            text-decoration: none;
         }
     }
 
@@ -90,11 +95,23 @@ export default function NewHeader() {
                 className={'header-logo'}
             />
             <div className={'links-container'}>
-                <LinkItem label={'Home'} />
-                <LinkItem label={'Membership'} />
+                <Link to={'/'}>
+                    <LinkItem label={'Home'} />
+                </Link>
+
+                <Link to={'/mpower'}>
+                    <LinkItem label={'Membership'} />
+                </Link>
+
                 <LinkItem label={'Organization'} />
-                <LinkItem label={'Company'} />
-                <LinkItem label={'Partnerships'} />
+
+                <Link to={'/company'}>
+                    <LinkItem label={'Company'} />
+                </Link>
+
+                <Link to={'/partners'}>
+                    <LinkItem label={'Partnerships'} />
+                </Link>
             </div>
             <Button 
                 label={'Sign up'}
