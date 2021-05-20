@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 // import NavDesktop from "../components/navDesktop"
 // import NavTablet from "../components/navTablet"
-// import NavMobile from "../components/navMobile"
+import NavMobile from "../components/navMobile"
 
 import Footer from "../components/footer"
 

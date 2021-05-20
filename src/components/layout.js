@@ -52,7 +52,7 @@ const Layout = ({ children }) => {
         {/* <!-- End of HubSpot Embed Code --> */}
       </Helmet>
       <NewHeader />
-      <NewSideNav />
+      {/* <NewSideNav /> */}
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <div>
         <main>{children}</main>
