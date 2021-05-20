@@ -421,7 +421,7 @@ const OurCompany = () => (
             </div>
             <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
           </div> */}
-          <input className="default-text-vxY8x4 sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
+          <input className="default-text-iPe1yZ sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         <div className="frame-iPe1yZ">
           <img className="vector-gq7idq" src={vctr4492x} />
@@ -597,7 +597,7 @@ const OurCompany = () => (
             </div>
             <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
           </div> */}
-          <input className="default-text-vxY8x4 sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
+          <input className="default-text-iPe1yZ sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         <div className="column3-iPe1yZ">
           <div className="platform-X4QSxG dmsans-bold-white-16px">Platform</div>
@@ -754,7 +754,7 @@ const OurCompany = () => (
             </div>
             <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
           </div> */}
-          <input className="default-text-vxY8x4 sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
+          <input className="default-text-iPe1yZ sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         <div className="frame-iPe1yZ">
           <img className="vector-gq7idq" src={vctr4492x} />
