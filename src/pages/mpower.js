@@ -697,22 +697,25 @@ const SecondPage = () => (
         <div className="divider-VNfvnu"></div>
         <div className="newslettersignup-VNfvnu">
           <div className="newsletter-vxY8x4 sourcesanspro-bold-white-16px">Newsletter</div>
-          <div className="input-default-vxY8x4">
-            <div className="input-GVqwCV border-1px-celeste"></div>
-            <input
-              className="placeholder-GVqwCV dmsans-normal-gunsmoke-16px"
-              name="placeholder"
-              placeholder="Your email"
-              type="email"
-              required
-            />
-          </div>
-          <div className="default-text-vxY8x4 smart-layers-pointers">
-            <div className="font-kEobNx sourcesanspro-bold-white-16px">Subscribe</div>
-          </div>
-          <div className="button-primary-desktop-vxY8x4">
-            <div className="font-U7FTmp valign-text-middle dmsans-bold-white-14px">SUBSCRIBE</div>
-          </div>
+          <form action="">
+            <div className="input-default-vxY8x4">
+              <div className="input-GVqwCV border-1px-celeste"></div>
+              <input
+                className="placeholder-GVqwCV dmsans-normal-gunsmoke-16px"
+                name="placeholder"
+                placeholder="Your email"
+                type="email"
+                required
+                />
+            </div>
+            {/* <div className="default-text-vxY8x4 smart-layers-pointers">
+              <div className="font-kEobNx sourcesanspro-bold-white-16px">Subscribe</div>
+            </div>
+            <div className="button-primary-desktop-vxY8x4">
+              <div className="font-U7FTmp valign-text-middle dmsans-bold-white-14px">SUBSCRIBE</div>
+            </div> */}
+            <input className="default-text-vxY8x4 sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
+          </form>
         </div>
         <div className="column3-VNfvnu">
           <div className="platform-r3WsSG dmsans-bold-white-16px">Platform</div>
@@ -1068,24 +1071,27 @@ const SecondPage = () => (
           <div className="linkedin-1-hamoIG"><img className="vector-YIAmW9" src={vctr3532x} /></div>
         </div>
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
-        <div className="inputs-default-iPe1yZ">
-          <div className="input-4j1ImY">
-            <div className="style-urJPUx border-1px-celeste"></div>
+        <form action="">
+          <div className="inputs-default-iPe1yZ">
+            <div className="input-4j1ImY">
+              <div className="style-urJPUx border-1px-celeste"></div>
+            </div>
+            <input
+              className="placeholder-4j1ImY dmsans-normal-gunsmoke-16px"
+              name="placeholder"
+              placeholder="Your email"
+              type="email"
+              required
+              />
           </div>
-          <input
-            className="placeholder-4j1ImY dmsans-normal-gunsmoke-16px"
-            name="placeholder"
-            placeholder="Your email"
-            type="email"
-            required
-          />
-        </div>
-        <div className="default-text-iPe1yZ">
-          <div className="button-TQGk14">
-            <div className="style-BFaroP"></div>
-          </div>
-          <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
-        </div>
+          {/* <div className="default-text-iPe1yZ">
+            <div className="button-TQGk14">
+              <div className="style-BFaroP"></div>
+            </div>
+            <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
+          </div> */}
+          <input className="default-text-vxY8x4 sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
+        </form>
         <div className="column3-iPe1yZ">
           <div className="platform-X4QSxG dmsans-bold-white-16px">Platform</div>
           <Link to="/mpower-app">
@@ -1374,24 +1380,27 @@ const SecondPage = () => (
       </div>
       <div className="footer-C61RwL">
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
-        <div className="inputs-default-iPe1yZ">
-          <div className="input-4j1ImY">
-            <div className="style-urJPUx border-1px-celeste"></div>
+        <form action="">
+          <div className="inputs-default-iPe1yZ">
+            <div className="input-4j1ImY">
+              <div className="style-urJPUx border-1px-celeste"></div>
+            </div>
+            <input
+              className="placeholder-4j1ImY dmsans-normal-gunsmoke-16px"
+              name="placeholder"
+              placeholder="Your email"
+              type="email"
+              required
+              />
           </div>
-          <input
-            className="placeholder-4j1ImY dmsans-normal-gunsmoke-16px"
-            name="placeholder"
-            placeholder="Your email"
-            type="email"
-            required
-          />
-        </div>
-        <div className="default-text-iPe1yZ">
-          <div className="button-TQGk14">
-            <div className="style-BFaroP"></div>
-          </div>
-          <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
-        </div>
+          {/* <div className="default-text-iPe1yZ">
+            <div className="button-TQGk14">
+              <div className="style-BFaroP"></div>
+            </div>
+            <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
+          </div> */}
+          <input className="default-text-vxY8x4 sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
+        </form>
         <div className="frame-iPe1yZ">
           <img className="vector-gq7idq" src={vctr4492x} />
         </div>
@@ -1704,24 +1713,27 @@ const SecondPage = () => (
       </div>
       <div className="footer-C61RwL">
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
-        <div className="inputs-default-iPe1yZ">
-          <div className="input-4j1ImY">
-            <div className="style-urJPUx border-1px-celeste"></div>
+        <form action="">
+          <div className="inputs-default-iPe1yZ">
+            <div className="input-4j1ImY">
+              <div className="style-urJPUx border-1px-celeste"></div>
+            </div>
+            <input
+              className="placeholder-4j1ImY dmsans-normal-gunsmoke-16px"
+              name="placeholder"
+              placeholder="Your email"
+              type="email"
+              required
+              />
           </div>
-          <input
-            className="placeholder-4j1ImY dmsans-normal-gunsmoke-16px"
-            name="placeholder"
-            placeholder="Your email"
-            type="email"
-            required
-          />
-        </div>
-        <div className="default-text-iPe1yZ">
-          <div className="button-TQGk14">
-            <div className="style-BFaroP"></div>
-          </div>
-          <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
-        </div>
+          {/* <div className="default-text-iPe1yZ">
+            <div className="button-TQGk14">
+              <div className="style-BFaroP"></div>
+            </div>
+            <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
+          </div> */}
+          <input className="default-text-vxY8x4 sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
+        </form>
         <div className="frame-iPe1yZ">
           <img className="vector-gq7idq" src={vctr4492x} />
         </div>
