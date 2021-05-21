@@ -71,7 +71,6 @@ const HeaderContainer = styled.div`
 
     & > .link-class {
         text-decoration: none;
-        
 
         & > .header-button {
             height: 40px;

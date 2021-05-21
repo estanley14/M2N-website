@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 import { Button } from '../../components/reusable-components'
 import ctaOval from '../../assets/images/cta-section-oval.svg'
 import ctaStripes from '../../assets/images/cta-section-stripes.svg'
-
 
 const StyledSection = styled.section`
     
@@ -57,10 +57,16 @@ const StyledSection = styled.section`
                 // border: 1px dashed orange;
             }
 
-            & > .cta-button {
-                background: #FF6D55;
-                height: 64px;
-                border-radius: 10px;
+            & > .link-class {
+                text-decoration: none;
+
+                & > .cta-button {
+                    background: #FF6D55;
+                    height: 64px;
+                    border-radius: 10px;
+                    cursor: pointer;
+
+                }
             }
         }
     }
@@ -72,10 +78,12 @@ export default function CTASection() {
             <div className={'cta-container'}>
                 <div className={'content-area'}>
                     <h3 className={'body'}>{'Join for FREE and explore the best tools to accelerate your professional development'}</h3>
-                    <Button
-                        label={'Explore MPower'}
-                        className={'cta-button'}
-                    />
+                    <Link to={'/mpower'} className={'link-class'}>
+                        <Button
+                            label={'Explore MPower'}
+                            className={'cta-button'}
+                        />
+                    </Link> 
                 </div>
             </div>
         </StyledSection>
