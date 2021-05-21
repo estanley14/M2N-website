@@ -5,6 +5,10 @@ import topStripes from '../../assets/images/org-section-stripes-top.svg'
 import middleStripes from '../../assets/images/org-section-stripes-middle.svg'
 import bottomStripes from '../../assets/images/org-section-stripes-bottom.svg'
 import boltImg from '../../assets/images/org-card-bolt.svg'
+import keyImg from '../../assets/images/org-card-key.svg'
+import supportImg from '../../assets/images/org-card-support.svg'
+import connectImg from '../../assets/images/org-card-connect.svg'
+
 
 const StyledSection = styled.section`
     width: 100%;
@@ -81,39 +85,22 @@ export default function OrganizationsSection() {
                 />
 
                 <OrgCard 
-                    title={'Prepare'}
-                    body={'Supported for creating an inclusive workspace where diverse talent can contribute unique value to the organization.'}
-                    icon={boltImg}
+                    title={'Recruit'}
+                    body={'Access to an expansive recruiting pool of diverse professionals actively engaged in the MPower platform.'}
+                    icon={keyImg}
                 />
 
                 <OrgCard 
-                    title={'Prepare'}
-                    body={'Supported for creating an inclusive workspace where diverse talent can contribute unique value to the organization.'}
-                    icon={boltImg}
+                    title={'Connect'}
+                    body={'Recipricol 1:1 mentorship opportunities will build authentic relationships within the organization. '}
+                    icon={connectImg}
                 />
 
                 <OrgCard 
-                    title={'Prepare'}
-                    body={'Supported for creating an inclusive workspace where diverse talent can contribute unique value to the organization.'}
-                    icon={boltImg}
+                    title={'Support'}
+                    body={'Unique systems and 1:1 services for hiring managers will streamline on-boarding process and increase employee engagement.'}
+                    icon={supportImg}
                 />
-                {/* <img 
-                    src={topStripes} 
-                    alt={'background stripes'} 
-                    className={'stripes-top'}
-                />
-
-                <img 
-                    src={middleStripes} 
-                    alt={'background stripes'} 
-                    className={'stripes-middle'}
-                />
-
-                <img 
-                    src={bottomStripes} 
-                    alt={'background stripes'} 
-                    className={'stripes-bottom'}
-                /> */}
             </div>
         </StyledSection>
     )
