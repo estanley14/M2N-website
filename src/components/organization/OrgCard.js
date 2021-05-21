@@ -3,7 +3,8 @@ import styled from 'styled-components'
 
 const CardContainer = styled.div`
     padding: 32px 72px 56px 32px;
-    width: 604px;
+    width: 588px;
+    height: 296px;
     border-radius: 16px;
     background: #FFFFFF;
 
@@ -12,7 +13,7 @@ const CardContainer = styled.div`
     & > .card-icon {
         margin-bottom: 28px;
         width: 80px;
-        border: 1px dashed blue;
+        // border: 1px dashed blue;
     }
 
     & > .title {
@@ -23,7 +24,7 @@ const CardContainer = styled.div`
         font-size: 28px;
         line-height: 34px;
         color: #333333;
-        border: 1px dashed blue;
+        // border: 1px dashed blue;
     }
 
     & > .body {
@@ -34,7 +35,7 @@ const CardContainer = styled.div`
         font-size: 16px;
         line-height: 140%;
         color: #707A89;
-        border: 1px dashed blue;
+        // border: 1px dashed blue;
     }
 `
 

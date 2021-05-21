@@ -13,7 +13,17 @@ const StyledSection = styled.section`
     flex-direction: column;
     align-items: center;
     padding: 172px 0px 0px 0px;
-    background: #F3F4F6;
+    background-position: 
+        top 352px right 164px,
+        top 644px left 40px,
+        top 888px right 64px;
+    background-repeat: no-repeat;
+    background-color: #F3F4F6;
+    background-image: 
+        url(${topStripes}),
+        url(${middleStripes}),
+        url(${bottomStripes});
+    // background: #F3F4F6;
 
     & > h3 {
         margin-bottom: 32px;
@@ -25,7 +35,7 @@ const StyledSection = styled.section`
         line-height: 100%;
         text-align: center;
         color: #11243D;
-        border: 1px dashed orange;
+        // border: 1px dashed orange;
     }
 
     & > p {
@@ -37,49 +47,23 @@ const StyledSection = styled.section`
         line-height: 140%;
         text-align: center;
         color: #4F4F4F;
-        border: 1px dashed orange;
+        // border: 1px dashed orange;
     }
 
     & > .card-container {
+        // display: none;
+        padding: 56px 0px 0px 0px;
         margin-top: 40px;
         position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        // row-gap: 0px;
+        // column-gap: 32px;
+        
+        gap: 32px;
         width: 1240px;
         height: 712px;
-        border: 2px dashed black;
-
-        & > .stripes-top {
-            position: absolute;
-            top: -55px;
-            right: 64px;
-            width: 176px;
-            // opacity: 0.2;
-            transform: rotate(-180deg);
-            border: 1px dashed orange;
-            z-index: 0;
-        }
-
-        & > .stripes-middle {
-            position: absolute;
-            top: 292px;
-            left: -60px;
-            width: 176px;
-            // opacity: 0.2;
-            transform: matrix(-1, 0, 0, 1, 0, 0);
-            border: 1px dashed orange;
-            z-index: 1;
-        }
-
-        & > .stripes-bottom {
-            position: absolute;
-            right: -36px;
-            bottom: -36px;
-            width: 176px;
-            // opacity: 0.2;
-            transform: rotate(-180deg);
-            border: 1px dashed orange;
-        }
-
-        
+        // border: 2px dashed black;
     }
 `
 
@@ -95,7 +79,25 @@ export default function OrganizationsSection() {
                     body={'Supported for creating an inclusive workspace where diverse talent can contribute unique value to the organization.'}
                     icon={boltImg}
                 />
-                <img 
+
+                <OrgCard 
+                    title={'Prepare'}
+                    body={'Supported for creating an inclusive workspace where diverse talent can contribute unique value to the organization.'}
+                    icon={boltImg}
+                />
+
+                <OrgCard 
+                    title={'Prepare'}
+                    body={'Supported for creating an inclusive workspace where diverse talent can contribute unique value to the organization.'}
+                    icon={boltImg}
+                />
+
+                <OrgCard 
+                    title={'Prepare'}
+                    body={'Supported for creating an inclusive workspace where diverse talent can contribute unique value to the organization.'}
+                    icon={boltImg}
+                />
+                {/* <img 
                     src={topStripes} 
                     alt={'background stripes'} 
                     className={'stripes-top'}
@@ -111,7 +113,7 @@ export default function OrganizationsSection() {
                     src={bottomStripes} 
                     alt={'background stripes'} 
                     className={'stripes-bottom'}
-                />
+                /> */}
             </div>
         </StyledSection>
     )
