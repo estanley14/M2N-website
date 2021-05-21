@@ -1,8 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
+import OrgCard from './OrgCard'
 import topStripes from '../../assets/images/org-section-stripes-top.svg'
 import middleStripes from '../../assets/images/org-section-stripes-middle.svg'
 import bottomStripes from '../../assets/images/org-section-stripes-bottom.svg'
+import boltImg from '../../assets/images/org-card-bolt.svg'
 
 const StyledSection = styled.section`
     width: 100%;
@@ -53,6 +55,7 @@ const StyledSection = styled.section`
             // opacity: 0.2;
             transform: rotate(-180deg);
             border: 1px dashed orange;
+            z-index: 0;
         }
 
         & > .stripes-middle {
@@ -63,6 +66,7 @@ const StyledSection = styled.section`
             // opacity: 0.2;
             transform: matrix(-1, 0, 0, 1, 0, 0);
             border: 1px dashed orange;
+            z-index: 1;
         }
 
         & > .stripes-bottom {
@@ -74,6 +78,8 @@ const StyledSection = styled.section`
             transform: rotate(-180deg);
             border: 1px dashed orange;
         }
+
+        
     }
 `
 
@@ -83,6 +89,12 @@ export default function OrganizationsSection() {
             <h3>Organizations</h3>
             <p>{'Multi-tiered approach to build an inclusive workforce for increased productivity, innovation and financial growth.'}</p>
             <div className={'card-container'}>
+
+                <OrgCard 
+                    title={'Prepare'}
+                    body={'Supported for creating an inclusive workspace where diverse talent can contribute unique value to the organization.'}
+                    icon={boltImg}
+                />
                 <img 
                     src={topStripes} 
                     alt={'background stripes'} 
@@ -100,7 +112,6 @@ export default function OrganizationsSection() {
                     alt={'background stripes'} 
                     className={'stripes-bottom'}
                 />
-                <p>Cards 247</p>
             </div>
         </StyledSection>
     )
