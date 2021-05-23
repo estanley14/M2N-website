@@ -6,6 +6,7 @@ const StyledButton = styled.button`
     padding: 8px 24px 8px 24px;
     height: 40px;
     display: flex;
+    justify-content: center;
     border: none;
     border-radius: 4px;
     align-items: center;

@@ -11,6 +11,7 @@ const HeaderContainer = styled.div`
     position: absolute;
     top: 0px;
     width: 100%;
+    height: 64px;
     box-sizing: border-box;
     padding: 20px 24px 20px 24px;
     display: flex;
@@ -20,6 +21,7 @@ const HeaderContainer = styled.div`
     z-index: 4;
 
     @media (min-width: 1024px) {
+        height: 80px;
         padding-left: 64px;
         padding-right: 64px;
         justify-content: inherit;
