@@ -14,14 +14,14 @@ const StyledSection = styled.section`
     flex-direction: column;
     align-items: center;
     // padding: 64px 16px 0px 16px;
-    padding: 64px 16px 40px 16px;
+    padding: 64px 16px 0px 16px;
     // border: 2px dashed black;
     width: 100%;
     background-position: 
         top 208px left -188px,
         top -80px right -420px;
     background-repeat: no-repeat;
-    background-color: #F3F4F6;
+    // background-color: #F3F4F6;
     background-size: 340px, 600px;
     background-image:
         url(${shapesLeft}),
@@ -37,13 +37,14 @@ const StyledSection = styled.section`
         padding-top: 80px;
         padding-left: 160px;
         padding-right: 160px;
-        padding-bottom: 80px;
-        // padding: 144px 160px 0px 160px;
+        // padding-bottom: 80px;
         // border: 2px dashed red;
     }
 
     @media (min-width: 1440px) {
-        padding: 168px 240px 80px 240px;
+        padding-top: 168px;
+        padding-right: 240px;
+        padding-left: 240px;
         // border: 2px dashed red;
     }
 
@@ -86,7 +87,7 @@ const StyledSection = styled.section`
             url(${mobileGrid});
         background-repeat: no-repeat;
         background-position: center;
-        // border: 1px dashed blue;
+        border: 1px dashed blue;
 
         @media (min-width: 720px) {
             // width: 592px;
