@@ -4,13 +4,12 @@ import image from '../../assets/images/home-network-image-image.jpg'
 import frame from '../../assets/images/home-network-image-frame.png'
 import dots from '../../assets/images/home-network-image-dots.svg'
 
-
 const ImageContainer = styled.div`
     width: 288px;
     height: 328px;
     position: relative;
     // background: lightgreen;
-    // border: 1px solid black;
+    border: 1px dashed orange;
 
     & > .image {
         position: absolute;
