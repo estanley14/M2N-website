@@ -10,7 +10,7 @@ const StyledSection = styled.section`
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    border: 2px dashed black;
+    // border: 2px dashed black;
 
     @media (min-width: 1440px) {
         width: 100%;
