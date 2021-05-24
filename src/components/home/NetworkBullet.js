@@ -42,8 +42,6 @@ export default function NetworkBullet(props) {
 
     let displayBullet = setBulletColor(color)
 
-    console.log(displayBullet)
-
     return (
         <ItemContainer className={className}>
             <img

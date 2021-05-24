@@ -31,6 +31,7 @@ import "../import/css/mobile-nav-320px.css"
 import "./custom.css"
 import icon from "../import/img/favicon.ico"
 
+import Nav from '../context/Nav'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -45,18 +46,21 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      
       <Helmet>
         <link rel="shortcut icon" type="image/jpg" href={icon}/>
         {/* <!-- Start of HubSpot Embed Code --> */}
         <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20008151.js"></script>
         {/* <!-- End of HubSpot Embed Code --> */}
       </Helmet>
-      <NewHeader />
-      {/* <NewSideNav /> */}
-      {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
-      <div>
+      <Nav>
+        <NewHeader />
+        <NewSideNav />
         <main>{children}</main>
-      </div>
+      </Nav>
+      {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
+      {/* <div> */}
+      {/* </div> */}
     </>
   )
 }

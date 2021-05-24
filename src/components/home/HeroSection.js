@@ -8,7 +8,6 @@ import tabletGrid from '../../assets/images/home-hero-grid-tablet.png'
 import desktop1024Grid from '../../assets/images/home-hero-grid-desktop1024.png'
 import desktop1440Grid from '../../assets/images/home-hero-grid-desktop1440.png'
 
-
 const StyledSection = styled.section`
     display: flex;
     flex-direction: column;
@@ -117,6 +116,7 @@ const StyledSection = styled.section`
 `
 
 export default function HeroSection() {
+
     return (
         <StyledSection>
             <h1>{'We advance diversity, equity, and inclusion in today\'s workplace.'}</h1>

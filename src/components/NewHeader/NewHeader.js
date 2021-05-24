@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import LinkItem from './LinkItem'
@@ -6,6 +6,7 @@ import { Button } from '../../components/reusable-components'
 // import headerLogo from '../../assets/images/logo.png'
 import headerLogo from '../../assets/icons/logo.svg'
 import hamburgerMenu from '../../assets/icons/menu_24px.svg'
+import { NavStateContext } from '../../context/Nav'
 
 const HeaderContainer = styled.div`
     position: absolute;
@@ -65,6 +66,7 @@ const HeaderContainer = styled.div`
 
     & > .menu-icon {
         // border: 1px dashed orange;
+        cursor: pointer;
 
         @media (min-width: 1024px) {
             display: none;
@@ -97,6 +99,15 @@ const HeaderContainer = styled.div`
 `
 
 export default function NewHeader() {
+    const [isMenuOpen, setIsMenuOpen] = useContext(NavStateContext)
+
+    function openMenu(menuStatus) {
+        if (menuStatus === false) {
+            setIsMenuOpen(() => true)
+        } else if (menuStatus === true) {
+            setIsMenuOpen(() => false)
+        }
+    }
 
     return (
         <HeaderContainer>
@@ -142,6 +153,7 @@ export default function NewHeader() {
                 src={hamburgerMenu} 
                 alt={'menu'} 
                 className={'menu-icon'}
+                onClick={() => openMenu(isMenuOpen)}
             />
         </HeaderContainer>
     )
