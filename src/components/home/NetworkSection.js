@@ -5,13 +5,21 @@ import NetworkBullet from './NetworkBullet'
 import networkLogo from '../../assets/images/home-network-logo.svg'
 
 const StyledSection = styled.section`
-    padding: 0px 16px 0px 16px;
+    padding: 48px 16px 0px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 2px dashed black;
 
+    & > .section-logo {
+        margin-top: 64px;
+        margin-bottom: 4px;
+        align-self: flex-start;
+        border: 1px dashed orange;
+    }
+
     & > .title {
+        margin-bottom: 16px;
         font-family: DM Sans;
         font-style: normal;
         font-weight: bold;
@@ -22,6 +30,7 @@ const StyledSection = styled.section`
     }
 
     & > .body {
+        margin-bottom: 32px;
         font-family: DM Sans;
         font-style: normal;
         font-weight: normal;
@@ -32,7 +41,7 @@ const StyledSection = styled.section`
     }
 
     & > .bullet-one {
-        margin-top: 0px;
+        margin-bottom: 24px;
     }
 
     & > .bullet-two {

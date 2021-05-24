@@ -14,7 +14,7 @@ const StyledSection = styled.section`
     flex-direction: column;
     align-items: center;
     // padding: 64px 16px 0px 16px;
-    padding: 64px 16px 0px 16px;
+    padding: 64px 16px 48px 16px;
     // border: 2px dashed black;
     width: 100%;
     background-position: 
