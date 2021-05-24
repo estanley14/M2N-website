@@ -7,7 +7,7 @@ const ItemContainer = styled.div`
     display: flex;
     align-items: flex-start;
     gap: 2px;
-    border: 1px solid green;
+    // border: 1px solid green;
 
     & > .bullet-image {
         margin-top: 4px;

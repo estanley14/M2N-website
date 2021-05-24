@@ -13,7 +13,6 @@ const StyledSection = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-    // padding: 64px 16px 0px 16px;
     padding: 64px 16px 48px 16px;
     // border: 2px dashed black;
     width: 100%;
@@ -21,7 +20,6 @@ const StyledSection = styled.section`
         top 208px left -188px,
         top -80px right -420px;
     background-repeat: no-repeat;
-    // background-color: #F3F4F6;
     background-size: 340px, 600px;
     background-image:
         url(${shapesLeft}),
@@ -87,7 +85,7 @@ const StyledSection = styled.section`
             url(${mobileGrid});
         background-repeat: no-repeat;
         background-position: center;
-        border: 1px dashed blue;
+        // border: 1px dashed blue;
 
         @media (min-width: 720px) {
             // width: 592px;

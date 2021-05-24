@@ -9,7 +9,7 @@ const ImageContainer = styled.div`
     height: 328px;
     position: relative;
     // background: lightgreen;
-    border: 1px dashed orange;
+    // border: 1px dashed orange;
 
     & > .image {
         position: absolute;
@@ -33,9 +33,11 @@ const ImageContainer = styled.div`
     }
 `
 
-export default function NetworkImage() {
+export default function NetworkImage(props) {
+    const { className } = props
+
     return (
-        <ImageContainer>
+        <ImageContainer className={className}>
             <img
                 src={image}
                 alt={'professionals networking'}
