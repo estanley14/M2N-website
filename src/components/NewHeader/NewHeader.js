@@ -7,6 +7,7 @@ import { Button } from '../../components/reusable-components'
 import headerLogo from '../../assets/icons/logo.svg'
 import hamburgerMenu from '../../assets/icons/menu_24px.svg'
 import { NavStateContext } from '../../context/Nav'
+import { useLocation } from '@reach/router'
 
 const HeaderContainer = styled.div`
     position: absolute;
@@ -100,6 +101,7 @@ const HeaderContainer = styled.div`
 
 export default function NewHeader() {
     const [isMenuOpen, setIsMenuOpen] = useContext(NavStateContext)
+    const { pathname } = useLocation()
 
     function openMenu(menuStatus) {
         if (menuStatus === false) {
@@ -108,6 +110,20 @@ export default function NewHeader() {
             setIsMenuOpen(() => false)
         }
     }
+
+    function setIndicatorColor(routePath) {
+        if (routePath === `/`) {
+            return 'home page'
+        } else if (routePath === '/mpower/') {
+            return 'membership page'
+        } else if (routePath === '/organization/') {
+            return 'organization page'
+        } else if (routePath === '/company/') {
+            return 'company page'
+        } else if (routePath === '/partners/') {
+            return 'partnership page'
+        }
+    }    
 
     return (
         <HeaderContainer>

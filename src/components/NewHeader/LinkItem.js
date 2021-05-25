@@ -8,6 +8,7 @@ const LinkContainer = styled.div`
     flex-direction: column;
     align-items: center;
     // background: lightcoral;
+    // border: 1px dashed orange;
 
     @media (min-width: 1024px) {
         width: 108px;
@@ -21,7 +22,7 @@ const LinkContainer = styled.div`
         // visibility: hidden;
         width: 12px;
         height: 4px;
-        background: none;
+        background: #416FF4;
     }
 
     & > .header-link {
