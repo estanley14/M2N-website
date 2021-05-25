@@ -7,7 +7,6 @@ import instagramIcon from '../assets/icons/footer-intagram.svg'
 import twitterIcon from '../assets/icons/footer-twitter.svg'
 import linkedInIcon from '../assets/icons/footer-linkedin.svg'
 
-
 const StyledFooter = styled.footer`
     padding: 64px 16px 48px 16px;
     display: flex;
@@ -17,14 +16,10 @@ const StyledFooter = styled.footer`
 
     @media (min-width: 1024px) {
         padding: 44px 64px 64px 64px;
-        // padding-top: 0px;
-        // padding-bottom: 64px;
     }
 
     @media (min-width: 1440px) {
         padding: 44px 140px 64px 140px;
-        // padding-top: 0px;
-        // padding-bottom: 64px;
     }
 
     & > .top-section {
@@ -59,7 +54,6 @@ const StyledFooter = styled.footer`
                 align-items: flex-start;
                 order: 1;
                 margin-bottom: 0px;
-                // margin-right: 48px;
                 width: 180px;
                 // border: 2px dashed red;
             }
@@ -136,12 +130,10 @@ const StyledFooter = styled.footer`
             @media (min-width: 1024px) {
                 order: 2;
                 margin-top: 0px;
-                // width: 386px;
                 // border: 2px dashed red;
             }
     
             & > .group-title {
-                // margin-bottom: 16px;
                 font-family: DM Sans;
                 font-style: normal;
                 font-weight: bold;
@@ -186,9 +178,6 @@ const StyledFooter = styled.footer`
             @media (min-width: 1024px) {
                 order: 3;
                 margin-top: 0px;
-                // margin-left: 56px;
-                // margin-right: 56px;
-                // width: 386px;
                 // border: 2px dashed red;
             }
     
@@ -245,13 +234,6 @@ const StyledFooter = styled.footer`
             justify-content: space-between;
         }
 
-        // & > .divider {
-        //     margin: 0px 0px 48px 0px;
-        //     width: 100%;
-        //     height: 2px;
-        //     background: #444444;
-        // }
-
         & > .copyright {
             font-family: DM Sans;
             font-style: normal;
@@ -294,7 +276,6 @@ const StyledFooter = styled.footer`
 
             & > .footer-icon {
                 width: 24px;
-                // background: blue;
             }
 
             & > .middle {
@@ -387,7 +368,6 @@ export default function NewFooter() {
             </div>
             
             <div className={'bottom-section'}>
-                {/* <div className={'divider'}></div> */}
                 <p className={'copyright'}>{'©2021 M2N, LLC  •  All rights reserved. '}</p>
                 <p className={'terms'}>{'Terms & Conditions   |   Privacy Policy'}</p>
                 <div className={'social-container '}>
