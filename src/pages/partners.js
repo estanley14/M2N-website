@@ -499,7 +499,7 @@ const Partners = () => (
           <div className="a-new-way-to-enjoy-q-MhUqEY dmsans-bold-baltic-sea-32px">Corporate Partners</div>
         </div>
       </div>
-      <div className="footer-C61RwL">
+      {/* <div className="footer-C61RwL">
         <div className="background-iPe1yZ"></div>
         <div className="frame-iPe1yZ">
           <img className="vector-gq7idq" src={vctr4492x} />
@@ -649,7 +649,7 @@ const Partners = () => (
               <div className="company-S164Qk dmsans-normal-white-16px">Company</div>
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
     <div className="partnerships-tablet-720px screen">
         {/* <NavMobile /> */}
@@ -665,7 +665,7 @@ const Partners = () => (
           <img className="iconnavigationmenu24px-BAyIoO" src="./import/img/icon-navigation-menu-24px@2x.png" />
         </div>
       </div> */}
-      <div className="footer-C61RwL">
+      {/* <div className="footer-C61RwL">
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
         <div className="inputs-default-iPe1yZ">
           <div className="input-4j1ImY">
@@ -814,7 +814,7 @@ const Partners = () => (
               <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
           </Link>
         </div>
-      </div>
+      </div> */}
       <div className="frame-59-C61RwL">
         <img className="backroundshapesleft-lF35ZC" src={bckrndShpsLft1x} />
         <div className="rectangle-8-lF35ZC"></div>
@@ -887,7 +887,7 @@ const Partners = () => (
           <img className="iconnavigationmenu24px-xsYvp9" src="./import/img/icon-navigation-menu-24px-1@2x.png" />
         </div>
       </div> */}
-      <div className="footer-C61RwL">
+      {/* <div className="footer-C61RwL">
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
         <div className="inputs-default-iPe1yZ">
           <div className="input-4j1ImY">
@@ -1036,7 +1036,7 @@ const Partners = () => (
               <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
           </Link>
         </div>
-      </div>
+      </div> */}
       {/* <NavMobile /> */}
       {/* <div className="navbar-mobile-VMr6Om">
         <div className="logo-8x5SRt"><img className="vector-Ztm0bx" src="./import/img/vector-443@2x.png" /></div>

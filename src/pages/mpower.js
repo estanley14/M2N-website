@@ -680,7 +680,8 @@ const SecondPage = () => (
         </div>
       </div> */}
         {/* <NavDesktop theme="dark"  /> */}
-      <div className="footer-desktop-C61RwL">
+        {/* FOOOOOOOTTTTTTTEEERRRR */}
+      {/* <div className="footer-desktop-C61RwL">
         <div className="icongroup-VNfvnu">
           <div className="instagram-5R3sf4"><img className="combined-shape-TnWo79" src={cmbndShp2x} /></div>
           <div className="twitter-5R3sf4"><img className="path-4KRaeG" src={pth2x} /></div>
@@ -831,7 +832,7 @@ const SecondPage = () => (
           A new approach to diversity, equity &amp; inclusion. Meeting people &amp; organizations where they are through proprietary technology.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
     <div className="mpower-desktop-1024px screen">
       <div className="hero-tablet-C61RwL">
@@ -1125,7 +1126,7 @@ const SecondPage = () => (
           </div>
         </Link>
       </div>
-      <div className="footer-C61RwL">
+      {/* <div className="footer-C61RwL">
         <div className="background-iPe1yZ"></div>
         <div className="frame-iPe1yZ">
           <img className="vector-gq7idq" src={vctr4492x} />
@@ -1275,7 +1276,7 @@ const SecondPage = () => (
               <div className="company-S164Qk dmsans-normal-white-16px">Company</div>
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
     <div className="mpower-tablet-720px screen">
       <div className="contentsection-C61RwL">
@@ -1534,7 +1535,7 @@ const SecondPage = () => (
           </div>
         </div>
       </div>
-      <div className="footer-C61RwL">
+      {/* <div className="footer-C61RwL">
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
         <div className="inputs-default-iPe1yZ">
           <div className="input-4j1ImY">
@@ -1683,7 +1684,7 @@ const SecondPage = () => (
               <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
     <div className="mpower-mobile-320px screen">
       <div className="content-features-mobile-C61RwL">
@@ -1946,7 +1947,7 @@ const SecondPage = () => (
           </div>
         </div>
       </div>
-      <div className="footer-C61RwL">
+      {/* <div className="footer-C61RwL">
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
         <div className="inputs-default-iPe1yZ">
           <div className="input-4j1ImY">
@@ -2095,7 +2096,7 @@ const SecondPage = () => (
               <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   </Layout>
 )

@@ -11,6 +11,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { NewHeader } from './NewHeader'
 import NewSideNav from './NewSideNav'
+import NewFooter from './NewFooter'
 // import Header from "./header"
 // import "./layout.css"
 // CUSTOM
@@ -57,6 +58,7 @@ const Layout = ({ children }) => {
         <NewHeader />
         <NewSideNav />
         <main>{children}</main>
+        <NewFooter />
       </Nav>
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       {/* <div> */}

@@ -8,7 +8,7 @@ import HomePage from '../components/home'
 // import NavTablet from "../components/navTablet"
 import NavMobile from "../components/navMobile"
 
-import Footer from "../components/footer"
+// import Footer from "../components/footer"
 
 // IMAGES
 import path702x from "../import/img/path-70@2x.png"
