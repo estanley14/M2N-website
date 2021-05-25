@@ -71,6 +71,7 @@ import vector332x from "../import/img/vector-23@2x.png"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
+    <HomePage />
     {/* <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
@@ -86,8 +87,7 @@ const IndexPage = () => (
       <Link to="/page-2/">Go to page 2</Link> <br />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </p> */}
-    <HomePage />
-   <input type="hidden" id="anPageName" name="page" value="home-tablet-720px" />
+   {/* <input type="hidden" id="anPageName" name="page" value="home-tablet-720px" /> */}
    
   </Layout>
 )
