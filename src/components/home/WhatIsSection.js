@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { IconButton } from '../reusable-components/'
 
 const StyledSection = styled.section`
     border: 2px dashed black;
@@ -7,7 +8,10 @@ const StyledSection = styled.section`
 export default function WhatIsSection() {
     return (
         <StyledSection>
-            <p>What is section</p>
+            <IconButton 
+                label={'View benefits'} 
+                color={'blue'}
+            />
         </StyledSection>
     )
 }
