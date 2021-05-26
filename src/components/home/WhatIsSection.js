@@ -105,10 +105,10 @@ export default function WhatIsSection() {
                     className={'google-image'}
                 />
             </div>
-            <IconButton 
+            {/* <IconButton 
                 label={'View benefits'} 
                 color={'blue'}
-            />
+            /> */}
         </StyledSection>
     )
 }
