@@ -85,10 +85,14 @@ const StyledSection = styled.section`
         flex-direction: column;
         align-items: flex-start;
         gap: 40px;
-        // border: 1px solid orange;
+        border: 1px solid orange;
 
         @media (min-width: 720px) {
             flex-direction: row;
+        }
+
+        @media (min-width: 1440px) {
+            gap: 72px;
         }
 
         & > .members-benefits {
