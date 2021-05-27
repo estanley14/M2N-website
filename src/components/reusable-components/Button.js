@@ -29,6 +29,7 @@ const StyledButton = styled.button`
     }
 
     & > img {
+        display: none;
         height: 24px;
         border: 1px dashed orange;
     }

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { BenefitsList } from './BenefitsList'
 import { IconButton } from '../reusable-components/'
 import logoImg from '../../assets/images/home-what-is-logo.svg'
 import appleStoreImg from '../../assets/images/apple-store.png'
@@ -7,9 +8,9 @@ import googlePlayImg from '../../assets/images/google-play.png'
 
 
 const StyledSection = styled.section`
-    padding: 0px 16px 0px 16px;
+    padding: 0px 16px 96px 16px;
     background: #191C23;
-    border: 2px dashed white;
+    // border: 2px dashed white;
 
     & > .demo {
         background: #416FF4;
@@ -20,7 +21,7 @@ const StyledSection = styled.section`
 
     & > .heading-container {
         margin-top: 120px;
-        border: 1px dashed orange;
+        // border: 1px dashed orange;
 
         & > h2 {
             font-family: DM Sans;
@@ -41,7 +42,7 @@ const StyledSection = styled.section`
             // border: 1px solid white;
         }
 
-        & > div > span {
+        & > div > h2 {
             font-family: DM Sans;
             font-style: normal;
             font-weight: bold;
@@ -67,11 +68,16 @@ const StyledSection = styled.section`
         display: flex;
         align-items: center;
         gap: 12px;
-        border: 1px dashed orange;
+        // border: 1px dashed orange;
 
         & > img {
             height: 40px;
         }
+    }
+
+    & > .members-benefits {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 `
 export default function WhatIsSection() {
@@ -87,7 +93,7 @@ export default function WhatIsSection() {
                         src={logoImg}
                         alt={'logo'}
                     />
-                    <span>{'?'}</span>
+                    <h2>{'?'}</h2>
                 </div>
                 <p className={'body'}>{'A dynamic and interactive online platform to empower minority professionals.'}</p>
             </div>
@@ -105,6 +111,23 @@ export default function WhatIsSection() {
                     className={'google-image'}
                 />
             </div>
+
+           <BenefitsList
+                color={'blue'}
+                listTitle={'For Members'}
+                labels={['Newsfeed', 'Online Classes', 'Keynote Speakers']}
+                buttonLabel={'View Benefits'}
+                className={'members-benefits'}
+           />
+
+           <BenefitsList
+                color={'red'}
+                listTitle={'For Organizations'}
+                labels={['Jobs', 'Talent Scores', 'Systems & Services']}
+                buttonLabel={'View Benefits'}
+                className={'organizations-benefits'}
+           />
+
             {/* <IconButton 
                 label={'View benefits'} 
                 color={'blue'}
