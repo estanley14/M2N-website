@@ -35,14 +35,21 @@ const ListContainer = styled.div`
 `
 
 export default function BenefitsList(props) {
-    const { color, labels, listTitle, buttonLabel, className } = props
+    const { 
+        color, 
+        labels, 
+        listTitle, 
+        buttonLabel, 
+        className, 
+        onClick 
+    } = props
 
     return (
         <ListContainer className={className}>
             <h4>{listTitle}</h4>
             <ul>
                 {labels.map((label, idx) => {
-                    return <ListItem label={label} />
+                    return <ListItem key={idx} label={label} />
                 })}
             </ul>
         
@@ -50,6 +57,7 @@ export default function BenefitsList(props) {
                 label={buttonLabel}
                 color={color}
                 className={'benefits-button'}
+                onClick={onClick}
             />
         </ListContainer>
     )

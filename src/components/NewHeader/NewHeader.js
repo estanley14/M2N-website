@@ -103,6 +103,7 @@ export default function NewHeader() {
     const [isMenuOpen, setIsMenuOpen] = useContext(NavStateContext)
     const { pathname } = useLocation()
 
+
     function openMenu(menuStatus) {
         if (menuStatus === false) {
             setIsMenuOpen(() => true)
@@ -114,16 +115,19 @@ export default function NewHeader() {
     function setIndicatorColor(routePath) {
         if (routePath === `/`) {
             return 'home page'
-        } else if (routePath === '/mpower/') {
+        } else if (routePath === '/mpower') {
             return 'membership page'
-        } else if (routePath === '/organization/') {
+        } else if (routePath === '/organization') {
             return 'organization page'
-        } else if (routePath === '/company/') {
+        } else if (routePath === '/company') {
             return 'company page'
-        } else if (routePath === '/partners/') {
+        } else if (routePath === '/partners') {
             return 'partnership page'
         }
     }    
+
+    // console.log(setIndicatorColor(pathname))
+
 
     return (
         <HeaderContainer>
@@ -137,23 +141,23 @@ export default function NewHeader() {
 
             <div className={'links-container'}>
                 <Link to={'/'}>
-                    <LinkItem label={'Home'} />
+                    <LinkItem label={'Home'} active={true} />
                 </Link>
 
                 <Link to={'/mpower'}>
-                    <LinkItem label={'Membership'} />
+                    <LinkItem label={'Membership'} active={true} />
                 </Link>
 
                 <Link to={'/organization'}>
-                    <LinkItem label={'Organization'} />
+                    <LinkItem label={'Organization'} active={true} />
                 </Link>
 
                 <Link to={'/company'}>
-                    <LinkItem label={'Company'} />
+                    <LinkItem label={'Company'} active={true} />
                 </Link>
 
                 <Link to={'/partners'}>
-                    <LinkItem label={'Partnerships'} />
+                    <LinkItem label={'Partnerships'} active={true} />
                 </Link>
             </div>
 

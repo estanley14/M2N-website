@@ -312,7 +312,8 @@ const StyledInput = styled.input`
     }
 `
 
-export default function NewFooter() {
+export default function NewFooter() {  
+
     return (
         <StyledFooter>
             <div className={'top-section'}>

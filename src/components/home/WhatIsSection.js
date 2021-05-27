@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { navigate } from 'gatsby'
 import { BenefitsList } from './BenefitsList'
 import { IconButton } from '../reusable-components/'
 import logoImg from '../../assets/images/home-what-is-logo.svg'
@@ -85,7 +86,7 @@ const StyledSection = styled.section`
         flex-direction: column;
         align-items: flex-start;
         gap: 40px;
-        border: 1px solid orange;
+        // border: 1px solid orange;
 
         @media (min-width: 720px) {
             flex-direction: row;
@@ -103,11 +104,17 @@ const StyledSection = styled.section`
     
 `
 export default function WhatIsSection() {
+
+    function handleMembersClick() {
+        navigate('/mpower-app')
+    }
+
+    function handleOrganizationsClick() {
+        navigate('/mpower-app')
+    }
+
     return (
         <StyledSection>
-            {/* <div className={'demo'}>
-                <p>demo div</p>
-            </div> */}
             <div className={'heading-container'}>
                 <h2>{'What is'}</h2>
                 <div>
@@ -141,6 +148,7 @@ export default function WhatIsSection() {
                     labels={['Newsfeed', 'Online Classes', 'Keynote Speakers']}
                     buttonLabel={'View Benefits'}
                     className={'members-benefits'}
+                    onClick={() => handleMembersClick()}
                 />
                 <BenefitsList
                     color={'red'}
@@ -148,17 +156,9 @@ export default function WhatIsSection() {
                     labels={['Jobs', 'Talent Scores', 'Systems & Services']}
                     buttonLabel={'View Benefits'}
                     className={'organizations-benefits'}
+                    onClick={() => handleOrganizationsClick()}
                 />
             </div>
-
-           
-
-           
-
-            {/* <IconButton 
-                label={'View benefits'} 
-                color={'blue'}
-            /> */}
         </StyledSection>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { useLocation } from '@reach/router'
 
 const LinkContainer = styled.div`
     // width: 128px;
@@ -23,6 +24,7 @@ const LinkContainer = styled.div`
         width: 12px;
         height: 4px;
         background: #416FF4;
+        background: ${props => props.background};
     }
 
     & > .header-link {
@@ -46,11 +48,17 @@ const LinkContainer = styled.div`
 
 export default function LinkItem(props) {
     const { label, className } = props
-    
+    const { pathname } = useLocation()
+
+    let color = 'red'
+
+    console.log(pathname)
+
+
     return (
         <LinkContainer className={className}>
             <p className={'header-link'}>{label}</p>
-            <div className={'active-indicator'}></div>
+            <div className={'active-indicator'} background={color}></div>
         </LinkContainer>
     )
 }
