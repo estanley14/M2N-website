@@ -1300,7 +1300,7 @@
   position: absolute;
   text-align: left;
   top: 503px;
-  width: calc(100.00% - 667px);
+  width: calc(100.00% - 867px);
 }
 .mpower-landing-desktop-1024px .line-button-xjb0Rz {
   background-color: transparent;
@@ -1518,7 +1518,7 @@
   height: 803px;
   left: -23px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 0px;
   width: 1012px;
@@ -4155,10 +4155,10 @@
   height: 614px;
   left: -17px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
-  top: 0px;
-  width: 774px;
+  top: -20px;
+  width: 684px;
 }
 .mpower-landing-desktop-1440px .mockups-C61RwL {
   background-color: transparent;
@@ -6781,7 +6781,7 @@
 .mpower-landing-mobile-320px .mockups-1-ql3H8Z {
   background-color: transparent;
   height: 254px;
-  left: 16px;
+  left: -4px;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
@@ -9385,10 +9385,10 @@
   height: 456px;
   left: 32px;
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: contain;
   position: absolute;
   top: 0px;
-  width: 575px;
+  width: 525px;
 }
 .mpower-landing-tablet-720px .mockups-Kp0bi6 {
   background-color: transparent;

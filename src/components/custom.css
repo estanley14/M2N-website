@@ -531,14 +531,11 @@ body [class*="mpower-landing-desktop"] .block-1-VMr6Om  > div {
 .mpower-landing-desktop-1024px .mockups-1-ql3H8Z {
     background-color: transparent;
     height: 503px;
-    left: auto;
     mix-blend-mode: normal;
-    -o-object-fit: cover;
-    /* object-fit: cover; */
+    -o-object-fit: contain;
+    /* object-fit: contain; */
     position: absolute;
-    top: 50px;
-    right: 10px;
-    width: auto;
+    top: 140px;
 }
 
 
