@@ -12,12 +12,16 @@ const StyledSection = styled.section`
     background: #191C23;
     // border: 2px dashed white;
 
-    & > .demo {
-        background: #416FF4;
-        width: 100%;
-        height: 272px;
-        // border: 2px dashed orange;
+    @media (min-width: 720px) {
+        padding: 0px 64px 96px 64px;
     }
+
+    // & > .demo {
+    //     background: #416FF4;
+    //     width: 100%;
+    //     height: 272px;
+    //     border: 2px dashed orange;
+    // }
 
     & > .heading-container {
         margin-top: 120px;
@@ -75,17 +79,31 @@ const StyledSection = styled.section`
         }
     }
 
-    & > .members-benefits {
+    & > .benefits-container {
         margin-top: 40px;
-        margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        // border: 1px solid orange;
+
+        @media (min-width: 720px) {
+            flex-direction: row;
+        }
+
+        & > .members-benefits {
+            // border: 1px solid orange;
+        }
     }
+
+    
 `
 export default function WhatIsSection() {
     return (
         <StyledSection>
-            <div className={'demo'}>
+            {/* <div className={'demo'}>
                 <p>demo div</p>
-            </div>
+            </div> */}
             <div className={'heading-container'}>
                 <h2>{'What is'}</h2>
                 <div>
@@ -112,21 +130,26 @@ export default function WhatIsSection() {
                 />
             </div>
 
-           <BenefitsList
-                color={'blue'}
-                listTitle={'For Members'}
-                labels={['Newsfeed', 'Online Classes', 'Keynote Speakers']}
-                buttonLabel={'View Benefits'}
-                className={'members-benefits'}
-           />
+            <div className={'benefits-container'}>
+                <BenefitsList
+                    color={'blue'}
+                    listTitle={'For Members'}
+                    labels={['Newsfeed', 'Online Classes', 'Keynote Speakers']}
+                    buttonLabel={'View Benefits'}
+                    className={'members-benefits'}
+                />
+                <BenefitsList
+                    color={'red'}
+                    listTitle={'For Organizations'}
+                    labels={['Jobs', 'Talent Scores', 'Systems & Services']}
+                    buttonLabel={'View Benefits'}
+                    className={'organizations-benefits'}
+                />
+            </div>
 
-           <BenefitsList
-                color={'red'}
-                listTitle={'For Organizations'}
-                labels={['Jobs', 'Talent Scores', 'Systems & Services']}
-                buttonLabel={'View Benefits'}
-                className={'organizations-benefits'}
-           />
+           
+
+           
 
             {/* <IconButton 
                 label={'View benefits'} 
