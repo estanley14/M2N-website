@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { navigate } from 'gatsby'
 import { IconButton } from '../reusable-components/'
 import developImage from '../../assets/images/home-learnmore-develop-full-image.png'
 import developImageTablet from '../../assets/images/home-learnmore-develop-tablet.png'
@@ -215,6 +216,15 @@ const StyledSection = styled.section`
 `
 
 export default function LearnSection() {
+
+    function handleDevelopClick() {
+        navigate('/mpower')
+    }
+
+    function handleOpportunitiesClick() {
+        navigate('/mpower')
+    }
+
     return (
         <StyledSection>
             <div className={'develop-details'}>
@@ -226,7 +236,9 @@ export default function LearnSection() {
                         label={'Learn more'}
                         color={'blue'}
                         className={'learn-button'}
+                        onClick={() => handleDevelopClick()}
                     />
+                    
                 </div>
             </div>
 
@@ -239,11 +251,10 @@ export default function LearnSection() {
                             label={'Learn more'}
                             color={'blue'}
                             className={'learn-button'}
+                            onClick={() => handleOpportunitiesClick()}
                     />
                 </div>
             </div>
-            
-
         </StyledSection>
     )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 import { Button } from '../reusable-components'
 import shapesLeft from '../../assets/images/home-hero-shapes-left.svg'
 import shapesRight from '../../assets/images/home-hero-shapes-right.svg'
@@ -7,6 +8,10 @@ import mobileGrid from '../../assets/images/home-hero-grid-mobile.png'
 import tabletGrid from '../../assets/images/home-hero-grid-tablet.png'
 import desktop1024Grid from '../../assets/images/home-hero-grid-desktop1024.png'
 import desktop1440Grid from '../../assets/images/home-hero-grid-desktop1440.png'
+
+const StyledLink = styled(Link)`
+    // border: 2px solid lightcoral;
+`
 
 const StyledSection = styled.section`
     display: flex;
@@ -67,13 +72,18 @@ const StyledSection = styled.section`
         }
     }
 
-    & > .hero-button {
+    & > .button-link {
         margin: 24px 0px 64px 0px;
         width: 100%;
         cursor: pointer;
+        text-decoration: none;
 
         @media (min-width: 1024px) {
             width: 316px;
+        }
+
+        & > .hero-button {
+            width: 100%;
         }
     }
 
@@ -120,7 +130,9 @@ export default function HeroSection() {
     return (
         <StyledSection>
             <h1>{'We advance diversity, equity, and inclusion in today\'s workplace.'}</h1>
-            <Button label={'Join the movement'} className={'hero-button'} />
+            <StyledLink to={'/mpower-app'} className={'button-link'}>
+                <Button label={'Join the movement'} className={'hero-button'} />
+            </StyledLink>
             <div className={'image-grid-container'}></div>
             {/* <img
                 src={shapesLeft}

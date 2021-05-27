@@ -35,7 +35,7 @@ const StyledButton = styled.button`
 `
 
 export default function IconButton(props) {
-    const { label, color, className } = props
+    const { label, color, className, onClick } = props
     const { 
         textColor, 
         buttonBorder,
@@ -66,7 +66,7 @@ export default function IconButton(props) {
     let iconImage = setIcon(color)
 
     return (
-        <StyledButton color={textColor} border={buttonBorder} className={className}>
+        <StyledButton color={textColor} border={buttonBorder} className={className} onClick={onClick}>
             <p color={textColor}>{label}</p>
             <img
                 src={iconImage}
