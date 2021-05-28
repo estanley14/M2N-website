@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { navigate } from 'gatsby'
 import { IconButton } from '../reusable-components/'
+import { LearnImg1, LearnImg2 } from '../reusable-components/'
 import developImage from '../../assets/images/home-learnmore-develop-full-image.png'
 import developImageTablet from '../../assets/images/home-learnmore-develop-tablet.png'
 import developImage1024 from '../../assets/images/home-learnmore-develop-1024.png'
@@ -228,7 +229,9 @@ export default function LearnSection() {
     return (
         <StyledSection>
             <div className={'develop-details'}>
-                <div className={'develop-image'}></div>
+                <LearnImg1 />
+
+                {/* <div className={'develop-image'}></div> */}
                 <div className={'wrapper'}>
                     <h4>{'Professional Development'}</h4> 
                     <p>{'Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…'}</p> 
@@ -243,7 +246,8 @@ export default function LearnSection() {
             </div>
 
             <div className={'opportunities-details'}>
-                <div className={'opportunities-image'}></div>
+                <LearnImg2 />
+                {/* <div className={'opportunities-image'}></div> */}
                 <div className={'wrapper'}>
                     <h4>{'Career Opportunities'}</h4> 
                     <p>{'Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces, hiring organizations will have…'}</p> 
