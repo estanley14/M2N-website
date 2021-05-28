@@ -94,7 +94,7 @@ const ImageContainer = styled.div`
                 url(${desktop1024Frame2})
         }
 
-        @media (min-width: 1024px) {
+        @media (min-width: 1440px) {
             width: 520px;
             height: 475px;
             background-image:

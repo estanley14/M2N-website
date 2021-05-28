@@ -1,19 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
+
 import mobileImage1 from '../../assets/images/home/learnmore-image1-mobile.jpg'
 import mobileFrame1 from '../../assets/images/home/learnmore-frame1-mobile.png'
 import mobileStripesRed from '../../assets/images/home/learnmore-stripes-red.svg'
-
 import tabletImage1 from '../../assets/images/home/learnmore-image1-tablet.jpg'
 import tabletFrame1 from '../../assets/images/home/learnmore-frame1-tablet.png'
-
 import desktop1024Image1 from '../../assets/images/home/learnmore-image1-1024.jpg'
 import desktop1024Frame1 from '../../assets/images/home/learnmore-frame1-1024.png'
-
 import desktop1440Image1 from '../../assets/images/home/learnmore-image1-1440.jpg'
 import desktop1440Frame1 from '../../assets/images/home/learnmore-frame1-1440.png'
-
-
 
 const ImageContainer = styled.div`
     order: 2;
@@ -82,6 +78,7 @@ const ImageContainer = styled.div`
             url(${mobileFrame1});
         background-repeat: no-repeat;
         background-position: center;
+        background-size: contain;
         border-radius: 8px;
 
         @media (min-width: 720px) {
