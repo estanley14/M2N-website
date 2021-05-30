@@ -1,281 +1,242 @@
 import React from 'react'
 import styled from 'styled-components'
-// import { PlatformCard1, PlatformCard2, PlatformCard3 } from '../reusable-components/'
-import mobileGraph from '../../assets/images/home-platform-graphic.png'
-import desktopGraph from '../../assets/images/home/platform-graphic-desktop.png'
-import membershipCardMobile from '../../assets/images/home/platform-membership-card-mobile.png'
-import membershipCardDesktop from '../../assets/images/home/platform-membership-card-desktop.png'
-import placementCardMobile from '../../assets/images/home/platform-placement-card-mobile.png'
-import placementCardDesktop from '../../assets/images/home/platform-placement-card-desktop.png'
-import servicesCardMobile from '../../assets/images/home/platform-services-card-mobile.png'
-import servicesCardDesktop from '../../assets/images/home/platform-services-card-desktop.png'
-import backgroundDots from '../../assets/images/home/platform-background-stripes.svg'
+import graphMobile from '../../assets/images/home/platform-graph-mobile.png'
+import graphDesktop from '../../assets/images/home/platform-graphic-desktop.png'
+import membershipFrameMobile from '../../assets/images/home/platform-membership-frame-mobile.svg'
+import membershipFrameDesktop from '../../assets/images/home/platform-membership-frame-desktop.svg'
+import placementFrameMobile from '../../assets/images/home/platform-placement-frame-mobile.svg'
+import placementFrameDesktop from '../../assets/images/home/platform-placement-frame-desktop.svg'
+import servicesFrameMobile from '../../assets/images/home/platform-services-frame-mobile.svg'
+import servicesFrameDesktop from '../../assets/images/home/platform-services-frame-desktop.svg'
 
+import dotsMobile from '../../assets/images/home/dots-mobile.svg'
+import dotsDesktop from '../../assets/images/home/dots-desktop.svg'
 
 const StyledSection = styled.section`
     position: relative;
-    padding: 0px 16px 0px 16px;
+    padding: 96px 16px 96px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    // gap: 48px;
     overflow: hidden;
-    border: 2px dashed black;
+    // border: 2px dashed black;
 
     @media (min-width: 1024px) {
-        // overflow: visible;
-
-        // background: lightblue;
+        padding-top: 160px;
+        height: 824px;
         display: block;
     }
 
-    // & > .graph-image {
-    //     width: 288px;
-    //     border: 1px dashed orange;
-    // }
-
-    & > .graph {
+    & > .graph-image {
         width: 288px;
-        width: 100%;
         height: 288px;
         background-image:
-            url(${mobileGraph});
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-        border: 1px dashed orange;
+            url(${graphMobile});
+        // border: 1px dashed orange;
 
         @media (min-width: 1024px) {
             position: absolute;
             top: 60px;
             left: calc(50% - 435px/2);
             width: 435px;
-            height: 435px;    
+            height: 435px;
             background-image:
-                url(${desktopGraph});
+                url(${graphDesktop});
         }
     }
 
-    & > .card-container {
-        width: 100%;
-        border: 1px solid blue;
-
-        & > .card-1 {
-            width: 288px;
-            height: 196px;
-            background-image: 
-                url(${membershipCardMobile});
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            border: 1px dashed orange;
-    
-            @media (min-width: 1024px) {
-                position: absolute;
-                top: 162px;
-                left: 128px;
-                width: 352px;
-                height: 172px;
-                background-image:
-                    url(${membershipCardDesktop});
-            }
-        }
-
-        & > .card-2 {
-            width: 288px;
-            height: 180px;
-            background-image: 
-                url(${placementCardMobile});
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            border: 1px dashed orange;
-    
-            @media (min-width: 1024px) {
-                position: absolute;
-                top: 162px;
-                right: 128px;
-                width: 352px;
-                height: 172px;
-                background-image:
-                    url(${placementCardDesktop});
-            }
-        }
-    }
-
-    & > .background-dots {
-        display: none;
+    & > .dots-container {
+        position: absolute;
+        bottom: -46px;
+        left: 16px;
+        width: 168px;
+        height: 96px;
+        background-image: 
+            url(${dotsMobile});
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        // border: 1px dashed orange;
 
         @media (min-width: 1024px) {
-            display: block;
-            position: absolute;
-            left: 226px;
-            bottom: -24px;
-            // border: 1px dashed orange;    
+            bottom: -46px;
+            left: 226px;    
+            width: 220px;
+            height: 124px;
+            background-image:
+                url(${dotsDesktop});
         }
     }
 `
 
-const CardContainer = styled.div`
-    max-width: 288px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    border: 1px solid dodgerblue;
-    // opacity: 0.3;
-    background: none;
-    z-index: -1;
+const MemberShipCard = styled.div`
+    margin-top: 48px;
+    padding: 20px 0px 20px 12px;
+    width: 288px;
+    height: 196px;
+    background-image:
+        url(${membershipFrameMobile});
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    border-radius: 10px;
+    // border: 1px dashed orange;
 
     @media (min-width: 1024px) {
-        // background: lightgrey;
-        width: 100%;
-        height: 824px;
-        display: block;
+        margin-top: 0px;
+        padding-left: 46px;
+        padding-right: 12px;
+        position: absolute;
+        top: 155px;
+        left: 143px;    
+        width: 352px;
+        height: 172px;
+        background-image:
+            url(${membershipFrameDesktop});
+        // border: 1px dashed blue;
     }
 
-    // & > .card-1 {
-    //     width: 288px;
-    //     height: 196px;
-    //     background-image: 
-    //         url(${membershipCardMobile});
-    //     background-position: center;
-    //     background-repeat: no-repeat;
-    //     background-size: contain;
-    //     border: 1px dashed orange;
+    & > h5 {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 140%;
+        color: #11243D;
+        // border: 1px dashed orange;
+    }
 
-    //     @media (min-width: 1024px) {
-    //         position: absolute;
-    //         top: 162px;
-    //         left: 128px;
-    //         width: 352px;
-    //         height: 172px;
-    //         background-image:
-    //             url(${membershipCardDesktop});
-    //     }
-    // }
-
-    // & > .card-1 {
-    //     width: 288px;
-    //     height: 196px;
-    //     background-image: 
-    //         url(${membershipCardMobile});
-    //     background-position: center;
-    //     background-repeat: no-repeat;
-    //     background-size: contain;
-    //     // border: 1px dashed orange;
-
-    //     @media (min-width: 1024px) {
-    //         position: absolute;
-    //         top: 162px;
-    //         left: 128px;
-    //         width: 352px;
-    //         height: 172px;
-    //         background-image:
-    //             url(${membershipCardDesktop});
-    //     }
-    // }
-
-    // & > .card-2 {
-    //     width: 288px;
-    //     height: 180px;
-    //     background-image: 
-    //         url(${placementCardMobile});
-    //     background-position: center;
-    //     background-repeat: no-repeat;
-    //     background-size: contain;
-    //     border: 1px dashed orange;
-
-    //     @media (min-width: 1024px) {
-    //         position: absolute;
-    //         top: 162px;
-    //         right: 128px;
-    //         width: 352px;
-    //         height: 172px;
-    //         background-image:
-    //             url(${placementCardDesktop});
-    //     }
-    // }
-
-    // & > .card-3 {
-    //     width: 288px;
-    //     height: 180px;
-    //     background-image: 
-    //         url(${servicesCardMobile});
-    //     background-position: center;
-    //     background-repeat: no-repeat;
-    //     background-size: contain;
-    //     border: 1px dashed orange;
-
-    //     @media (min-width: 1024px) {
-    //         position: absolute;
-    //         bottom: 152px;
-    //         left: calc(50% - 352px/2);
-    //         width: 352px;
-    //         height: 172px;
-    //         background-image:
-    //             url(${servicesCardDesktop});
-    //     }
-    // }
+    & > p {
+        margin-top: 8px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+        color: #4B5259;
+        // border: 1px dashed orange;
+    }
 `
 
+const PlacementCard = styled.div`
+    margin-top: 24px;
+    padding: 20px 0px 20px 12px;
+    width: 288px;
+    height: 180px;
+    background-image:
+        url(${placementFrameMobile});
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    border-radius: 10px;
+    // border: 1px dashed orange;
 
-const PlatformCard = ({ children }) => {
-    return (
-        <CardContainer>
-            { children }
-        </CardContainer>
-    )
-}
+    @media (min-width: 1024px) {
+        margin-top: 0px;
+        padding-left: 48px;
+        padding-right: 12px;
+        position: absolute;
+        top: 155px;
+        right: 143px;
+        width: 352px;
+        height: 172px;
+        background-image:
+            url(${placementFrameDesktop});
+        // border: 1px dashed blue;
+    }
 
+    & > h5 {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 140%;
+        color: #27AAE1;
+        // border: 1px dashed orange;
+    }
+
+    & > p {
+        margin-top: 8px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+        color: #4B5259;
+        // border: 1px dashed orange;
+    }
+`
+
+const ServicesCard = styled.div`
+    margin-top: 24px;
+    padding: 20px 0px 20px 12px;
+    width: 288px;
+    height: 180px;
+    background-image:
+        url(${servicesFrameMobile});
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+    // border: 1px dashed orange;
+
+    @media (min-width: 1024px) {
+        margin-top: 0px;
+        padding: 24px 28px 30px 28px;
+        position: absolute;
+        top: 520px;
+        left: calc(50% - 352px/2);
+        width: 352px;
+        height: 164px;
+        background-image:
+            url(${servicesFrameDesktop});
+        background-position: center;
+        background-size: cover;
+        // border: 1px dashed blue;
+    }
+
+    & > h5 {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 140%;
+        color: #2B3990;
+        // border: 1px dashed orange;
+    }
+
+    & > p {
+        margin-top: 8px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+        color: #4B5259;
+        // border: 1px dashed orange;
+    }
+`
 
 export default function PlatformSection() {
     return (
         <StyledSection>
-            <div className={'graph'}></div>
-            <div className={'card-container'}>
-                <div className={'card-1'}></div>
-            </div>
+            <div className={'graph-image'}></div>
+            <MemberShipCard>
+                <h5>{'Membership'}</h5>
+                <p>{'Builds an active network of diverse professionals empowered by their individual lived experiences through personal & professional development.'}</p>
+            </MemberShipCard>
 
-            <div className={'card-container'}>
-                <div className={'card-2'}></div>
-            </div>
+            <PlacementCard>
+                <h5>{'Placement'}</h5>
+                <p>{'Internal recruiting services engage a network of companies committed to recruiting, onboarding, and mentoring M2N membership.'}</p>
+            </PlacementCard>
 
-            {/* <img
-                src={mobileGraph}
-                alt={'platform graph iamge'}
-                className={'graph-image'}
-            /> */}
-            {/* <div className={'card-container'}> */}
-                {/* <PlatformCard> */}
-                    {/* <div className={'card-2'}></div> */}
-                    {/* <div className={'card-3'}></div> */}
-                    {/* <img
-                        src={membershipCardMobile}
-                        alt={'alt text'}
-                        className={'card-1'}
-                    /> */}
-                    {/* <img
-                        src={placementCardMobile}
-                        alt={'alt text'}
-                        className={'card-2'}
-                    /> */}
-                    {/* <img
-                        src={servicesCardMobile}
-                        alt={'alt text'}
-                        className={'card-3'}
-                    /> */}
-                {/* </PlatformCard> */}
-                {/* <PlatformCard1 title={'Membership'} body={'Builds an active network of diverse professionals empowered by their individual lived experiences through personal & professional development.'} />
-                <PlatformCard2 title={'Placement'} body={'Internal recruiting services engage a network of companies committed to recruiting, onboarding, and mentoring M2N membership.'} />
-                <PlatformCard3 title={'Services'} body={'Supports transformation change at the systematic level through DEI support and services lead by industry leaders.'} /> */}
-            {/* </div> */}
-            <img 
-                src={backgroundDots}
-                alt={'background dots image'}
-                className={'background-dots'}
-            />
+            <ServicesCard>
+                <h5>{'Services'}</h5>
+                <p>{'Supports transformation change at the systematic level through DEI support and services lead by industry leaders.'}</p>
+            </ServicesCard>
+
+            <div className={'dots-container'}></div>
         </StyledSection>
     )
 }

@@ -7,15 +7,10 @@ import developImage from '../../assets/images/home-learnmore-develop-full-image.
 import developImageTablet from '../../assets/images/home-learnmore-develop-tablet.png'
 import developImage1024 from '../../assets/images/home-learnmore-develop-1024.png'
 import developImage1440 from '../../assets/images/home-learnmore-develop-1440.png'
-
 import opportunitiesImage from '../../assets/images/home-learnmore-opportunities-full-image.png'
 import opportunitiesImageTablet from '../../assets/images/home-learnmore-opportunities-tablet.png'
 import opportunitiesImage1024 from '../../assets/images/home-learnmore-opportunities-1024.png'
 import opportunitiesImage1440 from '../../assets/images/home-learnmore-opportunities-1440.png'
-
-
-// import developFrame from '../../assets/images/home-learnmore-develop-frame.png'
-// import developStripes from '../../assets/images/home-learnmore-develop-stripes.svg'
 
 const StyledSection = styled.section`
     padding: 96px 16px 56px 16px;
@@ -130,10 +125,6 @@ const StyledSection = styled.section`
                 @media (min-width: 1024px) {
                     align-self: flex-end;
                 }
-
-                // @media (min-width: 1024px) {
-                //     border: 1px solid red;
-                // }
             }
         }
     }
@@ -230,8 +221,6 @@ export default function LearnSection() {
         <StyledSection>
             <div className={'develop-details'}>
                 <LearnImg1 />
-
-                {/* <div className={'develop-image'}></div> */}
                 <div className={'wrapper'}>
                     <h4>{'Professional Development'}</h4> 
                     <p>{'Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…'}</p> 
@@ -241,13 +230,11 @@ export default function LearnSection() {
                         className={'learn-button'}
                         onClick={() => handleDevelopClick()}
                     />
-                    
                 </div>
             </div>
 
             <div className={'opportunities-details'}>
                 <LearnImg2 />
-                {/* <div className={'opportunities-image'}></div> */}
                 <div className={'wrapper'}>
                     <h4>{'Career Opportunities'}</h4> 
                     <p>{'Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces, hiring organizations will have…'}</p> 
