@@ -15,64 +15,60 @@ import grayOvalMobile from '../../assets/images/home/whatis-grayoval-mobile.svg'
 
 const StyledSection = styled.section`
     position: relative;
-    padding: 0px 16px 0px 16px;
+    padding: 274px 16px 96px 16px;
     background: #191C23;
-    border: 2px solid red;
+    // border: 2px solid red;
 
-    & > .section-header {
+    & > .blue-background {
+        position: absolute;
+        top: 0px;
+        left: 0px;
         width: 100%;
-        height: 274px;
+        height: 274px; 
         background: #416FF4;
+    }
 
-        & > .product-image {
-            width: 336px;
-            height: 266px;
-            background-image: 
-                url(${productImage});
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            border: 1px dashed orange;
-        }
+    & > .product-image {
+        position: absolute;
+        top: 64px;
+        // border: 1px dashed orange;
+    }
 
-        & > .background-stripes {
-            width: 112px;
-            height: 174px;
-            background-image: 
-                url(${backgroundStripesMobile});
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            border: 1px dashed orange;
-        }
+    & > .stripes {
+        position: absolute;
+        top: 200px;
+        right: 0px;
+        // border: 1px dashed orange;
+    }
 
-        & > .red-oval {
-            width: 260px;
-            height: 260px;
-            background-image: 
-                url(${redOvalMobile});
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            border: 1px dashed orange;
-        }
+    & > .red-oval {
+        position: absolute;
+        top: -40px;
+        left: -114px;
+        // border: 1px dashed orange;
+    }
 
-        & > .gray-oval {
-            width: 376px;
-            height: 376px;
-            background-image: 
-                url(${grayOvalMobile});
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
-            border: 1px dashed orange;
-        }
+    & > .gray-oval {
+        width: 376px;
+        // width: 100%;
+        position: absolute;
+        top: 0px;
+        left: calc(50% - 376px/2);
+        // border: 2px dashed white;
+    }
+
+    & > .header-container {
+        margin-top: 120px;
+        color: white;
+        border: 2px dashed lightcoral;
     }
 
     & > .benefits-container {
+        margin-top: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 40px;
         // border: 1px dashed lightblue;
 
         & > .members-benefits {
@@ -90,12 +86,36 @@ export default function WhatIsSection() {
 
     return (
         <StyledSection>
-            <div className={'section-header'}>
-                <div className={'product-image'}></div>
-                {/* <div className={'background-stripes'}></div> */}
-                <div className={'red-oval'}></div>
-                <div className={'gray-oval'}></div>
+            <div className={'blue-background'}></div>
+            <img
+                src={grayOvalMobile}
+                alt={'temp alt'}
+                className={'gray-oval'}
+            />
+
+            <img
+                src={redOvalMobile}
+                alt={'temp alt'}
+                className={'red-oval'}
+            />
+
+            <img
+                src={backgroundStripesMobile}
+                alt={'temp alt'}
+                className={'stripes'}
+            />
+
+            <img
+                src={productImage}
+                alt={'temp alt'}
+                className={'product-image'}
+            />
+
+            <div className={'header-container'}>
+                <h4>{'What is'}</h4>
+                <h4>{'?'}</h4>
             </div>
+
             <div className={'benefits-container'}>
                 <BenefitsList
                     color={'blue'}
