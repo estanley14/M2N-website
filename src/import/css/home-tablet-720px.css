@@ -1205,14 +1205,14 @@
 .home-desktop-1024px .h1-C61RwL {
   background-color: transparent;
   height: auto;
-  left: calc(50.00% - 352px);
+  left: calc(50.00% - 532px);
   letter-spacing: 0.00px;
   line-height: 74.4px;
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
   top: calc(50.00% - 2243px);
-  width: 706px;
+  width: 1046px;
 }
 .home-desktop-1024px .h1-VMr6Om {
   background-color: transparent;
@@ -1248,22 +1248,22 @@
 .home-desktop-1024px .highlightequity-C61RwL {
   background-color: var(--persimmon);
   height: 17px;
-  left: calc(50.00% - 346px);
-  mix-blend-mode: normal;
-  opacity: 0.25;
-  position: absolute;
-  top: calc(50.00% - 2118px);
-  width: 204px;
-}
-.home-desktop-1024px .highlightinclusion-C61RwL {
-  background-color: var(--persimmon);
-  height: 17px;
-  left: calc(50.00% - 5px);
+  left: calc(50.00% - 406px);
   mix-blend-mode: normal;
   opacity: 0.25;
   position: absolute;
   top: calc(50.00% - 2119px);
-  width: 280px;
+  width: 277px;
+}
+.home-desktop-1024px .highlightinclusion-C61RwL {
+  background-color: var(--persimmon);
+  height: 17px;
+  left: calc(50.00% - -65px);
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  position: absolute;
+  top: calc(50.00% - 2119px);
+  width: 320px;
 }
 .home-desktop-1024px .icarrow-aQSSHr {
   background-color: transparent;
@@ -4438,14 +4438,14 @@ color: #2A2C30
 .home-desktop-1440px .h1-C61RwL {
   background-color: transparent;
   height: auto;
-  left: calc(50.00% - 480px);
+  left: calc(50.00% - 530px);
   letter-spacing: 0.00px;
   line-height: 74.4px;
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
   top: calc(50.00% - 2231px);
-  width: 962px;
+  width: 1042px;
 }
 .home-desktop-1440px .h1-VMr6Om {
   background-color: transparent;
@@ -4471,12 +4471,12 @@ color: #2A2C30
 .home-desktop-1440px .highlightdiversity-rJ1nim {
   background-color: var(--persimmon);
   height: 17px;
-  left: calc(50.00% - 158px);
+  left: calc(50.00% - 42px);
   mix-blend-mode: normal;
   opacity: 0.25;
   position: absolute;
-  top: calc(50.00% - 46px);
-  width: 264px;
+  top: calc(50.00% - -23px);
+  width: 323px;
 }
 .home-desktop-1440px .highlightequity-rJ1nim {
   background-color: var(--persimmon);
@@ -4491,11 +4491,11 @@ color: #2A2C30
 .home-desktop-1440px .highlightinclusion-rJ1nim {
   background-color: var(--persimmon);
   height: 17px;
-  left: calc(50.00% - 332px);
+  left: calc(50.00% - 512px);
   mix-blend-mode: normal;
   opacity: 0.25;
   position: absolute;
-  top: calc(50.00% + 30px);
+  top: calc(50.00% + 23px);
   width: 280px;
 }
 .home-desktop-1440px .highlights-C61RwL {
@@ -7544,12 +7544,13 @@ background: #416FF4;
   height: auto;
   left: calc(50.00% - 144px);
   letter-spacing: 0.00px;
-  line-height: 48.0px;
+  line-height: 42px;
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
   top: calc(50.00% - 2666px);
   width: 290px;
+  font-size: 40px;
 }
 .home-mobile-320px .heroimgbackground-C61RwL {
   background-color: var(--white);
@@ -7577,18 +7578,18 @@ background: #416FF4;
   mix-blend-mode: normal;
   opacity: 0.25;
   position: absolute;
-  top: calc(50.00% - 2536px);
-  width: 131px;
+  top: calc(50.00% - 2511px);
+  width: 178px;
 }
 .home-mobile-320px .highlightinclusion-C61RwL {
   background-color: var(--persimmon);
   height: 12px;
-  left: calc(50.00% - 115px);
+  left: calc(50.00% - 65px);
   mix-blend-mode: normal;
   opacity: 0.25;
   position: absolute;
-  top: calc(50.00% - 2488px);
-  width: 182px;
+  top: calc(50.00% - 2470px);
+  width: 207px;
 }
 .home-mobile-320px .icarrow-2WX1ZD {
   background-color: transparent;
@@ -9548,7 +9549,7 @@ background: #416FF4;
   left: 64px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 281px;
+  top: 321px;
   width: calc(100.00% - 127px);
 }
 .home-tablet-720px .button-secondary-desktop-kTMlYy {
@@ -10488,17 +10489,17 @@ background: #416FF4;
 .home-tablet-720px .highlightequity-C61RwL {
   background-color: var(--persimmon);
   height: 12px;
-  left: calc(50.00% + 152px);
+  left: calc(50.00% + -106px);
   mix-blend-mode: normal;
   opacity: 0.25;
   position: absolute;
-  top: calc(50.00% - 2336px);
-  width: 131px;
+  top: calc(50.00% - 2243px);
+  width: 215px;
 }
 .home-tablet-720px .highlightinclusion-C61RwL {
   background-color: var(--persimmon);
   height: 12px;
-  left: calc(50.00% - 148px);
+  left: calc(50.00% - 61px);
   mix-blend-mode: normal;
   opacity: 0.25;
   position: absolute;

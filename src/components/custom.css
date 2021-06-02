@@ -631,3 +631,24 @@ body [class*="mpower-landing-"] input[type=email] {
     height: 100% !important;
     top: 0 !important;
 }
+
+.herosub1440 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.herosub1024 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.herosubmobile1 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.herosubmobile2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height:24px;
+}

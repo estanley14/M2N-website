@@ -95,7 +95,10 @@ const IndexPage = () => (
         <img className="oval-copy-2bZYeb" src={ovalCopy1x} />
       </div>
       <h1 className="h1-C61RwL dmsans-bold-baltic-sea-62px">
-        We advance diversity, equity and inclusion in today’s workplace.
+        1st technology solution to increase inclusion in the workforce. 
+      <p className="herosub1440">
+        A comprehensive approach that bridges talent, organizations &amp; services.
+        </p>
       </h1>
       <Link to="mpower-app">
         <div className="button-primary-default-C61RwL">
@@ -117,7 +120,7 @@ const IndexPage = () => (
       </div>
       <div className="highlights-C61RwL">
         <div className="highlightdiversity-rJ1nim"></div>
-        <div className="highlightequity-rJ1nim"></div>
+        {/* <div className="highlightequity-rJ1nim"></div> */}
         <div className="highlightinclusion-rJ1nim"></div>
       </div>
       <div className="backgroundshapesleft-C61RwL">
@@ -492,7 +495,8 @@ const IndexPage = () => (
       </div>
       <div className="backgroundshapesright-C61RwL"><img className="path70-2bZYeb" src={path702x} /></div>
       <div className="h1-C61RwL dmsans-bold-baltic-sea-62px">
-        We advance diversity, equity and inclusion in today’s workplace.
+        1st technology solution to increase inclusion in the workforce.
+        <p className="herosub1024">A comprehensive approach that bridges talent, organizations &amp; services.</p>
       </div>
       <Link to="mpower-app">
         <div className="button-primary-default-C61RwL">
@@ -512,7 +516,7 @@ const IndexPage = () => (
         </div>
         <img className="column5-j0ck3A" src="./import/img/column-5-1@2x.png" />
       </div>
-      <div className="highlightdiversity-C61RwL"></div>
+      {/* <div className="highlightdiversity-C61RwL"></div> */}
       <div className="highlightequity-C61RwL"></div>
       <div className="highlightinclusion-C61RwL"></div>
       <div className="imgframe-C61RwL">
@@ -861,7 +865,8 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="h1mobile-C61RwL dmsans-bold-baltic-sea-40px">
-        We advance diversity, equity and inclusion in today’s workplace.
+        1st technology solution to increase inclusion in the workforce.
+        <p className="herosubmobile2">A comprehensive approach that bridges talent, organizations &amp; services.</p>
       </div>
       <Link to="mpower-app">
         <div className="button-primary-default-C61RwL">
@@ -881,7 +886,7 @@ const IndexPage = () => (
         </div>
         <img className="column5-j0ck3A" src="./import/img/column-5-2@2x.png" />
       </div>
-      <div className="highlightdiversity-C61RwL"></div>
+      {/* <div className="highlightdiversity-C61RwL"></div> */}
       <div className="highlightequity-C61RwL"></div>
       <div className="highlightinclusion-C61RwL"></div>
       <div className="imgframe-C61RwL">
@@ -1233,7 +1238,8 @@ const IndexPage = () => (
         </div>
       </div>
       <div className="h1mobile-C61RwL dmsans-bold-baltic-sea-40px">
-        We advance diversity, equity and inclusion in today’s workplace.
+        1st technology solution to increase inclusion in the workforce.
+        <p className="herosubmobile1">A comprehensive approach that bridges talen, organizations &amp; services</p>
       </div>
       <Link to="mpower-app">
         <div className="button-primary-default-C61RwL">
@@ -1253,7 +1259,7 @@ const IndexPage = () => (
         </div>
         <img className="column5-j0ck3A" src="./import/img/column-5-3@2x.png" />
       </div>
-      <div className="highlightdiversity-C61RwL"></div>
+      {/* <div className="highlightdiversity-C61RwL"></div> */}
       <div className="highlightequity-C61RwL"></div>
       <div className="highlightinclusion-C61RwL"></div>
       <div className="imgframe-C61RwL">
