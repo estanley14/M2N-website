@@ -122,24 +122,24 @@ export default function NewHeader(props) {
         desktopImg,
         desktopWidth,
         desktopHeight
-    } = setHomeImage(headerTheme, logoDarkMobile, logoDarkDesktop, logoLightMobile, logoLightDesktop)
+    } = setHomeImage(headerTheme)
 
-    function setHomeImage(theme, darkMobile, darkDesktop, lightMobile, lightDesktop) {
+    function setHomeImage(theme) {
         if (theme === 'light') {
             return {
-                mobileImg: darkMobile,
+                mobileImg: logoDarkMobile,
                 mobileWidth: `25px`,
                 mobileHeight: `24px`,
-                desktopImg: darkDesktop,
+                desktopImg: logoDarkDesktop,
                 desktopWidth: `41px`,
                 desktopHeight: `40px`
             }
         } else if (theme === 'dark') {
             return {
-                mobileImg: lightMobile,
+                mobileImg: logoLightMobile,
                 mobileWidth: `25px`,
                 mobileHeight: `24px`,
-                desktopImg: lightDesktop,
+                desktopImg: logoLightDesktop,
                 desktopWidth: `41px`,
                 desktopHeight: `40px`
             }
