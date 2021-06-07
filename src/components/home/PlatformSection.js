@@ -8,7 +8,6 @@ import placementFrameMobile from '../../assets/images/home/platform-placement-fr
 import placementFrameDesktop from '../../assets/images/home/platform-placement-frame-desktop.svg'
 import servicesFrameMobile from '../../assets/images/home/platform-services-frame-mobile.svg'
 import servicesFrameDesktop from '../../assets/images/home/platform-services-frame-desktop.svg'
-
 import dotsMobile from '../../assets/images/home/dots-mobile.svg'
 import dotsDesktop from '../../assets/images/home/dots-desktop.svg'
 

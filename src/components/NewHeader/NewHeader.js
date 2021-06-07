@@ -1,13 +1,14 @@
 import React, { useContext } from 'react'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
-import LinkItem from './LinkItem'
-import { Button } from '../../components/reusable-components'
-// import headerLogo from '../../assets/images/logo.png'
-import headerLogo from '../../assets/icons/logo.svg'
-import hamburgerMenu from '../../assets/icons/menu_24px.svg'
 import { NavStateContext } from '../../context/Nav'
-import { useLocation } from '@reach/router'
+import LinkItem from './LinkItem'
+import { Link } from 'gatsby'
+import { Button } from '../../components/reusable-components'
+import logoDarkMobile from '../../assets/images/header-logo-dark-mobile.svg'
+import logoDarkDesktop from '../../assets/images/header-logo-dark-desktop.svg'
+import logoLightMobile from '../../assets/images/header-logo-light-mobile.svg'
+import logoLightDesktop from '../../assets/images/header-logo-light-desktop.svg'
+import hamburgerMenu from '../../assets/icons/menu_24px.svg'
 
 const HeaderContainer = styled.div`
     position: absolute;
@@ -35,14 +36,12 @@ const HeaderContainer = styled.div`
     }
 
     & > .links-container {
-        // width: 590px;
         box-sizing: border-box;
         display: none;
         gap: 24px;
         // border: 1px dashed orange;
 
         @media (min-width: 1024px) {
-            // background: red;
             margin-left: 44px;
             display: flex;
         }
@@ -50,15 +49,11 @@ const HeaderContainer = styled.div`
         @media (min-width: 1440px) {
             margin-left: 80px;
         }
-
-        & > a {
-            text-decoration: none;
-        }
     }
 
     & > .header-logo {
         height: 24px;
-        // border: 1px dashed orange;
+        border: 1px dashed orange;
 
         @media (min-width: 1024px) {
             height: 40px;
@@ -99,10 +94,57 @@ const HeaderContainer = styled.div`
     }
 `
 
-export default function NewHeader() {
-    const [isMenuOpen, setIsMenuOpen] = useContext(NavStateContext)
-    const { pathname } = useLocation()
+const HomeLink = styled(Link)`
+    width: ${props => props.mobilewidth};
+    height: ${props => props.mobileheight};
+    background-image:
+        url(${props => props.mobileimage});
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    // border: 1px dashed dodgerblue;
 
+    @media (min-width: 1024px) {
+        width: ${props => props.desktopwidth};
+        height: ${props => props.desktopheight};
+        background-image:
+            url(${props => props.desktopimage});
+    }
+`
+
+export default function NewHeader(props) {
+    const { headerTheme } = props
+    const [isMenuOpen, setIsMenuOpen] = useContext(NavStateContext)
+    const {
+        mobileImg,
+        mobileWidth,
+        mobileHeight,
+        desktopImg,
+        desktopWidth,
+        desktopHeight
+    } = setHomeImage(headerTheme)
+
+    function setHomeImage(theme) {
+        if (theme === 'light') {
+            return {
+                mobileImg: logoDarkMobile,
+                mobileWidth: `25px`,
+                mobileHeight: `24px`,
+                desktopImg: logoDarkDesktop,
+                desktopWidth: `41px`,
+                desktopHeight: `40px`
+            }
+        } else if (theme === 'dark') {
+            return {
+                mobileImg: logoLightMobile,
+                mobileWidth: `25px`,
+                mobileHeight: `24px`,
+                desktopImg: logoLightDesktop,
+                desktopWidth: `41px`,
+                desktopHeight: `40px`
+            }
+        }
+    }
 
     function openMenu(menuStatus) {
         if (menuStatus === false) {
@@ -112,56 +154,56 @@ export default function NewHeader() {
         }
     }
 
-    function setIndicatorColor(routePath) {
-        if (routePath === `/`) {
-            return 'home page'
-        } else if (routePath === '/mpower') {
-            return 'membership page'
-        } else if (routePath === '/organization') {
-            return 'organization page'
-        } else if (routePath === '/company') {
-            return 'company page'
-        } else if (routePath === '/partners') {
-            return 'partnership page'
-        }
-    }    
-
-    // console.log(setIndicatorColor(pathname))
-
-
     return (
         <HeaderContainer>
-            <Link to={'/'}>
-                <img 
-                    src={headerLogo} 
-                    alt={'M2N'} 
-                    className={'header-logo'}
-                />
-            </Link>
+            <HomeLink 
+                to={'/'} 
+                mobileimage={mobileImg}
+                mobilewidth={mobileWidth}
+                mobileheight={mobileHeight}
+                desktopimage={desktopImg}
+                desktopwidth={desktopWidth}
+                desktopheight={desktopHeight}
+            />
 
             <div className={'links-container'}>
-                <Link to={'/'}>
-                    <LinkItem label={'Home'} active={true} />
-                </Link>
+                <LinkItem
+                    label={'Home'}
+                    linkTo={'/'}
+                    name={'/'}
+                    theme={headerTheme}
+                />
 
-                <Link to={'/mpower'}>
-                    <LinkItem label={'Membership'} active={true} />
-                </Link>
+                <LinkItem
+                    label={'Membership'}
+                    linkTo={'/mpower/'}
+                    name={'/mpower/'}
+                    theme={headerTheme}
+                />
 
-                <Link to={'/organization'}>
-                    <LinkItem label={'Organization'} active={true} />
-                </Link>
+                <LinkItem
+                    label={'Organizations'}
+                    linkTo={'/organization/'}
+                    name={'/organization/'}
+                    theme={headerTheme}
+                />
 
-                <Link to={'/company'}>
-                    <LinkItem label={'Company'} active={true} />
-                </Link>
+                <LinkItem
+                    label={'Company'}
+                    linkTo={'/company/'}
+                    name={'/company/'}
+                    theme={headerTheme}
+                />
 
-                <Link to={'/partners'}>
-                    <LinkItem label={'Partnerships'} active={true} />
-                </Link>
+                <LinkItem
+                    label={'Partnerships'}
+                    linkTo={'/partners/'}
+                    name={'/partners/'}
+                    theme={headerTheme}
+                />
             </div>
 
-            <Link to={'/mpower-app'} className={'link-class'}>
+            <Link to={'/mpower-app/'} className={'link-class'}>
                 <Button 
                     label={'Sign up'}
                     type={'primary'}

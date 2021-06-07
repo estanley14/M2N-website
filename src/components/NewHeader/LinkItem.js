@@ -1,64 +1,61 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 import { useLocation } from '@reach/router'
 
-const LinkContainer = styled.div`
-    // width: 128px;
-    height: 28px;
+const StyledLink = styled(Link)`
     display: flex;
     flex-direction: column;
     align-items: center;
-    // background: lightcoral;
-    // border: 1px dashed orange;
+    width: 128px;
+    height: 28px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: ${props => props.fontcolor};
+    // border: 2px dashed orange;
 
-    @media (min-width: 1024px) {
-        width: 108px;
-    }
-
-    @media (min-width: 1440px) {
-        width: 128px;
-    }
-
-    & > .active-indicator {
-        // visibility: hidden;
+    & > div {
         width: 12px;
         height: 4px;
-        background: #416FF4;
-        background: ${props => props.background};
+        background: ${props => props.indicatorbackground};
     }
-
-    & > .header-link {
-        font-family: DM Sans;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        color: #82888E;
-        // font-family: "DM Sans";
-
-        &:hover {
-            color: #2A2C30;
-        }
-    }
-    
 `
 
 export default function LinkItem(props) {
-    const { label, className } = props
+    const { label, linkTo, name, theme, className } = props
     const { pathname } = useLocation()
+    let activeFontColor = setActiveFontColor(pathname, name, theme)
+    let indicatorBackground = setIndicatorBackground(pathname, name)
 
-    let color = 'red'
+    function setActiveFontColor(path, linkName, headerTheme) {
+        if (path === linkName && headerTheme === 'light') {
+            return `#2A2C30`
+        } else if (path === linkName && headerTheme === 'dark') {
+            return `#FFFFFF`
+        } else {
+            return '#82888E'
+        }
+    }
 
-    console.log(pathname)
-
+    function setIndicatorBackground(path, linkName) {
+        if (path === linkName) {
+            return '#416FF4'
+        } else {
+            return 'none'
+        }
+    }
 
     return (
-        <LinkContainer className={className}>
-            <p className={'header-link'}>{label}</p>
-            <div className={'active-indicator'} background={color}></div>
-        </LinkContainer>
+        <StyledLink to={linkTo} fontcolor={activeFontColor}>
+            {label}
+            <div style={{ background: indicatorBackground }}></div>
+        </StyledLink>
     )
 }

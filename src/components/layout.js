@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import { NewHeader } from './NewHeader'
 import NewSideNav from './NewSideNav'
 import NewFooter from './NewFooter'
+import { useLocation } from '@reach/router'
 // import Header from "./header"
 // import "./layout.css"
 // CUSTOM
@@ -45,6 +46,26 @@ const Layout = ({ children }) => {
     }
   `)
 
+  const { pathname } = useLocation()
+
+  function setHeaderTheme(path) {
+    if (path === '/') {
+      return 'light'
+    } else if (path === '/mpower/') {
+      return 'dark'
+    } else if (path === '/organization/') {
+      return 'dark'
+    } else if (path === '/company/') {
+      return 'light'
+    } else if (path === '/partners/') {
+      return 'light'
+    } else if (path === '/mpower-app/') {
+      return 'dark'
+    }
+  }
+
+  let headerTheme = setHeaderTheme(pathname)
+
   return (
     <>
       
@@ -55,7 +76,7 @@ const Layout = ({ children }) => {
         {/* <!-- End of HubSpot Embed Code --> */}
       </Helmet>
       <Nav>
-        <NewHeader />
+        <NewHeader headerTheme={headerTheme} />
         <NewSideNav />
         <main>{children}</main>
         <NewFooter />
