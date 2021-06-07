@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-// import NavDesktop from "../components/navDesktop"
+import NavDesktop from "../components/navDesktop"
 // import NavTablet from "../components/navTablet"
 // import NavMobile from "../components/navMobile"
 
@@ -709,12 +709,12 @@ const SecondPage = () => (
                 required
                 />
             </div>
-            {/* <div className="default-text-vxY8x4 smart-layers-pointers">
+            <div className="default-text-vxY8x4 smart-layers-pointers">
               <div className="font-kEobNx sourcesanspro-bold-white-16px">Subscribe</div>
             </div>
             <div className="button-primary-desktop-vxY8x4">
               <div className="font-U7FTmp valign-text-middle dmsans-bold-white-14px">SUBSCRIBE</div>
-            </div> */}
+            </div>
             <input className="default-text-vxY8x4 sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
           </form>
         </div>
@@ -1085,12 +1085,12 @@ const SecondPage = () => (
               required
               />
           </div>
-          {/* <div className="default-text-iPe1yZ">
+          <div className="default-text-iPe1yZ">
             <div className="button-TQGk14">
               <div className="style-BFaroP"></div>
             </div>
             <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
-          </div> */}
+          </div>
           <input className="default-text-iPe1yZ sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         <div className="column3-iPe1yZ">
@@ -1394,12 +1394,12 @@ const SecondPage = () => (
               required
               />
           </div>
-          {/* <div className="default-text-iPe1yZ">
+          <div className="default-text-iPe1yZ">
             <div className="button-TQGk14">
               <div className="style-BFaroP"></div>
             </div>
             <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
-          </div> */}
+          </div>
           <input className="default-text-iPe1yZ sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         <div className="frame-iPe1yZ">
@@ -1727,12 +1727,12 @@ const SecondPage = () => (
               required
               />
           </div>
-          {/* <div className="default-text-iPe1yZ">
+          <div className="default-text-iPe1yZ">
             <div className="button-TQGk14">
               <div className="style-BFaroP"></div>
             </div>
             <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
-          </div> */}
+          </div>
           <input className="default-text-iPe1yZ sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         <div className="frame-iPe1yZ">

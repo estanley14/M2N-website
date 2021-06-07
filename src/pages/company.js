@@ -197,12 +197,12 @@ const OurCompany = () => (
                 required
                 />
             </div>
-            {/* <div className="default-text-vxY8x4 smart-layers-pointers">
+            <div className="default-text-vxY8x4 smart-layers-pointers">
               <div className="font-i19681507-kEobNx sourcesanspro-bold-white-16px">Subscribe</div>
             </div>
             <div className="button-primary-desktop-vxY8x4">
               <div className="font-i1968129778-U7FTmp valign-text-middle dmsans-bold-white-14px">SUBSCRIBE</div>
-            </div> */}
+            </div>
             <input className="default-text-vxY8x4 sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         </div>
@@ -415,12 +415,12 @@ const OurCompany = () => (
               required
               />
           </div>
-          {/* <div className="default-text-iPe1yZ">
+          <div className="default-text-iPe1yZ">
             <div className="button-TQGk14">
               <div className="style-BFaroP"></div>
             </div>
             <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
-          </div> */}
+          </div>
           <input className="default-text-iPe1yZ sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         <div className="frame-iPe1yZ">
@@ -591,12 +591,12 @@ const OurCompany = () => (
               required
               />
           </div>
-          {/* <div className="default-text-iPe1yZ">
+          <div className="default-text-iPe1yZ">
             <div className="button-TQGk14">
               <div className="style-BFaroP"></div>
             </div>
             <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
-          </div> */}
+          </div>
           <input className="default-text-iPe1yZ sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         <div className="column3-iPe1yZ">
@@ -748,12 +748,12 @@ const OurCompany = () => (
               required
               />
           </div>
-          {/* <div className="default-text-iPe1yZ">
+          <div className="default-text-iPe1yZ">
             <div className="button-TQGk14">
               <div className="style-BFaroP"></div>
             </div>
             <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
-          </div> */}
+          </div>
           <input className="default-text-iPe1yZ sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         <div className="frame-iPe1yZ">

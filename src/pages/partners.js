@@ -224,7 +224,7 @@ const Partners = () => (
           <div className="a-new-way-to-enjoy-q-MhUqEY dmsans-bold-baltic-sea-32px">Corporate Partners</div>
         </div>
       </div>
-      <div className="footer-desktop-C61RwL">
+      {/* <div className="footer-desktop-C61RwL">
         <div className="icongroup-VNfvnu">
           <div className="instagram-5R3sf4"><img className="combined-shape-TnWo79" src={cmbndShps2x} /></div>
           <div className="twitter-5R3sf4"><img className="path-4KRaeG" src={pth2x} /></div>
@@ -252,12 +252,12 @@ const Partners = () => (
                 required
                 />
             </div>
-            {/* <div className="default-text-vxY8x4 smart-layers-pointers">
+            <div className="default-text-vxY8x4 smart-layers-pointers">
               <div className="font-i15441507-kEobNx sourcesanspro-bold-white-16px">Subscribe</div>
             </div>
             <div className="button-primary-desktop-vxY8x4">
               <div className="font-i1544129778-U7FTmp valign-text-middle dmsans-bold-white-14px">SUBSCRIBE</div>
-            </div> */}
+            </div>
             <input className="default-text-vxY8x4 sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
           </form>
         </div>
@@ -298,7 +298,7 @@ const Partners = () => (
             A new approach to diversity, equity &amp; inclusion. Meeting people &amp; organizations where they are through proprietary technology.
           </p>
         </div>
-      </div>
+      </div> */}
       {/* <div className="navbar-desktop-C61RwL">
         <div className="buttonrow-HPBo1Y">
           <div className="b5-Wfh8x7 dmsans-bold-gunsmoke-14px-2">LOG IN</div>
@@ -458,12 +458,12 @@ const Partners = () => (
               required
               />
           </div>
-          {/* <div className="default-text-iPe1yZ">
+          <div className="default-text-iPe1yZ">
             <div className="button-TQGk14">
               <div className="style-BFaroP"></div>
             </div>
             <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
-          </div> */}
+          </div>
           <input className="default-text-iPe1yZ sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         <div className="column3-iPe1yZ">
@@ -524,12 +524,12 @@ const Partners = () => (
               required
               />
           </div>
-          {/* <div className="default-text-iPe1yZ">
+          <div className="default-text-iPe1yZ">
             <div className="button-TQGk14">
               <div className="style-BFaroP"></div>
             </div>
             <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
-          </div> */}
+          </div>
           <input className="default-text-iPe1yZ sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         <div className="frame-iPe1yZ">
@@ -667,12 +667,12 @@ const Partners = () => (
               required
               />
           </div>
-          {/* <div className="default-text-iPe1yZ">
+          <div className="default-text-iPe1yZ">
             <div className="button-TQGk14">
               <div className="style-BFaroP"></div>
             </div>
             <div className="font-TQGk14 sourcesanspro-bold-white-16px">Subscribe</div>
-          </div> */}
+          </div>
           <input className="default-text-iPe1yZ sourcesanspro-bold-white-16px footer-submit" type="submit" value="Subscribe" />
         </form>
         <div className="frame-iPe1yZ">
