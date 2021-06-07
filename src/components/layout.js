@@ -9,8 +9,11 @@ import * as React from "react"
 import { Helmet } from "react-helmet";
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
+import { NewHeader } from './NewHeader'
+import NewSideNav from './NewSideNav'
+import NewFooter from './NewFooter'
+import { useLocation } from '@reach/router'
+// import Header from "./header"
 // import "./layout.css"
 // CUSTOM
 import "../import/css/company-mobile-320px.css"
@@ -30,6 +33,7 @@ import "../import/css/mobile-nav-320px.css"
 import "./custom.css"
 import icon from "../import/img/favicon.ico"
 
+import Nav from '../context/Nav'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -42,18 +46,44 @@ const Layout = ({ children }) => {
     }
   `)
 
+  const { pathname } = useLocation()
+
+  function setHeaderTheme(path) {
+    if (path === '/') {
+      return 'light'
+    } else if (path === '/mpower/') {
+      return 'dark'
+    } else if (path === '/organization/') {
+      return 'dark'
+    } else if (path === '/company/') {
+      return 'light'
+    } else if (path === '/partners/') {
+      return 'light'
+    } else if (path === '/mpower-app/') {
+      return 'dark'
+    }
+  }
+
+  let headerTheme = setHeaderTheme(pathname)
+
   return (
     <>
+      
       <Helmet>
         <link rel="shortcut icon" type="image/jpg" href={icon}/>
         {/* <!-- Start of HubSpot Embed Code --> */}
         <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20008151.js"></script>
         {/* <!-- End of HubSpot Embed Code --> */}
       </Helmet>
-      {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
-      <div>
+      <Nav>
+        <NewHeader headerTheme={headerTheme} />
+        <NewSideNav />
         <main>{children}</main>
-      </div>
+        <NewFooter />
+      </Nav>
+      {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
+      {/* <div> */}
+      {/* </div> */}
     </>
   )
 }

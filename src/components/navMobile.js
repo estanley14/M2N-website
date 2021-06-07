@@ -13,8 +13,6 @@ import navImg2 from "../import/img/icon-navigation-menu-24px@2x.png"
 const NavMobile = ({ theme }) => {
     const [navState, setNavState] = useState(false);
 
-    console.log(navState)
-
     return (
         <div>
             {theme === "dark" ? (

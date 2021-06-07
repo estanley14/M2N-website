@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import NavDesktop from "../components/navDesktop"
-import NavTablet from "../components/navTablet"
-import NavMobile from "../components/navMobile"
+// import NavDesktop from "../components/navDesktop"
+// import NavTablet from "../components/navTablet"
+// import NavMobile from "../components/navMobile"
 
 // IMAGES
 import cmbndShp2x from "../import/img/combined-shape@2x.png"
@@ -169,7 +169,7 @@ const OurCompany = () => (
     <Seo title="Company" />
     <input type="hidden" id="anPageName" name="page" value="company-mobile-320px" />
     <div className="company-desktop-1440px screen">
-      <div className="footer-desktop-C61RwL">
+      {/* <div className="footer-desktop-C61RwL">
         <div className="icongroup-VNfvnu">
           <div className="instagram-5R3sf4"><img className="combined-shape-TnWo79" src={cmbndShp2x} /></div>
           <div className="twitter-5R3sf4"><img className="path-4KRaeG" src={pth2x} /></div>
@@ -243,7 +243,7 @@ const OurCompany = () => (
            A new approach to diversity, equity &amp; inclusion. Meeting people &amp; organizations where they are through proprietary technology.
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="hero-C61RwL">
         <img className="oval-copy-6yINq5" src={ovlcpy41x} />
         <div className="text-6yINq5">
@@ -341,10 +341,10 @@ const OurCompany = () => (
           professional athletes to maximize their personal, professional, and business performance.
         </p>
       </div>
-      <NavDesktop />
+      {/* <NavDesktop /> */}
     </div>
     <div className="company-tablet-720px screen">
-    <NavMobile />
+    {/* <NavMobile /> */}
       {/* <div className="navbar-mobile-C61RwL">
         <div className="logo-gTO9GM"><img className="vector-xvusrZ" src="./import/img/vector-494@2x.png" /></div>
         <div className="menu24px-gTO9GM">
@@ -400,7 +400,7 @@ const OurCompany = () => (
           without creating additional constraints or labels.
         </p>
       </div>
-      <div className="footer-C61RwL">
+      {/* <div className="footer-C61RwL">
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
         <form action="">
           <div className="inputs-default-iPe1yZ">
@@ -470,7 +470,7 @@ const OurCompany = () => (
               <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
           </Link>
         </div>
-      </div>
+      </div> */}
       <div className="contentsection-C61RwL">
         <div className="bg-OvIgOz"></div>
         <div className="we-create-design-OvIgOz dmsans-bold-big-stone-24px">Paul Lockhart</div>
@@ -554,8 +554,8 @@ const OurCompany = () => (
           </div>
         </div>
       </div> */}
-        <NavTablet />
-      <div className="footer-C61RwL">
+        {/* <NavTablet /> */}
+      {/* <div className="footer-C61RwL">
         <div className="background-iPe1yZ"></div>
         <div className="frame-iPe1yZ">
           <img className="vector-gq7idq" src={vctr4492x} />
@@ -626,7 +626,7 @@ const OurCompany = () => (
               <div className="company-S164Qk dmsans-normal-white-16px">Company</div>
           </Link>
         </div>
-      </div>
+      </div> */}
       <div className="hero-C61RwL">
         <img className="oval-copy-6yINq5" src={ovlcpy41x} />
         <div className="text-6yINq5">
@@ -732,8 +732,8 @@ const OurCompany = () => (
           <img className="iconnavigationmenu24px-xsYvp9" src="./import/img/icon-navigation-menu-24px-1@2x.png" />
         </div>
       </div> */}
-      <NavMobile />
-      <div className="footer-C61RwL">
+      {/* <NavMobile /> */}
+      {/* <div className="footer-C61RwL">
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
         <form action="">
           <div className="inputs-default-iPe1yZ">
@@ -803,14 +803,14 @@ const OurCompany = () => (
               <div className="browser-X4QSxG dmsans-normal-white-16px">Browser</div>
           </Link>
         </div>
-      </div>
+      </div> */}
       {/* <div className="navbar-mobile-VMr6Om">
         <div className="logo-8x5SRt"><img className="vector-Ztm0bx" src="./import/img/vector-443@2x.png" /></div>
         <div className="menu24px-8x5SRt">
           <img className="iconnavigationmenu24px-BAyIoO" src="./import/img/icon-navigation-menu-24px@2x.png" />
         </div>
       </div> */}
-      <NavMobile />
+      {/* <NavMobile /> */}
       <div className="hero-C61RwL">
         <img className="oval-copy-6yINq5" src={ovlcpy141x} />
         <div className="text-6yINq5">

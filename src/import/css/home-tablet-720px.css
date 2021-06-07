@@ -1,6 +1,7 @@
 /* screen - home-desktop-1024px */
 
 .home-desktop-1024px {
+  display: none;
   background-color: var(--wild-sand-2);
   height: 100vh;
   margin: 0px;
@@ -3187,6 +3188,7 @@ background: #416FF4;
 /* screen - home-desktop-1440px */
 
 .home-desktop-1440px {
+  display: none;
   background-color: var(--wild-sand-2);
   height: 100vh;
   margin: 0px;
@@ -6409,6 +6411,7 @@ background: #416FF4;
 /* screen - home-mobile-320px */
 
 .home-mobile-320px {
+  /* display: none; */
   background-color: var(--wild-sand);
   height: 100vh;
   margin: 0px;
@@ -9371,6 +9374,7 @@ background: #416FF4;
 /* screen - home-tablet-720px */
 
 .home-tablet-720px {
+  display: none;
   background-color: var(--wild-sand);
   height: 100vh;
   margin: 0px;

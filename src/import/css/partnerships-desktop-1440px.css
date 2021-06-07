@@ -1984,6 +1984,7 @@ background: #416FF4;
   width: auto;
 }
 .partnerships-desktop-1440px .footer-desktop-C61RwL {
+  display: none;
   background-color: var(--mirage);
   height: 20.52%;
   left: 0px;
