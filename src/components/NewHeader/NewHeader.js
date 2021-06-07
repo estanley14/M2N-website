@@ -115,14 +115,15 @@ const HomeLink = styled(Link)`
 export default function NewHeader(props) {
     const { headerTheme } = props
     const [isMenuOpen, setIsMenuOpen] = useContext(NavStateContext)
-    const {
-        mobileImg,
-        mobileWidth,
-        mobileHeight,
-        desktopImg,
-        desktopWidth,
-        desktopHeight
-    } = setHomeImage(headerTheme)
+    // const {
+    //     mobileImg,
+    //     mobileWidth,
+    //     mobileHeight,
+    //     desktopImg,
+    //     desktopWidth,
+    //     desktopHeight
+    // } = setHomeImage(headerTheme)
+
 
     function setHomeImage(theme) {
         if (theme === 'light') {
@@ -154,16 +155,18 @@ export default function NewHeader(props) {
         }
     }
 
+    const tempObj = {...setHomeImage(headerTheme)}
+
     return (
         <HeaderContainer>
             <HomeLink 
                 to={'/'} 
-                mobileimage={mobileImg}
-                mobilewidth={mobileWidth}
-                mobileheight={mobileHeight}
-                desktopimage={desktopImg}
-                desktopwidth={desktopWidth}
-                desktopheight={desktopHeight}
+                mobileimage={tempObj.mobileImg}
+                mobilewidth={tempObj.mobileWidth}
+                mobileheight={tempObj.mobileHeight}
+                desktopimage={tempObj.desktopImg}
+                desktopwidth={tempObj.desktopWidth}
+                desktopheight={tempObj.desktopHeight}
             />
 
             <div className={'links-container'}>
