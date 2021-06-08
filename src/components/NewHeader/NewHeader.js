@@ -17,12 +17,13 @@ const HeaderContainer = styled.div`
     height: 64px;
     box-sizing: border-box;
     padding: 20px 24px 20px 24px;
-    display: flex;
+    // display: flex;
+    display: ${props => props.display};
     justify-content: space-between;
     align-items: center;
     // border: 1px solid black;
     // background: lightgray;
-    opacity: 0.5;
+    // opacity: 0.5;
     z-index: 4;
 
     @media (min-width: 1024px) {
@@ -115,7 +116,7 @@ const HomeLink = styled(Link)`
 `
 
 export default function NewHeader(props) {
-    const { headerTheme } = props
+    const { headerTheme, headerDisplay } = props
     const [isMenuOpen, setIsMenuOpen] = useContext(NavStateContext)
     // const {
     //     mobileImg,
@@ -125,6 +126,7 @@ export default function NewHeader(props) {
     //     desktopWidth,
     //     desktopHeight
     // } = setHomeImage(headerTheme)
+    console.log(headerDisplay)
 
 
     function setHomeImage(theme) {
@@ -160,7 +162,7 @@ export default function NewHeader(props) {
     const tempObj = {...setHomeImage(headerTheme)}
 
     return (
-        <HeaderContainer>
+        <HeaderContainer display={headerDisplay}>
             <HomeLink 
                 to={'/'} 
                 mobileimage={tempObj.mobileImg}

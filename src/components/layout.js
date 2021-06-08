@@ -64,7 +64,20 @@ const Layout = ({ children }) => {
     }
   }
 
+  function setHeaderDisplay(path) {
+    if (path === '/mpower-app/') {
+      return 'none'
+    } else {
+      return 'flex'
+    }
+  }
+
+
   let headerTheme = setHeaderTheme(pathname)
+  let displayValue = setHeaderDisplay(pathname)
+  // let headerDisplay = setHeaderDisplay(pathname)
+  //   console.log(setHeaderDisplay(pathname))
+  // console.log(displayValue)
 
   return (
     <>
@@ -76,7 +89,7 @@ const Layout = ({ children }) => {
         {/* <!-- End of HubSpot Embed Code --> */}
       </Helmet>
       <Nav>
-        <NewHeader headerTheme={headerTheme} />
+        <NewHeader headerTheme={headerTheme} headerDisplay={displayValue} />
         <NewSideNav />
         <main>{children}</main>
         <NewFooter />
