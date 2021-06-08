@@ -4,6 +4,7 @@ import heroOval from '../../assets/images/hero-oval.svg'
 import stripesImg from '../../assets/images/shapes-stripes.svg'
 import blobImg from '../../assets/images/shapes-blob.svg'
 import heroImg from '../../assets/images/hero-image2.jpg'
+import mockupsDesktop from '../../assets/images/organization-hero-mockups-desktop.png'
 import appleStore from '../../assets/images/apple-store.png'
 import googleStore from '../../assets/images/google-play.png'
 import heroLogo from '../../assets/images/hero-logo.png'
@@ -53,11 +54,20 @@ const HeroContainer = styled.section`
 
     & > .hero-image {
         position: absolute;
-        top: 22.29%;
-        right: 9.38%;
-        left: 56.67%;
+        // top: 22.29%;
+        top: 184px;
+        // right: 9.38%;
+        // right: 120px;
+        // left: 56.67%;
+        left: 660px;
         bottom: -3.71%;
-        width: 488px;
+        width: 729px;
+        height: 559px;
+        background-image:
+            url(${mockupsDesktop});
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
         border-radius: 8px;
         filter: drop-shadow(0px 52px 54px rgba(65, 62, 101, 0.296766));
         // border: 1px solid white;
@@ -115,11 +125,12 @@ export default function HeroSection() {
                     <img src={googleStore} alt={'app in Google Play'} />
                 </div>
             </div>
-            <img
-                src={heroImg}
+            <div className={'hero-image'}></div>
+            {/* <img
+                src={mockupsMobile}
                 alt="hero image"
                 className={'hero-image'}
-            />
+            /> */}
 
             <img
                 src={heroOval}
