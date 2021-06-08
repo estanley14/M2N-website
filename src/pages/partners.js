@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+
 // import NavDesktop from "../components/navDesktop"
 // import NavTablet from "../components/navTablet"
 // import NavMobile from "../components/navMobile"
@@ -157,6 +158,7 @@ import vctr9582x from "../import/img/vector-958@2x.png"
 
 
 const Partners = () => (
+  
   <Layout>
     <Seo title="Partners" />
     <input type="hidden" id="anPageName" name="page" value="partnerships-desktop-1440px" />

@@ -3,9 +3,9 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import NavDesktop from "../components/navDesktop"
-import NavTablet from "../components/navTablet"
-import NavMobile from "../components/navMobile"
+// import NavDesktop from "../components/navDesktop"
+// import NavTablet from "../components/navTablet"
+// import NavMobile from "../components/navMobile"
 
 //IMAGES
 import cmbndShp2x from "../import/img/combined-shape@2x.png"
@@ -132,7 +132,7 @@ const SecondPage = () => (
     <Seo title="Contact Us" />
     <input type="hidden" id="anPageName" name="page" value="contact-mobile-320px" />
     <div className="contact-desktop-1440px screen">
-      <div className="footer-desktop-C61RwL">
+      <div className="footer-desktop-C61RwL" style={{ display: 'none' }}>
         <div className="icongroup-VNfvnu">
           <div className="instagram-5R3sf4"><img className="combined-shape-TnWo79" src={cmbndShp2x} /></div>
           <div className="twitter-5R3sf4"><img className="path-4KRaeG" src={pth2x} /></div>
@@ -323,10 +323,10 @@ const SecondPage = () => (
           </div>
         </div>
       </div> */}
-      <NavDesktop />
+      {/* <NavDesktop /> */}
     </div>
     <div className="contact-desktop-1024px screen">
-      <div className="footer-C61RwL">
+      <div className="footer-C61RwL" style={{ display: 'none' }}>
         <div className="background-iPe1yZ"></div>
         <div className="frame-iPe1yZ">
           <img className="vector-gq7idq" src={vctr312} />
@@ -513,10 +513,10 @@ const SecondPage = () => (
           </div>
         </div>
       </div> */}
-      <NavTablet />
+      {/* <NavTablet /> */}
     </div>
     <div className="contact-tablet-720px screen">
-      <NavMobile />
+      {/* <NavMobile /> */}
       {/* <div className="navbar-mobile-C61RwL">
         <div className="logo-gTO9GM"><img className="vector-xvusrZ" src="./import/img/vector-1022@2x.png" /></div>
         <div className="menu24px-gTO9GM">
@@ -529,7 +529,7 @@ const SecondPage = () => (
           <img className="iconnavigationmenu24px-BAyIoO" src="./import/img/icon-navigation-menu-24px@2x.png" />
         </div>
       </div> */}
-      <div className="footer-C61RwL">
+      <div className="footer-C61RwL" style={{ display: 'none' }}>
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
         <form action="">
           <div className="inputs-default-iPe1yZ">
@@ -690,14 +690,14 @@ const SecondPage = () => (
       </div>
     </div>
     <div className="contact-mobile-320px screen">
-    <NavMobile />
+    {/* <NavMobile /> */}
       {/* <div className="navbar-mobile-C61RwL">
         <div className="logo-gTO9GM"><img className="vector-xvusrZ" src="./import/img/vector-1022@2x.png" /></div>
         <div className="menu24px-gTO9GM">
           <img className="iconnavigationmenu24px-xsYvp9" src="./import/img/icon-navigation-menu-24px-1@2x.png" />
         </div>
       </div> */}
-      <div className="footer-C61RwL">
+      <div className="footer-C61RwL" style={{ display: 'none' }}>
         <div className="newsletter-iPe1yZ sourcesanspro-bold-white-16px">Newsletter</div>
         <form action="">
           <div className="inputs-default-iPe1yZ">
@@ -768,7 +768,7 @@ const SecondPage = () => (
           </Link>
         </div>
       </div>
-      <NavMobile />
+      {/* <NavMobile /> */}
       {/* <div className="navbar-mobile-VMr6Om">
         <div className="logo-8x5SRt"><img className="vector-Ztm0bx" src="./import/img/vector-1023@2x.png" /></div>
         <div className="menu24px-8x5SRt">

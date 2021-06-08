@@ -61,6 +61,8 @@ const Layout = ({ children }) => {
       return 'light'
     } else if (path === '/mpower-app/') {
       return 'dark'
+    } else if (path === '/contact-us') {
+      return 'light'
     }
   }
 
