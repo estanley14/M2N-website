@@ -2,56 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import { Button } from '../reusable-components'
-import shapesLeft from '../../assets/images/home-hero-shapes-left.svg'
-import shapesRight from '../../assets/images/home-hero-shapes-right.svg'
-import mobileGrid from '../../assets/images/home-hero-grid-mobile.png'
-import tabletGrid from '../../assets/images/home-hero-grid-tablet.png'
-import desktop1024Grid from '../../assets/images/home-hero-grid-desktop1024.png'
-import desktop1440Grid from '../../assets/images/home-hero-grid-desktop1440.png'
-
-const StyledLink = styled(Link)`
-    // border: 2px solid lightcoral;
-`
+import gridImageMobile from '../../assets/images/hero-imggrid-320px.png'
 
 const StyledSection = styled.section`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 64px 16px 48px 16px;
-    // border: 2px dashed black;
-    width: 100%;
-    background-position: 
-        top 208px left -188px,
-        top -80px right -420px;
-    background-repeat: no-repeat;
-    background-size: 340px, 600px;
-    background-image:
-        url(${shapesLeft}),
-        url(${shapesRight});
-
-    @media (min-width: 720px) {
-        padding-left: 64px;
-        padding-right: 64px;
-        // border: 2px dashed red;
-    }
-
-    @media (min-width: 1024px) {
-        padding-top: 80px;
-        padding-left: 160px;
-        padding-right: 160px;
-        // padding-bottom: 80px;
-        // border: 2px dashed red;
-    }
-
-    @media (min-width: 1440px) {
-        padding-top: 168px;
-        padding-right: 240px;
-        padding-left: 240px;
-        // border: 2px dashed red;
-    }
+    position: relative;
+    padding: 64px 16px 92px 16px;
+    border: 2px solid lightcoral;
 
     & > h1 {
         margin-top: 48px;
+        margin-bottom: 24px;
         font-family: DM Sans;
         font-style: normal;
         font-weight: bold;
@@ -59,69 +19,29 @@ const StyledSection = styled.section`
         line-height: 120%;
         text-align: center;
         color: #2A2C30;
-        // border: 1px dashed orange;
-
-        @media (min-width: 1024px) {
-            margin-top: 64px;
-            font-size: 62px;
-            line-height: 120%;
-        }
-
-        @media (min-width: 1024px) {
-            margin-top: 88px;
-        }
+        border: 1px dotted orange;
     }
 
-    & > .button-link {
-        margin: 24px 0px 64px 0px;
-        width: 100%;
-        cursor: pointer;
+    & > .link-container {
         text-decoration: none;
 
-        @media (min-width: 1024px) {
-            width: 316px;
-        }
-
-        & > .hero-button {
+        & > .join-button {
             width: 100%;
         }
     }
 
-    & > .image-grid-container {
-        width: 100%;
+    & > .image-container {
+        position: absolute;
+        bottom: -120px;
+        left: calc(50% - 288px)/2;
+        width: 288px;
         height: 148px;
-        background-image: 
-            url(${mobileGrid});
+        background-image:
+            url(${gridImageMobile});
         background-repeat: no-repeat;
         background-position: center;
-        // border: 1px dashed blue;
-
-        @media (min-width: 720px) {
-            // width: 592px;
-            height: 148px;
-            // background: red;
-            background-image:
-                url(${tabletGrid});
-        }
-
-        @media (min-width: 1024px) {
-            width: 1024px;
-            height: 448px;
-            // background: red;
-            background-image:
-                url(${desktop1024Grid});
-            // border: 2px solid red;
-        }
-
-        @media (min-width: 1440px) {
-            width: 1440px;
-            // width: 100%;
-            height: 448px;
-            // background: red;
-            background-image:
-                url(${desktop1440Grid});
-            // border: 2px solid red;
-        }
+        background-size: contain;
+        border: 1px dashed orange;
     }
 `
 
@@ -129,11 +49,18 @@ export default function HeroSection() {
 
     return (
         <StyledSection>
-            <h1>{'We advance diversity, equity, and inclusion in today\'s workplace.'}</h1>
-            <StyledLink to={'/mpower-app'} className={'button-link'}>
+            <h1>{'1st technology solution to increase diversity & inclusion in the workplace.'}</h1>
+            <Link to={'/mpower-app/'} className={'link-container'}>
+                <Button
+                    label={'Join the movement'}
+                    className={'join-button'}
+                />
+            </Link>
+            <div className={'image-container'}></div>
+            {/* <StyledLink to={'/mpower-app'} className={'button-link'}>
                 <Button label={'Join the movement'} className={'hero-button'} />
-            </StyledLink>
-            <div className={'image-grid-container'}></div>
+            </StyledLink> */}
+            {/* <div className={'image-grid-container'}></div> */}
             {/* <img
                 src={shapesLeft}
                 alt={'background shapes'}

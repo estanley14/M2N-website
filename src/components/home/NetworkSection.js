@@ -5,7 +5,7 @@ import NetworkBullet from './NetworkBullet'
 import networkLogo from '../../assets/images/home-network-logo.svg'
 
 const StyledSection = styled.section`
-    padding: 0px 16px 0px 16px;
+    padding: 212px 16px 0px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
