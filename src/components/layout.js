@@ -72,12 +72,8 @@ const Layout = ({ children }) => {
     }
   }
 
-
   let headerTheme = setHeaderTheme(pathname)
   let displayValue = setHeaderDisplay(pathname)
-  // let headerDisplay = setHeaderDisplay(pathname)
-  //   console.log(setHeaderDisplay(pathname))
-  // console.log(displayValue)
 
   return (
     <>
