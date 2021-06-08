@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import { Button } from '../components/reusable-components/'
-import footerLogo from '../assets/images/footer-logo.svg'
 import instagramIcon from '../assets/icons/footer-intagram.svg'
 import twitterIcon from '../assets/icons/footer-twitter.svg'
 import linkedInIcon from '../assets/icons/footer-linkedin.svg'
@@ -11,7 +10,7 @@ import logoDesktop from '../assets/images/footer-logo-1440px.svg'
 
 const StyledFooter = styled.footer`
     padding: 64px 16px 48px 16px;
-    display: flex;
+    display: ${props => props.display};
     flex-direction: column;
     align-items: center;
     background: #191C23;
@@ -323,10 +322,12 @@ const StyledInput = styled.input`
     }
 `
 
-export default function NewFooter() {  
+export default function NewFooter(props) {
+    const { footerDisplay } = props
+    console.log(footerDisplay)
 
     return (
-        <StyledFooter>
+        <StyledFooter display={footerDisplay}>
             <div className={'top-section'}>
                 <div className={'footer-header-container'}>
                     <div className={'footer-logo'}></div>

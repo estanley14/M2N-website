@@ -17,14 +17,11 @@ const HeaderContainer = styled.div`
     height: 64px;
     box-sizing: border-box;
     padding: 20px 24px 20px 24px;
-    // display: flex;
     display: ${props => props.display};
     justify-content: space-between;
     align-items: center;
-    // border: 1px solid black;
-    // background: lightgray;
-    // opacity: 0.5;
     z-index: 4;
+    // border: 1px solid black;
 
     @media (min-width: 1024px) {
         height: 80px;
@@ -126,7 +123,6 @@ export default function NewHeader(props) {
     //     desktopWidth,
     //     desktopHeight
     // } = setHomeImage(headerTheme)
-    console.log(headerDisplay)
 
 
     function setHomeImage(theme) {

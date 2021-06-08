@@ -92,7 +92,7 @@ const Layout = ({ children }) => {
         <NewHeader headerTheme={headerTheme} headerDisplay={displayValue} />
         <NewSideNav />
         <main>{children}</main>
-        <NewFooter />
+        <NewFooter footerDisplay={displayValue} />
       </Nav>
       {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       {/* <div> */}
