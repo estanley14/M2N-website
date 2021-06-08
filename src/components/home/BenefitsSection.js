@@ -102,7 +102,7 @@ const StyledSection = styled.section`
             background-image:
                 url(${mockupsMobile});
             background-repeat: no-repeat;
-            border: 1px dashed orange;
+            // border: 1px dashed orange;
 
             @media (min-width: 1024px) {
                 top: 210px;
