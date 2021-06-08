@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from '@reach/router'
 import ListItem from './ListItem'
 import IconButton from '../../reusable-components/IconButton'
 
@@ -31,6 +30,7 @@ const ListContainer = styled.div`
     }
 
     & > .benefits-button {
+        cursor: pointer;
         margin-top: 24px;
     }
 `
@@ -42,11 +42,8 @@ export default function BenefitsList(props) {
         listTitle, 
         buttonLabel, 
         className, 
-        onClick ,
-        toPath
+        onClick
     } = props
-
-    console.log(555, toPath)
 
     return (
         <ListContainer className={className}>
@@ -56,10 +53,6 @@ export default function BenefitsList(props) {
                     return <ListItem key={idx} label={label} color={color} />
                 })}
             </ul>
-        
-            <Link to={toPath}>
-                <p>{'click me real quick'}</p>
-            </Link>
             
             <IconButton
                 label={buttonLabel}

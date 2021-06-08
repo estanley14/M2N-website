@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { navigate } from 'gatsby'
 import { BenefitsList } from './BenefitsList'
 import logoMobile from '../../assets/images/home/benefits-logo-mobile.png'
 import logoDesktop from '../../assets/images/home/benefits-logo-desktop.png'
@@ -225,6 +226,7 @@ const StyledSection = styled.section`
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: stretch;
+                    cursor: pointer;
 
                     @media (min-width: 1024px) {
                         width: 132px;
@@ -242,6 +244,7 @@ const StyledSection = styled.section`
                     background-repeat: no-repeat;
                     background-position: center;
                     background-size: stretch;
+                    cursor: pointer;
 
                     @media (min-width: 1024px) {
                         width: 156px;
@@ -306,6 +309,23 @@ const StyledSection = styled.section`
 `
 
 export default function BenefitsSection() {
+
+    function handleMembersClick() {
+        navigate('/mpower/')
+    }
+
+    function handleOrganizationsClick() {
+        navigate('/organization/')
+    }
+
+    function handleAppleStoreClick() {
+        navigate('/mpower-app/')
+    }
+
+    function handleGoogleStoreClick() {
+        navigate('/mpower-app/')
+    }
+
     return (
         <StyledSection>
             <div className={'blue-section'}>
@@ -324,8 +344,14 @@ export default function BenefitsSection() {
                     <p>{'A dynamic and interactive online platform to empower minority professionals.  '}</p>
 
                     <div className={'button-wrapper'}>
-                        <div className={'applestore-image'}></div>
-                        <div className={'googleplay-image'}></div>
+                        <div 
+                            className={'applestore-image'}
+                            onClick={() => handleAppleStoreClick()}
+                        ></div>
+                        <div 
+                            className={'googleplay-image'}
+                            onClick={() => handleGoogleStoreClick()}
+                        ></div>
                     </div>
                 </div>
                 <div className={'benefits-wrapper'}>
@@ -335,7 +361,8 @@ export default function BenefitsSection() {
                         labels={['Newsfeed', 'Online Classes', 'Keynote Speakers']}
                         buttonLabel={'View Benefits'}
                         className={'members-benefits'}
-                        toPath={'/mpower/'}
+                        toPath={'/mpower'}
+                        onClick={() => handleMembersClick()}
                     />
 
                     <BenefitsList
@@ -344,7 +371,8 @@ export default function BenefitsSection() {
                         labels={['Jobs', 'Talent Scores', 'Systems & Services']}
                         buttonLabel={'View Benefits'}
                         className={'organizations-benefits'}
-                        toPath={'/organization/'}
+                        toPath={'/organization'}
+                        onClick={() => handleOrganizationsClick()}
                     />
                 </div>
             </div>
