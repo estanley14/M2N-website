@@ -49,7 +49,7 @@ export default function BenefitsList(props) {
             <h4>{listTitle}</h4>
             <ul>
                 {labels.map((label, idx) => {
-                    return <ListItem key={idx} label={label} />
+                    return <ListItem key={idx} label={label} color={color} />
                 })}
             </ul>
         

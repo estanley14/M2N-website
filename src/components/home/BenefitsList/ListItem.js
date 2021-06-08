@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import blueBullet from '../../../assets/images/home-network-bullet-blue.svg'
+import redBullet from '../../../assets/images/home-network-bullet-red.svg'
 
 const StyledItem = styled.li`
     display: flex;
@@ -28,12 +29,22 @@ const StyledItem = styled.li`
 `
 
 export default function ListItem(props) {
-    const { label } = props
+    const { label, color } = props
+
+    function setBullet(status, blueItem, redItem) {
+        if (status == 'blue') {
+            return blueItem
+        } else if (status === 'red') {
+            return redItem
+        }
+    }
+
+    let coloredBullet = setBullet(color, blueBullet, redBullet)
 
     return (
         <StyledItem>
             <img
-                src={blueBullet}
+                src={coloredBullet}
                 alt={'bullet point'}
                 className={'bullet-image'}
             />
