@@ -626,9 +626,7 @@ const SecondPage = () => (
         <div className="contentsection-mUpcnA">
           <div className="contentrow-k06y50">
             <div className="h3-bWoHML dmsans-medium-white-40px">
-             <span className="span2-BZYHNE dmsans-medium-white-40px">
-              Explore the best tools to accelerate your professional development</span
-              >
+             <span className="span2-BZYHNE dmsans-medium-white-40px">{'Join for FREE and explore the best tools to accelerate your professional development'}</span>
             </div>
             <Link to="/mpower-app">
               <div className="button-bWoHML">
@@ -1031,9 +1029,7 @@ const SecondPage = () => (
         <div className="contentsection-ExkJd9">
           <div className="contentrow-O75zxr">
             <div className="h3-8aCL1P dmsans-medium-white-40px">
-              <span className="span2-aQcV4x dmsans-medium-white-40px">
-                Explore the best tools to accelerate your professional development</span
-              >
+              <span className="span2-aQcV4x dmsans-medium-white-40px">{'Join for FREE and explore the best tools to accelerate your professional development'}</span>
             </div>
             <Link to="/mpower-app">
               <div className="button-8aCL1P">
@@ -1287,9 +1283,7 @@ const SecondPage = () => (
         </div>
         <div className="contentrow-xVseMs">
           <div className="h3-x5Sopb dmsans-medium-white-32px">
-            <span className="span2-RT9OP6 dmsans-medium-white-32px">
-              Explore the best tools to accelerate your professional development</span
-            >
+            <span className="span2-RT9OP6 dmsans-medium-white-32px">{'Join for FREE and explore the best tools to accelerate your professional development'}</span>
           </div>
           <Link to="/mpower-app">
             <div className="button-x5Sopb">
@@ -1618,9 +1612,7 @@ const SecondPage = () => (
         </div>
         <div className="contentrow-xVseMs">
           <div className="h3-x5Sopb dmsans-medium-white-32px">
-            <span className="span2-RT9OP6 dmsans-medium-white-32px">
-              Explore the best tools to accelerate your professional development</span
-            >
+            <span className="span2-RT9OP6 dmsans-medium-white-32px">{'Join for FREE and explore the best tools to accelerate your professional development'}</span>
           </div>
           <Link to="/mpower-app">
             <div className="button-x5Sopb">
