@@ -269,21 +269,6 @@ export default function HeroSection() {
             <div className={'solidoval-container'}></div>
             <div className={'strokeoval-container'}></div>
             <div className={'slice-container'}></div>
-            {/* <StyledLink to={'/mpower-app'} className={'button-link'}>
-                <Button label={'Join the movement'} className={'hero-button'} />
-            </StyledLink> */}
-            {/* <div className={'image-grid-container'}></div> */}
-            {/* <img
-                src={shapesLeft}
-                alt={'background shapes'}
-                className={'shapes-left'}
-            /> */}
-
-            {/* <img
-                src={shapesRight}
-                alt={'background shapes'}
-                className={'shapes-right'}
-            /> */}
         </StyledSection>
     )
 }

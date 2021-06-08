@@ -126,7 +126,7 @@ const StyledSection = styled.section`
         }
 
         & > .description-wrapper {
-            margin-bottom: 32px;
+            margin-bottom: 40px;
             padding-left: 16px;
             padding-right: 16px;
             // border: 1px dashed white;

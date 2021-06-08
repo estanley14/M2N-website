@@ -13,7 +13,7 @@ import dotsDesktop from '../../assets/images/home/dots-desktop.svg'
 
 const StyledSection = styled.section`
     position: relative;
-    padding: 96px 16px 96px 16px;
+    padding: 48px 16px 96px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -5,19 +5,23 @@ import NetworkBullet from './NetworkBullet'
 import networkLogo from '../../assets/images/home-network-logo.svg'
 
 const StyledSection = styled.section`
-    padding: 212px 16px 0px 16px;
+    padding: 212px 16px 48px 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     // border: 2px dashed black;
 
     @media (min-width: 720px) {
+        padding-top: 164px;
         padding-left: 64px;
         padding-right: 64px;
+        padding-bottom: 96px;
         // border: 2px dashed red;
     }
 
     @media (min-width: 1024px) {
+        padding-top: 408px;
+        padding-bottom: 160px;
         flex-direction: row;
         align-items: flex-end;
         gap: 24px;
@@ -26,14 +30,17 @@ const StyledSection = styled.section`
     }
 
     @media (min-width: 1440px) {
+        padding-top: 492px;
         padding-left: 140px;
         padding-right: 140px;
+        padding-bottom: 176px;
         align-items: center;
         // border: 2px dashed red;
     }
 
     & > .network-image {
         margin-bottom: 64px;
+        // border: 2px dashed pink;
 
         @media (min-width: 720px) {
             width: 592px;
@@ -109,7 +116,7 @@ const StyledSection = styled.section`
         }
     
         & > .bullet-two {
-            margin-top: 0px;
+            // margin-top: 0px;
         }
     }
 `
