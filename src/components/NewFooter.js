@@ -6,6 +6,8 @@ import footerLogo from '../assets/images/footer-logo.svg'
 import instagramIcon from '../assets/icons/footer-intagram.svg'
 import twitterIcon from '../assets/icons/footer-twitter.svg'
 import linkedInIcon from '../assets/icons/footer-linkedin.svg'
+import logoMobile from '../assets/images/footer-logo-320px.svg'
+import logoDesktop from '../assets/images/footer-logo-1440px.svg'
 
 const StyledFooter = styled.footer`
     padding: 64px 16px 48px 16px;
@@ -42,7 +44,7 @@ const StyledFooter = styled.footer`
             display: flex;
             flex-direction: column;
             align-items: center;
-            // border: 2px dashed blue;
+            // border: 2px solid blue;
     
             @media (min-width: 720px) {
                 margin-bottom: 84px;
@@ -54,18 +56,27 @@ const StyledFooter = styled.footer`
                 align-items: flex-start;
                 order: 1;
                 margin-bottom: 0px;
-                width: 180px;
+                width: 208px;
                 // border: 2px dashed red;
             }
     
             & > .footer-logo {
-                width: 100%;
+                width: 120px;
+                height: 42px;
+                background-image:
+                    url(${logoMobile});
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
                 margin-bottom: 16px;
-                // border: 1px dashed orange;
+                // border: 1px dashed lightgreen;
 
-                @media (min-width: 1024px) {
-                    width: 120px;
-                    height: 42px;
+                @media (min-width: 1440px) {
+                    margin-bottom: 24px;
+                    width: 208px;
+                    height: 74px;
+                    background-image:
+                        url(${logoDesktop});
                 }
             }
         
@@ -318,11 +329,12 @@ export default function NewFooter() {
         <StyledFooter>
             <div className={'top-section'}>
                 <div className={'footer-header-container'}>
-                    <img
+                    <div className={'footer-logo'}></div>
+                    {/* <img
                         src={footerLogo}
                         alt={'Minority Moves Network'}
                         className={'footer-logo'}
-                    />
+                    /> */}
                     <p className={'footer-heading'}>{'Eros, mauris, at nibh facilisi augue volutpat nec dictum id. Risus turpis morbi tincidunt dignissim amet.'}</p>
                 </div>
 
