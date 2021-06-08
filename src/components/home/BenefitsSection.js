@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import { BenefitsList } from './BenefitsList'
 import logoMobile from '../../assets/images/home/benefits-logo-mobile.png'
 import logoDesktop from '../../assets/images/home/benefits-logo-desktop.png'
+// import mockupsMobile from '../../assets/images/home/benefits-mockups-mobile.png'
+// import mobileImg from '../../assets/images/home/benefits-mockups-mobile.png'
 import appleStoreMobile from '../../assets/images/home/whatis-applestore-mobile.svg'
 import appleStoreDesktop from '../../assets/images/home/whatis-applestore-desktop.svg'
 import googlePlayMobile from '../../assets/images/home/whatis-googleplay-mobile.svg'
@@ -13,8 +15,8 @@ import grayOvalMobile from '../../assets/images/home/benefits-grayoval-mobile.sv
 import grayOvalDesktop from '../../assets/images/home/benefits-grayoval-desktop.svg'
 import stripesMobile from '../../assets/images/home/benefits-stripes-mobile.svg'
 import stripesDesktop from '../../assets/images/home/benefits-stripes-desktop.svg'
-import mockupsMobile from '../../assets/images/home/benefits-mockups-mobile.png'
-import mockupsDesktop from '../../assets/images/home/benefits-mockups-desktop.png'
+import mockupsMobile from '../../assets/images/home-benefits-mockups-mobile.png'
+import mockupsDesktop from '../../assets/images/home-benefits-mockups-desktop.png'
 
 const StyledSection = styled.section`
     position: relative;
@@ -100,7 +102,7 @@ const StyledSection = styled.section`
             background-image:
                 url(${mockupsMobile});
             background-repeat: no-repeat;
-            // border: 1px dashed orange;
+            border: 1px dashed orange;
 
             @media (min-width: 1024px) {
                 top: 210px;
