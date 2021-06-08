@@ -324,7 +324,6 @@ const StyledInput = styled.input`
 
 export default function NewFooter(props) {
     const { footerDisplay } = props
-    console.log(footerDisplay)
 
     return (
         <StyledFooter display={footerDisplay}>
