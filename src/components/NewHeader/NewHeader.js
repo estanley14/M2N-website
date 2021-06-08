@@ -21,7 +21,7 @@ const HeaderContainer = styled.div`
     justify-content: space-between;
     align-items: center;
     // border: 1px solid black;
-    background: lightgray;
+    // background: lightgray;
     opacity: 0.5;
     z-index: 4;
 
