@@ -335,6 +335,7 @@ export default function BenefitsSection() {
                         labels={['Newsfeed', 'Online Classes', 'Keynote Speakers']}
                         buttonLabel={'View Benefits'}
                         className={'members-benefits'}
+                        toPath={'/mpower/'}
                     />
 
                     <BenefitsList
@@ -343,6 +344,7 @@ export default function BenefitsSection() {
                         labels={['Jobs', 'Talent Scores', 'Systems & Services']}
                         buttonLabel={'View Benefits'}
                         className={'organizations-benefits'}
+                        toPath={'/organization/'}
                     />
                 </div>
             </div>

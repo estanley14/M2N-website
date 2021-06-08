@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from '@reach/router'
 import ListItem from './ListItem'
 import IconButton from '../../reusable-components/IconButton'
 
@@ -41,8 +42,11 @@ export default function BenefitsList(props) {
         listTitle, 
         buttonLabel, 
         className, 
-        onClick 
+        onClick ,
+        toPath
     } = props
+
+    console.log(555, toPath)
 
     return (
         <ListContainer className={className}>
@@ -53,6 +57,10 @@ export default function BenefitsList(props) {
                 })}
             </ul>
         
+            <Link to={toPath}>
+                <p>{'click me real quick'}</p>
+            </Link>
+            
             <IconButton
                 label={buttonLabel}
                 color={color}
