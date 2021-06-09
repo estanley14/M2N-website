@@ -13,6 +13,7 @@ const StyledNav = styled.nav`
     left: 0px;
     right: 0px;
     bottom: 0px;
+    padding: 112px 0px 0px 0px;
     color: white;
     z-index: 4;
     background: #21201F;
@@ -32,31 +33,20 @@ const StyledNav = styled.nav`
         // border: 1px dashed orange;
     }
 
-    & > ul {
-        margin-top: 112px;
-        // border: 1px dashed blue;
-    }
-
-    & > ul > li {
+    & > .links-container {
         height: 104px;
         display: flex;
+        justify-content: center;
         align-items: center;
-        // background: blue;
-        border-bottom: 1px solid #82888E;
+        // border: 2px solid white;
+        border-bottom: 2px solid #82888E;
 
         & > .link {
-            width: 100%;
-            height: 100%;
-            justify-content: center;
-            padding: 0px 0px 0px 0px;
-            // border-bottom: 1px dashed orange;
+            // width: 100%;
+            // height: 80px;
+            // border: 1px solid lightcoral;    
         }
     }
-
-    // & > .home-link {
-    //     padding: 0px 0px 0px 0px;
-    //     border-bottom: 1px dashed orange;
-    // }
 `
 
 export default function NewSideNav() {
@@ -81,26 +71,53 @@ export default function NewSideNav() {
 
     return (
         <StyledNav display={display}>
-            <ul>
-                <li>
-                    <LinkItem label={'Home'} className={'link'} />
-                </li>
-                <li>
-                    <LinkItem label={'Membership'} className={'link'} />
-                </li>
-                <li>
-                    <LinkItem label={'Oranziation'} className={'link'} />
-                </li>
-                <li>
-                    <LinkItem label={'Company'} className={'link'} />
-                </li>
-                <li>
-                    <LinkItem label={'Partnerships'} className={'link'} />
-                </li>
-                <li>
-                    <LinkItem label={'Sign up'} className={'link'} />
-                </li>
-            </ul>
+            <div className={'links-container'} onClick={() => closeMenu()}>
+                <LinkItem
+                    label={'Home'}
+                    linkTo={'/'}
+                    name={'/'}
+                    className={'link'}
+                />
+            </div>
+
+            <div className={'links-container'} onClick={() => closeMenu()}>
+                <LinkItem
+                    label={'Membership'}
+                    linkTo={'/mpower/'}
+                    name={'/mpower/'}
+                    className={'link'}
+                />
+            </div>
+
+            <div className={'links-container'} onClick={() => closeMenu()}>
+                <LinkItem
+                    label={'Organizations'}
+                    linkTo={'/organization/'}
+                    name={'/organization/'}
+                    className={'link'}
+                />
+            </div>
+
+            <div className={'links-container'} onClick={() => closeMenu()}>
+                <LinkItem
+                    label={'Company'}
+                    linkTo={'/company/'}
+                    name={'/company/'}
+                    className={'link'}
+                />
+            </div>
+
+            <div className={'links-container'} onClick={() => closeMenu()}>
+                <LinkItem
+                    label={'Partnerships'}
+                    linkTo={'/partners/'}
+                    name={'/partners/'}
+                    className={'link'}
+                />
+            </div>
+            
+            
+            
             {/* <LinkItem className={'side-nav-link'} /> */}
             <img
                 src={closeX}

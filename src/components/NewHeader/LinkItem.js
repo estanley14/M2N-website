@@ -53,7 +53,7 @@ export default function LinkItem(props) {
     }
 
     return (
-        <StyledLink to={linkTo} fontcolor={activeFontColor}>
+        <StyledLink to={linkTo} fontcolor={activeFontColor} className={className}>
             {label}
             <div style={{ background: indicatorBackground }}></div>
         </StyledLink>
