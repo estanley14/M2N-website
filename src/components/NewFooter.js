@@ -335,7 +335,7 @@ export default function NewFooter(props) {
                         alt={'Minority Moves Network'}
                         className={'footer-logo'}
                     /> */}
-                    <p className={'footer-heading'}>{'Eros, mauris, at nibh facilisi augue volutpat nec dictum id. Risus turpis morbi tincidunt dignissim amet.'}</p>
+                    <p className={'footer-heading'}>{'A new approach to diversity, equity & inclusion. Meeting people & organizations where they are through proprietary technology.'}</p>
                 </div>
 
                 <div className={'footer-subscribe-container'}>
