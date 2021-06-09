@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import styled from 'styled-components'
 import { NavStateContext } from '../context/Nav'
-// import LinkItem from './NewHeader/LinkItem'
 import LinkItem from './NewHeader/LinkItem'
 import closeX from '../assets/icons/side-nav-close-x.svg'
 
@@ -108,9 +107,6 @@ export default function NewSideNav() {
                 />
             </div>
             
-            
-            
-            {/* <LinkItem className={'side-nav-link'} /> */}
             <img
                 src={closeX}
                 alt={'close'}

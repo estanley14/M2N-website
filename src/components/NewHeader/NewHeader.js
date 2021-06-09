@@ -122,15 +122,6 @@ const HomeLink = styled(Link)`
 export default function NewHeader(props) {
     const { headerTheme, headerDisplay } = props
     const [isMenuOpen, setIsMenuOpen] = useContext(NavStateContext)
-    // const {
-    //     mobileImg,
-    //     mobileWidth,
-    //     mobileHeight,
-    //     desktopImg,
-    //     desktopWidth,
-    //     desktopHeight
-    // } = setHomeImage(headerTheme)
-
 
     function setHomeImage(theme) {
         if (theme === 'light') {
