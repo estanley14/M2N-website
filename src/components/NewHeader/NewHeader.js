@@ -49,6 +49,13 @@ const HeaderContainer = styled.div`
         @media (min-width: 1440px) {
             margin-left: 80px;
         }
+
+        & > .link {
+            padding-left: 4px;
+            padding-right: 4px;
+            width: auto;
+            // background: red;
+        }
     }
 
     & > .header-logo {
@@ -175,6 +182,7 @@ export default function NewHeader(props) {
                     linkTo={'/'}
                     name={'/'}
                     theme={headerTheme}
+                    className={'link'}
                 />
 
                 <LinkItem
@@ -182,6 +190,7 @@ export default function NewHeader(props) {
                     linkTo={'/mpower/'}
                     name={'/mpower/'}
                     theme={headerTheme}
+                    className={'link'}
                 />
 
                 <LinkItem
@@ -189,6 +198,7 @@ export default function NewHeader(props) {
                     linkTo={'/organization/'}
                     name={'/organization/'}
                     theme={headerTheme}
+                    className={'link'}
                 />
 
                 <LinkItem
@@ -196,6 +206,7 @@ export default function NewHeader(props) {
                     linkTo={'/company/'}
                     name={'/company/'}
                     theme={headerTheme}
+                    className={'link'}
                 />
 
                 <LinkItem
@@ -203,6 +214,7 @@ export default function NewHeader(props) {
                     linkTo={'/partners/'}
                     name={'/partners/'}
                     theme={headerTheme}
+                    className={'link'}
                 />
             </div>
 
