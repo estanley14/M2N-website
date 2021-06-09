@@ -572,7 +572,7 @@ const SecondPage = () => (
           </div>
         </div>
         <div className="contentlist-xUubLU">
-          <div className="contentlist-tFi7aH">
+          <div id={'opportunities'} className="contentlist-tFi7aH">
             <div id="career-opportunities" className="h1-qszjdH dmsans-bold-big-stone-62px">Career Opportunities</div>
             <p className="p-qszjdH dmsans-normal-abbey-16px">
               Through the MPower platform and innovative services to support diverse and inclusive workforces, M2N
@@ -975,7 +975,7 @@ const SecondPage = () => (
           </div>
         </div>
         <div className="contentlist-xUubLU">
-          <div className="contentlist-tFi7aH">
+          <div id={'opportunities'} className="contentlist-tFi7aH">
             <div id="career-opportunities-mid" className="h1-qszjdH dmsans-bold-big-stone-62px">Career Opportunities</div>
             <p className="p-qszjdH dmsans-normal-abbey-16px">
               Through the MPower platform and innovative services to support diverse and inclusive workforces, M2N
@@ -1299,7 +1299,7 @@ const SecondPage = () => (
         </Link>
       </div>
       <div className="contentlist-C61RwL">
-        <div className="contentlist-7ACtXI">
+        <div id={'opportunities'} className="contentlist-7ACtXI">
           <div id="career-opportunities-tablet" className="h1-hUzHx1 dmsans-bold-big-stone-40px">Career Opportunities</div>
           <p className="p-hUzHx1 dmsans-normal-abbey-16px">
             Through the MPower platform and innovative services to support diverse and inclusive workforces, M2N
@@ -1629,7 +1629,7 @@ const SecondPage = () => (
       </div>
       <div className="frame-46-C61RwL">
         <div className="contentlist-xxuxFA">
-          <div className="contentlist-rVTxm0">
+          <div id={'opportunities'} className="contentlist-rVTxm0">
             <div id="career-opportunities-mobile" className="h1-IIMWNk dmsans-bold-big-stone-40px">Career Opportunities</div>
             <p className="p-IIMWNk dmsans-normal-abbey-16px">
               Through the MPower platform and innovative services to support diverse and inclusive workforces, M2N

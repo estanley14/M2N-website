@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { navigate } from 'gatsby'
 import heroOval from '../../assets/images/hero-oval.svg'
 import stripesImg from '../../assets/images/shapes-stripes.svg'
 import blobImg from '../../assets/images/shapes-blob.svg'
@@ -15,12 +16,12 @@ const HeroContainer = styled.section`
     height: 700px;
     background: #2B3990;
 
-    // background-image: 
-    //     url(${heroOval});
-    // background-color: #2B3990;
-    // background-repeat: no-repeat;
-    // background-position:
-    //     top 0px left -492px;
+    background-image: 
+        url(${heroOval});
+    background-color: #2B3990;
+    background-repeat: no-repeat;
+    background-position:
+    top 0px left -492px;
 
     & > .content-container {
         margin-top: 250px;
@@ -49,6 +50,31 @@ const HeroContainer = styled.section`
             display: flex;
             gap: 10px;
             // background: lightgrey;
+
+            & > .apple {
+                width: 139px;
+                height: 50px;
+                background-image:
+                    url(${appleStore});
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+
+                // border: 1px dashed orange;
+                cursor: pointer;
+            }
+
+            & > .google {
+                width: 170px;
+                height: 50px;
+                background-image:
+                    url(${googleStore});
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                // border: 1px dashed red;
+                cursor: pointer;
+            }
         }
     }
 
@@ -71,7 +97,7 @@ const HeroContainer = styled.section`
         border-radius: 8px;
         filter: drop-shadow(0px 52px 54px rgba(65, 62, 101, 0.296766));
         // border: 1px solid white;
-        z-index: 2;
+        // z-index: 2;
     }
 
     & > .hero-oval {
@@ -79,7 +105,7 @@ const HeroContainer = styled.section`
         top: 28px;
         left: -400px;
         // width: 800px;
-        // border: 1px dashed orange;
+        border: 1px dashed orange;
     }
 
     & > .hero-shapes-wrapper {
@@ -111,8 +137,23 @@ const HeroContainer = styled.section`
 `
 
 export default function HeroSection() {
+
+    function handleAppleStoreClick() {
+        navigate('/mpower-app/')
+    }
+
+    function handleGoolgeStoreClick() {
+        navigate('/mpower-app/')
+    }
+
+
     return (
         <HeroContainer>
+            {/* <img
+                src={heroOval}
+                alt="oval"
+                className={'hero-oval'}
+            /> */}
             <div className={'content-container'}>
                 <img 
                     src={heroLogo} 
@@ -121,8 +162,27 @@ export default function HeroSection() {
                 />
                 <p className={'body'}>{'Your organization will have access to diverse candidates and bridge services to ensure long-term retention and improved business outcomes.'}</p>
                 <div className={'wrapper'}>
-                    <img src={appleStore} alt={'app in Apple Store'} />
-                    <img src={googleStore} alt={'app in Google Play'} />
+                    <div 
+                        className={'apple'}
+                        onClick={() => handleAppleStoreClick()}
+                    ></div>
+
+                    <div 
+                        className={'google'}
+                        onClick={() => handleAppleStoreClick()}
+                    ></div>
+                    {/* <img 
+                        src={appleStore} 
+                        alt={'app in Apple Store'}
+                        className={'apple'}
+                        onClick={() => handleAppleStoreClick()}
+                    /> */}
+                    {/* <img 
+                        src={googleStore} 
+                        alt={'app in Google Play'} 
+                        className={'google'}
+                        onClick={() => handleGoolgeStoreClick()}
+                    /> */}
                 </div>
             </div>
             <div className={'hero-image'}></div>
@@ -132,11 +192,11 @@ export default function HeroSection() {
                 className={'hero-image'}
             /> */}
 
-            <img
+            {/* <img
                 src={heroOval}
                 alt="oval"
                 className={'hero-oval'}
-            />
+            /> */}
             <div className={'hero-shapes-wrapper'}>
                 <img 
                     src={stripesImg} 
