@@ -6,7 +6,6 @@ import LinkItem from './NewHeader/LinkItem'
 import closeX from '../assets/icons/side-nav-close-x.svg'
 
 const StyledNav = styled.nav`
-    // display: none;
     display: ${props => props.display};
     position: absolute;
     top: 0px;
@@ -38,14 +37,7 @@ const StyledNav = styled.nav`
         display: flex;
         justify-content: center;
         align-items: center;
-        // border: 2px solid white;
         border-bottom: 2px solid #82888E;
-
-        & > .link {
-            // width: 100%;
-            // height: 80px;
-            // border: 1px solid lightcoral;    
-        }
     }
 `
 
