@@ -256,7 +256,7 @@ export default function HeroSection() {
 
     return (
         <StyledSection>
-            <h1>{'1st technology solution to increase diversity & inclusion in the workplace.'}</h1>
+            <h1>{'First technology solution to increase diversity & inclusion in the workplace.'}</h1>
             <p>{'A comprehensive approach that bridges talent, organizations & services.'}</p>
             <Link to={'/mpower-app/'} className={'link-container'}>
                 <Button
