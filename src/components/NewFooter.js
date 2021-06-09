@@ -7,6 +7,7 @@ import twitterIcon from '../assets/icons/footer-twitter.svg'
 import linkedInIcon from '../assets/icons/footer-linkedin.svg'
 import logoMobile from '../assets/images/footer-logo-320px.svg'
 import logoDesktop from '../assets/images/footer-logo-1440px.svg'
+import footerNmsdcDesktop from '../assets/images/footer-nmsdc-desktop.png'
 
 const StyledFooter = styled.footer`
     padding: 64px 16px 48px 16px;
@@ -244,6 +245,22 @@ const StyledFooter = styled.footer`
             justify-content: space-between;
         }
 
+        & > .certified {
+            margin-top: 48px;
+            width: 73px;
+            height: 69px;
+            background-image:
+                url(${footerNmsdcDesktop});
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            // border: 1px dashed orange;
+
+            @media (min-width: 1024px) {
+                order: -1;
+            }
+        }
+
         & > .copyright {
             font-family: DM Sans;
             font-style: normal;
@@ -387,6 +404,8 @@ export default function NewFooter(props) {
             <div className={'bottom-section'}>
                 <p className={'copyright'}>{'©2021 M2N, LLC  •  All rights reserved. '}</p>
                 <p className={'terms'}>{'Terms & Conditions   |   Privacy Policy'}</p>
+                <div className={'certified'}></div>
+ 
                 <div className={'social-container '}>
                     <img
                         src={instagramIcon}
