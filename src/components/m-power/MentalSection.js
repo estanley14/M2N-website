@@ -6,11 +6,8 @@ import gratitudeIcon from '../../assets/images/mpower/mpower-mental-gratitude.sv
 import mocksupImageMobile from '../../assets/images/mpower/mpower-mental-mockups-mobile.png'
 import mocksupImageDesktop from '../../assets/images/mpower/mpower-mental-mockups-desktop.png'
 import stripesImageMobile from '../../assets/images/mpower/mpower-mental-stripes-mobile.png'
-import stripesImageDesktop from '../../assets/images/mpower/mpower-mental-stripes-desktop.png'
 import ovalImageMobile from '../../assets/images/mpower/mpower-mental-oval-mobile.png'
-// import ovalImageDesktop from '../../assets/images/mpower/mpower-mental-oval-desktop.png'
 import pieSliceImageMobile from '../../assets/images/mpower/mpower-mental-pieslice-mobile.png'
-// import pieSliceImageDesktop from '../../assets/images/mpower/mpower-mental-pieslice-desktop.png'
 
 const StyledSection = styled.section`
     position: relative;
