@@ -33,6 +33,8 @@ const LogoImage = styled.img`
 `
 
 const ButtonWrapper = styled.div`
+    display: flex;
+    gap: 8px;
     // border: 1px dashed orange;
 `
 
