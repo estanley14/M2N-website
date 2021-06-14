@@ -63,6 +63,8 @@ const Layout = ({ children }) => {
       return 'dark'
     } else if (path === '/contact-us') {
       return 'light'
+    } else if (path === '/membership/') {
+      return 'dark'
     }
   }
 
