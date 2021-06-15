@@ -6,16 +6,25 @@ import appStoreMobile from '../../assets/images/membership/hero-appstore-mobile.
 import appStoreDesktop from '../../assets/images/membership/hero-appstore-desktop.svg'
 import googlePlayMobile from '../../assets/images/membership/hero-googleplay-mobile.svg'
 import googlePlayDesktop from '../../assets/images/membership/hero-googleplay-desktop.svg'
-import shapesMobile from '../../assets/images/membership/hero-shapes-mobile.svg'
-import shapesDesktop from '../../assets/images/membership/hero-shapes-desktop.svg'
-import ovalMobile from '../../assets/images/membership/hero-oval-mobile.svg'
-import ovalDesktop from '../../assets/images/membership/hero-oval-desktop.svg'
+// import shapesMobile from '../../assets/images/membership/hero-shapes-mobile.svg'
+// import shapesDesktop from '../../assets/images/membership/hero-shapes-desktop.svg'
+// import ovalMobile from '../../assets/images/membership/hero-oval-mobile.svg'
+// import ovalDesktop from '../../assets/images/membership/hero-oval-desktop.svg'
+// import MockupMobile from '../../assets/images/membership/hero-mockups-320px.png'
+// import MockupTablet from '../../assets/images/membership/hero-mockups-720px.png'
+// import Mockup1024 from '../../assets/images/membership/hero-mockups-1024.png'
+// import Mockup1440 from '../../assets/images/membership/hero-mockups-1440px.png'
 
 const StyledSection = styled.section`
     position: relative;
     padding: 112px 16px 366px 16px;
     background: #191C23;
     // border: 2px solid lightcoral;
+
+    @media (min-width: 1024px) {
+        padding-left: 140px;
+        padding-right: 140px;
+    }
 `
 
 const Text = styled.p`
@@ -28,6 +37,10 @@ const Text = styled.p`
     color: #FFFFFF;
     opacity: 0.75;
     // border: 1px dashed green;
+
+    @media (min-width: 1024px) {
+        width: 428px;
+    }
 `
 
 const LogoImage = styled.img`
@@ -39,6 +52,10 @@ const ButtonWrapper = styled.div`
     display: flex;
     gap: 8px;
     // border: 1px dashed orange;
+
+    @media (min-width: 1024px) {
+        width: 428px;
+    }
 `
 
 const AppStoreImage = styled.img`
