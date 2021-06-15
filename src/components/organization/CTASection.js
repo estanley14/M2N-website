@@ -78,7 +78,7 @@ export default function CTASection() {
             <div className={'cta-container'}>
                 <div className={'content-area'}>
                     <h3 className={'body'}>{'Join for FREE and explore the best tools to accelerate your professional development'}</h3>
-                    <Link to={'/mpower'} className={'link-class'}>
+                    <Link to={'/membership/'} className={'link-class'}>
                         <Button
                             label={'Explore MPower'}
                             className={'cta-button'}
