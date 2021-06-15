@@ -74,8 +74,8 @@ export default function NewSideNav() {
             <div className={'links-container'} onClick={() => closeMenu()}>
                 <LinkItem
                     label={'Membership'}
-                    linkTo={'/mpower/'}
-                    name={'/mpower/'}
+                    linkTo={'/membership/'}
+                    name={'/membership/'}
                     className={'link'}
                 />
             </div>
