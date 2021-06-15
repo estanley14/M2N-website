@@ -79,19 +79,19 @@ export default function HeroSection() {
                 alt={'hero image'}
             />
 
-            <BackgroundShapes
+            {/* <BackgroundShapes
                 src={shapesMobile}
                 srcSet={`${shapesMobile} 376w, ${shapesDesktop} 605w`}
                 sizes={`(max-width: 1023px) 376px, 605px`}
                 alt={'background shapes'}
-            />
+            /> */}
 
-            <BackgroundOval
+            {/* <BackgroundOval
                 src={ovalMobile}
                 srcSet={`${ovalMobile} 688w, ${ovalDesktop} 1120w`}
                 sizes={`(max-width: 1023px) 688px, 1120px)`}
                 alt={'background oval'}
-            />
+            /> */}
             <Text>{'Combining a dynamic newsfeed, on-demand video and 1:1/1:x video conferencing, MPower members have unlimited access to the knowledge, resources, tools, and mentorship to accelerate and advance their careers.'}</Text>
             <ButtonWrapper>
                 <AppStoreImage

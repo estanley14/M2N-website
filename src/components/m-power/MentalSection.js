@@ -12,6 +12,7 @@ import pieSliceImageMobile from '../../assets/images/mpower/mpower-mental-piesli
 const StyledSection = styled.section`
     position: relative;
     padding-bottom: 56px;
+    background: #F3F4F6;
     // border: 2px solid lightcoral;
 
     @media (min-width: 1024px) {
