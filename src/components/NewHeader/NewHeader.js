@@ -178,8 +178,8 @@ export default function NewHeader(props) {
 
                 <LinkItem
                     label={'Membership'}
-                    linkTo={'/mpower/'}
-                    name={'/mpower/'}
+                    linkTo={'/membership/'}
+                    name={'/membership/'}
                     theme={headerTheme}
                     className={'link'}
                 />

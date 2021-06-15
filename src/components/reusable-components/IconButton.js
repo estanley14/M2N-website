@@ -12,6 +12,7 @@ const StyledButton = styled.button`
     border: ${props => props.border};
     // border: 1px solid #416FF4;
     border-radius: 4px;
+    cursor: pointer;
 
     & > p {
         font-family: DM Sans;

@@ -311,7 +311,7 @@ const StyledSection = styled.section`
 export default function BenefitsSection() {
 
     function handleMembersClick() {
-        navigate('/mpower/')
+        navigate('/membership/')
     }
 
     function handleOrganizationsClick() {
@@ -361,7 +361,7 @@ export default function BenefitsSection() {
                         labels={['Newsfeed', 'Online Classes', 'Keynote Speakers']}
                         buttonLabel={'View Benefits'}
                         className={'members-benefits'}
-                        toPath={'/mpower'}
+                        toPath={'/membership/'}
                         onClick={() => handleMembersClick()}
                     />
 
