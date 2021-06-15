@@ -9,6 +9,7 @@ import * as React from "react"
 import { Helmet } from "react-helmet";
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import styled from 'styled-components'
 import { NewHeader } from './NewHeader'
 import NewSideNav from './NewSideNav'
 import NewFooter from './NewFooter'
@@ -34,6 +35,7 @@ import "./custom.css"
 import icon from "../import/img/favicon.ico"
 
 import Nav from '../context/Nav'
+
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
