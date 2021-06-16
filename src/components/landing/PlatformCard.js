@@ -18,7 +18,7 @@ const Title = styled.h5`
     font-size: 24px;
     line-height: 22px;
     color: #FFFFFF;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 const Subtitle = styled.h5`
@@ -29,13 +29,13 @@ const Subtitle = styled.h5`
     line-height: 140%;
     color: #FFFFFF;
     opacity: 0.75;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 const ImageIcon = styled.img`
     position: absolute;
     top: -26px;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 export default function PlatformCard(props) {
@@ -44,7 +44,7 @@ export default function PlatformCard(props) {
         title,
         subtitle
     } = props
-    
+
     return (
         <CardContainer>
             <ImageIcon

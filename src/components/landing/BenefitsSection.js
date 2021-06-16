@@ -11,7 +11,7 @@ const StyledSection = styled.section`
     align-items: center;
     background: #1A202E;
     color: white;
-    border: 4px solid dodgerblue;
+    // border: 4px solid dodgerblue;
 `
 
 const Title = styled.h2`
@@ -24,12 +24,12 @@ const Title = styled.h2`
     line-height: 48px;
     text-align: center;
     letter-spacing: -1.386px;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 const MockupImage = styled.img`
     margin-bottom: 24px;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 const Header3 = styled.h3`
@@ -42,20 +42,20 @@ const Header3 = styled.h3`
     font-size: 38px;
     line-height: 55px;
     letter-spacing: -1.386px;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 const ListWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 16px;
-    border: 1px solid white;
+    // border: 1px solid white;
 `
 
 const Mockup2Image = styled.img`
     margin-top: 184px;
     margin-bottom: 24px;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 export default function BenefitsSection() {

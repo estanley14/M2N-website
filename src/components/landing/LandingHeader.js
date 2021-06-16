@@ -25,7 +25,7 @@ const LogoImage = styled.img`
 const ButtonWrapper = styled.div`
     display: flex;
     gap: 20px;
-    border: 1px dashed white;
+    // border: 1px dashed white;
 `
 
 export default function LandingHeader() {

@@ -11,7 +11,7 @@ const StyledSection = styled.section`
     padding: 448px 16px 64px 16px;
     background: #1A202E;
     color: white;
-    border: 4px solid lightcoral;
+    // border: 4px solid lightcoral;
 
     @media (min-width: 720px) {
         padding: 0px 64px 0px 64px;
@@ -24,7 +24,7 @@ const StyledSection = styled.section`
 
 const LogoImage = styled.img`
     margin-bottom: 44px;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 const Title = styled.h2`
@@ -35,7 +35,7 @@ const Title = styled.h2`
     font-size: 22px;
     line-height: 120%;
     color: #FFFFFF;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 const Subtitle = styled.p`
@@ -47,14 +47,14 @@ const Subtitle = styled.p`
     line-height: 140%;
     color: #FFFFFF;
     opacity: 0.75;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 const MockupImage = styled.img`
     position: absolute;
     top: 40px;
     left: calc(50% - 284px/2);
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 export default function HeroSection() {

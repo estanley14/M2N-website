@@ -11,7 +11,7 @@ import systemsIcon from '../../assets/images/landing/platform-systems-icon.svg'
 const StyledSection = styled.section`
     padding: 48px 16px 0px 16px;
     background: #1A202E;
-    border: 4px solid darkgreen;
+    // border: 4px solid darkgreen;
 `
 
 const Title = styled.h2`
@@ -24,7 +24,7 @@ const Title = styled.h2`
     text-align: center;
     letter-spacing: -1.386px;
     color: #FFFFFF;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 const Subtitle = styled.p`
@@ -38,7 +38,7 @@ const Subtitle = styled.p`
     letter-spacing: -0.66px;
     color: #FFFFFF;
     opacity: 0.75;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 const CardWrapper = styled.div`
@@ -46,7 +46,7 @@ const CardWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 42px;
-    border: 1px solid white;
+    // border: 1px solid white;
 `
 
 export default function PlatformSection() {

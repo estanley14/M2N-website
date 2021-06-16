@@ -8,7 +8,7 @@ const StyledSection = styled.section`
     flex-direction: column;
     align-items: center;
     background: #1A202E;
-    border: 4px solid gold;
+    // border: 4px solid gold;
 `
 
 const Title = styled.h2`
@@ -21,7 +21,7 @@ const Title = styled.h2`
     text-align: center;
     letter-spacing: -1.584px;
     color: #FFFFFF;
-    border: 1px dashed green;
+    // border: 1px dashed green;
 `
 
 export default function SurveySection() {
