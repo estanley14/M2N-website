@@ -58,19 +58,6 @@ const Mockup2Image = styled.img`
     border: 1px dashed green;
 `
 
-const PlatformText = styled.p`
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 140%;
-    text-align: center;
-    letter-spacing: -0.66px;
-    color: #FFFFFF;
-    opacity: 0.75;
-    border: 1px dashed green;
-`
-
 export default function BenefitsSection() {
     return (
         <StyledSection>
@@ -95,8 +82,6 @@ export default function BenefitsSection() {
                 <EducationItem text={'Accelerate your career through reciprocal mentor relationships'} />
                 <EducationItem text={'Engage in on-going dialogue and professional support within the MPower community'} />
             </ListWrapper>
-            <Title>{'The MPower Platform Features'}</Title>
-            <PlatformText>{'Using proprietary technology MPower is a full scale platform for minority professionals.'}</PlatformText>
         </StyledSection>
     )
 }
