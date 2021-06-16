@@ -3,6 +3,7 @@ import LandingHeader from './LandingHeader'
 import HeroSection from './HeroSection'
 import BenefitsSection from './BenefitsSection'
 import PlatformSection from './PlatformSection'
+import SurveySection from './SurveySection'
 
 export default function LandingPage() {
     return (
@@ -11,6 +12,7 @@ export default function LandingPage() {
             <HeroSection />
             <BenefitsSection />
             <PlatformSection />
+            <SurveySection />
         </div>
     )
 }
