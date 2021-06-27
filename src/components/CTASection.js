@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import { Button } from '../../components/reusable-components'
-import ctaOval from '../../assets/images/cta-section-oval.svg'
-import ctaStripes from '../../assets/images/cta-section-stripes.svg'
+import { Button } from './reusable-components'
+import ctaOval from '../assets/images/cta-section-oval.svg'
+import ctaStripes from '../assets/images/cta-section-stripes.svg'
 
 const StyledSection = styled.section`
     
