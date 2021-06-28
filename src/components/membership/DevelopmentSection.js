@@ -94,15 +94,15 @@ export default function DevelopmentSection() {
                 />
 
                 <DevelopmentCard 
-                    title={'Engage'}
-                    subtitle={'Members engage in expanding their skills to better manage daily work, collaborate with peers, and successfully interact with executive management.'}
-                    icon={engageIcon}
+                    title={'Educate'}
+                    subtitle={'Members continue their education by participating in high level programing to address individual gaps in education or job experience.'}
+                    icon={educateIcon}
                 />
 
                 <DevelopmentCard 
-                    title={'Empower'}
-                    subtitle={'Members find empowerment by understanding the value their lived experience provides to employing organizations.'}
-                    icon={educateIcon}
+                    title={'Engage'}
+                    subtitle={'Members engage in expanding their skills to better manage daily work, collaborate with peers, and successfully interact with executive management.'}
+                    icon={engageIcon}
                 />
             </CardWrapper> 
         </StyledSection>

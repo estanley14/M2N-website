@@ -222,7 +222,7 @@ export default function PlatformSection() {
             <div className={'graph-image'}></div>
             <MemberShipCard>
                 <h5>{'Membership'}</h5>
-                <p>{'Builds an active network of diverse professionals empowered by their individual lived experiences through personal & professional development.'}</p>
+                <p>{'Empowering diverse professionals through original and inspiring content, coaching and mental wellness support.​'}</p>
             </MemberShipCard>
 
             <PlacementCard>
@@ -232,7 +232,7 @@ export default function PlatformSection() {
 
             <ServicesCard>
                 <h5>{'Services'}</h5>
-                <p>{'Supports transformation change at the systematic level through DEI support and services lead by industry leaders.'}</p>
+                <p>{'Supports transformational change at both the individual and organizational level for long term success.​'}</p>
             </ServicesCard>
 
             <div className={'dots-container'}></div>

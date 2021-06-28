@@ -3,6 +3,7 @@ import HeroSection from './HeroSection'
 import DevelopmentSection from './DevelopmentSection'
 import OpportunitiesSection from './OpportunitiesSection'
 import MentalSection from '../m-power/MentalSection'
+import CTASection from '../CTASection'
 
 export default function MembershipPage() {
     return (
@@ -11,6 +12,7 @@ export default function MembershipPage() {
             <DevelopmentSection />
             <OpportunitiesSection />
             <MentalSection />
+            <CTASection />
         </div>
     )
 }

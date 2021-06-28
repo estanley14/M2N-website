@@ -224,8 +224,8 @@ export default function LearnSection() {
             <div className={'develop-details'}>
                 <LearnImg1 />
                 <div className={'wrapper'}>
-                    <h4>{'Professional Development'}</h4> 
-                    <p>{'Members only coursework, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members…'}</p> 
+                    <h4>{'Member Development'}</h4> 
+                    <p>{'Online classes, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members with…'}</p> 
                     <IconButton
                         label={'Learn more'}
                         color={'blue'}
@@ -238,8 +238,8 @@ export default function LearnSection() {
             <div className={'opportunities-details'}>
                 <LearnImg2 />
                 <div className={'wrapper'}>
-                    <h4>{'Career Opportunities'}</h4> 
-                    <p>{'Through use of the MPower platform and comprehensive services to support diverse and inclusive workforces, hiring organizations will have…'}</p> 
+                    <h4>{'Career Opportunities​'}</h4> 
+                    <p>{'The MPower platform and comprehensive services to support diverse and inclusive workforces, will…'}</p> 
                     <IconButton
                             label={'Learn more'}
                             color={'blue'}

@@ -101,7 +101,7 @@ const StyledSection = styled.section`
     & > .image-container {
         position: absolute;
         bottom: -120px;
-        left: calc(50% - 288px)/2;
+        left: calc(50% - 288px / 2);
         width: 288px;
         height: 148px;
         background-image:

@@ -80,7 +80,7 @@ export default function OrganizationsSection() {
 
                 <OrgCard 
                     title={'Prepare'}
-                    body={'Supported for creating an inclusive workspace where diverse talent can contribute unique value to the organization.'}
+                    body={'Support for creating an inclusive workspace where diverse talent can contribute unique value to the organization.'}
                     icon={boltImg}
                 />
 
@@ -92,7 +92,7 @@ export default function OrganizationsSection() {
 
                 <OrgCard 
                     title={'Connect'}
-                    body={'Recipricol 1:1 mentorship opportunities will build authentic relationships within the organization. '}
+                    body={'Reciprocal 1:1 mentorship opportunities will build authentic relationships within the organization. '}
                     icon={connectImg}
                 />
 
