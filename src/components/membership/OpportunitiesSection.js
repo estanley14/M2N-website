@@ -119,19 +119,19 @@ export default function OpportunitiesSection() {
                 />
 
                 <CareerCard 
-                    title={'Prepare'}
+                    title={'Recruit'}
                     subtitle={'Deliver transformational DEI training to hiring managers and extended teams to prepare for and support their new hires.'}
                     color={'red'}
                 />
 
                 <CareerCard 
-                    title={'Prepare'}
+                    title={'Connect'}
                     subtitle={'Deliver transformational DEI training to hiring managers and extended teams to prepare for and support their new hires.'}
                     color={'green'}
                 />
 
                 <CareerCard 
-                    title={'Prepare'}
+                    title={'Support'}
                     subtitle={'Deliver transformational DEI training to hiring managers and extended teams to prepare for and support their new hires.'}
                     color={'lightblue'}
                 />

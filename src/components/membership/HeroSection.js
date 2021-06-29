@@ -109,7 +109,7 @@ export default function HeroSection() {
                 sizes={`(max-width: 1023px) 688px, 1120px)`}
                 alt={'background oval'}
             /> */}
-            <Text>{'Combining a dynamic newsfeed, on-demand video and 1:1/1:x video conferencing, MPower members have unlimited access to the knowledge, resources, tools, and mentorship to accelerate and advance their careers.'}</Text>
+            <Text>{'Your membership will provide you with on-demand content, for unlimited access to resources, tools, and mentorship to accelerate and advance your career.'}</Text>
             <ButtonWrapper>
                 <AppStoreImage
                     src={appStoreMobile}

@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import { Button } from '../../components/reusable-components'
-import ctaOval from '../../assets/images/cta-section-oval.svg'
-import ctaStripes from '../../assets/images/cta-section-stripes.svg'
+import { Button } from './reusable-components'
+import ctaOval from '../assets/images/cta-section-oval.svg'
+import ctaStripes from '../assets/images/cta-section-stripes.svg'
 
 const StyledSection = styled.section`
     
@@ -77,7 +77,7 @@ export default function CTASection() {
         <StyledSection>
             <div className={'cta-container'}>
                 <div className={'content-area'}>
-                    <h3 className={'body'}>{'Join for FREE and explore the best tools to accelerate your professional development'}</h3>
+                    <h3 className={'body'}>{'Explore the best tools to accelerate your professional development'}</h3>
                     <Link to={'/membership/'} className={'link-class'}>
                         <Button
                             label={'Explore MPower'}
