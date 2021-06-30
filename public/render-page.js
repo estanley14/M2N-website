@@ -11396,24 +11396,24 @@ module.exports = withSideEffect;
 /***/ }),
 
 /***/ "react-dom/server":
-/*!**************************************************************************************************************!*\
-  !*** external "/Users/impactdesigns/Development/ImpactDesigns/M2N-website/node_modules/react-dom/server.js" ***!
-  \**************************************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** external "/home/zarinloosli/xlr8/M2N-website/node_modules/react-dom/server.js" ***!
+  \**************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/impactdesigns/Development/ImpactDesigns/M2N-website/node_modules/react-dom/server.js");;
+module.exports = require("/home/zarinloosli/xlr8/M2N-website/node_modules/react-dom/server.js");;
 
 /***/ }),
 
 /***/ "react":
-/*!*********************************************************************************************************!*\
-  !*** external "/Users/impactdesigns/Development/ImpactDesigns/M2N-website/node_modules/react/index.js" ***!
-  \*********************************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** external "/home/zarinloosli/xlr8/M2N-website/node_modules/react/index.js" ***!
+  \*********************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/impactdesigns/Development/ImpactDesigns/M2N-website/node_modules/react/index.js");;
+module.exports = require("/home/zarinloosli/xlr8/M2N-website/node_modules/react/index.js");;
 
 /***/ }),
 

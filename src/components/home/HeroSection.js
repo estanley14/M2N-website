@@ -250,14 +250,39 @@ const StyledSection = styled.section`
             bottom: 72px;
         }
     }
+
+    .highlighted {
+        display: inline-block;
+        position: relative;
+        line-height: 1.12em;
+    }
+
+    .highlighted::before {
+        content: "";
+        position: absolute;
+        background: var(--persimmon);
+        opacity: 0.25;
+        height: calc(17em / 54);
+        width: calc(100% + 10px);
+        left: -5px;
+        bottom: calc(8em / 54);
+        z-index:-1;
+    }
 `
 
 export default function HeroSection() {
 
     return (
         <StyledSection>
-            <h1>{'First technology solution to increase diversity & inclusion in the workplace.'}</h1>
-            <p>{'A comprehensive approach that bridges talent, organizations & services.'}</p>
+            <h1>{'First technology solution to increase '}
+                <span className="highlighted">{'diversity'}</span>
+                {' & '}
+                <span className="highlighted">{'inclusion'}</span>
+                {' in the '}
+                <span className="highlighted">{'workplace'}</span>
+                {'.'}
+            </h1>
+            <p>{'A comprehensive approach that bridges talent, organizations and services.'}</p>
             <Link to={'/mpower-app/'} className={'link-container'}>
                 <Button
                     label={'Join the movement'}
