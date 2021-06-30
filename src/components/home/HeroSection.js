@@ -282,7 +282,7 @@ export default function HeroSection() {
                 <span className="highlighted">{'workplace'}</span>
                 {'.'}
             </h1>
-            <p>{'A comprehensive approach that bridges talent, organizations & services.'}</p>
+            <p>{'A comprehensive approach that bridges talent, organizations and services.'}</p>
             <Link to={'/mpower-app/'} className={'link-container'}>
                 <Button
                     label={'Join the movement'}
