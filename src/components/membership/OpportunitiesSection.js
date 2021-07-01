@@ -109,7 +109,7 @@ const MockupsImage = styled.img`
 export default function OpportunitiesSection() {
     return (
         <StyledSection>
-            <Title>{'Career Opportunities'}</Title>
+            <Title id={'career-opportunities'}>{'Career Opportunities'}</Title>
             <Subtitle>{'Through the MPower platform and innovative services to support diverse and inclusive workforces, M2N provides members with career advancement opportunities.'}</Subtitle>
             <CardWrapper>
                 <CareerCard 

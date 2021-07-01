@@ -215,7 +215,7 @@ export default function LearnSection() {
     }
 
     function handleOpportunitiesClick() {
-        navigate('/membership/')
+        navigate('/membership/#career-opportunities')
         // navigate('/mpower#opportunities')
     }
 
