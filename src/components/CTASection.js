@@ -4,6 +4,10 @@ import { Link } from 'gatsby'
 import { Button } from './reusable-components'
 import ctaOval from '../assets/images/cta-section-oval.svg'
 import ctaStripes from '../assets/images/cta-section-stripes.svg'
+import appStoreMobile from '../assets/images/membership/hero-appstore-mobile.svg'
+import appStoreDesktop from '../assets/images/membership/hero-appstore-desktop.svg'
+import googlePlayMobile from '../assets/images/membership/hero-googleplay-mobile.svg'
+import googlePlayDesktop from '../assets/images/membership/hero-googleplay-desktop.svg'
 
 const StyledSection = styled.section`
     
@@ -57,19 +61,38 @@ const StyledSection = styled.section`
                 // border: 1px dashed orange;
             }
 
-            & > .link-class {
-                text-decoration: none;
+            & > .flex-item {
+                gap: 16px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
 
-                & > .cta-button {
-                    background: #FF6D55;
-                    height: 64px;
-                    border-radius: 10px;
-                    cursor: pointer;
+                & > .link-class {
+                    text-decoration: none;
+                    width: 100%;
 
+                    & > .cta-button {
+                        background: #FF6D55;
+                        height: 64px;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        width: 100%;
+                    }
                 }
             }
         }
     }
+`
+
+const ButtonWrapper = styled.div`
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    // border: 1px dashed orange;
+`
+
+const AppStoreImage = styled.img`
+    // border: 1px dashed green;
 `
 
 export default function CTASection() {
@@ -78,12 +101,32 @@ export default function CTASection() {
             <div className={'cta-container'}>
                 <div className={'content-area'}>
                     <h3 className={'body'}>{'Explore the best tools to accelerate your professional development'}</h3>
-                    <Link to={'/membership/'} className={'link-class'}>
-                        <Button
-                            label={'Explore MPower'}
-                            className={'cta-button'}
-                        />
-                    </Link> 
+                    <div className={'flex-item'}>
+                        <Link to={'/membership/'} className={'link-class'}>
+                            <Button
+                                label={'Explore MPower'}
+                                className={'cta-button'}
+                            />
+                        </Link> 
+                        <ButtonWrapper>
+                            <Link to={'/mpower-app'}>
+                                <AppStoreImage
+                                    src={appStoreMobile}
+                                    srcSet={`${appStoreMobile} 113w, ${appStoreDesktop} 140w`}
+                                    sizes={`(max-width: 1023px) 113px, 140px`}
+                                    alt={'download on the apple store'}
+                                />
+                            </Link>
+                            <Link to={'/mpower-app'}>
+                                <AppStoreImage
+                                    src={googlePlayMobile}
+                                    srcSet={`${googlePlayMobile} 137w, ${googlePlayDesktop} 170w`}
+                                    sizes={`(max-width: 1023px) 137px, 170px`}
+                                    alt={'get it on google play'}
+                                />
+                            </Link>
+                        </ButtonWrapper>
+                    </div>
                 </div>
             </div>
         </StyledSection>

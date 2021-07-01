@@ -142,7 +142,7 @@ export default function HeroSection() {
                     alt={'background oval'}
                 /> */}
                 <Text>{'Your membership will provide you with on-demand content, for unlimited access to resources, tools, and mentorship to accelerate and advance your career.'}</Text>
-                <ButtonWrapper>
+                {/* <ButtonWrapper>
                     <AppStoreImage
                         src={appStoreMobile}
                         srcSet={`${appStoreMobile} 113w, ${appStoreDesktop} 140w`}
@@ -156,7 +156,7 @@ export default function HeroSection() {
                         sizes={`(max-width: 1023px) 137px, 170px`}
                         alt={'get it on google play'}
                     />
-                </ButtonWrapper>
+                </ButtonWrapper> */}
             </div>
             <div className="flex-item right">
                 <MockupsImage src={heroMockups}></MockupsImage>

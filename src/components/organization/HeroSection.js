@@ -162,7 +162,7 @@ export default function HeroSection() {
                 />
                 <p className={'body'}>{'Your organization will have access to diverse candidates and bridge services to ensure long-term retention and improved business outcomes.'}</p>
                 <div className={'wrapper'}>
-                    <div 
+                    {/* <div 
                         className={'apple'}
                         onClick={() => handleAppleStoreClick()}
                     ></div>
@@ -170,7 +170,7 @@ export default function HeroSection() {
                     <div 
                         className={'google'}
                         onClick={() => handleAppleStoreClick()}
-                    ></div>
+                    ></div> */}
                     {/* <img 
                         src={appleStore} 
                         alt={'app in Apple Store'}
