@@ -83,7 +83,7 @@ const CardWrapper = styled.div`
 
 export default function DevelopmentSection() {
     return (
-        <StyledSection>
+        <StyledSection id={'member-development'}>
             <Title>{'Member Development'}</Title>
             <SubTitle>{'Members only coursework, discussion groups and guest lectures by globally recognized thought leaders that empower, educate, and engage minority professionals.'}</SubTitle>
             <CardWrapper>
