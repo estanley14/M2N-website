@@ -11,7 +11,7 @@ import googleStore from '../../assets/images/google-play.png'
 import heroLogo from '../../assets/images/hero-logo.png'
 
 const HeroContainer = styled.section`
-    padding: 64px 140px 0;
+    padding: 64px 0 0 140px ;
     width: 100%;
     // height: 700px;
     background: #2B3990;
@@ -107,6 +107,7 @@ const HeroContainer = styled.section`
             // border: 1px solid white;
             z-index: 1;
             margin-bottom: -15%;
+            margin-top: 5%;
         }
     
         & > .hero-oval {
@@ -129,18 +130,16 @@ const HeroContainer = styled.section`
             & > .hero-stripes {
                 position: absolute;
                 top: 0px;
-                left: 0px;
-                width: calc(176% * 100 / 568);
+                right: 53%;
+                width: 20%;
                 // border: 1px solid white;
             }
     
             & > .hero-blob {
                 position: absolute;
                 top: 0px;
-                right: 0px;
-                min-width: 488px;
-                height: calc(524% * 100 / 568);
-                width: calc(266% * 100 / 568);
+                right: 20px;
+                height: 95%;
                 // border: 1px solid white;
             }
         }
