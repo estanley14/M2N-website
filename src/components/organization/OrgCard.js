@@ -3,12 +3,11 @@ import styled from 'styled-components'
 
 const CardContainer = styled.div`
     padding: 32px 72px 56px 32px;
-    width: 588px;
-    height: 296px;
+    width: 350px;
+    max-width: 500px;
     border-radius: 16px;
     background: #FFFFFF;
-
-    // border: 2px dashed orange;
+    flex-grow: 1;
 
     & > .card-icon {
         margin-bottom: 28px;
@@ -28,7 +27,6 @@ const CardContainer = styled.div`
     }
 
     & > .body {
-        height: 60px;
         font-family: DM Sans;
         font-style: normal;
         font-weight: 500;

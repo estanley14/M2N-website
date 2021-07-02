@@ -12,11 +12,10 @@ import connectImg from '../../assets/images/org-card-connect.svg'
 
 const StyledSection = styled.section`
     width: 100%;
-    height: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 172px 0px 0px 0px;
+    padding: 172px 15px 167px;
     background-position: 
         top 352px right 164px,
         top 644px left 40px,
@@ -59,14 +58,11 @@ const StyledSection = styled.section`
         padding: 56px 0px 0px 0px;
         margin-top: 40px;
         position: relative;
+        max-width: 1000px;
         display: flex;
         flex-wrap: wrap;
-        // row-gap: 0px;
-        // column-gap: 32px;
-        
         gap: 32px;
-        width: 1240px;
-        height: 712px;
+        justify-content: center;
         // border: 2px dashed black;
     }
 `
