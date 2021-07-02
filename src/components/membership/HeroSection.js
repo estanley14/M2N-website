@@ -28,7 +28,7 @@ const StyledSection = styled.section`
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    overflow-x: clip;
 
     @media (min-width: 1024px) {
         padding-left: 140px;
