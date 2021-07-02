@@ -210,12 +210,12 @@ const StyledSection = styled.section`
 export default function LearnSection() {
 
     function handleDevelopClick() {
-        navigate('/membership/')
+        navigate('/membership/#member-development')
         // navigate('/mpower#development-start')
     }
 
     function handleOpportunitiesClick() {
-        navigate('/membership/')
+        navigate('/membership/#career-opportunities')
         // navigate('/mpower#opportunities')
     }
 

@@ -368,7 +368,7 @@ export default function NewFooter(props) {
 
                 <div className={'about-container'}>
                     <p className={'group-title'}>{'About'}</p>
-                    <Link to={'/mpower'} className={'link'}>
+                    <Link to={'/membership'} className={'link'}>
                         <p>{'Membership'}</p>
                     </Link>
 
