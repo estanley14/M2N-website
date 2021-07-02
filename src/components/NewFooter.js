@@ -294,6 +294,7 @@ const StyledFooter = styled.footer`
         & > .social-container {
             margin-top: 48px;
             display: flex;
+            gap: 24px;
             justify-content: center;
             // border: 1px dashed orange;
 
@@ -303,10 +304,6 @@ const StyledFooter = styled.footer`
 
             & > .footer-icon {
                 width: 24px;
-            }
-
-            & > .middle {
-                margin: 0px 24px 0px 24px;
             }
         }
     }
@@ -357,7 +354,7 @@ export default function NewFooter(props) {
 
                 <div className={'footer-subscribe-container'}>
                     <p className={'form-title'}>{'Newsletter'}</p>
-                    <StyledInput 
+                    <StyledInput
                         placeholder={'Your email'}
                     />
                     <Button
@@ -400,30 +397,34 @@ export default function NewFooter(props) {
                     </Link>
                 </div>
             </div>
-            
+
             <div className={'bottom-section'}>
                 <p className={'copyright'}>{'©2021 M2N, LLC  •  All rights reserved. '}</p>
                 <p className={'terms'}>{'Terms & Conditions   |   Privacy Policy'}</p>
                 <div className={'certified'}></div>
- 
-                <div className={'social-container '}>
-                    <img
-                        src={instagramIcon}
-                        alt={'M2N Instagram'}
-                        className={'footer-icon'}
-                    />
 
-                    <img
-                        src={twitterIcon}
-                        alt={'M2N Twitter'}
-                        className={'footer-icon middle'}
-                    />
-
-                    <img
-                        src={linkedInIcon}
-                        alt={'M2N LinkedIn'}
-                        className={'footer-icon'}
-                    />
+                <div className={'social-container'}>
+                    <Link to={'https://www.instagram.com/m2n_mpower/'}>
+                        <img
+                            src={instagramIcon}
+                            alt={'M2N Instagram'}
+                            className={'footer-icon'}
+                        />
+                    </Link>
+                    <Link to={'https://twitter.com/M2nNetwork/'}>
+                        <img
+                            src={twitterIcon}
+                            alt={'M2N Twitter'}
+                            className={'footer-icon'}
+                        />
+                    </Link>
+                    <Link to={'https://www.linkedin.com/company/m2n-minority-moves-network/about/?viewAsMember=true'}>
+                        <img
+                            src={linkedInIcon}
+                            alt={'M2N LinkedIn'}
+                            className={'footer-icon'}
+                        />
+                    </Link>
                 </div>
             </div>
         </StyledFooter>

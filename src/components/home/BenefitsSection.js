@@ -36,13 +36,13 @@ const StyledSection = styled.section`
     & > .blue-section {
         position: relative;
         width: 100%;
-        height: 276px;
         order: 1;
         background: #416FF4;
+        display: flex;
+        align-items: center;
         // border: 2px dashed lightgreen;
 
         @media (min-width: 1024px) {
-            min-width: 648px;
             height: auto;
             order: 2;
         }
@@ -95,23 +95,16 @@ const StyledSection = styled.section`
         }
 
         & > .image {
-            position: absolute;
-            top: 64px;
-            left: -18px;
-            width: 337px;
-            height: 268px;
-            background-image:
-                url(${mockupsMobile});
+            position: relative;
+            margin-bottom: -10%;
+            width: 100%;
             background-repeat: no-repeat;
             // border: 1px dashed orange;
+            z-index: 1;
 
             @media (min-width: 1024px) {
-                top: 210px;
                 left: -73px;
-                background-image:
-                    url(${mockupsDesktop});
-                width: 734px;
-                height: 583px;
+                margin-bottom: 0;
             }
         }
     }
@@ -331,7 +324,7 @@ export default function BenefitsSection() {
             <div className={'blue-section'}>
                 <div className={'gray-oval'}></div>
                 <div className={'stripes'}></div>
-                <div className={'image'}></div>
+                <img className={'image'} src={mockupsMobile}></img>
             </div>
 
             <div className={'content-wrapper'}>

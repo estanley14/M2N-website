@@ -20,19 +20,22 @@ const StyledSection = styled.section`
 
     & > .cta-container {
         position: relative;
-
-        width: 1268px;
-        height: 288px;
         border: 8px solid #416FF4;
         border-radius: 20px;
+        margin-right: 28px;
+        width: 90%;
+        margin: 0 5%;
 
         & > .content-area {
-            position: absolute;
-            top: -36px;
-            left: 28px;
+            position: relative;
+            margin-top: -36px;
+            margin-right: -28px;
+            margin-left: 28px;
             display: flex;
+            flex-flow: row wrap;
+            gap: 16px;
             width: 100%;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
             padding: 56px 148px 64px 56px;
             // width: 100%;
@@ -50,8 +53,14 @@ const StyledSection = styled.section`
             border-radius: 20px;
             // overflow: hidden;
 
+            @media screen and (max-width: 719px) {
+                padding: 56px 64px;
+            }
+
             & > .body {
-                width: 572px;
+                max-width: 100%;
+                width: 315px;
+                flex-grow: 1;
                 font-family: DM Sans;
                 font-style: normal;
                 font-weight: 500;
@@ -59,6 +68,11 @@ const StyledSection = styled.section`
                 line-height: 48px;
                 color: #FFFFFF;
                 // border: 1px dashed orange;
+
+                @media screen and (max-width: 719px) {
+                    font-size: 30px;
+                    line-height: 36px;
+                }
             }
 
             & > .flex-item {
@@ -66,6 +80,11 @@ const StyledSection = styled.section`
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
+                max-width: 350px;
+
+                @media screen and (max-width: 910px){
+                    flex-grow: 1;
+                }
 
                 & > .link-class {
                     text-decoration: none;
@@ -87,7 +106,8 @@ const StyledSection = styled.section`
 const ButtonWrapper = styled.div`
     display: flex;
     gap: 8px;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     // border: 1px dashed orange;
 `
 
