@@ -126,7 +126,7 @@ export default function OpportunitiesSection() {
 
                 <CareerCard 
                     title={'Connect'}
-                    subtitle={'Membership to organizations who promote a comprehensive approach to DEI​'}
+                    subtitle={'Membership to organizations who promote a comprehensive approach to DEI​.'}
                     color={'green'}
                 />
 
