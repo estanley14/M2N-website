@@ -114,25 +114,25 @@ export default function OpportunitiesSection() {
             <CardWrapper>
                 <CareerCard 
                     title={'Prepare'}
-                    subtitle={'Deliver transformational DEI training to hiring managers and extended teams to prepare for and support their new hires.'}
+                    subtitle={'Deliver transformational DEI training to hiring managers and extended teams to support their new hires.'}
                     color={'blue'}
                 />
 
                 <CareerCard 
                     title={'Recruit'}
-                    subtitle={'Deliver transformational DEI training to hiring managers and extended teams to prepare for and support their new hires.'}
+                    subtitle={'Identify candidates for job opportunities based upon work experience and their engagement in the MPower platform.​'}
                     color={'red'}
                 />
 
                 <CareerCard 
                     title={'Connect'}
-                    subtitle={'Deliver transformational DEI training to hiring managers and extended teams to prepare for and support their new hires.'}
+                    subtitle={'Membership to organizations who promote a comprehensive approach to DEI​'}
                     color={'green'}
                 />
 
                 <CareerCard 
                     title={'Support'}
-                    subtitle={'Deliver transformational DEI training to hiring managers and extended teams to prepare for and support their new hires.'}
+                    subtitle={'On-going support for members to ensure they are fulfilled, engaged, and performing well in their new roles.​'}
                     color={'lightblue'}
                 />
             </CardWrapper>
