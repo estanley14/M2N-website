@@ -36,7 +36,7 @@ const StyledNav = styled.nav`
         display: flex;
         justify-content: center;
         align-items: center;
-        border-bottom: 2px solid #82888E;
+        // border-bottom: 2px solid #82888E;
     }
 `
 

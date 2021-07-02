@@ -3,6 +3,10 @@ import styled from 'styled-components'
 import heroImageMobile from '../../assets/images/membership/hero-logo-mobile.svg'
 import heroImageDesktop from '../../assets/images/membership/hero-logo-desktop.svg'
 import heroMockups from '../../assets/images/membership/hero-mockups.png' 
+import heroOval from '../../assets/images/hero-oval.svg'
+import stripesImg from '../../assets/images/home/learnmore-stripes-red.svg'
+import blobImg from '../../assets/images/shapes-blob.svg'
+import redBlobImg from '../../assets/images/shapes-blob-red.svg'
 import appStoreMobile from '../../assets/images/membership/hero-appstore-mobile.svg'
 import appStoreDesktop from '../../assets/images/membership/hero-appstore-desktop.svg'
 import googlePlayMobile from '../../assets/images/membership/hero-googleplay-mobile.svg'
@@ -23,21 +27,61 @@ const StyledSection = styled.section`
     // border: 2px solid lightcoral;
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 
     @media (min-width: 1024px) {
         padding-left: 140px;
-        padding-right: 140px;
+        padding-right: 100px;
     }
 
     & > .flex-item.left{
         flex-basis: 500px;
         margin-bottom: 24px;
+
+        & > .hero-oval {
+            position: absolute;
+            top: 28px;
+            left: -400px;
+            // width: 800px;
+            border: 1px dashed orange;
+        }
     }
 
     & > .flex-item.right{
         flex-basis: 737px;
+        position: relative;
+
+        & > .hero-shapes-wrapper {
+            position: absolute;
+            top: 0;
+            // left: 0;
+            right: 0;
+            width: 90%;
+            height: 90%;
+            // border: 2px dashed orange;
+    
+            & > .hero-stripes {
+                position: absolute;
+                top: 32px;
+                right: 150px;
+                width: 30%;
+                // border: 1px solid white;
+            }
+    
+            & > .hero-blob {
+                position: absolute;
+                top: 0px;
+                right: -60px;
+                height: 91%;
+                // border: 1px solid white;
+
+                &.red-hero-blob {
+                    top: 40%;
+                    right:0
+                }
+            }
+        }
     }
 
     @media (max-width: 1023px) {
@@ -102,19 +146,22 @@ const BackgroundShapes = styled.img`
 
 const BackgroundOval = styled.img`
     position: absolute;
-    width: 688px;
-    top: -97px;
-    left: -375px;
+    height: 116%;
+    top: 30px;
+    left: -25%;
     // border: 1px dashed green;
 
     @media (min-width: 1024px) {
-        width: 1120px;
+        left: -15%;
     }
 `
 
 const MockupsImage = styled.img`
     width:100%;
     margin-bottom: -25px;
+    margin-top: 80px;
+    z-index: 1;
+    position: relative;
 `
 
 export default function HeroSection() {
@@ -135,12 +182,12 @@ export default function HeroSection() {
                     alt={'background shapes'}
                 /> */}
 
-                {/* <BackgroundOval
-                    src={ovalMobile}
-                    srcSet={`${ovalMobile} 688w, ${ovalDesktop} 1120w`}
-                    sizes={`(max-width: 1023px) 688px, 1120px)`}
+                <BackgroundOval
+                    src={heroOval}
+                    // srcSet={`${ovalMobile} 688w, ${ovalDesktop} 1120w`}
+                    // sizes={`(max-width: 1023px) 688px, 1120px)`}
                     alt={'background oval'}
-                /> */}
+                />
                 <Text>{'Your membership will provide you with on-demand content, for unlimited access to resources, tools, and mentorship to accelerate and advance your career.'}</Text>
                 {/* <ButtonWrapper>
                     <AppStoreImage
@@ -160,6 +207,24 @@ export default function HeroSection() {
             </div>
             <div className="flex-item right">
                 <MockupsImage src={heroMockups}></MockupsImage>
+                <div className={'hero-shapes-wrapper'}>
+                    <img 
+                        src={stripesImg} 
+                        alt={'stripes'} 
+                        className={'hero-stripes'}
+                    />
+
+                    <img 
+                        src={blobImg} 
+                        alt={'blobb'} 
+                        className={'hero-blob'}
+                    />
+                    <img 
+                        src={redBlobImg} 
+                        alt={'red-blob'} 
+                        className={'hero-blob red-hero-blob'}
+                    />
+                </div>
             </div>
         </StyledSection>
     )
