@@ -324,6 +324,7 @@ const StyledInput = styled.input`
     font-size: 16px;
     line-height: 24px;
     mix-blend-mode: normal;
+    padding: 15px;
 
     &::placeholder {
         font-family: DM Sans;
