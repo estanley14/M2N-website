@@ -400,7 +400,7 @@ export default function NewFooter(props) {
             </div>
 
             <div className={'bottom-section'}>
-                <p className={'copyright'}>{'©2021 M2N, LLC  •  All rights reserved. '}</p>
+                <p className={'copyright'}>{'©2021 M2N Corp  •  All rights reserved. '}</p>
                 <p className={'terms'}>{'Terms & Conditions   |   Privacy Policy'}</p>
                 <div className={'certified'}></div>
 
