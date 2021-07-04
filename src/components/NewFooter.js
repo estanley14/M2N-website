@@ -324,6 +324,7 @@ const StyledInput = styled.input`
     font-size: 16px;
     line-height: 24px;
     mix-blend-mode: normal;
+    padding: 15px;
 
     &::placeholder {
         font-family: DM Sans;
@@ -399,7 +400,7 @@ export default function NewFooter(props) {
             </div>
 
             <div className={'bottom-section'}>
-                <p className={'copyright'}>{'©2021 M2N, LLC  •  All rights reserved. '}</p>
+                <p className={'copyright'}>{'©2021 M2N | Minority Moves Network Inc.  •  All rights reserved. '}</p>
                 <p className={'terms'}>{'Terms & Conditions   |   Privacy Policy'}</p>
                 <div className={'certified'}></div>
 

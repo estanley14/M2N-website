@@ -122,7 +122,7 @@ export default function CTASection() {
                 <div className={'content-area'}>
                     <h3 className={'body'}>{'Explore the best tools to accelerate your professional development'}</h3>
                     <div className={'flex-item'}>
-                        <Link to={'/membership/'} className={'link-class'}>
+                        <Link to={'/mpower-app/'} className={'link-class'}>
                             <Button
                                 label={'Explore MPower'}
                                 className={'cta-button'}
