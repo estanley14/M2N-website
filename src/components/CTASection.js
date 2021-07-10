@@ -129,7 +129,7 @@ export default function CTASection() {
                             />
                         </Link> 
                         <ButtonWrapper>
-                            <Link to={'/mpower-app'}>
+                            <Link to={'/mpower-app/'}>
                                 <AppStoreImage
                                     src={appStoreMobile}
                                     srcSet={`${appStoreMobile} 113w, ${appStoreDesktop} 140w`}
@@ -137,7 +137,7 @@ export default function CTASection() {
                                     alt={'download on the apple store'}
                                 />
                             </Link>
-                            <Link to={'/mpower-app'}>
+                            <Link to={'/mpower-app/'}>
                                 <AppStoreImage
                                     src={googlePlayMobile}
                                     srcSet={`${googlePlayMobile} 137w, ${googlePlayDesktop} 170w`}
