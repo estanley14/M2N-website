@@ -225,7 +225,7 @@ export default function LearnSection() {
                 <LearnImg1 />
                 <div className={'wrapper'}>
                     <h4>{'Member Development'}</h4> 
-                    <p>{'Online classes, discussion groups and guest lectures by globally recognized thought leaders provides our MPower members with…'}</p> 
+                    <p>{'Online classes, discussion groups and guest lectures by globally recognized thought leaders provide our MPower members with…'}</p> 
                     <IconButton
                         label={'Learn more'}
                         color={'blue'}
