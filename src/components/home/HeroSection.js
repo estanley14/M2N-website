@@ -152,6 +152,7 @@ const StyledSection = styled.section`
         background-position: center;
         background-size: container;
         // border: 1px dashed lightgreen;
+        z-index: -1;
 
         @media (min-width: 1024px) {
             top: 252px;
@@ -175,6 +176,7 @@ const StyledSection = styled.section`
         background-position: center;
         background-size: contain;
         // border: 1px dashed lightgreen;
+        z-index: -1;
 
         @media (min-width: 720px) {
             top: 276px;
@@ -203,6 +205,7 @@ const StyledSection = styled.section`
         background-position: center;
         background-size: contain;
         // border: 1px dashed lightgreen;
+        z-index: -1;
 
         @media (min-width: 720px) {
             top: -48px;
@@ -236,6 +239,7 @@ const StyledSection = styled.section`
         background-position: center;
         background-size: contain;
         // border: 1px dashed lightgreen;
+        z-index: -1;
 
         @media (min-width: 720px) {
             bottom: -120px;
