@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import { Button } from '../components/reusable-components/'
+// import signup from '/src/assets/EmailSignup.html'
 import instagramIcon from '../assets/icons/footer-intagram.svg'
 import twitterIcon from '../assets/icons/footer-twitter.svg'
 import linkedInIcon from '../assets/icons/footer-linkedin.svg'
@@ -340,6 +341,27 @@ const StyledInput = styled.input`
 export default function NewFooter(props) {
     const { footerDisplay } = props
 
+    // Add HubSpot Form
+    // Will generate multiple forms on Dev server because of hot-reloading. Safe for production
+    useEffect(() => {
+        const signupDiv = document.querySelector(".footer-subscribe-container");
+
+        const script = document.createElement("script");
+        script.src = "https://js.hsforms.net/forms/shell.js";
+        script.async = true;
+        signupDiv.appendChild(script);
+
+        setTimeout(function () {
+            if (window.hbspt) {
+                const script2 = document.createElement("script");
+                script2.text = 'hbspt.forms.create({ region: "na1", portalId: "20008151", formId: "d5b7ea37-7f3d-4a2e-bc67-3ed68f9b2c02" })';
+                signupDiv.appendChild(script2);
+            } else {
+                console.warn("HubSpot not loaded");
+            }
+        }, 100);
+    })
+
     return (
         <StyledFooter display={footerDisplay}>
             <div className={'top-section'}>
@@ -352,7 +374,6 @@ export default function NewFooter(props) {
                     /> */}
                     <p className={'footer-heading'}>{'A new approach to diversity, equity & inclusion. Meeting people & organizations where they are through proprietary technology.'}</p>
                 </div>
-
                 <div className={'footer-subscribe-container'}>
                     <p className={'form-title'}>{'Newsletter'}</p>
                     <StyledInput
