@@ -6,15 +6,15 @@ import MockupsDesktop from '../../assets/images/membership/opportunities-mockups
 
 const StyledSection = styled.section`
     position: relative;
-    padding: 0px 16px 624px 16px;
+    padding: 0px 16px 140px 16px;
     background: #F3F4F6;
     overflow-x: clip;
     // border: 4px solid lightcoral;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 
     @media (min-width: 720px) {
-        padding: 0px 64px 624px 64px;
+        padding: 0px 64px 140px 64px;
     }
 
     @media (min-width: 1024px) {
@@ -33,7 +33,7 @@ const StyledSection = styled.section`
     & > .flex-right {
         position: relative;
         flex-shrink: 1;
-        overflow-y: clip;
+        overflow-y: show;
         display: flex;
         justify-content: center;
     }
@@ -79,7 +79,6 @@ const Subtitle = styled.p`
 `
 
 const CardWrapper = styled.div`
-    margin-bottom: 124px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,6 +98,7 @@ const MockupsImage = styled.img`
     position: relative;
     max-width: 113%;
     margin-right: -50px;
+    margin-bottom: -100px;
     
     // border: 1px dashed green;
 
