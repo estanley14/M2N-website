@@ -98,6 +98,7 @@ const CardWrapper = styled.div`
 const MockupsImage = styled.img`
     position: relative;
     max-width: 113%;
+    margin-right: -50px;
     
     // border: 1px dashed green;
 
