@@ -23,12 +23,8 @@ const StyledSection = styled.section`
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-basis: 300px;
+        flex-basis: 524px;
         flex-grow: 1;
-
-        @media screen and (min-width:800px) {
-            /* justi */
-        }
     }
 
     @media (min-width: 1024px) {
@@ -143,7 +139,7 @@ const NewMockupImage = styled.img`
     max-width: 80vw;
     left: -64px;
 
-    @media screen and (max-width:800px) {
+    @media screen and (max-width: 1024px) {
         left: unset;
         /* margin-bottom: 0; */
     }
