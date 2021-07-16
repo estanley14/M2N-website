@@ -98,7 +98,7 @@ const StyledFooter = styled.footer`
         }
 
         & > .footer-subscribe-container {
-            width: 100%;
+            width: fit-content;
             padding: 16px;
             margin-top: -16px;
             background: white;
@@ -356,12 +356,13 @@ export default function NewFooter(props) {
         script.async = true;
         signupDiv.appendChild(script);
 
-        setTimeout(function () {
+        const hubspotInterval = setInterval(function () {
             if (window.hbspt) {
                 const script2 = document.createElement("script");
                 script2.text = 'hbspt.forms.create({ region: "na1", portalId: "20008151", formId: "d5b7ea37-7f3d-4a2e-bc67-3ed68f9b2c02" })';
                 signupDiv.appendChild(script2);
                 console.warn("HubSpot not loaded");
+                clearInterval(hubspotInterval);
             }
         }, 100);
     })
