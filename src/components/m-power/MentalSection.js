@@ -13,23 +13,45 @@ const StyledSection = styled.section`
     position: relative;
     padding-bottom: 56px;
     background: #F3F4F6;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     // border: 2px solid lightcoral;
+
+    & > .flex-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 300px;
+        flex-grow: 1;
+
+        @media screen and (min-width:800px) {
+            /* justi */
+        }
+    }
 
     @media (min-width: 1024px) {
         height: 828px;
     }
+
+    
 `
 
 const ContentContainer = styled.div`
-    padding: 320px 16px 0px 16px;
+    padding: 16px;
     // border: 1px dashed dodgerblue;
+    top: 124px;
+    right: 140px;
+    max-width: 500px;
+    flex-shrink: 0;
 
-    @media (min-width: 1024px) {
-        position: absolute;
-        top: 124px;
-        right: 140px;
-        padding: 0px 0px 0px 0px;
-        max-width: 500px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+
+    @media screen and (max-width: 720px){
+        max-width: 100%;
     }
 `
 
@@ -113,14 +135,17 @@ const ItemDescription = styled.p`
 `
 
 const NewMockupImage = styled.img`
-    position: absolute;
+    position: relative;
     top: 36px;
     left: 0px;
-    // border: 1px dashed orange;
+    width: 100%;
+    margin-bottom: -15%;
+    max-width: 80vw;
+    left: -64px;
 
-    @media (min-width: 1024px) {
-        top: 124px;
-        left: -64px;
+    @media screen and (max-width:800px) {
+        left: unset;
+        /* margin-bottom: 0; */
     }
 `
 
@@ -167,8 +192,8 @@ const BackgroundOvalImage = styled.img`
     // border: 1px dashed orange;
 
     @media (min-width: 1024px) {
-        top: 516px;
-        left: 548px;
+        top: 62.5%;
+        left: 47%;
         width: 212px;
         height: 212px;
     }
@@ -177,23 +202,25 @@ const BackgroundOvalImage = styled.img`
 export default function MentalSection() {
     return (
         <StyledSection>
-            <BackgroundOvalImage src={ovalImageMobile} alt={'background image'} />
-            <BackgroundWedge src={pieSliceImageMobile} alt={'background image'} />
-            <BackgroundStripesImage src={stripesImageMobile} alt={'background image'} />
-            
-            <NewMockupImage 
-                srcSet={
-                    `${mocksupImageMobile} 320w`,
-                    `${mocksupImageDesktop} 784w`
-                }
+            <div className="flex-left">
+                <BackgroundOvalImage src={ovalImageMobile} alt={'background image'} />
+                <BackgroundWedge src={pieSliceImageMobile} alt={'background image'} />
+                <BackgroundStripesImage src={stripesImageMobile} alt={'background image'} />
 
-                sizes={
-                    `(min-width: 1024px) 784px`
-                }
+                <NewMockupImage
+                    srcSet={
+                        `${mocksupImageMobile} 320w`,
+                        `${mocksupImageDesktop} 784w`
+                    }
 
-                src={mocksupImageMobile}
-                alt={'trying this out'} 
-            />
+                    sizes={
+                        `(min-width: 1024px) 784px`
+                    }
+
+                    src={mocksupImageMobile}
+                    alt={'trying this out'}
+                />
+            </div>
             <ContentContainer>
                 <Title>{'Mental Wellness'}</Title>
                 <Subtitle>{'Creating space for members to acknowledge, address and support their mental wellness. Providing tools and daily practices to help members build a healthy relationship with themselves.'}</Subtitle>
