@@ -17,30 +17,54 @@ const StyledSection = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: center;
     overflow: hidden;
     // border: 2px dashed black;
 
     @media (min-width: 1024px) {
-        padding-top: 160px;
-        height: 824px;
-        display: block;
+        padding-top: 60px;
     }
 
-    & > .graph-image {
-        width: 288px;
-        height: 288px;
-        background-image:
-            url(${graphMobile});
-        // border: 1px dashed orange;
+    & > .graph-top-row{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 100%;
 
-        @media (min-width: 1024px) {
-            position: absolute;
-            top: 60px;
-            left: calc(50% - 435px/2);
-            width: 435px;
-            height: 435px;
-            background-image:
-                url(${graphDesktop});
+        @media (min-width: 720px){
+            justify-content: space-between;
+            flex-flow: row wrap;
+        }
+
+        @media (min-width: 1024px){
+            justify-content: space-evenly;
+            flex-flow: row wrap;
+        }
+
+        & > .graph-image {
+            // width: 288px;
+            // height: 288px;
+            width: 80%;
+            max-width: 288px;
+            min-width: 0;
+            
+
+            @media (min-width: 720px) {
+                order: 3;
+                max-width: 350px;
+                margin: auto;
+            }
+
+            @media (min-width: 1024px) {
+                flex: 1 1 1px;
+                order: 2;
+                object-fit: contain;
+                height: 100%;
+                max-width: 435px;
+                max-height: 435px;
+                position: relative;
+                margin: 0;
+            }
         }
     }
 
@@ -69,30 +93,31 @@ const StyledSection = styled.section`
 `
 
 const MemberShipCard = styled.div`
-    margin-top: 48px;
+    margin: 25px;
     padding: 20px 0px 20px 12px;
     width: 288px;
-    height: 196px;
+    height: 180px;
     background-image:
         url(${membershipFrameMobile});
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
     border-radius: 10px;
-    // border: 1px dashed orange;
+
+    @media (min-width: 720px) {
+        order: 1;
+    }
 
     @media (min-width: 1024px) {
-        margin-top: 0px;
+        margin-top: 0;
         padding-left: 46px;
-        padding-right: 12px;
-        position: absolute;
-        top: 155px;
-        left: 143px;    
+        padding-right: 12px;    
         width: 352px;
+        flex: 0 0 352px;
         height: 172px;
         background-image:
             url(${membershipFrameDesktop});
-        // border: 1px dashed blue;
+        order: 1;
     }
 
     & > h5 {
@@ -118,7 +143,7 @@ const MemberShipCard = styled.div`
 `
 
 const PlacementCard = styled.div`
-    margin-top: 24px;
+    margin: 25px;
     padding: 20px 0px 20px 12px;
     width: 288px;
     height: 180px;
@@ -128,20 +153,20 @@ const PlacementCard = styled.div`
     background-size: contain;
     background-position: right;
     border-radius: 10px;
-    // border: 1px dashed orange;
+    @media (min-width: 720px) {
+        order: 1;
+    }
 
     @media (min-width: 1024px) {
-        margin-top: 0px;
+        margin-top: 0;
         padding-left: 48px;
         padding-right: 12px;
-        position: absolute;
-        top: 155px;
-        right: 143px;
         width: 352px;
-        height: 172px;
         background-image:
             url(${placementFrameDesktop});
-        // border: 1px dashed blue;
+        flex: 0 0 352px;
+        height: 172px;
+        order: 3;
     }
 
     & > h5 {
@@ -167,8 +192,8 @@ const PlacementCard = styled.div`
 `
 
 const ServicesCard = styled.div`
-    margin-top: 24px;
     padding: 20px 0px 20px 12px;
+    margin: 25px;
     width: 288px;
     height: 180px;
     background-image:
@@ -179,10 +204,8 @@ const ServicesCard = styled.div`
     border-radius: 10px;
     // border: 1px dashed orange;
 
-    @media (min-width: 1024px) {
-        margin-top: 0px;
+    @media (min-width: 720px) {
         padding: 24px 28px 30px 28px;
-        position: absolute;
         top: 520px;
         left: calc(50% - 352px/2);
         width: 352px;
@@ -219,16 +242,21 @@ const ServicesCard = styled.div`
 export default function PlatformSection() {
     return (
         <StyledSection>
-            <div className={'graph-image'}></div>
-            <MemberShipCard>
-                <h5>{'Membership'}</h5>
-                <p>{'Empowering diverse professionals through original and inspiring content, coaching and mental wellness support.​'}</p>
-            </MemberShipCard>
+            <div className="graph-top-row">
+                <img className={'graph-image'} src={graphDesktop} 
+                    srcSet={`${graphDesktop} 435w, ${graphMobile}, 288w`}
+                    sizes="(min-width: 1024px) 435px, 288px"
+                ></img>
+                <MemberShipCard>
+                    <h5>{'Membership'}</h5>
+                    <p>{'Empowering diverse professionals through original and inspiring content, coaching and mental wellness support.​'}</p>
+                </MemberShipCard>
 
-            <PlacementCard>
-                <h5>{'Placement'}</h5>
-                <p>{'Internal recruiting services engage a network of companies committed to recruiting, onboarding, and mentoring M2N membership.'}</p>
-            </PlacementCard>
+                <PlacementCard>
+                    <h5>{'Placement'}</h5>
+                    <p>{'Internal recruiting services engage a network of companies committed to recruiting, onboarding, and mentoring M2N membership.'}</p>
+                </PlacementCard>
+            </div>
 
             <ServicesCard>
                 <h5>{'Services'}</h5>

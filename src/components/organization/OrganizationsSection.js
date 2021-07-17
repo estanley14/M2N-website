@@ -42,7 +42,6 @@ const StyledSection = styled.section`
     }
 
     & > p {
-        width: 650px;
         font-family: DM Sans;
         font-style: normal;
         font-weight: normal;

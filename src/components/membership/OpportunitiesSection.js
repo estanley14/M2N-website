@@ -6,21 +6,36 @@ import MockupsDesktop from '../../assets/images/membership/opportunities-mockups
 
 const StyledSection = styled.section`
     position: relative;
-    padding: 0px 16px 624px 16px;
+    padding: 0px 16px 140px 16px;
     background: #F3F4F6;
-    overflow: hidden;
+    overflow-x: clip;
     // border: 4px solid lightcoral;
+    display: flex;
+    flex-direction: column-reverse;
 
     @media (min-width: 720px) {
-        padding: 0px 64px 624px 64px;
+        padding: 0px 64px 140px 64px;
     }
 
     @media (min-width: 1024px) {
         padding: 0px 64px 0px 64px;
+        flex-direction: row;
+
+        & > .flex-right {
+            align-items: center;
+        }
     }
 
     @media (min-width: 1440px) {
         padding: 0px 140px 0px 140px;
+    }
+    
+    & > .flex-right {
+        position: relative;
+        flex-shrink: 1;
+        overflow-y: show;
+        display: flex;
+        justify-content: center;
     }
 `
 
@@ -64,7 +79,6 @@ const Subtitle = styled.p`
 `
 
 const CardWrapper = styled.div`
-    margin-bottom: 124px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,67 +95,71 @@ const CardWrapper = styled.div`
 `
 
 const MockupsImage = styled.img`
-    position: absolute;
-    top: 1012px;
-    left: 32px;
+    position: relative;
+    max-width: 113%;
+    margin-right: -50px;
+    margin-bottom: -100px;
+    
     // border: 1px dashed green;
 
-    @media (min-width: 720px) {
-        position: absolute;
-        top: 768px;
-        left: initial;
-        right: -84px;
-    }
+    // @media (min-width: 720px) {
+    //     top: 768px;
+    //     left: initial;
+    //     right: -84px;
+    // }
 
     @media (min-width: 1024px) {
-        position: absolute;
-        top: 150px;
-        right: -344px;
+        right: -44%;
+        width: 113%;
+        max-width: unset;
     }
 
-    @media (min-width: 1440px) {
-        position: absolute;
-        top: 150px;
-        right: -140px;
-    }
+    // @media (min-width: 1440px) {
+    //     top: 150px;
+    //     right: -140px;
+    // }
 `
 
 export default function OpportunitiesSection() {
     return (
         <StyledSection id={'career-opportunities'}>
-            <Title>{'Career Opportunities'}</Title>
-            <Subtitle>{'Through the MPower platform and innovative services to support diverse and inclusive workforces, M2N provides members with career advancement opportunities.'}</Subtitle>
-            <CardWrapper>
-                <CareerCard 
-                    title={'Prepare'}
-                    subtitle={'Deliver transformational DEI training to hiring managers and extended teams to support their new hires.'}
-                    color={'blue'}
-                />
+            <div className="flex-left">
+                <Title>{'Career Opportunities'}</Title>
+                <Subtitle>{'Through the MPower platform and innovative services to support diverse and inclusive workforces, M2N provides members with career advancement opportunities.'}</Subtitle>
+                <CardWrapper>
+                    <CareerCard
+                        title={'Prepare'}
+                        subtitle={'Deliver transformational DEI training to hiring managers and extended teams to support their new hires.'}
+                        color={'blue'}
+                    />
 
-                <CareerCard 
-                    title={'Recruit'}
-                    subtitle={'Identify candidates for job opportunities based upon work experience and their engagement in the MPower platform.​'}
-                    color={'red'}
-                />
+                    <CareerCard
+                        title={'Recruit'}
+                        subtitle={'Identify candidates for job opportunities based upon work experience and their engagement in the MPower platform.​'}
+                        color={'red'}
+                    />
 
-                <CareerCard 
-                    title={'Connect'}
-                    subtitle={'Membership to organizations who promote a comprehensive approach to DEI​.'}
-                    color={'green'}
-                />
+                    <CareerCard
+                        title={'Connect'}
+                        subtitle={'Membership to organizations who promote a comprehensive approach to DEI​.'}
+                        color={'green'}
+                    />
 
-                <CareerCard 
-                    title={'Support'}
-                    subtitle={'On-going support for members to ensure they are fulfilled, engaged, and performing well in their new roles.​'}
-                    color={'lightblue'}
+                    <CareerCard
+                        title={'Support'}
+                        subtitle={'On-going support for members to ensure they are fulfilled, engaged, and performing well in their new roles.​'}
+                        color={'lightblue'}
+                    />
+                </CardWrapper>
+            </div>
+            <div className="flex-right">
+                <MockupsImage
+                    src={MockupsMobile}
+                    srcSet={`${MockupsMobile} 575w, ${MockupsDesktop} 811w`}
+                    sizes={`(max-width: 1023px) 575px, 811px`}
+                    alt={'mockups image'}
                 />
-            </CardWrapper>
-            <MockupsImage
-                src={MockupsMobile}
-                srcSet={`${MockupsMobile} 575w, ${MockupsDesktop} 811w`}
-                sizes={`(max-width: 1023px) 575px, 811px`}
-                alt={'mockups image'}
-            />
+            </div>
         </StyledSection>
     )
 }
