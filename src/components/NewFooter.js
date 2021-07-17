@@ -99,10 +99,10 @@ const StyledFooter = styled.footer`
 
         & > .footer-subscribe-container {
             width: fit-content;
-            padding: 16px;
+            padding: 24px;
             margin-top: -16px;
             background: white;
-            border-radius: 10px;
+            border-radius: 16px;
             box-sizing: content-box;
             // border: 2px dashed blue;
     
