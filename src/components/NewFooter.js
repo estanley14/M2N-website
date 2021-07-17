@@ -365,7 +365,7 @@ export default function NewFooter(props) {
                 clearInterval(hubspotInterval);
             }
         }, 100);
-    })
+    },[]) // Empty array prevents the script from running multiple times
 
     return (
         <StyledFooter display={footerDisplay}>
