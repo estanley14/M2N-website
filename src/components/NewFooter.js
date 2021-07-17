@@ -113,7 +113,7 @@ const StyledFooter = styled.footer`
 
             @media (min-width: 1024px) {
                 order: 4;
-                width: 208px;
+                width: 270px;
                 // border: 2px dashed red;
             }
     
