@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import { Button } from '../components/reusable-components/'
+// import signup from '/src/assets/EmailSignup.html'
 import instagramIcon from '../assets/icons/footer-intagram.svg'
 import twitterIcon from '../assets/icons/footer-twitter.svg'
 import linkedInIcon from '../assets/icons/footer-linkedin.svg'
@@ -97,7 +98,12 @@ const StyledFooter = styled.footer`
         }
 
         & > .footer-subscribe-container {
-            width: 100%;
+            width: fit-content;
+            padding: 24px;
+            margin-top: -16px;
+            background: white;
+            border-radius: 16px;
+            box-sizing: content-box;
             // border: 2px dashed blue;
     
             @media (min-width: 720px) {
@@ -119,7 +125,7 @@ const StyledFooter = styled.footer`
                 font-size: 16px;
                 line-height: 21px;
                 text-align: center;
-                color: #FFFFFF;
+                color: rgb(25, 28, 35);
                 // border: 1px dashed orange;
 
                 @media (min-width: 1024px) {
@@ -192,7 +198,7 @@ const StyledFooter = styled.footer`
                 // border: 2px dashed red;
             }
     
-            & > .group-title {
+            &  .group-title {
                 font-family: DM Sans;
                 font-style: normal;
                 font-weight: bold;
@@ -340,6 +346,27 @@ const StyledInput = styled.input`
 export default function NewFooter(props) {
     const { footerDisplay } = props
 
+    // Add HubSpot Form
+    // Will generate multiple forms on Dev server because of hot-reloading. Safe for production
+    useEffect(() => {
+        const signupDiv = document.querySelector(".footer-subscribe-container");
+
+        const script = document.createElement("script");
+        script.src = "https://js.hsforms.net/forms/shell.js";
+        script.async = true;
+        signupDiv.appendChild(script);
+
+        const hubspotInterval = setInterval(function () {
+            if (window.hbspt) {
+                const script2 = document.createElement("script");
+                script2.text = 'hbspt.forms.create({ region: "na1", portalId: "20008151", formId: "d5b7ea37-7f3d-4a2e-bc67-3ed68f9b2c02" })';
+                signupDiv.appendChild(script2);
+                console.warn("HubSpot not loaded");
+                clearInterval(hubspotInterval);
+            }
+        }, 100);
+    })
+
     return (
         <StyledFooter display={footerDisplay}>
             <div className={'top-section'}>
@@ -352,16 +379,17 @@ export default function NewFooter(props) {
                     /> */}
                     <p className={'footer-heading'}>{'A new approach to diversity, equity & inclusion. Meeting people & organizations where they are through proprietary technology.'}</p>
                 </div>
-
                 <div className={'footer-subscribe-container'}>
-                    <p className={'form-title'}>{'Newsletter'}</p>
+                    <h1 className="form-title">Newsletter Signup</h1>
+                    {/* <p className={'form-title'}>{'Newsletter'}</p> //Commenting out old form, replaced programatically
+                                                                       // by Hubspot above
                     <StyledInput
                         placeholder={'Your email'}
                     />
                     <Button
                         label={'subscribe'}
                         className={'subscribe-button'}
-                    />
+                    /> */}
                 </div>
 
                 <div className={'about-container'}>
