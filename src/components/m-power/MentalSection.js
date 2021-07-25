@@ -130,7 +130,7 @@ const NewMockupImage = styled.img`
     left: 0px;
     width: 100%;
     margin-bottom: -15%;
-    max-width: 80vw;
+    max-width: 723px;
     left: -64px;
 
     @media screen and (max-width: 1024px) {
