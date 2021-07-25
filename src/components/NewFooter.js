@@ -394,19 +394,19 @@ export default function NewFooter(props) {
 
                 <div className={'about-container'}>
                     <p className={'group-title'}>{'About'}</p>
-                    <Link to={'/membership'} className={'link'}>
+                    <Link to={'/membership/'} className={'link'}>
                         <p>{'Membership'}</p>
                     </Link>
 
-                    <Link to={'/organization'} className={'link'}>
+                    <Link to={'/organization/'} className={'link'}>
                         <p>{'Organization'}</p>
                     </Link>
 
-                    <Link to={'/company'} className={'link'}>
+                    <Link to={'/company/'} className={'link'}>
                         <p>{'Company'}</p>
                     </Link>
 
-                    <Link to={'/partners'} className={'link'}>
+                    <Link to={'/partners/'} className={'link'}>
                         <p>{'Partnerships'}</p>
                     </Link>
                 </div>
