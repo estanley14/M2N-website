@@ -17,6 +17,7 @@ import pizzaSlice from '../../assets/images/hero-slice.svg'
 const StyledSection = styled.section`
     position: relative;
     padding: 64px 16px 92px 16px;
+    overflow-x: clip;
     // border: 2px solid lightcoral;
 
     @media (min-width: 720px) {

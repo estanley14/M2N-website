@@ -38,6 +38,7 @@ const StyledSection = styled.section`
         line-height: 100%;
         text-align: center;
         color: #11243D;
+        max-width: 100%;
         // border: 1px dashed orange;
     }
 

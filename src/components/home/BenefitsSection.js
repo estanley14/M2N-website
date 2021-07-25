@@ -24,7 +24,8 @@ const StyledSection = styled.section`
     padding: 0px 0px 96px 0px;
     display: flex;
     flex-direction: column;
-    background #191C23;
+    background-color: #191C23;
+    overflow: hidden;
     // border: 2px solid red;
 
     @media (min-width: 1024px) {
