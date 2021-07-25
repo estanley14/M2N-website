@@ -26,12 +26,6 @@ const StyledSection = styled.section`
         flex-basis: 524px;
         flex-grow: 1;
     }
-
-    @media (min-width: 1024px) {
-        height: 828px;
-    }
-
-    
 `
 
 const ContentContainer = styled.div`
