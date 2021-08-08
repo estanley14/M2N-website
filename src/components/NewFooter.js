@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import { Button } from "../components/reusable-components/"
@@ -9,6 +9,7 @@ import linkedInIcon from "../assets/icons/footer-linkedin.svg"
 import logoMobile from "../assets/images/footer-logo-320px.svg"
 import logoDesktop from "../assets/images/footer-logo-1440px.svg"
 import footerNmsdcDesktop from "../assets/images/footer-nmsdc-desktop.png"
+import ContactUsThankYouModal from "../components/contactUsThankYouModal"
 
 const StyledFooter = styled.footer`
   padding: 64px 16px 48px 16px;
@@ -376,169 +377,174 @@ const StyledInput = styled.input`
 `
 
 export default function NewFooter(props) {
-    const { footerDisplay } = props
-    /*
-      This is the code to add a default Hubspot form in place of the custom form below. It's commented out, rather than removed, as a safeguard against later techical difficulties.
-      
-      // Add HubSpot Form
-      // Will generate multiple forms on Dev server because of hot-reloading. Safe for production
-      useEffect(() => {
-          const signupDiv = document.querySelector(".footer-subscribe-container");
-  
-          const script = document.createElement("script");
-          script.src = "https://js.hsforms.net/forms/shell.js";
-          script.async = true;
-          signupDiv.appendChild(script);
-  
-          const hubspotInterval = setInterval(function () {
-              if (window.hbspt) {
-                  const script2 = document.createElement("script");
-                  script2.text = 'hbspt.forms.create({ region: "na1", portalId: "20008151", formId: "d5b7ea37-7f3d-4a2e-bc67-3ed68f9b2c02" })';
-                  signupDiv.appendChild(script2);
-                  console.warn("HubSpot not loaded");
-                  clearInterval(hubspotInterval);
-              }
-          }, 100);
-      },[]) // Empty array prevents the script from running multiple times
-      */
+	const { footerDisplay } = props
+	const [modalState, setModalState] = useState(false);//useState(false);
+	window.modalState = modalState;
 
-    // Submit Hubspot form
-    function submitHubspot() {
-        var email = document.getElementById("newsletter-signup-input").value;
-        console.log(email);
-        if ((email === "")) {
-            return
-        }
+	/*
+	  This is the code to add a default Hubspot form in place of the custom form below. It's commented out, rather than removed, as a safeguard against later techical difficulties.
+	  
+	  // Add HubSpot Form
+	  // Will generate multiple forms on Dev server because of hot-reloading. Safe for production
+	  useEffect(() => {
+		  const signupDiv = document.querySelector(".footer-subscribe-container");
+   
+		  const script = document.createElement("script");
+		  script.src = "https://js.hsforms.net/forms/shell.js";
+		  script.async = true;
+		  signupDiv.appendChild(script);
+   
+		  const hubspotInterval = setInterval(function () {
+			  if (window.hbspt) {
+				  const script2 = document.createElement("script");
+				  script2.text = 'hbspt.forms.create({ region: "na1", portalId: "20008151", formId: "d5b7ea37-7f3d-4a2e-bc67-3ed68f9b2c02" })';
+				  signupDiv.appendChild(script2);
+				  console.warn("HubSpot not loaded");
+				  clearInterval(hubspotInterval);
+			  }
+		  }, 100);
+	  },[]) // Empty array prevents the script from running multiple times
+	  */
 
-        var xhr = new XMLHttpRequest(
-            "POST",
-            "https://api.hsforms.com/submissions/v3/integration/submit/20008151/d5b7ea37-7f3d-4a2e-bc67-3ed68f9b2c02"
-        );
-        xhr.open(
-            "POST",
-            "https://api.hsforms.com/submissions/v3/integration/submit/20008151/d5b7ea37-7f3d-4a2e-bc67-3ed68f9b2c02"
-        );
-        xhr.onreadystatechange = function () {
-            if (xhr.readyState == 4 && xhr.status == 200) {
-                alert(JSON.parse(xhr.response).inlineMessage +
-                    "\n\nThis will be replaced by a modal soon");
-                console.log(JSON.parse(xhr.response));
-            }
-        }
-        xhr.setRequestHeader("Content-type", "application/json")
-        xhr.send(
-            JSON.stringify({
-                fields: [
-                    { name: "email", value: email }
-                ],
-                context: {
-                    pageUri: window.location.href,
-                    pageName: document.title
-                },
-            })
-        )
-    }
+	// Submit Hubspot form
+	function submitHubspot() {
+		var email = document.getElementById("newsletter-signup-input").value;
+		console.log(email);
+		if ((email === "")) {
+			return
+		}
 
-    return (
-        <StyledFooter display={footerDisplay}>
-            <div className={"top-section"}>
-                <div className={"footer-header-container"}>
-                    <div className={"footer-logo"}></div>
-                    {/* <img
+		var xhr = new XMLHttpRequest(
+			"POST",
+			"https://api.hsforms.com/submissions/v3/integration/submit/20008151/d5b7ea37-7f3d-4a2e-bc67-3ed68f9b2c02"
+		);
+		xhr.open(
+			"POST",
+			"https://api.hsforms.com/submissions/v3/integration/submit/20008151/d5b7ea37-7f3d-4a2e-bc67-3ed68f9b2c02"
+		);
+		xhr.onreadystatechange = function () {
+			if (xhr.readyState == 4 && xhr.status == 200) {
+				alert(JSON.parse(xhr.response).inlineMessage +
+					"\n\nThis will be replaced by a modal soon");
+				setModalState(true);
+				console.log(JSON.parse(xhr.response));
+			}
+		}
+		xhr.setRequestHeader("Content-type", "application/json")
+		xhr.send(
+			JSON.stringify({
+				fields: [
+					{ name: "email", value: email }
+				],
+				context: {
+					pageUri: window.location.href,
+					pageName: document.title
+				},
+			})
+		)
+	}
+
+	return (
+		<StyledFooter display={footerDisplay}>
+			{modalState && <ContactUsThankYouModal setModalState={setModalState} />}
+			<div className={"top-section"}>
+				<div className={"footer-header-container"}>
+					<div className={"footer-logo"}></div>
+					{/* <img
                         src={footerLogo}
                         alt={'Minority Moves Network'}
                         className={'footer-logo'}
                     /> */}
-                    <p className={"footer-heading"}>
-                        {
-                            "A new approach to diversity, equity & inclusion. Meeting people & organizations where they are through proprietary technology."
-                        }
-                    </p>
-                </div>
-                <div className={"footer-subscribe-container"}>
-                    {/* Header for Hubspot newsletter <h1 className="form-title">Newsletter</h1> */}
-                    <p className={"form-title"}>{"Newsletter"}</p>
-                    <StyledInput
-                        placeholder={"Your email"}
-                        id="newsletter-signup-input"
-                    />
-                    <Button
-                        label={"subscribe"}
-                        className={"subscribe-button"}
-                        onClick={submitHubspot}
-                    />
-                </div>
+					<p className={"footer-heading"}>
+						{
+							"A new approach to diversity, equity & inclusion. Meeting people & organizations where they are through proprietary technology."
+						}
+					</p>
+				</div>
+				<div className={"footer-subscribe-container"}>
+					{/* Header for Hubspot newsletter <h1 className="form-title">Newsletter</h1> */}
+					<p className={"form-title"}>{"Newsletter"}</p>
+					<StyledInput
+						placeholder={"Your email"}
+						id="newsletter-signup-input"
+					/>
+					<Button
+						label={"subscribe"}
+						className={"subscribe-button"}
+						onClick={submitHubspot}
+					/>
+				</div>
 
-                <div className={"about-container"}>
-                    <p className={"group-title"}>{"About"}</p>
-                    <Link to={"/membership/"} className={"link"}>
-                        <p>{"Membership"}</p>
-                    </Link>
+				<div className={"about-container"}>
+					<p className={"group-title"}>{"About"}</p>
+					<Link to={"/membership/"} className={"link"}>
+						<p>{"Membership"}</p>
+					</Link>
 
-                    <Link to={"/organization/"} className={"link"}>
-                        <p>{"Organization"}</p>
-                    </Link>
+					<Link to={"/organization/"} className={"link"}>
+						<p>{"Organization"}</p>
+					</Link>
 
-                    <Link to={"/company/"} className={"link"}>
-                        <p>{"Company"}</p>
-                    </Link>
+					<Link to={"/company/"} className={"link"}>
+						<p>{"Company"}</p>
+					</Link>
 
-                    <Link to={"/partners/"} className={"link"}>
-                        <p>{"Partnerships"}</p>
-                    </Link>
-                </div>
+					<Link to={"/partners/"} className={"link"}>
+						<p>{"Partnerships"}</p>
+					</Link>
+				</div>
 
-                <div className={"platform-container"}>
-                    <p className={"group-title"}>{"Platform"}</p>
-                    <Link to={"/mpower-app"} className={"link"}>
-                        <p>{"iOS"}</p>
-                    </Link>
+				<div className={"platform-container"}>
+					<p className={"group-title"}>{"Platform"}</p>
+					<Link to={"/mpower-app"} className={"link"}>
+						<p>{"iOS"}</p>
+					</Link>
 
-                    <Link to={"/mpower-app"} className={"link"}>
-                        <p>{"Android"}</p>
-                    </Link>
+					<Link to={"/mpower-app"} className={"link"}>
+						<p>{"Android"}</p>
+					</Link>
 
-                    <Link to={"/mpower-app"} className={"link"}>
-                        <p>{"Browser"}</p>
-                    </Link>
-                </div>
-            </div>
+					<Link to={"/mpower-app"} className={"link"}>
+						<p>{"Browser"}</p>
+					</Link>
+				</div>
+			</div>
 
-            <div className={"bottom-section"}>
-                <p className={"copyright"}>
-                    {"©2021 M2N | Minority Moves Network Inc.  •  All rights reserved. "}
-                </p>
-                <p className={"terms"}>{"Terms & Conditions   |   Privacy Policy"}</p>
-                <div className={"certified"}></div>
+			<div className={"bottom-section"}>
+				<p className={"copyright"}>
+					{"©2021 M2N | Minority Moves Network Inc.  •  All rights reserved. "}
+				</p>
+				<p className={"terms"}>{"Terms & Conditions   |   Privacy Policy"}</p>
+				<div className={"certified"}></div>
 
-                <div className={"social-container"}>
-                    <Link to={"https://www.instagram.com/m2n_mpower/"}>
-                        <img
-                            src={instagramIcon}
-                            alt={"M2N Instagram"}
-                            className={"footer-icon"}
-                        />
-                    </Link>
-                    <Link to={"https://twitter.com/M2nNetwork/"}>
-                        <img
-                            src={twitterIcon}
-                            alt={"M2N Twitter"}
-                            className={"footer-icon"}
-                        />
-                    </Link>
-                    <Link
-                        to={
-                            "https://www.linkedin.com/company/m2n-minority-moves-network/about/?viewAsMember=true"
-                        }
-                    >
-                        <img
-                            src={linkedInIcon}
-                            alt={"M2N LinkedIn"}
-                            className={"footer-icon"}
-                        />
-                    </Link>
-                </div>
-            </div>
-        </StyledFooter>
-    )
+				<div className={"social-container"}>
+					<Link to={"https://www.instagram.com/m2n_mpower/"}>
+						<img
+							src={instagramIcon}
+							alt={"M2N Instagram"}
+							className={"footer-icon"}
+						/>
+					</Link>
+					<Link to={"https://twitter.com/M2nNetwork/"}>
+						<img
+							src={twitterIcon}
+							alt={"M2N Twitter"}
+							className={"footer-icon"}
+						/>
+					</Link>
+					<Link
+						to={
+							"https://www.linkedin.com/company/m2n-minority-moves-network/about/?viewAsMember=true"
+						}
+					>
+						<img
+							src={linkedInIcon}
+							alt={"M2N LinkedIn"}
+							className={"footer-icon"}
+						/>
+					</Link>
+				</div>
+			</div>
+		</StyledFooter >
+	)
 }

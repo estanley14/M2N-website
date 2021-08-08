@@ -257,7 +257,8 @@ import vctr11312x from "../import/img/vector-1131@2x.png"
 import sbtrct222x from "../import/img/subtract-22@2x.png"
 
 const MPowerPage = () => {
-  const [modalState, setModalState] = useState(false);
+  const [emailModalState, setEmailModalState] = useState(false);
+  const [thankYouModalState, setThankYouModalState] = useState(true);
 
   // Submit Hubspot form
   function submitHubspot() {
@@ -301,7 +302,7 @@ const MPowerPage = () => {
     <Layout>
       <Seo title="MPower App" />
       <input type="hidden" id="anPageName" name="page" value="mpower-landing-mobile-320px" />
-      {modalState && <EmailModal setModalState={setModalState} />}
+      {emailModalState && <EmailModal setEmailModalState={setEmailModalState} />}
       <div className="mpower-landing-desktop-1440px screen">
         <div className="frame-64-C61RwL">
           <img className="bg-X8fKCS" src={bg11x} />
@@ -358,7 +359,7 @@ const MPowerPage = () => {
           {/* <div className="filled-button-xjb0Rz">
             <div className="sign-in-3VjsKE montserrat-bold-white-14px">Take the Survey</div>
           </div> */}
-          <div className="line-button-xjb0Rz" onClick={() => setModalState(true)} style={{ cursor: "pointer" }}>
+          <div className="line-button-xjb0Rz" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
             <div className="log-in-7UoSe2 montserrat-bold-white-14px">Sign up for Beta</div>
           </div>
@@ -623,7 +624,7 @@ const MPowerPage = () => {
         </div>
         <div className="content-C61RwL">
           <div className="express-your-thought-xUsx1L">Help our vision come to life with your feedback</div>
-          <div className="button-xUsx1L" onClick={() => setModalState(true)} style={{ cursor: "pointer" }}>
+          <div className="button-xUsx1L" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-89-eF6efs"></div>
             <div className="try-14-days-free-tri-eF6efs montserrat-bold-white-16px">Apply to be a Beta User</div>
           </div>
@@ -740,7 +741,7 @@ const MPowerPage = () => {
           {/* <div className="filled-button-xjb0Rz">
             <div className="sign-in-3VjsKE montserrat-bold-white-14px">Survey</div>
           </div> */}
-          <div className="line-button-xjb0Rz" onClick={() => setModalState(true)} style={{ cursor: "pointer" }}>
+          <div className="line-button-xjb0Rz" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
             <div className="log-in-7UoSe2 montserrat-bold-white-14px">Sign up for Beta</div>
           </div>
@@ -982,7 +983,7 @@ const MPowerPage = () => {
           <div className="express-your-thought-xUsx1L montserrat-bold-white-24px">
             Help our vision come to life with your feedback
           </div>
-          <div className="button-xUsx1L" onClick={() => setModalState(true)} style={{ cursor: "pointer" }}>
+          <div className="button-xUsx1L" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-89-eF6efs"></div>
             <div className="try-14-days-free-tri-eF6efs montserrat-bold-white-16px">Apply to be a Beta User</div>
           </div>
@@ -1133,7 +1134,7 @@ const MPowerPage = () => {
           {/* <div className="filled-button-xjb0Rz">
             <div className="sign-in-3VjsKE montserrat-bold-white-14px">Take the Survey</div>
           </div> */}
-          <div className="line-button-xjb0Rz" onClick={() => setModalState(true)} style={{ cursor: "pointer" }}>
+          <div className="line-button-xjb0Rz" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
             <div className="log-in-7UoSe2 montserrat-bold-white-14px">Sign up for Beta</div>
           </div>
@@ -1360,7 +1361,7 @@ const MPowerPage = () => {
         </div>
         <div className="content-C61RwL">
           <div className="express-your-thought-xUsx1L">Help our vision come to life with your feedback</div>
-          <div className="button-xUsx1L" onClick={() => setModalState(true)} style={{ cursor: "pointer" }}>
+          <div className="button-xUsx1L" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-89-eF6efs"></div>
             <div className="try-14-days-free-tri-eF6efs montserrat-bold-white-16px">Apply to be a Beta User</div>
           </div>
@@ -1517,7 +1518,7 @@ const MPowerPage = () => {
           {/* <div className="filled-button-xjb0Rz">
             <div className="sign-in-3VjsKE montserrat-bold-white-14px">Take the Survey</div>
           </div> */}
-          <div className="line-button-xjb0Rz" onClick={() => setModalState(true)} style={{ cursor: "pointer" }}>
+          <div className="line-button-xjb0Rz" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
             <div className="log-in-7UoSe2 montserrat-bold-white-14px">Sign up for Beta</div>
           </div>
@@ -1786,7 +1787,7 @@ const MPowerPage = () => {
           <div className="express-your-thought-xUsx1L montserrat-bold-white-32px">
             Help our vision come to life with your feedback
           </div>
-          <div className="button-xUsx1L" onClick={() => setModalState(true)} style={{ cursor: "pointer" }}>
+          <div className="button-xUsx1L" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-89-eF6efs"></div>
             <div className="try-14-days-free-tri-eF6efs montserrat-bold-white-16px">Apply to be a Beta User</div>
           </div>
