@@ -424,8 +424,6 @@ export default function NewFooter(props) {
 		);
 		xhr.onreadystatechange = function () {
 			if (xhr.readyState == 4 && xhr.status == 200) {
-				alert(JSON.parse(xhr.response).inlineMessage +
-					"\n\nThis will be replaced by a modal soon");
 				setModalState(true);
 				console.log(JSON.parse(xhr.response));
 			}

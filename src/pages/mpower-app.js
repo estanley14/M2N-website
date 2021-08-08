@@ -280,8 +280,6 @@ const MPowerPage = () => {
     );
     xhr.onreadystatechange = function () {
       if (xhr.readyState == 4 && xhr.status == 200) {
-        alert(JSON.parse(xhr.response).inlineMessage +
-          "\n\nThis will be replaced by a modal soon");
         setThankYouModalState(true);
         console.log(JSON.parse(xhr.response));
       }
