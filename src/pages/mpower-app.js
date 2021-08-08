@@ -255,10 +255,11 @@ import bg61x from "../import/img/bg-6@1x.png"
 import bg22x from "../import/img/bg-2@2x.png"
 import vctr11312x from "../import/img/vector-1131@2x.png"
 import sbtrct222x from "../import/img/subtract-22@2x.png"
+import ContactUsThankYouModal from '../components/contactUsThankYouModal';
 
 const MPowerPage = () => {
   const [emailModalState, setEmailModalState] = useState(false);
-  const [thankYouModalState, setThankYouModalState] = useState(true);
+  const [thankYouModalState, setThankYouModalState] = useState(false);
 
   // Submit Hubspot form
   function submitHubspot() {
@@ -281,6 +282,7 @@ const MPowerPage = () => {
       if (xhr.readyState == 4 && xhr.status == 200) {
         alert(JSON.parse(xhr.response).inlineMessage +
           "\n\nThis will be replaced by a modal soon");
+        setThankYouModalState(true);
         console.log(JSON.parse(xhr.response));
       }
     }
@@ -302,7 +304,8 @@ const MPowerPage = () => {
     <Layout>
       <Seo title="MPower App" />
       <input type="hidden" id="anPageName" name="page" value="mpower-landing-mobile-320px" />
-      {emailModalState && <EmailModal setEmailModalState={setEmailModalState} />}
+      {emailModalState && <EmailModal setModalState={setEmailModalState} />}
+      {thankYouModalState && <ContactUsThankYouModal location="mpower-app" setModalState={setThankYouModalState} />}
       <div className="mpower-landing-desktop-1440px screen">
         <div className="frame-64-C61RwL">
           <img className="bg-X8fKCS" src={bg11x} />

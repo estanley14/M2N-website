@@ -378,7 +378,7 @@ const StyledInput = styled.input`
 
 export default function NewFooter(props) {
 	const { footerDisplay } = props
-	const [modalState, setModalState] = useState(false);//useState(false);
+	const [modalState, setModalState] = useState(false);
 	window.modalState = modalState;
 
 	/*
@@ -446,7 +446,7 @@ export default function NewFooter(props) {
 
 	return (
 		<StyledFooter display={footerDisplay}>
-			{modalState && <ContactUsThankYouModal setModalState={setModalState} />}
+			{modalState && <ContactUsThankYouModal location="footer" setModalState={setModalState} />}
 			<div className={"top-section"}>
 				<div className={"footer-header-container"}>
 					<div className={"footer-logo"}></div>
