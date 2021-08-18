@@ -272,11 +272,11 @@ const MPowerPage = () => {
 
     var xhr = new XMLHttpRequest(
       "POST",
-      "https://api.hsforms.com/submissions/v3/integration/submit/20008151/d5b7ea37-7f3d-4a2e-bc67-3ed68f9b2c02"
+      "https://api.hsforms.com/submissions/v3/integration/submit/20008151/0b464cd0-3c98-4b42-993a-4260118a714b"
     );
     xhr.open(
       "POST",
-      "https://api.hsforms.com/submissions/v3/integration/submit/20008151/d5b7ea37-7f3d-4a2e-bc67-3ed68f9b2c02"
+      "https://api.hsforms.com/submissions/v3/integration/submit/20008151/0b464cd0-3c98-4b42-993a-4260118a714b"
     );
     xhr.onreadystatechange = function () {
       if (xhr.readyState == 4 && xhr.status == 200) {
