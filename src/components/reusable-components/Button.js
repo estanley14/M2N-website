@@ -36,9 +36,9 @@ const StyledButton = styled.button`
 `
 
 export default function Button(props) {
-    const { label, className } = props
+    const { label, className, onClick } = props
 
-    return <StyledButton className={className}>
+    return <StyledButton className={className} onClick={onClick}>
         <p>{label}</p>
         <img src={arrowIcon} alt={'arrow'} />
     </StyledButton>

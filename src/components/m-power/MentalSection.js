@@ -26,12 +26,6 @@ const StyledSection = styled.section`
         flex-basis: 524px;
         flex-grow: 1;
     }
-
-    @media (min-width: 1024px) {
-        height: 828px;
-    }
-
-    
 `
 
 const ContentContainer = styled.div`
@@ -136,7 +130,7 @@ const NewMockupImage = styled.img`
     left: 0px;
     width: 100%;
     margin-bottom: -15%;
-    max-width: 80vw;
+    max-width: 723px;
     left: -64px;
 
     @media screen and (max-width: 1024px) {

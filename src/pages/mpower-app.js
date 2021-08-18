@@ -120,7 +120,7 @@ import rctngl77412x from "../import/img/rectangle-774-1@2x.png"
 import vctr9602x from "../import/img/vector-960@2x.png"
 import sbtrct162x from "../import/img/subtract-16@2x.png"
 import elpse7452x from "../import/img/ellipse-74-5@2x.png"
-import objct122x from"../import/img/object-12@2x.png"
+import objct122x from "../import/img/object-12@2x.png"
 import chngClr122x from "../import/img/change-color-12@2x.png"
 import shdw122x from "../import/img/shadow-12@2x.png"
 import scrn222x from "../import/img/screen-22@2x.png"
@@ -241,11 +241,11 @@ import rctngl77232x from "../import/img/rectangle-772-3@2x.png"
 import rctngl77332x from "../import/img/rectangle-773-3@2x.png"
 import rctngl77432x from "../import/img/rectangle-774-3@2x.png"
 import mckp202x from "../import/img/mockup-20@2x.png"
-import chngClr212x from"../import/img/change-color-21@2x.png"
+import chngClr212x from "../import/img/change-color-21@2x.png"
 import mckp212x from "../import/img/mockup-21@2x.png"
 import chngClr221x from "../import/img/change-color-22@1x.png"
 import scrn361x from "../import/img/screen-36@1x.png"
-import mckp222x from"../import/img/mockup-22@2x.png"
+import mckp222x from "../import/img/mockup-22@2x.png"
 import mckp232x from "../import/img/mockup-23@2x.png"
 import cmbndShp222x from "../import/img/combined-shape-22@2x.png"
 import phn142x from "../import/img/phone-14@2x.png"
@@ -255,15 +255,55 @@ import bg61x from "../import/img/bg-6@1x.png"
 import bg22x from "../import/img/bg-2@2x.png"
 import vctr11312x from "../import/img/vector-1131@2x.png"
 import sbtrct222x from "../import/img/subtract-22@2x.png"
+import ContactUsThankYouModal from '../components/contactUsThankYouModal';
 
 const MPowerPage = () => {
-  const [modalState, setModalState] = useState(false);
+  const [emailModalState, setEmailModalState] = useState(false);
+  const [thankYouModalState, setThankYouModalState] = useState(false);
+
+  // Submit Hubspot form
+  function submitHubspot() {
+    // This bit of jank figures out which of the four input fields is actually being used and passes that value to the function
+    var email = Array.from(document.querySelectorAll(".enter-your-email-add-9Ntqw8")).filter(elem => elem.value !== "")[0].value;
+    console.log(email);
+    if ((email === "")) {
+      return
+    }
+
+    var xhr = new XMLHttpRequest(
+      "POST",
+      "https://api.hsforms.com/submissions/v3/integration/submit/20008151/0b464cd0-3c98-4b42-993a-4260118a714b"
+    );
+    xhr.open(
+      "POST",
+      "https://api.hsforms.com/submissions/v3/integration/submit/20008151/0b464cd0-3c98-4b42-993a-4260118a714b"
+    );
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState == 4 && xhr.status == 200) {
+        setThankYouModalState(true);
+        console.log(JSON.parse(xhr.response));
+      }
+    }
+    xhr.setRequestHeader("Content-type", "application/json")
+    xhr.send(
+      JSON.stringify({
+        fields: [
+          { name: "email", value: email }
+        ],
+        context: {
+          pageUri: window.location.href,
+          pageName: document.title
+        },
+      })
+    )
+  }
 
   return (
     <Layout>
       <Seo title="MPower App" />
       <input type="hidden" id="anPageName" name="page" value="mpower-landing-mobile-320px" />
-      {modalState && <EmailModal setModalState={setModalState} />}
+      {emailModalState && <EmailModal setModalState={setEmailModalState} />}
+      {thankYouModalState && <ContactUsThankYouModal location="mpower-app" setModalState={setThankYouModalState} />}
       <div className="mpower-landing-desktop-1440px screen">
         <div className="frame-64-C61RwL">
           <img className="bg-X8fKCS" src={bg11x} />
@@ -320,7 +360,7 @@ const MPowerPage = () => {
           {/* <div className="filled-button-xjb0Rz">
             <div className="sign-in-3VjsKE montserrat-bold-white-14px">Take the Survey</div>
           </div> */}
-          <div className="line-button-xjb0Rz" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
+          <div className="line-button-xjb0Rz" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
             <div className="log-in-7UoSe2 montserrat-bold-white-14px">Sign up for Beta</div>
           </div>
@@ -534,7 +574,7 @@ const MPowerPage = () => {
         <div className="block-1-VMr6Om">
           <p className="a-wonderful-ser-of-spring-which-5cD2NF montserrat-light-white-16px">
             Services to support new minority hires and the hiring organization to insure minority employees are engaged
-            and contributing in their new role.​
+            and contributing in their new role.
           </p>
           <div className="amazing-speed-5cD2NF montserrat-bold-white-24px">Systems &amp; Services</div>
         </div>
@@ -585,7 +625,7 @@ const MPowerPage = () => {
         </div>
         <div className="content-C61RwL">
           <div className="express-your-thought-xUsx1L">Help our vision come to life with your feedback</div>
-          <div className="button-xUsx1L" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
+          <div className="button-xUsx1L" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-89-eF6efs"></div>
             <div className="try-14-days-free-tri-eF6efs montserrat-bold-white-16px">Apply to be a Beta User</div>
           </div>
@@ -632,10 +672,11 @@ const MPowerPage = () => {
         </div>
         <div className="subscribe-C61RwL">
           <p className="subscribe-to-our-newsletter-09RRMv montserrat-bold-white-16px">Sign up to receive Beta Access</p>
-          <form action="">
+          <div>
             <div className="e-mail-feild-09RRMv">
               <div className="rectangle-645-9Ntqw8 border-1px-black-2"></div>
               <input
+                id="email-address-input"
                 className="enter-your-email-add-9Ntqw8 montserrat-light-white-16px"
                 name="email"
                 placeholder="Enter your email address"
@@ -643,10 +684,10 @@ const MPowerPage = () => {
                 required
               />
               <div className="subscribe-button-9Ntqw8">
-                <input type="submit" className="rectangle-646-cTqFxG montserrat-bold-white-16px" value="Subscribe" />
+                <input type="submit" className="rectangle-646-cTqFxG montserrat-bold-white-16px" value="Subscribe" onClick={submitHubspot} />
               </div>
             </div>
-          </form>
+          </div>
         </div>
       </div>
       <div className="mpower-landing-mobile-320px screen">
@@ -701,7 +742,7 @@ const MPowerPage = () => {
           {/* <div className="filled-button-xjb0Rz">
             <div className="sign-in-3VjsKE montserrat-bold-white-14px">Survey</div>
           </div> */}
-          <div className="line-button-xjb0Rz" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
+          <div className="line-button-xjb0Rz" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
             <div className="log-in-7UoSe2 montserrat-bold-white-14px">Sign up for Beta</div>
           </div>
@@ -909,7 +950,7 @@ const MPowerPage = () => {
           <div className="block-1-cqfqoV">
             <p className="a-wonderful-ser-of-spring-which-uaSRo4 montserrat-light-white-16px">
               Services to support new minority hires and the hiring organization to insure minority employees are engaged
-              and contributing in their new role.​
+              and contributing in their new role.
             </p>
             <div className="amazing-speed-uaSRo4 montserrat-bold-white-24px">Systems &amp; Services</div>
             <div className="group-589-uaSRo4">
@@ -943,7 +984,7 @@ const MPowerPage = () => {
           <div className="express-your-thought-xUsx1L montserrat-bold-white-24px">
             Help our vision come to life with your feedback
           </div>
-          <div className="button-xUsx1L" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
+          <div className="button-xUsx1L" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-89-eF6efs"></div>
             <div className="try-14-days-free-tri-eF6efs montserrat-bold-white-16px">Apply to be a Beta User</div>
           </div>
@@ -992,10 +1033,11 @@ const MPowerPage = () => {
         </div>
         <div className="subscribe-C61RwL">
           <p className="subscribe-to-our-newsletter-09RRMv montserrat-bold-white-16px">Sign up to receive Beta Access</p>
-          <form action="">
+          <div>
             <div className="e-mail-feild-09RRMv">
               <div className="rectangle-645-9Ntqw8 border-1px-black-2"></div>
               <input
+                id="email-address-input"
                 className="enter-your-email-add-9Ntqw8 montserrat-light-white-12px"
                 name="email"
                 placeholder="Enter your email address"
@@ -1003,10 +1045,10 @@ const MPowerPage = () => {
                 required
               />
               <div className="subscribe-button-9Ntqw8">
-                <input type="submit" className="rectangle-646-cTqFxG montserrat-bold-white-16px" value="Subscribe" />
+                <input type="submit" className="rectangle-646-cTqFxG montserrat-bold-white-16px" value="Subscribe" onClick={submitHubspot} />
               </div>
             </div>
-          </form>
+          </div>
         </div>
         <div className="image-VMr6Om">
           <div className="notebook-6XZz6l">
@@ -1093,7 +1135,7 @@ const MPowerPage = () => {
           {/* <div className="filled-button-xjb0Rz">
             <div className="sign-in-3VjsKE montserrat-bold-white-14px">Take the Survey</div>
           </div> */}
-          <div className="line-button-xjb0Rz" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
+          <div className="line-button-xjb0Rz" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
             <div className="log-in-7UoSe2 montserrat-bold-white-14px">Sign up for Beta</div>
           </div>
@@ -1269,7 +1311,7 @@ const MPowerPage = () => {
         <div className="block-1-VMr6Om">
           <p className="a-wonderful-ser-of-spring-which-5cD2NF montserrat-light-white-16px">
             Services to support new minority hires and the hiring organization to insure minority employees are engaged
-            and contributing in their new role.​
+            and contributing in their new role.
           </p>
           <div className="amazing-speed-5cD2NF montserrat-bold-white-24px">Systems &amp; Services</div>
           <div className="group-589-5cD2NF">
@@ -1320,7 +1362,7 @@ const MPowerPage = () => {
         </div>
         <div className="content-C61RwL">
           <div className="express-your-thought-xUsx1L">Help our vision come to life with your feedback</div>
-          <div className="button-xUsx1L" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
+          <div className="button-xUsx1L" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-89-eF6efs"></div>
             <div className="try-14-days-free-tri-eF6efs montserrat-bold-white-16px">Apply to be a Beta User</div>
           </div>
@@ -1369,10 +1411,11 @@ const MPowerPage = () => {
         </div>
         <div className="subscribe-C61RwL">
           <p className="subscribe-to-our-newsletter-09RRMv montserrat-bold-white-16px">Sign up to receive Beta Access</p>
-          <form action="">
+          <div>
             <div className="e-mail-feild-09RRMv">
               <div className="rectangle-645-9Ntqw8 border-1px-black-2"></div>
               <input
+                id="email-address-input"
                 className="enter-your-email-add-9Ntqw8 montserrat-light-white-16px"
                 name="email"
                 placeholder="Enter your email address"
@@ -1380,10 +1423,10 @@ const MPowerPage = () => {
                 required
               />
               <div className="subscribe-button-9Ntqw8">
-                <input type="submit" className="rectangle-646-cTqFxG montserrat-bold-white-16px" value="Subscribe" />
+                <input type="submit" className="rectangle-646-cTqFxG montserrat-bold-white-16px" value="Subscribe" onClick={submitHubspot} />
               </div>
             </div>
-          </form>
+          </div>
         </div>
         <div className="land-your-dream-job-C61RwL montserrat-semi-bold-white-38px">Education</div>
         <div className="list-C61RwL">
@@ -1476,7 +1519,7 @@ const MPowerPage = () => {
           {/* <div className="filled-button-xjb0Rz">
             <div className="sign-in-3VjsKE montserrat-bold-white-14px">Take the Survey</div>
           </div> */}
-          <div className="line-button-xjb0Rz" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
+          <div className="line-button-xjb0Rz" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-718-7UoSe2 border-1px-white"></div>
             <div className="log-in-7UoSe2 montserrat-bold-white-14px">Sign up for Beta</div>
           </div>
@@ -1712,7 +1755,7 @@ const MPowerPage = () => {
         <div className="block-1-VMr6Om">
           <p className="a-wonderful-ser-of-spring-which-5cD2NF montserrat-light-white-16px">
             Services to support new minority hires and the hiring organization to insure minority employees are engaged
-            and contributing in their new role.​
+            and contributing in their new role.
           </p>
           <div className="amazing-speed-5cD2NF montserrat-bold-white-24px">Systems &amp; Services</div>
           <div className="group-589-5cD2NF">
@@ -1745,7 +1788,7 @@ const MPowerPage = () => {
           <div className="express-your-thought-xUsx1L montserrat-bold-white-32px">
             Help our vision come to life with your feedback
           </div>
-          <div className="button-xUsx1L" onClick={()=> setModalState(true)} style={{cursor: "pointer"}}>
+          <div className="button-xUsx1L" onClick={() => setEmailModalState(true)} style={{ cursor: "pointer" }}>
             <div className="rectangle-89-eF6efs"></div>
             <div className="try-14-days-free-tri-eF6efs montserrat-bold-white-16px">Apply to be a Beta User</div>
           </div>
@@ -1794,10 +1837,11 @@ const MPowerPage = () => {
         </div>
         <div className="subscribe-C61RwL">
           <p className="subscribe-to-our-newsletter-09RRMv montserrat-bold-white-16px">Sign up to receive Beta Access</p>
-          <form action="">
+          <div>
             <div className="e-mail-feild-09RRMv">
               <div className="rectangle-645-9Ntqw8 border-1px-black-2"></div>
               <input
+                id="email-address-input"
                 className="enter-your-email-add-9Ntqw8 montserrat-light-white-12px"
                 name="email"
                 placeholder="Enter your email address"
@@ -1805,10 +1849,10 @@ const MPowerPage = () => {
                 required
               />
               <div className="subscribe-button-9Ntqw8">
-                <input type="submit" className="rectangle-646-cTqFxG montserrat-bold-white-16px" value="Subscribe" />
+                <input type="submit" className="rectangle-646-cTqFxG montserrat-bold-white-16px" value="Subscribe" onClick={submitHubspot} />
               </div>
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </Layout>
