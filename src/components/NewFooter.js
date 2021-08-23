@@ -379,7 +379,6 @@ const StyledInput = styled.input`
 export default function NewFooter(props) {
   const { footerDisplay } = props
   const [modalState, setModalState] = useState(false);
-  window.modalState = modalState;
 
   /*
     This is the code to add a default Hubspot form in place of the custom form below. It's commented out, rather than removed, as a safeguard against later techical difficulties.
